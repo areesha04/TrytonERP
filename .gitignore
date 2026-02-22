@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+tryton-venv/
+venv/
+
+# Ignore configuration files with sensitive data
+*.conf
+config/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore local databases
+*.sqlite
