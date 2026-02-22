@@ -1,0 +1,743 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:product.product,boms:"
+msgid "BOMs"
+msgstr "BOMs"
+
+msgctxt "field:product.product,producible:"
+msgid "Producible"
+msgstr ""
+
+msgctxt "field:product.product,production_lead_times:"
+msgid "Lead Times"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:product.product-production.bom,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+#, fuzzy
+msgctxt "field:product.product-production.bom,product:"
+msgid "Product"
+msgstr "Termék"
+
+msgctxt "field:product.template,producible:"
+msgid "Producible"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,assigned_by:"
+msgid "Assigned By"
+msgstr "Assigned"
+
+#, fuzzy
+msgctxt "field:production,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+#, fuzzy
+msgctxt "field:production,company:"
+msgid "Company"
+msgstr "Társaság"
+
+#, fuzzy
+msgctxt "field:production,cost:"
+msgid "Cost"
+msgstr "Költség"
+
+#, fuzzy
+msgctxt "field:production,done_by:"
+msgid "Done By"
+msgstr "Done"
+
+msgctxt "field:production,effective_start_date:"
+msgid "Effective Start Date"
+msgstr ""
+
+msgctxt "field:production,inputs:"
+msgid "Input Materials"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,location:"
+msgid "Location"
+msgstr "Raktár hely"
+
+#, fuzzy
+msgctxt "field:production,number:"
+msgid "Number"
+msgstr "Szám"
+
+msgctxt "field:production,origin:"
+msgid "Origin"
+msgstr ""
+
+msgctxt "field:production,outputs:"
+msgid "Output Materials"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,partially_assigned:"
+msgid "Partially Assigned"
+msgstr "Assigned"
+
+msgctxt "field:production,planned_start_date:"
+msgid "Planned Start Date"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,product:"
+msgid "Product"
+msgstr "Termék"
+
+#, fuzzy
+msgctxt "field:production,quantity:"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+msgctxt "field:production,reference:"
+msgid "Reference"
+msgstr ""
+
+msgctxt "field:production,run_by:"
+msgid "Run By"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,state:"
+msgid "State"
+msgstr "Állapot"
+
+msgctxt "field:production,type:"
+msgid "Type"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,unit:"
+msgid "Unit"
+msgstr "Egység"
+
+#, fuzzy
+msgctxt "field:production,uom_category:"
+msgid "UoM Category"
+msgstr "Egység kategória"
+
+#, fuzzy
+msgctxt "field:production,warehouse:"
+msgid "Warehouse"
+msgstr "Raktár"
+
+msgctxt "field:production.bom,code:"
+msgid "Code"
+msgstr ""
+
+msgctxt "field:production.bom,code_readonly:"
+msgid "Code Readonly"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom,input_products:"
+msgid "Input Products"
+msgstr "Termék"
+
+msgctxt "field:production.bom,inputs:"
+msgid "Input Materials"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom,name:"
+msgid "Name"
+msgstr "Név"
+
+msgctxt "field:production.bom,output_products:"
+msgid "Output Products"
+msgstr ""
+
+msgctxt "field:production.bom,outputs:"
+msgid "Output Materials"
+msgstr ""
+
+msgctxt "field:production.bom,phantom:"
+msgid "Phantom"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom,phantom_quantity:"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#, fuzzy
+msgctxt "field:production.bom,phantom_unit:"
+msgid "Unit"
+msgstr "Egység"
+
+#, fuzzy
+msgctxt "field:production.bom.input,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.bom.input,phantom_bom:"
+msgid "Phantom BOM"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom.input,product:"
+msgid "Product"
+msgstr "Termék"
+
+#, fuzzy
+msgctxt "field:production.bom.input,quantity:"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#, fuzzy
+msgctxt "field:production.bom.input,unit:"
+msgid "Unit"
+msgstr "Egység"
+
+#, fuzzy
+msgctxt "field:production.bom.input,uom_category:"
+msgid "Uom Category"
+msgstr "Egység kategória"
+
+#, fuzzy
+msgctxt "field:production.bom.output,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.bom.output,phantom_bom:"
+msgid "Phantom BOM"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom.output,product:"
+msgid "Product"
+msgstr "Termék"
+
+#, fuzzy
+msgctxt "field:production.bom.output,quantity:"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#, fuzzy
+msgctxt "field:production.bom.output,unit:"
+msgid "Unit"
+msgstr "Egység"
+
+#, fuzzy
+msgctxt "field:production.bom.output,uom_category:"
+msgid "Uom Category"
+msgstr "Egység kategória"
+
+#, fuzzy
+msgctxt "field:production.bom.tree,childs:"
+msgid "Childs"
+msgstr "Alárendelt (modul)"
+
+#, fuzzy
+msgctxt "field:production.bom.tree,product:"
+msgid "Product"
+msgstr "Termék"
+
+#, fuzzy
+msgctxt "field:production.bom.tree,quantity:"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#, fuzzy
+msgctxt "field:production.bom.tree,unit:"
+msgid "Unit"
+msgstr "Egység"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.start,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.start,category:"
+msgid "Category"
+msgstr "Kategória"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.start,product:"
+msgid "Product"
+msgstr "Termék"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.start,quantity:"
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.start,unit:"
+msgid "Unit"
+msgstr "Egység"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.tree,bom_tree:"
+msgid "BOM Tree"
+msgstr "BOM Tree"
+
+#, fuzzy
+msgctxt "field:production.configuration,bom_sequence:"
+msgid "BOM Sequence"
+msgstr "Számkör"
+
+msgctxt "field:production.configuration,production_sequence:"
+msgid "Production Sequence"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.configuration.production_sequence,company:"
+msgid "Company"
+msgstr "Társaság"
+
+msgctxt ""
+"field:production.configuration.production_sequence,production_sequence:"
+msgid "Production Sequence"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.lead_time,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.lead_time,lead_time:"
+msgid "Lead Time"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.lead_time,product:"
+msgid "Product"
+msgstr "Termék"
+
+#, fuzzy
+msgctxt "field:stock.location,production_location:"
+msgid "Production"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "field:stock.location,production_output_location:"
+msgid "Production Output"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "field:stock.location,production_picking_location:"
+msgid "Production Picking"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "field:stock.lot.trace,production_input:"
+msgid "Production Input"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "field:stock.lot.trace,production_output:"
+msgid "Production Output"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "field:stock.move,production:"
+msgid "Production"
+msgstr "Termelés"
+
+msgctxt "field:stock.move,production_cost_price_updated:"
+msgid "Cost Price Updated"
+msgstr ""
+
+msgctxt "field:stock.move,production_input:"
+msgid "Production Input"
+msgstr ""
+
+msgctxt "field:stock.move,production_output:"
+msgid "Production Output"
+msgstr ""
+
+msgctxt "help:production,number:"
+msgid "The main identifier for the shipment."
+msgstr ""
+
+msgctxt "help:production,reference:"
+msgid "The external identifier for the shipment."
+msgstr ""
+
+msgctxt "help:production,uom_category:"
+msgid "The category of Unit of Measure."
+msgstr ""
+
+msgctxt "help:production.bom,phantom:"
+msgid "If checked, the BoM can be used in another BoM."
+msgstr ""
+
+msgctxt "help:production.bom,phantom_quantity:"
+msgid "The quantity of the Phantom BoM"
+msgstr ""
+
+msgctxt "help:production.bom,phantom_unit:"
+msgid "The Unit of Measure of the Phantom BoM"
+msgstr ""
+
+msgctxt "help:production.configuration,bom_sequence:"
+msgid "Used to generate the BOM code."
+msgstr ""
+
+msgctxt "help:stock.location,production_output_location:"
+msgid ""
+"Where the produced goods are stored.\n"
+"Leave empty to use the warehouse storage location."
+msgstr ""
+
+msgctxt "help:stock.location,production_picking_location:"
+msgid ""
+"Where the production components are picked from.\n"
+"Leave empty to use the warehouse storage location."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_bom_form"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "model:ir.action,name:act_bom_list"
+msgid "BOMs"
+msgstr "BOMs"
+
+msgctxt "model:ir.action,name:act_product_in_bom"
+msgid "BOMs"
+msgstr "BOMs"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_production_calendar"
+msgid "Productions"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_production_configuration_form"
+msgid "Configuration"
+msgstr "Beállítások"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_production_list"
+msgid "Productions"
+msgstr "Termelés"
+
+msgctxt "model:ir.action,name:wizard_bom_tree_open"
+msgid "BOM Tree"
+msgstr "BOM Tree"
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_production_assign"
+msgid "Assign Production"
+msgstr "Assign Production"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_in_bom_output_domain_input"
+msgid "As Inputs"
+msgstr "As Inputs"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_in_bom_output_domain_output"
+msgid "As Outputs"
+msgstr "As Outputs"
+
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_all"
+msgid "All"
+msgstr "Összes"
+
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_assigned"
+msgid "Assigned"
+msgstr "Assigned"
+
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_available"
+msgid "Partially Assigned"
+msgstr "Assigned"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_draft"
+msgid "Draft"
+msgstr "Draft"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_requests"
+msgid "Requests"
+msgstr "Requests"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_running"
+msgid "Running"
+msgstr "Running"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_waiting"
+msgid "Waiting"
+msgstr "Waiting"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_missing_product_list_price"
+msgid ""
+"The product \"%(product)s\" on production \"%(production)s\" does not have "
+"any list price defined."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_recursive_bom_bom"
+msgid "You cannot create a recursive BOM for BOM \"%(bom)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_recursive_bom_product"
+msgid "You cannot create a recursive BOM for product \"%(product)s\"."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_stock_move_production_single"
+msgid "Move can not be used for production input and output."
+msgstr ""
+
+msgctxt "model:ir.model.button,confirm:production_done_button"
+msgid "Are you sure you want to complete the production?"
+msgstr ""
+
+msgctxt "model:ir.model.button,string:production_assign_wizard_button"
+msgid "Assign"
+msgstr "Assign"
+
+msgctxt "model:ir.model.button,string:production_cancel_button"
+msgid "Cancel"
+msgstr "Cancel"
+
+msgctxt "model:ir.model.button,string:production_done_button"
+msgid "Complete"
+msgstr ""
+
+msgctxt "model:ir.model.button,string:production_draft_button"
+msgid "Draft"
+msgstr "Draft"
+
+msgctxt "model:ir.model.button,string:production_reset_bom_button"
+msgid "Reset to BOM"
+msgstr "Reset to BOM"
+
+msgctxt "model:ir.model.button,string:production_run_button"
+msgid "Run"
+msgstr "Run"
+
+msgctxt "model:ir.model.button,string:production_wait_button"
+msgid "Wait"
+msgstr "Wait"
+
+msgctxt "model:ir.rule.group,name:rule_group_production_companies"
+msgid "User in companies"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.sequence,name:sequence_production"
+msgid "Production"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:ir.sequence.type,name:sequence_type_bom"
+msgid "BOM"
+msgstr "BOM"
+
+#, fuzzy
+msgctxt "model:ir.sequence.type,name:sequence_type_production"
+msgid "Production"
+msgstr "Termelés"
+
+msgctxt "model:ir.ui.menu,name:menu_bom_list"
+msgid "BOMs"
+msgstr "BOMs"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Beállítások"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_production"
+msgid "Productions"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_production_calendar"
+msgid "Productions"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_production_configuration"
+msgid "Configuration"
+msgstr "Beállítások"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_production_list"
+msgid "Productions"
+msgstr "Termelés"
+
+msgctxt "model:product.product-production.bom,string:"
+msgid "Product - Production Bom"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:production,string:"
+msgid "Production"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:production.bom,string:"
+msgid "Production Bom"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:production.bom.input,string:"
+msgid "Production Bom Input"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:production.bom.output,string:"
+msgid "Production Bom Output"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:production.bom.tree,string:"
+msgid "Production Bom Tree"
+msgstr "Termelés"
+
+msgctxt "model:production.bom.tree.open.start,string:"
+msgid "Production Bom Tree Open Start"
+msgstr ""
+
+msgctxt "model:production.bom.tree.open.tree,string:"
+msgid "Production Bom Tree Open Tree"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:production.configuration,string:"
+msgid "Production Configuration"
+msgstr "Production Configuration"
+
+#, fuzzy
+msgctxt "model:production.configuration.production_sequence,string:"
+msgid "Production Configuration Production Sequence"
+msgstr "Production Configuration"
+
+#, fuzzy
+msgctxt "model:production.lead_time,string:"
+msgid "Production Lead Time"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "model:res.group,name:group_production"
+msgid "Production"
+msgstr "Termelés"
+
+msgctxt "model:res.group,name:group_production_admin"
+msgid "Production Administration"
+msgstr "Production Administration"
+
+#, fuzzy
+msgctxt "model:stock.location,name:location_production"
+msgid "Production"
+msgstr "Termelés"
+
+#, fuzzy
+msgctxt "selection:ir.cron,method:"
+msgid "Reschedule Productions"
+msgstr "Termelés"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Set Cost from Moves"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Assigned"
+msgstr "Assign"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Cancelled"
+msgstr "Mégse"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Done"
+msgstr "Kész"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Draft"
+msgstr "Draft"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Request"
+msgstr "Requests"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Running"
+msgstr "Running"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Waiting"
+msgstr "Waiting"
+
+msgctxt "selection:production,type:"
+msgid "Assembly"
+msgstr ""
+
+msgctxt "selection:production,type:"
+msgid "Disassembly"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:product.template:"
+msgid "Production"
+msgstr "Termelés"
+
+msgctxt "view:production.bom.input:"
+msgid "Material"
+msgstr ""
+
+msgctxt "view:production.bom.output:"
+msgid "Material"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:production.bom:"
+msgid "Lines"
+msgstr "Sor"
+
+msgctxt "view:production:"
+msgid "Other Info"
+msgstr ""
+
+#, fuzzy
+msgctxt "wizard_button:production.bom.tree.open,start,end:"
+msgid "Cancel"
+msgstr "Mégse"
+
+#, fuzzy
+msgctxt "wizard_button:production.bom.tree.open,start,tree:"
+msgid "OK"
+msgstr "OK"
+
+#, fuzzy
+msgctxt "wizard_button:production.bom.tree.open,tree,end:"
+msgid "Close"
+msgstr "Bezár"
+
+msgctxt "wizard_button:production.bom.tree.open,tree,start:"
+msgid "Change"
+msgstr ""

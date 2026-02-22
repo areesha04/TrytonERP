@@ -1,0 +1,137 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.payment,account:"
+msgid "Account"
+msgstr ""
+
+msgctxt "field:account.payment,clearing_move:"
+msgid "Clearing Move"
+msgstr ""
+
+msgctxt "field:account.payment,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr ""
+
+msgctxt "field:account.payment,statement_lines:"
+msgid "Statement Lines"
+msgstr ""
+
+msgctxt "field:account.payment.group,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr ""
+
+msgctxt "field:account.payment.group,statement_lines:"
+msgid "Statement Lines"
+msgstr ""
+
+msgctxt "field:account.payment.journal,clearing_account:"
+msgid "Clearing Account"
+msgstr ""
+
+msgctxt "field:account.payment.journal,clearing_journal:"
+msgid "Clearing Journal"
+msgstr ""
+
+msgctxt "field:account.payment.journal,clearing_posting_delay:"
+msgid "Clearing Posting Delay"
+msgstr ""
+
+msgctxt "field:account.payment.succeed.start,date:"
+msgid "Date"
+msgstr ""
+
+msgctxt "help:account.payment,account:"
+msgid "Define the account to use for clearing move."
+msgstr ""
+
+msgctxt "help:account.payment,clearing_reconciled:"
+msgid "Checked if clearing line is reconciled."
+msgstr ""
+
+msgctxt "help:account.payment.group,clearing_reconciled:"
+msgid "All payments in the group are reconciled."
+msgstr ""
+
+msgctxt "help:account.payment.journal,clearing_posting_delay:"
+msgid ""
+"Post automatically the clearing moves after the delay.\n"
+"Leave empty for no posting."
+msgstr ""
+
+msgctxt "help:account.statement.rule,description:"
+msgid ""
+"\n"
+"'payment_group'"
+msgstr ""
+
+msgctxt "model:account.payment.succeed.start,string:"
+msgid "Account Payment Succeed Start"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_payment_group_succeed"
+msgid "Succeed Groups"
+msgstr "Succeed"
+
+msgctxt "model:ir.action,name:wizard_succeed"
+msgid "Succeed Payments"
+msgstr "Succeed Payments"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing_journal"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\" or an active account on the payment journal "
+"\"%(journal)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_payable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a payable account "
+"for party \"%(party)s\"."
+msgstr ""
+
+#, python-format
+msgctxt ""
+"model:ir.message,text:msg_payment_clearing_account_receivable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a receivable account"
+" for party \"%(party)s\"."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:payment_group_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Succeed"
+
+msgctxt "model:ir.model.button,string:payment_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Succeed"
+
+#, fuzzy
+msgctxt "selection:ir.cron,method:"
+msgid "Post Clearing Moves"
+msgstr "Post Clearing Moves"
+
+msgctxt "view:account.payment.journal:"
+msgid "Clearing"
+msgstr ""
+
+msgctxt "wizard_button:account.payment.succeed,start,end:"
+msgid "Cancel"
+msgstr ""
+
+#, fuzzy
+msgctxt "wizard_button:account.payment.succeed,start,succeed:"
+msgid "Succeed"
+msgstr "Succeed"

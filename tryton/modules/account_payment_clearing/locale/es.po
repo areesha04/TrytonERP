@@ -1,0 +1,146 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.payment,account:"
+msgid "Account"
+msgstr "Cuenta"
+
+msgctxt "field:account.payment,clearing_move:"
+msgid "Clearing Move"
+msgstr "Asiento de liquidación"
+
+msgctxt "field:account.payment,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr "Liquidación conciliada"
+
+msgctxt "field:account.payment,statement_lines:"
+msgid "Statement Lines"
+msgstr "Líneas de extracto"
+
+msgctxt "field:account.payment.group,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr "Liquidación conciliada"
+
+msgctxt "field:account.payment.group,statement_lines:"
+msgid "Statement Lines"
+msgstr "Líneas de extracto"
+
+msgctxt "field:account.payment.journal,clearing_account:"
+msgid "Clearing Account"
+msgstr "Cuenta de liquidación"
+
+msgctxt "field:account.payment.journal,clearing_journal:"
+msgid "Clearing Journal"
+msgstr "Diario de liquidación"
+
+msgctxt "field:account.payment.journal,clearing_posting_delay:"
+msgid "Clearing Posting Delay"
+msgstr "Retraso contabilización liquidación"
+
+msgctxt "field:account.payment.succeed.start,date:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "help:account.payment,account:"
+msgid "Define the account to use for clearing move."
+msgstr "Define la cuenta a utilizar para el asiento de liquidación."
+
+msgctxt "help:account.payment,clearing_reconciled:"
+msgid "Checked if clearing line is reconciled."
+msgstr "Marcado si el apunte de liquidación se ha conciliado."
+
+msgctxt "help:account.payment.group,clearing_reconciled:"
+msgid "All payments in the group are reconciled."
+msgstr "Todos los pagos del grupo se han conciliado."
+
+msgctxt "help:account.payment.journal,clearing_posting_delay:"
+msgid ""
+"Post automatically the clearing moves after the delay.\n"
+"Leave empty for no posting."
+msgstr ""
+"Contabiliza automáticamente los apuntes de liquidación después del retraso.\n"
+"Dejar en blanco para no contabilizar."
+
+msgctxt "help:account.statement.rule,description:"
+msgid ""
+"\n"
+"'payment_group'"
+msgstr ""
+"\n"
+"'payment_group'"
+
+msgctxt "model:account.payment.succeed.start,string:"
+msgid "Account Payment Succeed Start"
+msgstr "Inicio marcar pagos con éxito"
+
+msgctxt "model:ir.action,name:wizard_payment_group_succeed"
+msgid "Succeed Groups"
+msgstr "Grupos con éxito"
+
+msgctxt "model:ir.action,name:wizard_succeed"
+msgid "Succeed Payments"
+msgstr "Marcar pagos con éxito"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\"."
+msgstr ""
+"Para liquidar el pago \"%(payment)s\" debes configurar una cuenta de "
+"reemplazo para la cuenta \"%(account)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing_journal"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\" or an active account on the payment journal "
+"\"%(journal)s\"."
+msgstr ""
+"Para liquidar el pago \"%(payment)s\" debes configurar una cuenta de "
+"remplazo para la cuenta \"%(account)s\" o una cuenta activa para el diario "
+"de pagos \"%(journal)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_payable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a payable account "
+"for party \"%(party)s\"."
+msgstr ""
+"Para liquidar el pago \"%(payment)s\" debes configurar una cuenta a pagar "
+"para el tercero \"%(party)s\"."
+
+#, python-format
+msgctxt ""
+"model:ir.message,text:msg_payment_clearing_account_receivable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a receivable account"
+" for party \"%(party)s\"."
+msgstr ""
+"Para liquidar el pago \"%(payment)s\" debes configurar una cuenta a cobrar "
+"para el tercero \"%(party)s\"."
+
+msgctxt "model:ir.model.button,string:payment_group_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Con éxito"
+
+msgctxt "model:ir.model.button,string:payment_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Con éxito"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Post Clearing Moves"
+msgstr "Contabilizar asientos de liquidación"
+
+msgctxt "view:account.payment.journal:"
+msgid "Clearing"
+msgstr "Liquidación"
+
+msgctxt "wizard_button:account.payment.succeed,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:account.payment.succeed,start,succeed:"
+msgid "Succeed"
+msgstr "Con éxito"

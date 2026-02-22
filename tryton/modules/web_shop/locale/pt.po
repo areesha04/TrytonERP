@@ -1,0 +1,299 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.attribute,web_shops:"
+msgid "Web Shops"
+msgstr "Lojas Virtuais"
+
+msgctxt "field:product.category,web_shops:"
+msgid "Web Shops"
+msgstr "Lojas Virtuais"
+
+msgctxt "field:product.image,web_shop:"
+msgid "Web Shop"
+msgstr "Loja virtual"
+
+msgctxt "field:product.product,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Descrição da Loja Virtual"
+
+#, fuzzy
+msgctxt "field:product.product,web_shop_urls:"
+msgid "Web Shop URLs"
+msgstr "Lojas Virtuais"
+
+msgctxt "field:product.product,web_shops:"
+msgid "Web Shops"
+msgstr "Lojas Virtuais"
+
+msgctxt "field:product.template,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Descrição da Loja Virtual"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,product:"
+msgid "Product"
+msgstr "Produto"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,shop:"
+msgid "Shop"
+msgstr "Comprar"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,url:"
+msgid "Shop URL"
+msgstr "Comprar"
+
+msgctxt "field:sale.sale,web_id:"
+msgid "Web ID"
+msgstr "ID da Web"
+
+msgctxt "field:sale.sale,web_shop:"
+msgid "Web Shop"
+msgstr "Loja virtual"
+
+msgctxt "field:sale.sale,web_status_url:"
+msgid "Web Status URL"
+msgstr ""
+
+msgctxt "field:web.shop,attributes:"
+msgid "Attributes"
+msgstr "Atributos"
+
+msgctxt "field:web.shop,attributes_removed:"
+msgid "Attributes Removed"
+msgstr "Atributos Removidos"
+
+msgctxt "field:web.shop,categories:"
+msgid "Categories"
+msgstr "Categorias"
+
+msgctxt "field:web.shop,categories_removed:"
+msgid "Categories Removed"
+msgstr "Categorias removidas"
+
+msgctxt "field:web.shop,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:web.shop,countries:"
+msgid "Countries"
+msgstr "Países"
+
+msgctxt "field:web.shop,currency:"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "field:web.shop,guest_party:"
+msgid "Guest Party"
+msgstr "Pessoa Convidada"
+
+msgctxt "field:web.shop,language:"
+msgid "Language"
+msgstr "Idioma"
+
+msgctxt "field:web.shop,name:"
+msgid "Name"
+msgstr "Nome"
+
+msgctxt "field:web.shop,non_sale_price_list:"
+msgid "Non-Sale Price List"
+msgstr "Lista de Preços de Não Venda"
+
+msgctxt "field:web.shop,products:"
+msgid "Products"
+msgstr "Produtos"
+
+msgctxt "field:web.shop,products_removed:"
+msgid "Products Removed"
+msgstr "Produtos Removidos"
+
+msgctxt "field:web.shop,sale_price_list:"
+msgid "Sale Price List"
+msgstr "Lista de Preço de Venda"
+
+msgctxt "field:web.shop,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:web.shop,warehouses:"
+msgid "Warehouses"
+msgstr "Armazéms"
+
+msgctxt "field:web.shop-country.country,country:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:web.shop-country.country,shop:"
+msgid "Shop"
+msgstr "Comprar"
+
+msgctxt "field:web.shop-product.attribute,attribute:"
+msgid "Attribute"
+msgstr "Atributo"
+
+msgctxt "field:web.shop-product.attribute,shop:"
+msgid "Shop"
+msgstr "Loja"
+
+msgctxt "field:web.shop-product.category,category:"
+msgid "Category"
+msgstr "Categoria"
+
+msgctxt "field:web.shop-product.category,shop:"
+msgid "Shop"
+msgstr "Loja"
+
+msgctxt "field:web.shop-product.product,product:"
+msgid "Product"
+msgstr "Produto"
+
+msgctxt "field:web.shop-product.product,shop:"
+msgid "Shop"
+msgstr "Loja"
+
+msgctxt "field:web.shop-stock.location,shop:"
+msgid "Shop"
+msgstr "Loja"
+
+msgctxt "field:web.shop-stock.location,warehouse:"
+msgid "Warehouse"
+msgstr "Armazém"
+
+msgctxt "field:web.user,invoice_address:"
+msgid "Invoice Address"
+msgstr "Endereço para Faturamento"
+
+msgctxt "field:web.user,shipment_address:"
+msgid "Shipment Address"
+msgstr "Endereço da Entrega"
+
+msgctxt "help:product.attribute,web_shops:"
+msgid "The list of web shops on which the attribute is published."
+msgstr "A Lsta de Lojas Virtuais nas Quais o Atributo é Publicado."
+
+msgctxt "help:product.category,web_shops:"
+msgid "The list of web shops on which the category is published."
+msgstr "A Lista de Lojas Virtuais nas Quais a Categoria é Publicada."
+
+msgctxt "help:product.product,web_shops:"
+msgid "The list of web shops on which the product is published."
+msgstr "A Lista de Lojas Virtuais nas Quais o Produto é Publicado."
+
+msgctxt "help:sale.sale,web_status_url:"
+msgid "The URL where the customer can check the order's current status."
+msgstr ""
+
+msgctxt "help:web.shop,attributes:"
+msgid "The list of attributes to publish."
+msgstr "A Lista de Atributos a Serem Publicados."
+
+msgctxt "help:web.shop,attributes_removed:"
+msgid "The list of attributes to unpublish."
+msgstr "A Lista de Atributos a Serem Despublicados."
+
+msgctxt "help:web.shop,categories:"
+msgid "The list of categories to publish."
+msgstr "A Lista de Categorias a Serem Publicadas."
+
+msgctxt "help:web.shop,categories_removed:"
+msgid "The list of categories to unpublish."
+msgstr "A Lista de Categorias a Serem Despublicadas."
+
+msgctxt "help:web.shop,non_sale_price_list:"
+msgid ""
+"The price list to compute the price of products when it is not on sale."
+msgstr ""
+"A Lista de Preços para Calcular o Preço dos Produtos Quando não Estão em "
+"Promoção."
+
+msgctxt "help:web.shop,products:"
+msgid "The list of products to publish."
+msgstr "A Lista de Produtos a Serem Publicados."
+
+msgctxt "help:web.shop,products_removed:"
+msgid "The list of products to unpublish."
+msgstr "A Lista de Produtos a Serem Despublicados."
+
+msgctxt "help:web.shop,sale_price_list:"
+msgid "The price list to compute sale price of products."
+msgstr "A Lista de Preços para Calcular o Preço de Venda dos Produtos."
+
+msgctxt "help:web.shop,type:"
+msgid "The front-end used for the web shop."
+msgstr "O Front-end Usado para a Loja Virtual."
+
+msgctxt "model:ir.action,name:act_shop"
+msgid "Web Shops"
+msgstr "Lojas Virtuais"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_sale_invalid_party"
+msgid ""
+"To process the sale \"%(sale)s\" you must select another party instead of "
+"the guest \"%(party)s\"."
+msgstr ""
+"Para Processar a Venda \"%(sale)s\" Você deve Selecionar outra Pessoa em vez"
+" do Convidado \"%(party)s\"."
+
+msgctxt "model:ir.message,text:msg_sale_web_shop_id_unique"
+msgid "The web ID on the sale must be unique per shop."
+msgstr "O ID da Web na Venda Deve ser Único por Loja."
+
+msgctxt "model:ir.message,text:msg_shop_name_unique"
+msgid "The web shop name must be unique."
+msgstr "O Nome da Loja Virtual deve Ser Único."
+
+msgctxt "model:ir.model.button,string:sale_web_shop_update_button"
+msgid "Update from Web Shop"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_shop_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt "model:ir.ui.menu,name:menu_shop"
+msgid "Web Shops"
+msgstr "Lojas Virtuais"
+
+msgctxt "model:product.web_shop_url,string:"
+msgid "Product Web Shop Url"
+msgstr ""
+
+msgctxt "model:web.shop,string:"
+msgid "Web Shop"
+msgstr "Loja Virtual"
+
+msgctxt "model:web.shop-country.country,string:"
+msgid "Web Shop - Country"
+msgstr "Loja Virtual - País"
+
+msgctxt "model:web.shop-product.attribute,string:"
+msgid "Web Shop - Product Attribute"
+msgstr "Loja Virtual - Atributo do Produto"
+
+msgctxt "model:web.shop-product.category,string:"
+msgid "Web Shop - Product Category"
+msgstr "Loja virtual - Categoria de Produtos"
+
+msgctxt "model:web.shop-product.product,string:"
+msgid "Web Shop - Product"
+msgstr "Loja Virtual - Produto"
+
+msgctxt "model:web.shop-stock.location,string:"
+msgid "Web Shop - Stock Location"
+msgstr "Loja Virtual - Localização do Estoque"
+
+msgctxt "view:product.template:"
+msgid "Edit"
+msgstr "Editar"
+
+msgctxt "view:product.template:"
+msgid "Web Shop"
+msgstr "Loja Virtual"
+
+msgctxt "view:web.shop:"
+msgid "Products"
+msgstr "Produtos"

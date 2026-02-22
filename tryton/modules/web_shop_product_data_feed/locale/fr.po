@@ -1,0 +1,105 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.category.facebook,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:product.category.facebook,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:product.category.google,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:product.category.google,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:product.product,facebook_category:"
+msgid "Facebook Category"
+msgstr "Catégorie Facebook"
+
+msgctxt "field:product.product,google_category:"
+msgid "Google Category"
+msgstr "Catégorie Google"
+
+msgctxt "field:product.template,facebook_category:"
+msgid "Facebook Category"
+msgstr "Catégorie Facebook"
+
+msgctxt "field:product.template,google_category:"
+msgid "Google Category"
+msgstr "Catégorie Google"
+
+msgctxt "field:web.shop,product_image_url_template:"
+msgid "Product Image URL"
+msgstr "URL de l'image du produit"
+
+msgctxt "field:web.shop,product_url_template:"
+msgid "Product URL"
+msgstr "URL du produit"
+
+msgctxt "help:web.shop,product_image_url_template:"
+msgid ""
+"The fallback template to generate the product image URL.\n"
+"The following placeholders can be used:\n"
+"- ${id}\n"
+"- ${code}\n"
+"- ${name}\n"
+"- ${language}\n"
+"- ${index}\n"
+msgstr ""
+"Le modèle de secours pour générer l’URL de l’image du produit.\n"
+"Les espaces réservés suivants peuvent être utilisés :\n"
+"- ${id}\n"
+"- ${code}\n"
+"- ${name}\n"
+"- ${language}\n"
+"- ${index}\n"
+
+msgctxt "help:web.shop,product_url_template:"
+msgid ""
+"The fallback template to generate the product URL.\n"
+"The following placeholders can be used:\n"
+"- ${id}\n"
+"- ${code}\n"
+"- ${name}\n"
+"- ${language}\n"
+msgstr ""
+"Le modèle de secours pour générer l'URL du produit.\n"
+"Les espaces réservés suivants peuvent être utilisés :\n"
+"- ${id}\n"
+"- ${code}\n"
+"- ${name}\n"
+"- ${languague}\n"
+
+msgctxt "model:ir.action,name:act_product_category_facebook_form"
+msgid "Facebook Product Categories"
+msgstr "Catégories Facebook de produit"
+
+msgctxt "model:ir.action,name:act_product_category_google_form"
+msgid "Google Product Categories"
+msgstr "Catégories Google de produit"
+
+msgctxt "model:ir.ui.menu,name:menu_product_category_facebook_form"
+msgid "Facebook Product Categories"
+msgstr "Catégories Facebook de produit"
+
+msgctxt "model:ir.ui.menu,name:menu_product_category_google_form"
+msgid "Google Product Categories"
+msgstr "Catégories Google de produit"
+
+msgctxt "model:product.category.facebook,string:"
+msgid "Product Category Facebook"
+msgstr "Catégorie de produit Facebook"
+
+msgctxt "model:product.category.google,string:"
+msgid "Product Category Google"
+msgstr "Catégorie de produit Google"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Update Web Shop Product Data Feed"
+msgstr "Mettre à jour le flux de données produit des boutiques en ligne"

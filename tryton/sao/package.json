@@ -1,0 +1,61 @@
+{
+  "name": "tryton-sao",
+  "title": "sao",
+  "description": "Tryton webclient",
+  "version": "7.9.0",
+  "homepage": "https://www.tryton.org/",
+  "author": {
+    "name": "Tryton"
+  },
+  "repository": {
+    "type": "hg",
+    "url": "https://code.tryton.org/tryton"
+  },
+  "bugs": {
+    "url": "https://bugs.tryton.org/",
+    "email": "bugs@tryton.org"
+  },
+  "license": "GPL-3.0+",
+  "files": [
+    "COPYRIGHT",
+    "CHANGELOG",
+    "Gruntfile.js",
+    "LICENSE",
+    "README.md",
+    "bower.json",
+    "dist",
+    "images",
+    "sounds",
+    "index.html",
+    "locale",
+    "package.json",
+    "src",
+    "tests"
+  ],
+  "scripts": {
+    "test": "npx grunt test -v",
+    "check": "npx eslint src tests",
+    "postinstall": "npx bower install"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "grunt-contrib-nodeunit": "^5.0",
+    "grunt-contrib-qunit": "^10.1",
+    "grunt-contrib-watch": "^1.1",
+    "grunt-po2json": "^0.3",
+    "grunt-qunit-junit": "^0.3.1",
+    "grunt-shell": "^4.0",
+    "qunit": "^2.24.1"
+  },
+  "keywords": [
+    "tryton"
+  ],
+  "dependencies": {
+    "bower": "^1.8.14",
+    "grunt": "^1.6",
+    "grunt-cli": "^1.5",
+    "grunt-contrib-concat": "^2.1",
+    "grunt-contrib-less": "^3.0"
+  }
+}

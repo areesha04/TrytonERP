@@ -1,0 +1,261 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:attendance.line,at:"
+msgid "At"
+msgstr "Ob"
+
+msgctxt "field:attendance.line,company:"
+msgid "Company"
+msgstr "Družba"
+
+msgctxt "field:attendance.line,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:attendance.line,employee:"
+msgid "Employee"
+msgstr "Zaposlenec"
+
+msgctxt "field:attendance.line,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:attendance.period,company:"
+msgid "Company"
+msgstr "Družba"
+
+msgctxt "field:attendance.period,ends_at:"
+msgid "Ends at"
+msgstr "Zaključek"
+
+msgctxt "field:attendance.period,state:"
+msgid "State"
+msgstr "Stanje"
+
+msgctxt "field:attendance.sheet,company:"
+msgid "Company"
+msgstr "Družba"
+
+msgctxt "field:attendance.sheet,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:attendance.sheet,duration:"
+msgid "Duration"
+msgstr "Trajanje"
+
+msgctxt "field:attendance.sheet,employee:"
+msgid "Employee"
+msgstr "Zaposlenec"
+
+msgctxt "field:attendance.sheet,lines:"
+msgid "Lines"
+msgstr "Vrstice"
+
+msgctxt "field:attendance.sheet,timesheet_duration:"
+msgid "Timesheet Duration"
+msgstr "Skupni zabeleženi čas"
+
+msgctxt "field:attendance.sheet.line,company:"
+msgid "Company"
+msgstr "Družba"
+
+msgctxt "field:attendance.sheet.line,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:attendance.sheet.line,duration:"
+msgid "Duration"
+msgstr "Trajanje"
+
+msgctxt "field:attendance.sheet.line,employee:"
+msgid "Employee"
+msgstr "Zaposlenec"
+
+msgctxt "field:attendance.sheet.line,from_:"
+msgid "From"
+msgstr "Od"
+
+msgctxt "field:attendance.sheet.line,sheet:"
+msgid "Sheet"
+msgstr "List"
+
+msgctxt "field:attendance.sheet.line,to:"
+msgid "To"
+msgstr "Za"
+
+msgctxt "help:attendance.line,company:"
+msgid "The company which the employee attended."
+msgstr "Družba, pri kateri je bil zaposlenec prisoten."
+
+msgctxt "help:attendance.period,company:"
+msgid "The company the period is associated with."
+msgstr "Družba, s katero je povezano obdobje."
+
+msgctxt "help:attendance.period,state:"
+msgid "The current state of the attendance period."
+msgstr "Trenutno stanje obdobja prisotnosti."
+
+#, fuzzy
+msgctxt "model:attendance.line,string:"
+msgid "Attendance Line"
+msgstr "Vrstica prisotnosti"
+
+#, fuzzy
+msgctxt "model:attendance.period,string:"
+msgid "Attendance Period"
+msgstr "Obdobje prisotnosti"
+
+#, fuzzy
+msgctxt "model:attendance.sheet,string:"
+msgid "Attendance Sheet"
+msgstr "Seznam prisotnosti"
+
+#, fuzzy
+msgctxt "model:attendance.sheet.line,string:"
+msgid "Attendance Sheet Line"
+msgstr "Vrstica seznama prisotnosti"
+
+msgctxt "model:ir.action,name:act_attendance"
+msgid "Attendances"
+msgstr "Prisotnost"
+
+msgctxt "model:ir.action,name:act_period_list"
+msgid "Periods"
+msgstr "Obdobja"
+
+msgctxt "model:ir.action,name:act_sheet"
+msgid "Sheets"
+msgstr "Seznami"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_close_period_previous_open"
+msgid "To close period \"%(period)s\" you must first close \"%(other_period)s\"."
+msgstr ""
+"Za zaprtje obdobja \"%(period)s\", je potrebno najprej zapreti "
+"\"%(other_period)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_delete_period_close"
+msgid "To delete attendance \"%(attendance)s\" you must reopen period \"%(period)s\"."
+msgstr ""
+"Za izbris prisotnosti \"%(attendance)s\", je potrebno ponovno odpreti "
+"obdobje \"%(period)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_draft_period_previous_closed"
+msgid ""
+"To change period \"%(period)s\" you must first change \"%(other_period)s\" "
+"to draft."
+msgstr ""
+"Za spremembo obdobja \"%(period)s\", je potrebno najprej spremeniti stanje "
+"\"%(other_period)s\" v osnutek."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_modify_period_close"
+msgid "To modify attendance \"%(attendance)s\" you must reopen period \"%(period)s\"."
+msgstr ""
+"Za spremembo prisotnosti \"%(attendance)s\", je potrebno ponovno odpreti "
+"obdobje \"%(period)s\"."
+
+msgctxt "model:ir.model.button,string:period_close_button"
+msgid "Close"
+msgstr "Zapri"
+
+msgctxt "model:ir.model.button,string:period_draft_button"
+msgid "Draft"
+msgstr "Osnutek"
+
+msgctxt "model:ir.rule.group,name:rule_group_attendance"
+msgid "Own attendance"
+msgstr "Lastna prisotnost"
+
+msgctxt "model:ir.rule.group,name:rule_group_attendance_admin"
+msgid "Any attendance"
+msgstr "Vsa prisotnost"
+
+msgctxt "model:ir.rule.group,name:rule_group_attendance_companies"
+msgid "User in companies"
+msgstr "Uporabnik v družbah"
+
+msgctxt "model:ir.rule.group,name:rule_group_period_companies"
+msgid "User in companies"
+msgstr "Uporabnik v družbah"
+
+msgctxt "model:ir.rule.group,name:rule_group_sheet"
+msgid "Own attendance sheet"
+msgstr "Lastni seznam prisotnosti"
+
+msgctxt "model:ir.rule.group,name:rule_group_sheet_admin"
+msgid "Any attendance sheet"
+msgstr "Vsi seznami prisotnosti"
+
+msgctxt "model:ir.rule.group,name:rule_group_sheet_companies"
+msgid "User in companies"
+msgstr "Uporabnik v družbah"
+
+msgctxt "model:ir.rule.group,name:rule_group_sheet_line"
+msgid "Own attendance sheet line"
+msgstr "Lastne vrstice seznama prisotnosti"
+
+msgctxt "model:ir.rule.group,name:rule_group_sheet_line_admin"
+msgid "Any attendance sheet line"
+msgstr "Vse vrstice seznama prisotnosti"
+
+msgctxt "model:ir.rule.group,name:rule_group_sheet_line_companies"
+msgid "User in companies"
+msgstr "Uporabnik v družbah"
+
+msgctxt "model:ir.ui.menu,name:menu_attendance"
+msgid "Attendances"
+msgstr "Prisotnost"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Konfiguracija"
+
+msgctxt "model:ir.ui.menu,name:menu_main_attendance"
+msgid "Attendance"
+msgstr "Prisotnost"
+
+msgctxt "model:ir.ui.menu,name:menu_period_list"
+msgid "Periods"
+msgstr "Obdobja"
+
+msgctxt "model:ir.ui.menu,name:menu_sheet"
+msgid "Sheets"
+msgstr "Seznami"
+
+msgctxt "model:res.group,name:group_attendance_admin"
+msgid "Attendance Administration"
+msgstr "Skrbništvo prisotnosti"
+
+msgctxt "selection:attendance.line,type:"
+msgid "In"
+msgstr "Prihod"
+
+msgctxt "selection:attendance.line,type:"
+msgid "Out"
+msgstr "Odhod"
+
+msgctxt "selection:attendance.period,state:"
+msgid "Closed"
+msgstr "Zaprto"
+
+msgctxt "selection:attendance.period,state:"
+msgid "Draft"
+msgstr "Osnutek"
+
+msgctxt "view:attendance.line:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "view:attendance.line:"
+msgid "Time"
+msgstr "Čas"
+
+msgctxt "view:attendance.period:"
+msgid "Time"
+msgstr "Čas"

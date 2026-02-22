@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="party"/>
+    <field name="party"/>
+    <label name="payable_receivable_date"/>
+    <field name="payable_receivable_date" string="Date"/>
+
+    <label name="amount"/>
+    <field name="amount"/>
+    <label name="amount_currency"/>
+    <field name="amount_currency"/>
+
+    <label name="move"/>
+    <field name="move"/>
+    <label name="move_origin"/>
+    <field name="move_origin"/>
+
+    <label name="move_description_used"/>
+    <field name="move_description_used" colspan="3"/>
+
+    <field name="lines" colspan="4" view_ids="account.move_line_view_list_payable_receivable"/>
+</form>

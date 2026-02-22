@@ -1,0 +1,248 @@
+#
+#, fuzzy
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:marketing.email,email:"
+msgid "Email"
+msgstr "E-pošta"
+
+#, fuzzy
+msgctxt "field:marketing.email,email_token:"
+msgid "Email Token"
+msgstr "E-poštni žeton"
+
+msgctxt "field:marketing.email,list_:"
+msgid "List"
+msgstr "Seznam"
+
+msgctxt "field:marketing.email,party:"
+msgid "Party"
+msgstr "Partner"
+
+msgctxt "field:marketing.email,web_user:"
+msgid "Web User"
+msgstr "Spletni uporabnik"
+
+msgctxt "field:marketing.email.list,emails:"
+msgid "Emails"
+msgstr "E-poštni naslovi"
+
+msgctxt "field:marketing.email.list,language:"
+msgid "Language"
+msgstr "Jezik"
+
+msgctxt "field:marketing.email.list,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:marketing.email.list,subscribed:"
+msgid "Subscribed"
+msgstr "Naročen"
+
+msgctxt "field:marketing.email.message,content:"
+msgid "Content"
+msgstr "Vsebina"
+
+msgctxt "field:marketing.email.message,from_:"
+msgid "From"
+msgstr "Od"
+
+msgctxt "field:marketing.email.message,list_:"
+msgid "List"
+msgstr "Seznam"
+
+msgctxt "field:marketing.email.message,state:"
+msgid "State"
+msgstr "Stanje"
+
+msgctxt "field:marketing.email.message,title:"
+msgid "Title"
+msgstr "Napis"
+
+msgctxt "field:marketing.email.message,urls:"
+msgid "URLs"
+msgstr "URL-ji"
+
+#, fuzzy
+msgctxt "field:marketing.email.send_test,email:"
+msgid "Email"
+msgstr "E-poštni naslovi"
+
+msgctxt "field:marketing.email.send_test,list_:"
+msgid "List"
+msgstr "Seznam"
+
+msgctxt "field:marketing.email.send_test,message:"
+msgid "Message"
+msgstr "Sporočilo"
+
+msgctxt "help:marketing.email.message,from_:"
+msgid "Leave empty for the value defined in the configuration file."
+msgstr ""
+"Pustite prazno za privzeto vrednost opredeljeno v konfiguracijski datoteki."
+
+msgctxt "model:ir.action,name:act_email_list_form"
+msgid "Mailing Lists"
+msgstr "Elektronski poštni seznami"
+
+msgctxt "model:ir.action,name:act_email_message_form"
+msgid "Messages"
+msgstr "Sporočila"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_email_relate_list"
+msgid "Emails"
+msgstr "E-poštni naslovi"
+
+msgctxt "model:ir.action,name:report_email_subscribe"
+msgid "Subscribe Request"
+msgstr "Zahteva za naročnino"
+
+msgctxt "model:ir.action,name:report_email_unsubscribe"
+msgid "Unsubscribe Request"
+msgstr "Zahteva za odjavo"
+
+msgctxt "model:ir.action,name:wizard_send_test"
+msgid "Send Test"
+msgstr "Test pošiljanja"
+
+msgctxt "model:ir.action.act_window.domain,name:act_email_message_form_all"
+msgid "All"
+msgstr "Vse"
+
+msgctxt "model:ir.action.act_window.domain,name:act_email_message_form_draft"
+msgid "Draft"
+msgstr "Osnutek"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_email_message_form_sending"
+msgid "Sending"
+msgstr "V pošiljanju"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(record)s\" is not valid."
+msgstr "E-poštni naslov \"%(email)s\" za \"%(record)s\" ni veljaven."
+
+msgctxt "model:ir.message,text:msg_email_list_unique"
+msgid "Email addresses can only be subscribed once to each list."
+msgstr "E-poštni naslov sme biti naročen samo enkrat na posameznem seznamu."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_message_invalid_content"
+msgid "Invalid content in message \"%(message)s\" with exception \"%(exception)s\"."
+msgstr "Sporočilo \"%(message)s\" ima neveljavno vsebino. Napaka: \"%(exception)s\"."
+
+msgctxt "model:ir.model.button,string:message_draft_button"
+msgid "Draft"
+msgstr "Osnutek"
+
+msgctxt "model:ir.model.button,string:message_send_button"
+msgid "Send"
+msgstr "Pošlji"
+
+msgctxt "model:ir.model.button,string:message_send_test_button"
+msgid "Send Test"
+msgstr "Test pošiljanja"
+
+msgctxt "model:ir.ui.menu,name:menu_email_list_form"
+msgid "Mailing Lists"
+msgstr "Elektronski poštni seznami"
+
+#, fuzzy
+msgctxt "model:marketing.email,string:"
+msgid "Marketing Email"
+msgstr "Marketinška e-pošta"
+
+#, fuzzy
+msgctxt "model:marketing.email.list,string:"
+msgid "Marketing Email List"
+msgstr "Marketinška e-pošta"
+
+#, fuzzy
+msgctxt "model:marketing.email.message,string:"
+msgid "Marketing Email Message"
+msgstr "Marketinško e-poštno sporočilo"
+
+#, fuzzy
+msgctxt "model:marketing.email.send_test,string:"
+msgid "Marketing Email Send Test"
+msgstr "Marketinško e-poštno sporočilo"
+
+msgctxt "report:marketing.email.subscribe:"
+msgid "Button is not working? Paste this into your browser:"
+msgstr "Gumb ne deluje? Prilepite to povezavo v vaš brskalnik:"
+
+msgctxt "report:marketing.email.subscribe:"
+msgid "If you received this email by mistake, just ignore it."
+msgstr "Če ste po pomoti prejeli to sporočilo, ga preprosto prezrite."
+
+msgctxt "report:marketing.email.subscribe:"
+msgid "Just one more step..."
+msgstr "Samo še en korak..."
+
+msgctxt "report:marketing.email.subscribe:"
+msgid "Subscribe to"
+msgstr "Prijava na"
+
+msgctxt "report:marketing.email.subscribe:"
+msgid "Subscription Request"
+msgstr "Zahteva za prijavo"
+
+msgctxt "report:marketing.email.unsubscribe:"
+msgid "Button is not working? Paste this into your browser:"
+msgstr "Gumb ne deluje? Prilepite to povezavo v vaš brskalnik:"
+
+msgctxt "report:marketing.email.unsubscribe:"
+msgid "If you received this email by mistake, just ignore it."
+msgstr "Če ste po pomoti prejeli to sporočilo, ga preprosto prezrite."
+
+msgctxt "report:marketing.email.unsubscribe:"
+msgid "Just one more step..."
+msgstr "Samo še en korak..."
+
+msgctxt "report:marketing.email.unsubscribe:"
+msgid "Request to Unsubscribe"
+msgstr "Zahteva za odjavo"
+
+msgctxt "report:marketing.email.unsubscribe:"
+msgid "Unsubscribe from"
+msgstr "Odjava od"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Send Marketing Messages"
+msgstr "Pošlji marketinška sporočila"
+
+msgctxt "selection:marketing.email.message,state:"
+msgid "Draft"
+msgstr "Osnutek"
+
+msgctxt "selection:marketing.email.message,state:"
+msgid "Sending"
+msgstr "V pošiljanju"
+
+msgctxt "selection:marketing.email.message,state:"
+msgid "Sent"
+msgstr "Poslano"
+
+msgctxt "view:marketing.email.message:"
+msgid "Edit"
+msgstr "Uredi"
+
+msgctxt "view:marketing.email.message:"
+msgid "To:"
+msgstr "Za:"
+
+msgctxt "view:marketing.email.send_test:"
+msgid "To:"
+msgstr "Za:"
+
+msgctxt "wizard_button:marketing.email.send_test,start,end:"
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgctxt "wizard_button:marketing.email.send_test,start,send:"
+msgid "Send"
+msgstr "Pošlji"

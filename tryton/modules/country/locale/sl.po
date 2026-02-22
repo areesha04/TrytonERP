@@ -1,0 +1,1034 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:country.country,code3:"
+msgid "3-letters Code"
+msgstr "3-črkovna oznaka"
+
+msgctxt "field:country.country,code:"
+msgid "Code"
+msgstr "Šifra"
+
+msgctxt "field:country.country,code_numeric:"
+msgid "Numeric Code"
+msgstr "Številčna koda"
+
+msgctxt "field:country.country,flag:"
+msgid "Flag"
+msgstr "Zastava"
+
+msgctxt "field:country.country,members:"
+msgid "Members"
+msgstr "Člani"
+
+msgctxt "field:country.country,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:country.country,organizations:"
+msgid "Organizations"
+msgstr "Organizacije"
+
+msgctxt "field:country.country,region:"
+msgid "Region"
+msgstr "Regija"
+
+msgctxt "field:country.country,subdivisions:"
+msgid "Subdivisions"
+msgstr "Razdelbe"
+
+msgctxt "field:country.organization,code:"
+msgid "Code"
+msgstr "Šifra"
+
+msgctxt "field:country.organization,countries:"
+msgid "Countries"
+msgstr "Države"
+
+msgctxt "field:country.organization,members:"
+msgid "Members"
+msgstr "Člani"
+
+msgctxt "field:country.organization,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:country.organization.member,active:"
+msgid "Active"
+msgstr "Aktivno"
+
+msgctxt "field:country.organization.member,country:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:country.organization.member,from_date:"
+msgid "From Date"
+msgstr "Od datuma"
+
+msgctxt "field:country.organization.member,organization:"
+msgid "Organization"
+msgstr "Organizacija"
+
+msgctxt "field:country.organization.member,to_date:"
+msgid "To Date"
+msgstr "Do datuma"
+
+msgctxt "field:country.postal_code,city:"
+msgid "City"
+msgstr "Kraj"
+
+msgctxt "field:country.postal_code,country:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:country.postal_code,postal_code:"
+msgid "Postal Code"
+msgstr "Poštna številka"
+
+msgctxt "field:country.postal_code,subdivision:"
+msgid "Subdivision"
+msgstr "Regija"
+
+msgctxt "field:country.region,code_numeric:"
+msgid "Numeric Code"
+msgstr "Šifra"
+
+msgctxt "field:country.region,countries:"
+msgid "Countries"
+msgstr "Države"
+
+msgctxt "field:country.region,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:country.region,parent:"
+msgid "Parent"
+msgstr "Matična regija"
+
+msgctxt "field:country.region,subregions:"
+msgid "Subregions"
+msgstr "Podregija"
+
+msgctxt "field:country.subdivision,code:"
+msgid "Code"
+msgstr "Šifra"
+
+msgctxt "field:country.subdivision,country:"
+msgid "Country"
+msgstr "Dežela"
+
+msgctxt "field:country.subdivision,flag:"
+msgid "Flag"
+msgstr "Zastava"
+
+msgctxt "field:country.subdivision,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:country.subdivision,parent:"
+msgid "Parent"
+msgstr "Prednik"
+
+msgctxt "field:country.subdivision,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "help:country.country,code3:"
+msgid "The 3 chars ISO country code."
+msgstr "ISO triznačna šifra za državo."
+
+msgctxt "help:country.country,code:"
+msgid "The 2 chars ISO country code."
+msgstr "ISO dvoznačna šifra za državo."
+
+msgctxt "help:country.country,code_numeric:"
+msgid "The ISO numeric country code."
+msgstr "ISO številčna šifra za državo."
+
+msgctxt "help:country.country,name:"
+msgid "The main identifier of the country."
+msgstr "Glavni identifikator za državo."
+
+msgctxt "help:country.postal_code,city:"
+msgid "The city associated with the postal code."
+msgstr "Kraj povezan s poštno številko."
+
+msgctxt "help:country.postal_code,country:"
+msgid "The country that contains the postal code."
+msgstr "Država poštne številke."
+
+msgctxt "help:country.postal_code,subdivision:"
+msgid "The subdivision where the postal code is."
+msgstr "Regija poštne številke."
+
+msgctxt "help:country.region,code_numeric:"
+msgid "UN M49 region code."
+msgstr "ZN M49 koda regije."
+
+msgctxt "help:country.subdivision,code:"
+msgid "The ISO code of the subdivision."
+msgstr "ISO šifra za regijo."
+
+msgctxt "help:country.subdivision,country:"
+msgid "The country where this subdivision is."
+msgstr "Država za to regijo."
+
+msgctxt "help:country.subdivision,name:"
+msgid "The main identifier of the subdivision."
+msgstr "Glavni identifikator regije."
+
+msgctxt "help:country.subdivision,parent:"
+msgid "Add subdivision below the parent."
+msgstr "Dodajanje regijo matični državi."
+
+#, fuzzy
+msgctxt "model:country.country,string:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "model:country.organization,name:organization_amu"
+msgid "Arab Maghreb Union"
+msgstr "Unija arabskega Magreba"
+
+msgctxt "model:country.organization,name:organization_apec"
+msgid "Asia-Pacific Economic Cooperation"
+msgstr "Azijsko-pacifiško gospodarsko sodelovanje"
+
+msgctxt "model:country.organization,name:organization_asean"
+msgid "Association of Southeast Asian Nations"
+msgstr "Zveza držav Jugovzhodne Azije"
+
+msgctxt "model:country.organization,name:organization_benelux"
+msgid "Benelux Union"
+msgstr "Benelux"
+
+msgctxt "model:country.organization,name:organization_can"
+msgid "Andean Community"
+msgstr "Andska skupnost"
+
+msgctxt "model:country.organization,name:organization_caricom"
+msgid "Caribbean Community"
+msgstr "Karibska skupnost"
+
+msgctxt "model:country.organization,name:organization_cemac"
+msgid "Economic and Monetary Community of Central Africa"
+msgstr "Ekonomska in monetarna skupnost centralne Afrike"
+
+msgctxt "model:country.organization,name:organization_cen-sad"
+msgid "Community of Sahel–Saharan States"
+msgstr "Skupnost sahelsko-saharskih držav"
+
+msgctxt "model:country.organization,name:organization_comesa"
+msgid "Common Market for Eastern and Southern Africa"
+msgstr "Skupni trg za vzhodno in južno Afriko"
+
+msgctxt "model:country.organization,name:organization_eac"
+msgid "East African Community"
+msgstr "Vzhodnoafriška skupnost"
+
+msgctxt "model:country.organization,name:organization_eccas"
+msgid "Economic Community of Central African States"
+msgstr "Gospodarska skupnost srednjeafriških držav"
+
+msgctxt "model:country.organization,name:organization_ecowas"
+msgid "Economic Community of West African States"
+msgstr "Gospodarska skupnost zahodnoafriških držav"
+
+msgctxt "model:country.organization,name:organization_eu"
+msgid "European Union"
+msgstr "Evropska unija"
+
+msgctxt "model:country.organization,name:organization_gcc"
+msgid "Cooperation Council for the Arab States of the Gulf"
+msgstr "Svet za sodelovanje arabskih zalivskih držav"
+
+msgctxt "model:country.organization,name:organization_igad"
+msgid "Intergovernmental Authority on Development"
+msgstr "Medvladna agencija za razvoj (IGAD)"
+
+msgctxt "model:country.organization,name:organization_mercosur"
+msgid "Southern Common Market"
+msgstr "Južni skupni trg (Mercosur)"
+
+msgctxt "model:country.organization,name:organization_nafta"
+msgid "North American Free Trade Agreement"
+msgstr "Severno-Ameriški prostotrgovinski sporazum (NAFTA)"
+
+msgctxt "model:country.organization,name:organization_sadc"
+msgid "Southern African Development Community"
+msgstr "Južnoafriška razvojna skupnost (SADC)"
+
+msgctxt "model:country.organization,name:organization_safta"
+msgid "South Asian Free Trade Area"
+msgstr "Južnoazijsko območje proste trgovine (SAFTA)"
+
+#, fuzzy
+msgctxt "model:country.organization,string:"
+msgid "Country Organization"
+msgstr "Organizacija"
+
+#, fuzzy
+msgctxt "model:country.organization.member,string:"
+msgid "Country Organization Member"
+msgstr "Član organizacije"
+
+#, fuzzy
+msgctxt "model:country.postal_code,string:"
+msgid "Country Postal Code"
+msgstr "Poštna številka"
+
+msgctxt "model:country.region,name:region_africa"
+msgid "Africa"
+msgstr "Afrika"
+
+msgctxt "model:country.region,name:region_americas"
+msgid "Americas"
+msgstr "Ameriki"
+
+msgctxt "model:country.region,name:region_antarctica"
+msgid "Antarctica"
+msgstr "Antarktika"
+
+msgctxt "model:country.region,name:region_asia"
+msgid "Asia"
+msgstr "Azija"
+
+msgctxt "model:country.region,name:region_australia_new_zealand"
+msgid "Australia and New Zealand"
+msgstr "Avstralija in Nova Zelandija"
+
+msgctxt "model:country.region,name:region_caribbean"
+msgid "Caribbean"
+msgstr "Karibi"
+
+msgctxt "model:country.region,name:region_central_america"
+msgid "Central America"
+msgstr "Centralna Amerika"
+
+msgctxt "model:country.region,name:region_central_asia"
+msgid "Central Asia"
+msgstr "Centralna Azija"
+
+msgctxt "model:country.region,name:region_channel_islands"
+msgid "Channel Islands"
+msgstr "Kanalski otoki"
+
+msgctxt "model:country.region,name:region_eastern_africa"
+msgid "Eastern Africa"
+msgstr "Vzhodna Afrika"
+
+msgctxt "model:country.region,name:region_eastern_asia"
+msgid "Eastern Asia"
+msgstr "Vzhodna Azija"
+
+msgctxt "model:country.region,name:region_eastern_europe"
+msgid "Eastern Europe"
+msgstr "Vzhodna Evropa"
+
+msgctxt "model:country.region,name:region_europe"
+msgid "Europe"
+msgstr "Evropa"
+
+msgctxt "model:country.region,name:region_latin_america_caribbean"
+msgid "Latin America and the Caribbean"
+msgstr "Latinska Amerika in Karibi"
+
+msgctxt "model:country.region,name:region_melanesia"
+msgid "Melanesia"
+msgstr "Melanezija"
+
+msgctxt "model:country.region,name:region_micronesia"
+msgid "Micronesia"
+msgstr "Mikronezija"
+
+msgctxt "model:country.region,name:region_middle_africa"
+msgid "Middle Africa"
+msgstr "Srednja Afrika"
+
+msgctxt "model:country.region,name:region_north_america"
+msgid "North America"
+msgstr "Severna Amerika"
+
+msgctxt "model:country.region,name:region_northern_africa"
+msgid "Northern Africa"
+msgstr "Severna Afrika"
+
+msgctxt "model:country.region,name:region_northern_america"
+msgid "Northern America"
+msgstr "Severna Amerika"
+
+msgctxt "model:country.region,name:region_northern_europe"
+msgid "Northern Europe"
+msgstr "Severna Evropa"
+
+msgctxt "model:country.region,name:region_oceania"
+msgid "Oceania"
+msgstr "Oceanija"
+
+msgctxt "model:country.region,name:region_polynesia"
+msgid "Polynesia"
+msgstr "Francoska Polinezija"
+
+msgctxt "model:country.region,name:region_south-eastern_asia"
+msgid "South-eastern Asia"
+msgstr "Jugovzhodna Azija"
+
+msgctxt "model:country.region,name:region_south_america"
+msgid "South America"
+msgstr "Južna Amerika"
+
+msgctxt "model:country.region,name:region_southern_africa"
+msgid "Southern Africa"
+msgstr "Južna Afrika"
+
+msgctxt "model:country.region,name:region_southern_asia"
+msgid "Southern Asia"
+msgstr "Južna Azija"
+
+msgctxt "model:country.region,name:region_southern_europe"
+msgid "Southern Europe"
+msgstr "Južna Evropa"
+
+msgctxt "model:country.region,name:region_sub-saharan_africa"
+msgid "Sub-Saharan Africa"
+msgstr "Podsaharska Afrika"
+
+msgctxt "model:country.region,name:region_western_africa"
+msgid "Western Africa"
+msgstr "Zahodna Afrika"
+
+msgctxt "model:country.region,name:region_western_asia"
+msgid "Western Asia"
+msgstr "Zahodna Avstralija"
+
+msgctxt "model:country.region,name:region_western_europe"
+msgid "Western Europe"
+msgstr "Zahodna Evropa"
+
+msgctxt "model:country.region,name:region_world"
+msgid "World"
+msgstr "Svet"
+
+#, fuzzy
+msgctxt "model:country.region,string:"
+msgid "Country Region"
+msgstr "Države po regijah"
+
+#, fuzzy
+msgctxt "model:country.subdivision,string:"
+msgid "Country Subdivision"
+msgstr "Regija"
+
+msgctxt "model:ir.action,name:act_country_by_region"
+msgid "Countries by Region"
+msgstr "Države po regijah"
+
+msgctxt "model:ir.action,name:act_country_form"
+msgid "Countries"
+msgstr "Države"
+
+msgctxt "model:ir.action,name:act_organization_form"
+msgid "Organizations"
+msgstr "Organizacije"
+
+msgctxt "model:ir.action,name:act_postal_code_form"
+msgid "Postal Codes"
+msgstr "Poštne številke"
+
+msgctxt "model:ir.action,name:act_region_form"
+msgid "Regions"
+msgstr "Regije"
+
+msgctxt "model:ir.action,name:act_region_tree"
+msgid "Areas"
+msgstr "Področja"
+
+msgctxt "model:ir.ui.menu,name:menu_country"
+msgid "Countries"
+msgstr "Države"
+
+msgctxt "model:ir.ui.menu,name:menu_country_form"
+msgid "Countries"
+msgstr "Države"
+
+msgctxt "model:ir.ui.menu,name:menu_organization_form"
+msgid "Organizations"
+msgstr "Organizacije"
+
+msgctxt "model:ir.ui.menu,name:menu_region_form"
+msgid "Regions"
+msgstr "Regije"
+
+msgctxt "model:ir.ui.menu,name:menu_region_tree"
+msgid "Areas"
+msgstr "Področja"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administration"
+msgstr "Uprava"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative Region"
+msgstr "Upravna regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative Territory"
+msgstr "Upravno ozemlje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative area"
+msgstr "Upravno področje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative atoll"
+msgstr "Upravni atol"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Administrative precinct"
+msgstr "Upravno okrožje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Arctic Region"
+msgstr "Arktična regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Area"
+msgstr "Področje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Atoll"
+msgstr "Atol"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous City"
+msgstr "Avtonomno mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous Commune"
+msgstr "Avtonomna komuna"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous District"
+msgstr "Avtonomni okraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous Province"
+msgstr "Avtonomna provinca"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous Region"
+msgstr "Avtonomna regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous city in north africa"
+msgstr "Avtonomno mesto v Severni Afriki"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous communities"
+msgstr "Avtonomne skupnosti"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous community"
+msgstr "Avtonomna skupnost"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous island"
+msgstr "Avtonomni otok"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous monastic state"
+msgstr "Avtonomna samostanska država"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous municipality"
+msgstr "Avtonomna občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous republic"
+msgstr "Avtonomna republika"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous sector"
+msgstr "Avtonomni sektor"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous territorial unit"
+msgstr "Avtonomna teritorijalna enota"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Autonomous territory"
+msgstr "Avtonomno ozemlje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Borough"
+msgstr "Trg"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Canton"
+msgstr "Kanton"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital"
+msgstr "Glavno mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital District"
+msgstr "Glavni okraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital Metropolitan City"
+msgstr "Glavno metropolitansko mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital Territory"
+msgstr "Glavno ozemlje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Capital city"
+msgstr "Glavno mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Chain (of islands)"
+msgstr "Veriga (otokov)"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Chains (of islands)"
+msgstr "Veriga (otokov)"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "City"
+msgstr "Mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "City corporation"
+msgstr "Mestna združba"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "City municipality"
+msgstr "Mestna občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "City with county rights"
+msgstr "Mesto s pravicami okrožja"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Commune"
+msgstr "Komuna"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Constitutional province"
+msgstr "Ustavna provinca"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Council area"
+msgstr "Območje sveta"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Country"
+msgstr "Dežela"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "County"
+msgstr "Okrožje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Decentralized regional entity"
+msgstr "Decentralizirana regionalna entiteta"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Department"
+msgstr "Področje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Dependency"
+msgstr "Naselbina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Development region"
+msgstr "Razvojna regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "District"
+msgstr "Okraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "District council area"
+msgstr "Območje okrajnega sveta"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "District municipality"
+msgstr "Okrožna občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "District with special status"
+msgstr "Okrožje s posebnim statusom"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Districts under republic administration"
+msgstr "Okrožje pod republiško upravo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Division"
+msgstr "Divizija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Economic Prefecture"
+msgstr "Gospodarska prefektura"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Economic region"
+msgstr "Gospodarska regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Emirate"
+msgstr "Emirat"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Entity"
+msgstr "Entiteta"
+
+#, fuzzy
+msgctxt "selection:country.subdivision,type:"
+msgid "European collectivity"
+msgstr "Prekomorsko občestvo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal Dependency"
+msgstr "Zvezna naselbina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal District"
+msgstr "Zvezni okraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal Territories"
+msgstr "Zvezna ozemlja"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal Territory"
+msgstr "Zvezna ozemlja"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal capital territory"
+msgstr "Ozemlje zvezne prestolnice"
+
+#, fuzzy
+msgctxt "selection:country.subdivision,type:"
+msgid "Federal entity"
+msgstr "Zvezna ozemlja"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Free municipal consortium"
+msgstr "Prost občinski konzorcij"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Geographical entity"
+msgstr "Zemljepisna entiteta"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Geographical region"
+msgstr "Zemljepisna regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Geographical unit"
+msgstr "Zemljepisna enota"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Governorate"
+msgstr "Guvernerat"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Group of islands (20 inhabited islands)"
+msgstr "Skupina otokov (20 naseljenih otokov)"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Included for completeness"
+msgstr "Vključeno za celovitost"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Indigenous region"
+msgstr "Avtohtona regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Island"
+msgstr "Otok"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Island council"
+msgstr "Otoški svet"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Island group"
+msgstr "Otoška skupina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Islands, groups of islands"
+msgstr "Otoki, skupina otokov"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Land"
+msgstr "Ozemlje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Local council"
+msgstr "Krajevni svet"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "London borough"
+msgstr "Londonsko mestece"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan administration"
+msgstr "Metropolitanska administracija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan cities"
+msgstr "Metropolitanska mesta"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan city"
+msgstr "Metropolitansko mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan collectivity with special status"
+msgstr "Metropolitanska kolektivnost s posebnim statusom"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan department"
+msgstr "Metropolitansko področje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan district"
+msgstr "Metropolitanski okraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Metropolitan region"
+msgstr "Metropolitanska regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Municipalities"
+msgstr "Občine"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Municipality"
+msgstr "Občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Nation"
+msgstr "Narod"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Oblast"
+msgstr "Oblast"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Outlying area"
+msgstr "Odročno področje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas collectivity"
+msgstr "Prekomorsko občestvo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas collectivity with special status"
+msgstr "Prekomorsko občestvo s posebnim statusom"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas department"
+msgstr "Prekomorski oddelek"
+
+#, fuzzy
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas departmental collectivity"
+msgstr "Čezmorsko ozemeljsko občestvo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas region"
+msgstr "Prekomorska regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas region/department"
+msgstr "Čezmorska regija/področje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas territorial collectivity"
+msgstr "Čezmorsko ozemeljsko občestvo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas territory"
+msgstr "Prekomorski teritorij"
+
+#, fuzzy
+msgctxt "selection:country.subdivision,type:"
+msgid "Overseas unique territorial collectivity"
+msgstr "Čezmorsko ozemeljsko občestvo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Pakistan administered area"
+msgstr "Upravno področje Pakistana"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Parish"
+msgstr "Župnija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Popularate"
+msgstr "Popularat"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Popularates"
+msgstr "Popularates"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Prefecture"
+msgstr "Prefektura"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Principality"
+msgstr "Kneževina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Province"
+msgstr "Provinca"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Quarter"
+msgstr "Četrt"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Rayon"
+msgstr "Rajon"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Region"
+msgstr "Regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Regional council"
+msgstr "Regijski svet"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Regional state"
+msgstr "Regionalna država"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Republic"
+msgstr "Republika"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Republican City"
+msgstr "Republikansko mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Rural municipality"
+msgstr "Podeželjska občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Self-governed part"
+msgstr "Samoupravni del"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special District"
+msgstr "Posebni okraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special Municipality"
+msgstr "Posebna občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special Region"
+msgstr "Posebna regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special administrative city"
+msgstr "Posebno upravno mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special administrative region"
+msgstr "Posebna upravna regija"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special city"
+msgstr "Posebno mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special island authority"
+msgstr "Posebni organ otočja"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special self-governing city"
+msgstr "Posebno samoupravno mesto"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special self-governing province"
+msgstr "Posebna samoupravna provinca"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Special zone"
+msgstr "Posebno območje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "State"
+msgstr "Država"
+
+#, fuzzy
+msgctxt "selection:country.subdivision,type:"
+msgid "State city"
+msgstr "Država"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Territorial unit"
+msgstr "Ozemeljska enota"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Territory"
+msgstr "Teritorij"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Town"
+msgstr "Kraj"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Town council"
+msgstr "Mestni svet"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Two-tier county"
+msgstr "Dvoslojno okrožje"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Union territory"
+msgstr "Ozemlje unije"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Unitary authority"
+msgstr "Unitarna oblast"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Unitary authority (england)"
+msgstr "Unitarni organ (Anglija)"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Unitary authority (wales)"
+msgstr "Unitarni organ (Wales)"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Urban community"
+msgstr "Mestna skupnost"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Urban municipality"
+msgstr "Mestna občina"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Voivodship"
+msgstr "Vojvodstvo"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "Ward"
+msgstr "Ward"
+
+msgctxt "selection:country.subdivision,type:"
+msgid "zone"
+msgstr "Območje"

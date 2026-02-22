@@ -1,0 +1,197 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.price_list.line,volume_uom:"
+msgid "Volume UoM"
+msgstr "UDM de volume"
+
+msgctxt "field:product.price_list.line,weight_uom:"
+msgid "Weight UoM"
+msgstr "UDM de poids"
+
+msgctxt "field:product.product,height:"
+msgid "Height"
+msgstr "Hauteur"
+
+msgctxt "field:product.product,height_uom:"
+msgid "Height UoM"
+msgstr "UDM de hauteur"
+
+msgctxt "field:product.product,length:"
+msgid "Length"
+msgstr "Longueur"
+
+msgctxt "field:product.product,length_uom:"
+msgid "Length UoM"
+msgstr "UDM de longueur"
+
+msgctxt "field:product.product,volume:"
+msgid "Volume"
+msgstr "Volume"
+
+msgctxt "field:product.product,volume_uom:"
+msgid "Volume UoM"
+msgstr "UDM de volume"
+
+msgctxt "field:product.product,weight:"
+msgid "Weight"
+msgstr "Poids"
+
+msgctxt "field:product.product,weight_uom:"
+msgid "Weight UoM"
+msgstr "UDM de poids"
+
+msgctxt "field:product.product,width:"
+msgid "Width"
+msgstr "Largeur"
+
+msgctxt "field:product.product,width_uom:"
+msgid "Width UoM"
+msgstr "UDM de largeur"
+
+msgctxt "field:product.template,height:"
+msgid "Height"
+msgstr "Hauteur"
+
+msgctxt "field:product.template,height_uom:"
+msgid "Height UoM"
+msgstr "UDM de hauteur"
+
+msgctxt "field:product.template,length:"
+msgid "Length"
+msgstr "Longueur"
+
+msgctxt "field:product.template,length_uom:"
+msgid "Length UoM"
+msgstr "UDM de longueur"
+
+msgctxt "field:product.template,volume:"
+msgid "Volume"
+msgstr "Volume"
+
+msgctxt "field:product.template,volume_uom:"
+msgid "Volume UoM"
+msgstr "UDM de volume"
+
+msgctxt "field:product.template,weight:"
+msgid "Weight"
+msgstr "Poids"
+
+msgctxt "field:product.template,weight_uom:"
+msgid "Weight UoM"
+msgstr "UDM de poids"
+
+msgctxt "field:product.template,width:"
+msgid "Width"
+msgstr "Largeur"
+
+msgctxt "field:product.template,width_uom:"
+msgid "Width UoM"
+msgstr "UDM de largeur"
+
+msgctxt "help:product.price_list.line,formula:"
+msgid ""
+"\n"
+"-volume: the volume of 1 unit of product\n"
+"-weight: the weight of 1 unit of product"
+msgstr ""
+"\n"
+"-volume : volume d’une unité de produit\n"
+"-weight : poids d’une unité de produit"
+
+msgctxt "help:product.price_list.line,volume_uom:"
+msgid "Leave empty for liter."
+msgstr "Laissez vide pour litre."
+
+msgctxt "help:product.price_list.line,weight_uom:"
+msgid "Leave empty for kilogram."
+msgstr "Laissez vide pour kilogramme."
+
+msgctxt "help:product.product,height:"
+msgid "Height for 1 default unit of measure."
+msgstr "Hauteur pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.product,height_uom:"
+msgid "The Unit of Measure for the height."
+msgstr "L'Unité De Mesure pour la hauteur."
+
+msgctxt "help:product.product,length:"
+msgid "Length for 1 default unit of measure."
+msgstr "Longueur pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.product,length_uom:"
+msgid "The Unit of Measure for the length."
+msgstr "L'Unité De Mesure pour la longueur."
+
+msgctxt "help:product.product,volume:"
+msgid "Volume for 1 default unit of measure."
+msgstr "Volume pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.product,volume_uom:"
+msgid "The Unit of Measure for the volume."
+msgstr "L'Unité De Mesure pour le volume."
+
+msgctxt "help:product.product,weight:"
+msgid "Weight for 1 default unit of measure."
+msgstr "Poids pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.product,weight_uom:"
+msgid "The Unit of Measure for the weight."
+msgstr "L'Unité De Mesure pour le poids."
+
+msgctxt "help:product.product,width:"
+msgid "Width for 1 default unit of measure."
+msgstr "Largeur pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.product,width_uom:"
+msgid "The Unit of Measure for the width."
+msgstr "L'Unité De Mesure pour la largeur."
+
+msgctxt "help:product.template,height:"
+msgid "Height for 1 default unit of measure."
+msgstr "Hauteur pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.template,height_uom:"
+msgid "The Unit of Measure for the height."
+msgstr "L'Unité De Mesure pour la hauteur."
+
+msgctxt "help:product.template,length:"
+msgid "Length for 1 default unit of measure."
+msgstr "Longueur pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.template,length_uom:"
+msgid "The Unit of Measure for the length."
+msgstr "L'Unité De Mesure pour la longueur."
+
+msgctxt "help:product.template,volume:"
+msgid "Volume for 1 default unit of measure."
+msgstr "Volume pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.template,volume_uom:"
+msgid "The Unit of Measure for the volume."
+msgstr "L'Unité De Mesure pour le volume."
+
+msgctxt "help:product.template,weight:"
+msgid "Weight for 1 default unit of measure."
+msgstr "Poids pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.template,weight_uom:"
+msgid "The Unit of Measure for the weight."
+msgstr "L'Unité De Mesure pour le poids."
+
+msgctxt "help:product.template,width:"
+msgid "Width for 1 default unit of measure."
+msgstr "Largeur pour 1 unité de mesure par défaut."
+
+msgctxt "help:product.template,width_uom:"
+msgid "The Unit of Measure for the width."
+msgstr "L'Unité De Mesure pour la largeur."
+
+msgctxt "view:product.template:"
+msgid "Measurements"
+msgstr "Mesures"
+
+msgctxt "view:product.template:"
+msgid "Measurements for 1 default UoM."
+msgstr "Mesures pour 1 UDM par défaut."

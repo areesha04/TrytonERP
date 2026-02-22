@@ -1,0 +1,146 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.payment,account:"
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:account.payment,clearing_move:"
+msgid "Clearing Move"
+msgstr "Abstimmungsbuchungssatz"
+
+msgctxt "field:account.payment,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr "Zahlungsausgleich abgestimmt"
+
+msgctxt "field:account.payment,statement_lines:"
+msgid "Statement Lines"
+msgstr "Kontoauszugspositionen"
+
+msgctxt "field:account.payment.group,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr "Zahlungsausgleich abgestimmt"
+
+msgctxt "field:account.payment.group,statement_lines:"
+msgid "Statement Lines"
+msgstr "Kontoauszugspositionen"
+
+msgctxt "field:account.payment.journal,clearing_account:"
+msgid "Clearing Account"
+msgstr "Konto Zahlungsausgleich"
+
+msgctxt "field:account.payment.journal,clearing_journal:"
+msgid "Clearing Journal"
+msgstr "Journal Zahlungsausgleich"
+
+msgctxt "field:account.payment.journal,clearing_posting_delay:"
+msgid "Clearing Posting Delay"
+msgstr "Verzögerung des Zahlungsausgleichs"
+
+msgctxt "field:account.payment.succeed.start,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "help:account.payment,account:"
+msgid "Define the account to use for clearing move."
+msgstr "Definieren des Kontos für die Ausgleichsbuchungssätze."
+
+msgctxt "help:account.payment,clearing_reconciled:"
+msgid "Checked if clearing line is reconciled."
+msgstr "Ausgewählt wenn Zahlungsausgleichsbuchung abgestimmt ist."
+
+msgctxt "help:account.payment.group,clearing_reconciled:"
+msgid "All payments in the group are reconciled."
+msgstr "Alle Zahlungen in der Gruppe sind abgestimmt."
+
+msgctxt "help:account.payment.journal,clearing_posting_delay:"
+msgid ""
+"Post automatically the clearing moves after the delay.\n"
+"Leave empty for no posting."
+msgstr ""
+"Automatisches Verbuchen der Ausgleichsbuchungssätze mit Verzögerung.\n"
+"Leer lassen, um keine Buchungssätze zu erzeugen."
+
+msgctxt "help:account.statement.rule,description:"
+msgid ""
+"\n"
+"'payment_group'"
+msgstr ""
+"\n"
+"'payment_group': Zahlungsgruppe"
+
+msgctxt "model:account.payment.succeed.start,string:"
+msgid "Account Payment Succeed Start"
+msgstr "Buchhaltung Zahlung Erfolgreich Start"
+
+msgctxt "model:ir.action,name:wizard_payment_group_succeed"
+msgid "Succeed Groups"
+msgstr "Zahlungsläufe als erfolgreich markieren"
+
+msgctxt "model:ir.action,name:wizard_succeed"
+msgid "Succeed Payments"
+msgstr "Erfolgreiche Zahlungen"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\"."
+msgstr ""
+"Um die Zahlung \"%(payment)s\" auszugleichen muss ein Ersatzkonto für "
+"\"%(account)s\" konfiguriert werden."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing_journal"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\" or an active account on the payment journal "
+"\"%(journal)s\"."
+msgstr ""
+"Um die Zahlung \"%(payment)s\" auszugleichen, muss ein Ersatzkonto für "
+"\"%(account)s\" konfiguriert oder ein aktives Konto auf dem Zahlungsjournal "
+"\"%(journal)s\" erfasst werden."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_payable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a payable account "
+"for party \"%(party)s\"."
+msgstr ""
+"Um die Zahlung \"%(payment)s\" auszugleichen muss ein Verbindlichkeitenkonto"
+" für die Partei \"%(party)s\" konfiguriert werden."
+
+#, python-format
+msgctxt ""
+"model:ir.message,text:msg_payment_clearing_account_receivable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a receivable account"
+" for party \"%(party)s\"."
+msgstr ""
+"Um die Zahlung \"%(payment)s\" auszugleichen, muss ein Forderungskonto für "
+"die Partei \"%(party)s\" konfiguriert werden."
+
+msgctxt "model:ir.model.button,string:payment_group_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Erfolgreich markieren"
+
+msgctxt "model:ir.model.button,string:payment_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Erfolgreich markieren"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Post Clearing Moves"
+msgstr "Ausgleichsbuchungssätze erstellen"
+
+msgctxt "view:account.payment.journal:"
+msgid "Clearing"
+msgstr "Zahlungsausgleich"
+
+msgctxt "wizard_button:account.payment.succeed,start,end:"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "wizard_button:account.payment.succeed,start,succeed:"
+msgid "Succeed"
+msgstr "Erfolgreich"

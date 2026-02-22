@@ -1,0 +1,85 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,dunning_email_fallback:"
+msgid "Fall-back User"
+msgstr ""
+
+msgctxt "field:account.dunning.level,email_contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr ""
+
+msgctxt "field:account.dunning.level,email_from:"
+msgid "From"
+msgstr "Od"
+
+msgctxt "field:account.dunning.level,email_template:"
+msgid "Email Template"
+msgstr "Szablon wiadomości"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "Wyślij wiadomość"
+
+#, fuzzy
+msgctxt "field:ir.email,dunning_level:"
+msgid "Level"
+msgstr "Poziom"
+
+msgctxt "help:account.configuration,dunning_email_fallback:"
+msgid "User notified when no email is found to send the dunning."
+msgstr ""
+
+msgctxt "help:account.dunning.level,email_contact_mechanism:"
+msgid "Define which email to use from the party's contact mechanisms."
+msgstr ""
+
+msgctxt "help:account.dunning.level,email_from:"
+msgid "Leave empty for the value defined in the configuration file."
+msgstr ""
+
+msgctxt "model:ir.action,name:report_email"
+msgid "Dunning Email"
+msgstr "Dunning Email"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Amount"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date:"
+msgstr "Data:"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Due Date"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
+msgid "Pending Payments Received"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reference"
+msgstr ""
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reminder Notice"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:account.dunning.level:"
+msgid "Email"
+msgstr "Wyślij wiadomość"

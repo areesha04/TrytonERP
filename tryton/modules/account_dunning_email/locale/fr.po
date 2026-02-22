@@ -1,0 +1,87 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,dunning_email_fallback:"
+msgid "Fall-back User"
+msgstr "Utilisateur de repli"
+
+msgctxt "field:account.dunning.level,email_contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "Moyen de contact"
+
+msgctxt "field:account.dunning.level,email_from:"
+msgid "From"
+msgstr "De"
+
+msgctxt "field:account.dunning.level,email_template:"
+msgid "Email Template"
+msgstr "Modèle de courriel"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "Envoyer un courriel"
+
+msgctxt "field:ir.email,dunning_level:"
+msgid "Level"
+msgstr "Niveau"
+
+msgctxt "help:account.configuration,dunning_email_fallback:"
+msgid "User notified when no email is found to send the dunning."
+msgstr ""
+"L'utilisateur averti lorsqu'aucun e-mail n'est trouvé pour envoyer la "
+"relance."
+
+msgctxt "help:account.dunning.level,email_contact_mechanism:"
+msgid "Define which email to use from the party's contact mechanisms."
+msgstr ""
+"Définit quelle adresse électronique à utiliser des moyens de contact du "
+"tiers."
+
+msgctxt "help:account.dunning.level,email_from:"
+msgid "Leave empty for the value defined in the configuration file."
+msgstr "Laissez vide pour la valeur définie dans le fichier de configuration."
+
+msgctxt "model:ir.action,name:report_email"
+msgid "Dunning Email"
+msgstr "Courriel de relance"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Amount"
+msgstr "Montant"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date:"
+msgstr "Date :"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Due Date"
+msgstr "Date d'échéance"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr "Frais :"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Pending Payments Received"
+msgstr "Paiements en attente reçus"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reminder Notice"
+msgstr "Avis de rappel"
+
+msgctxt "view:account.dunning.level:"
+msgid "Email"
+msgstr "Courriel"

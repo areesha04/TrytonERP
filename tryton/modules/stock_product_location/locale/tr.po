@@ -1,0 +1,34 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,locations:"
+msgid "Default Locations"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:product.template,locations:"
+msgid "Default Locations"
+msgstr "Ürün Konumu"
+
+msgctxt "field:stock.product.location,location:"
+msgid "Storage Location"
+msgstr "Depolama Konumu"
+
+msgctxt "field:stock.product.location,product:"
+msgid "Variant"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:stock.product.location,template:"
+msgid "Product"
+msgstr "Ürün"
+
+msgctxt "field:stock.product.location,warehouse:"
+msgid "Warehouse"
+msgstr "Depo"
+
+#, fuzzy
+msgctxt "model:stock.product.location,string:"
+msgid "Stock Product Location"
+msgstr "Ürün Konumu"

@@ -1,0 +1,1285 @@
+# Slovenian (Slovenia) translations for tryton.
+# Copyright (C) 2010 B2CK
+# This file is distributed under the same license as the tryton project.
+# Venceslav Vezjak <vezjakv@gmail.com>, 2010.
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgid "Toggle notification"
+msgstr "Vklopi/Izklopi izbor"
+
+msgid "Make this an _internal message"
+msgstr ""
+
+msgid "Send"
+msgstr "Pošlji"
+
+msgid "specify alternate config file"
+msgstr "določi alterntivno konfiguracijsko datoteko"
+
+msgid "development mode"
+msgstr "Razvijalski način"
+
+msgid "logging everything at INFO level"
+msgstr "beleženje vsega na INFO ravni"
+
+msgid "specify the log level: DEBUG, INFO, WARNING, ERROR, CRITICAL"
+msgstr "določi nivo beleženja: DEBUG, INFO, WARNING, ERROR, CRITICAL"
+
+msgid "specify the file used to output logging information"
+msgstr "izberi datoteko dnevnika"
+
+msgid "specify the login user"
+msgstr "določi uporabniško ime"
+
+msgid "specify the server hostname:port"
+msgstr "določi ime in vrata strežniškega gostitelja"
+
+msgid "disable thread usage"
+msgstr "onemogoči uporabo niti"
+
+#, python-format
+msgid "Invalid response id (%s) expected %s"
+msgstr "Neveljaven odziv ID (%s), pričakovano %s"
+
+#, python-format
+msgid "Unable to set locale %s"
+msgstr "Ni možno nastaviti krajevnih nastavitev %s"
+
+msgid ", "
+msgstr ", "
+
+msgid ",..."
+msgstr ",..."
+
+# ?
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+msgid "Select your action"
+msgstr "Izberi ukrep"
+
+msgid "No action defined."
+msgstr "Nobenega ukrepa ni določenega."
+
+msgid "By: "
+msgstr "Od: "
+
+msgid "Selection"
+msgstr "Izbira"
+
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgid "OK"
+msgstr "V redu"
+
+msgid "Your selection:"
+msgstr "Vaša izbira:"
+
+msgid "Save As..."
+msgstr "Shrani kot..."
+
+msgid "Do you want to proceed?"
+msgstr "Ali želite nadaljevati?"
+
+msgid "Always ignore this warning."
+msgstr "Vedno prezri to opozorilo."
+
+msgid "No"
+msgstr "Ne"
+
+msgid "Yes"
+msgstr "Da"
+
+msgid "Concurrency Warning"
+msgstr "Opozorilo o sočasni spremembi"
+
+msgid "This record has been modified while you were editing it."
+msgstr "Ta zapis je bil spremenjen med urejanjem."
+
+msgid "Cancel saving"
+msgstr "Prekliči shranjevanje"
+
+msgid "Compare"
+msgstr "Primerjaj"
+
+msgid "See the modified version"
+msgstr "Preglej spremenjeno različico"
+
+msgid "Write Anyway"
+msgstr "Vseeno zapiši"
+
+msgid "Save your current version"
+msgstr "Shrani trenutno različico"
+
+#, python-format
+msgid "Compare: %s"
+msgstr "Primerjaj: %s"
+
+msgid "Close"
+msgstr "Zapri"
+
+msgid "Application Error"
+msgstr "Programska napaka"
+
+msgid "Details"
+msgstr "Podrobnosti"
+
+msgid "Report Bug"
+msgstr "Prijava programske napake"
+
+#, python-format
+msgid "Check URL: %s"
+msgstr "Preveri URL: %s"
+
+msgid "Unable to check for new version."
+msgstr "Ni bilo mogoče preveriti posodobitev nove različice programa."
+
+msgid "Download"
+msgstr "Prenesi"
+
+msgid "Concurrency Exception"
+msgstr "Izjema sočasnega izvajanja"
+
+msgid "Could not get a session."
+msgstr "Ni mogoče vzpostaviti seje."
+
+#, python-format
+msgid "Error: \"%s\". Try again later."
+msgstr "Napaka: \"%s\". Poskusite znova pozneje."
+
+msgid "Too many requests. Try again later."
+msgstr "Preveč poslanih zahtev. Poskusite kasneje."
+
+msgid "Not Found."
+msgstr "Ni najdeno."
+
+msgid "Reset forgotten password"
+msgstr "Ponastavite pozabljeno geslo"
+
+msgid "Send you an email to reset your password."
+msgstr "Pošljite e-poštno sporočilo za ponastavitev gesla."
+
+msgid ""
+"A request to reset your password has been sent.\n"
+"Please check your mailbox."
+msgstr ""
+"Zahteva za ponastavitev gesla je bila poslana.\n"
+"Preverite svoj poštni predal."
+
+msgid "..."
+msgstr "..."
+
+msgid "<i>Search...</i>"
+msgstr "<i>Išči...</i>"
+
+msgid "<i>Create...</i>"
+msgstr "<i>Ustvari...</i>"
+
+#, python-format
+msgid "Create \"%s\"..."
+msgstr "Ustvari \"%s\"..."
+
+msgid "Value"
+msgstr "Vrednost"
+
+msgid "Displayed value"
+msgstr "Prikazana vrednost"
+
+msgid "Format"
+msgstr "Oblika"
+
+msgid "Display format"
+msgstr "Oblika prikaza"
+
+msgid "Open the calendar"
+msgstr "Odpri koledar"
+
+msgid "Date Format"
+msgstr "Oblika datuma"
+
+msgid "Displayed date format"
+msgstr "Prikazana oblika datuma"
+
+msgid "y"
+msgstr "d"
+
+msgid "True"
+msgstr "Da"
+
+msgid "t"
+msgstr "t"
+
+msgid "False"
+msgstr "Ne"
+
+msgid "Digits"
+msgstr "Decimalna mesta"
+
+msgid "The number of decimal"
+msgstr "Število decimalnih mest"
+
+msgid "Template"
+msgstr "Predloga"
+
+msgid "Edit..."
+msgstr "Uredi ..."
+
+msgid "View Logs..."
+msgstr "Preglej dnevnik..."
+
+msgid "Attachments..."
+msgstr "Priloge..."
+
+msgid "Notes..."
+msgstr "Zapiski ..."
+
+msgid "Actions..."
+msgstr "_Ukrepi..."
+
+msgid "Relate..."
+msgstr "_Veze..."
+
+msgid "Report..."
+msgstr "Poročilo..."
+
+msgid "Print..."
+msgstr "_Izpis..."
+
+#, fuzzy
+msgid "Email..."
+msgstr "_Epošta..."
+
+msgid "Bold"
+msgstr "Krepko"
+
+msgid "Italic"
+msgstr "Poševno"
+
+msgid "Underline"
+msgstr "Podčrtano"
+
+msgid "Align Left"
+msgstr "Leva poravnava"
+
+msgid "Align Center"
+msgstr "Sredinska poravnava"
+
+msgid "Align Right"
+msgstr "Desna poravnava"
+
+msgid "Justify"
+msgstr "Obojestranska poravnava"
+
+msgid "Foreground Color"
+msgstr "Barva ospredja"
+
+msgid "Select a color"
+msgstr "Izberi barvo"
+
+msgid "Y"
+msgstr "l"
+
+msgid "M"
+msgstr "M"
+
+msgid "w"
+msgstr "t"
+
+msgid "d"
+msgstr "d"
+
+msgid "h"
+msgstr "u"
+
+msgid "m"
+msgstr "m"
+
+msgid "s"
+msgstr "s"
+
+msgid "Preferences..."
+msgstr "Nastavitve..."
+
+msgid "Toolbar"
+msgstr "Orodna vrstica"
+
+msgid "Default"
+msgstr "Privzeto"
+
+msgid "Text and Icons"
+msgstr "Besedilo in ikone"
+
+msgid "Text"
+msgstr "Besedilo"
+
+msgid "Icons"
+msgstr "Ikone"
+
+msgid "Form"
+msgstr "Obrazec"
+
+msgid "Save Column Width"
+msgstr "Shrani širino stolpcev"
+
+msgid "Save Tree State"
+msgstr "Shrani stanje drevesa"
+
+msgid "Spell Checking"
+msgstr "Črkovanje"
+
+msgid "Play Sound for Code Scanner"
+msgstr "Predvajaj zvok za čitalnik kod"
+
+msgid "PDA Mode"
+msgstr "Tablični način"
+
+msgid "Search Limit..."
+msgstr "Omejitev iskanja..."
+
+msgid "Check Version"
+msgstr "Preveri posodobitve"
+
+msgid "Options"
+msgstr "Možnosti"
+
+msgid "Documentation..."
+msgstr "Dokumentacija..."
+
+msgid "Keyboard Shortcuts..."
+msgstr "Bližnjice na tipkovnici..."
+
+msgid "About..."
+msgstr "Vizitka..."
+
+msgid "Help"
+msgstr "Pomoč"
+
+msgid "No result found."
+msgstr "Brez rezultatov."
+
+msgid "Action"
+msgstr "Ukrep"
+
+msgid ""
+"The following action requires to close all tabs.\n"
+"Do you want to continue?"
+msgstr ""
+"Za naslednji ukrep se bodo zaprli vsi zavihki.\n"
+"Ali želiš nadaljevati?"
+
+msgid "Application Shortcuts"
+msgstr "Bližnjice na tipkovnici"
+
+msgid "Global"
+msgstr "Globalno"
+
+msgid "Preferences"
+msgstr "Nastavitve"
+
+msgid "Search menu"
+msgstr "Iskalnik"
+
+msgid "Toggle menu"
+msgstr "Prikaži/skrij meni"
+
+msgid "Previous tab"
+msgstr "Prejšnji zavihek"
+
+msgid "Next tab"
+msgstr "Naslednji zavihek"
+
+msgid "Shortcuts"
+msgstr "Bližnjice"
+
+msgid "Quit"
+msgstr "Zapri"
+
+msgid "Edition Shortcuts"
+msgstr "Uredi bližnjice"
+
+msgid "Text Entries"
+msgstr "Besedilna polja"
+
+msgid "Cut selected text"
+msgstr "Izreži vsebino"
+
+msgid "Copy selected text"
+msgstr "Kopiraj vsebino"
+
+msgid "Paste copied text"
+msgstr "Prilepi vsebino"
+
+msgid "Next entry"
+msgstr "Naslednje polje"
+
+msgid "Previous entry"
+msgstr "Prejšnje polje"
+
+msgid "Relation Entries"
+msgstr "Povezani zapisi"
+
+msgid "Create new relation"
+msgstr "Dodajanje nove veze"
+
+msgid "Open/Search relation"
+msgstr "Urejanje/iskanje veze"
+
+msgid "List Entries"
+msgstr "Polja s seznami"
+
+msgid "Switch view"
+msgstr "Preklopi pogled"
+
+msgid "Create/Select new line"
+msgstr "Ustvari/Izberi novo vrstico"
+
+msgid "Open relation"
+msgstr "Urejenje postavke"
+
+msgid "Mark line for deletion/removal"
+msgstr "Izberi vrstico za brisanje/odstranitev"
+
+msgid "Mark line for removal"
+msgstr "Označi vrstico za odstranitev"
+
+msgid "Unmark line for deletion"
+msgstr "Postavka neoznačena za brisanje"
+
+msgid "List/Tree Shortcuts"
+msgstr "Bližnjice seznama/drevesnega pogleda"
+
+msgid "Move Cursor"
+msgstr "Premiki"
+
+msgid "Move right"
+msgstr "Premik desno"
+
+msgid "Move left"
+msgstr "Premik levo"
+
+msgid "Move up"
+msgstr "Premik gor"
+
+msgid "Move down"
+msgstr "Premik dol"
+
+msgid "Move up of one page"
+msgstr "Premik za eno stran gor"
+
+msgid "Move down of one page"
+msgstr "Premik za eno stran dol"
+
+msgid "Move to top"
+msgstr "Premik na začetek"
+
+msgid "Move to bottom"
+msgstr "Premik na konec"
+
+msgid "Move to parent"
+msgstr "Premik na nadrejeno vejo"
+
+msgid "Edition"
+msgstr "Urejanje"
+
+msgid "Copy selected rows"
+msgstr "Kopiraj izbrane vrstice"
+
+msgid "Insert copied rows"
+msgstr "Vstavi kopirane vrstice"
+
+msgid "Select all"
+msgstr "Izberi vse"
+
+msgid "Unselect all"
+msgstr "Odznači vse"
+
+msgid "Select parent"
+msgstr "Izberi nadrejeno vejo"
+
+msgid "Select/Activate current row"
+msgstr "Izberi/Aktiviraj trenutno vrstico"
+
+msgid "Toggle selection"
+msgstr "Vklopi/Izklopi izbor"
+
+msgid "Expand/Collapse"
+msgstr "Razširi/Skrči"
+
+msgid "Expand row"
+msgstr "Razširi vrstico"
+
+msgid "Collapse row"
+msgstr "Skrči vrstico"
+
+msgid "Toggle row"
+msgstr "Razširi/Skrči vrstico"
+
+msgid "Collapse all rows"
+msgstr "Skrči vse vrstice"
+
+msgid "Expand all rows"
+msgstr "Razširi vse vrstice"
+
+msgid "Close Tab"
+msgstr "Zapri zavihek"
+
+#, fuzzy
+msgid "All Notifications..."
+msgstr "_Ukrepi..."
+
+msgid "modularity, scalability and security"
+msgstr "modularnost, razširljivost in varnost"
+
+msgid "translator-credits"
+msgstr "Blaž Bregar"
+
+#, python-format
+msgid "Attachments (%s)"
+msgstr "Priloge (%s)"
+
+msgid "Code Scanner"
+msgstr "Čitalnik kod"
+
+msgid "Code"
+msgstr "Koda"
+
+msgid "Profile Editor"
+msgstr "Urejevalnik profilov"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Add new profile"
+msgstr "Dodaj nov profil"
+
+msgid "Remove selected profile"
+msgstr "Odstrani izbrani profil"
+
+msgid "Host:"
+msgstr "Strežnik:"
+
+msgid "Database:"
+msgstr "Podatkovna baza:"
+
+msgid "Fetching databases list"
+msgstr "Pridobivanje seznama podatkovnih baz"
+
+msgid "Username:"
+msgstr "Uporabniško ime:"
+
+msgid "Incompatible version of the server."
+msgstr "Nezdružljiva različica strežnika."
+
+msgid "Could not connect to the server."
+msgstr "Ni se mogoče povezati s strežnikom."
+
+msgid "Login"
+msgstr "Prijava"
+
+msgid "_Cancel"
+msgstr "_Prekliči"
+
+msgid "Cancel connection to the Tryton server"
+msgstr "Prekliči povezavo do Tryton strežnika"
+
+msgid "C_onnect"
+msgstr "P_oveži"
+
+msgid "Connect the Tryton server"
+msgstr "Poveži se s Tryton strežnikom"
+
+msgid "Profile:"
+msgstr "Profil:"
+
+msgid "Manage..."
+msgstr "Upravljaj..."
+
+msgid "Host / Database information"
+msgstr "Strežnik in podatkovna baza"
+
+msgid "User name:"
+msgstr "Uporabnik:"
+
+msgid "Unable to complete email entry"
+msgstr "Ni mogoče samodejno dokončati e-poštnega vnosa"
+
+#, fuzzy, python-format
+msgid "Email %s"
+msgstr "E-pošta %s"
+
+msgid "To:"
+msgstr "Za:"
+
+msgid "Cc:"
+msgstr "Cc:"
+
+msgid "Bcc:"
+msgstr "Bcc:"
+
+msgid "Subject:"
+msgstr "Zadeva:"
+
+msgid "Body"
+msgstr "Telo besedila"
+
+msgid "Reports"
+msgstr "Poročila"
+
+msgid "Attachments"
+msgstr "Priloge"
+
+msgid "Files"
+msgstr "Datoteke"
+
+msgid "Select File"
+msgstr "Izberi datoteko"
+
+msgid "Remove File"
+msgstr "Odstrani datoteko"
+
+msgid "Select"
+msgstr "Izberi"
+
+msgid "Add..."
+msgstr "Dodaj..."
+
+msgid "Preview"
+msgstr "Predogled"
+
+msgid "Previous"
+msgstr "Prejšnji"
+
+msgid "Next"
+msgstr "Naslednji"
+
+#, python-format
+msgid "Attachment (%s)"
+msgstr "Priloga (%s)"
+
+#, python-format
+msgid "Note (%d/%d)"
+msgstr "Zapisek (%d/%d)"
+
+msgid "You have to select one record."
+msgstr "En zapis mora biti izbran."
+
+msgid "Are you sure to remove this record?"
+msgstr "Ali res želiš izbrisati ta zapis?"
+
+msgid "Are you sure to remove those records?"
+msgstr "Ali res želiš izbrisati te zapise?"
+
+msgid "Records not removed."
+msgstr "Zapisi niso izbrisani."
+
+msgid "Records removed."
+msgstr "Zapisi izbrisani."
+
+msgid "Working now on the duplicated record(s)."
+msgstr "Trenutno se dela na podvojenih zapisih."
+
+msgid "Record saved."
+msgstr "Zapis shranjen."
+
+msgid ""
+"This record has been modified\n"
+"do you want to save it?"
+msgstr ""
+"Ta zapis je bil spremenjen,\n"
+"ga želiš shraniti?"
+
+msgid "Launch action"
+msgstr "Zaženi ukrep"
+
+msgid "Relate"
+msgstr "Veza"
+
+msgid "Open related records"
+msgstr "Odpri povezane zapise"
+
+msgid "Report"
+msgstr "Poročilo"
+
+msgid "Open report"
+msgstr "Odpri poročilo"
+
+msgid "Print"
+msgstr "Tisk"
+
+msgid "Print report"
+msgstr "Izpis poročila"
+
+msgid "_Copy URL"
+msgstr "_Kopiraj URL"
+
+msgid "Copy URL into clipboard"
+msgstr "Kopiraj URL na odložišče"
+
+msgid "Unknown"
+msgstr "Neznano"
+
+msgid "Limit"
+msgstr "Omejitev"
+
+msgid "Search Limit Settings"
+msgstr "Nastavitev omejitev iskanja"
+
+msgid "Limit:"
+msgstr "Omejitev:"
+
+# ?
+#, python-format
+msgid "Logs (%s)"
+msgstr "Dnevniki (%s)"
+
+msgid "Model:"
+msgstr "Model:"
+
+msgid "ID:"
+msgstr "ID:"
+
+msgid "Module:"
+msgstr "Modul:"
+
+msgid "XML ID:"
+msgstr "XML ID:"
+
+msgid "Created by:"
+msgstr "Ustvaril:"
+
+msgid "Created at:"
+msgstr "Ustvarjeno ob:"
+
+msgid "Last Modified by:"
+msgstr "Nazadnje spremenil:"
+
+msgid "Last Modified at:"
+msgstr "Nazadnje spremenjeno:"
+
+#, python-format
+msgid "Notes (%s)"
+msgstr "Zapiski (%s)"
+
+msgid "Edit User Preferences"
+msgstr "Uredi uporabniške nastavitve"
+
+msgid "Preference"
+msgstr "Nastavitev"
+
+msgid "Revision"
+msgstr "Različica"
+
+msgid "Select a revision"
+msgstr "Izberi različico"
+
+msgid "Revision:"
+msgstr "Različica:"
+
+msgid "_Switch View"
+msgstr "Preklopi po_gled"
+
+msgid "Switch View"
+msgstr "Preklopi pogled"
+
+msgid "_Previous"
+msgstr "P_rejšnji"
+
+msgid "Previous Record"
+msgstr "Prejšnji zapis"
+
+msgid "_Next"
+msgstr "Nas_lednji"
+
+msgid "Next Record"
+msgstr "Naslednji zapis"
+
+msgid "_Search"
+msgstr "_Išči"
+
+msgid "_New"
+msgstr "_Nov"
+
+msgid "Create a new record"
+msgstr "Ustvari nov zapis"
+
+msgid "_Save"
+msgstr "_Shrani"
+
+msgid "Save this record"
+msgstr "Shrani ta zapis"
+
+msgid "_Reload/Undo"
+msgstr "Ponovno naloži/Razvel_javi"
+
+msgid "Reload/Undo"
+msgstr "Ponovno naloži/Razveljavi"
+
+msgid "_Duplicate"
+msgstr "_Podvoji"
+
+msgid "_Delete..."
+msgstr "Z_briši..."
+
+msgid "View _Logs..."
+msgstr "Prikaži dnevni_k..."
+
+msgid "Show revisions..."
+msgstr "Prikaži revizije..."
+
+msgid "A_ttachments..."
+msgstr "P_riponke..."
+
+msgid "Add an attachment to the record"
+msgstr "Dodaj prilogo zapisu"
+
+msgid "_Notes..."
+msgstr "_Zapiski ..."
+
+msgid "Add a note to the record"
+msgstr "K zapisu dodaj zabeležko"
+
+msgid "C_hat"
+msgstr ""
+
+#, fuzzy
+msgid "Chat on the record"
+msgstr "K zapisu dodaj zabeležko"
+
+msgid "_Actions..."
+msgstr "_Ukrepi..."
+
+msgid "_Relate..."
+msgstr "_Veze..."
+
+msgid "_Report..."
+msgstr "P_oročila..."
+
+msgid "_Print..."
+msgstr "_Tiskaj..."
+
+#, fuzzy
+msgid "_Email..."
+msgstr "_Epošta..."
+
+#, fuzzy
+msgid "Send an email using the record"
+msgstr "Pošlji e-pošto z uporabo zapisa"
+
+msgid "_Export Data..."
+msgstr "I_zvozi podatke..."
+
+msgid "_Import Data..."
+msgstr "Uv_ozi podatke..."
+
+msgid "Copy _URL..."
+msgstr "_Kopiraj URL ..."
+
+msgid "_Close Tab"
+msgstr "Zapri zavi_hek"
+
+msgid "<b>All fields</b>"
+msgstr "<b>Vsa polja</b>"
+
+msgid "_Add"
+msgstr "_Dodaj"
+
+msgid "_Remove"
+msgstr "_Odstrani"
+
+msgid "_Clear"
+msgstr "_Počisti"
+
+msgid "<b>Fields selected</b>"
+msgstr "<b>Izbrana polja</b>"
+
+msgid "CSV Parameters"
+msgstr "CSV parametri"
+
+msgid "Delimiter:"
+msgstr "Ločilo:"
+
+msgid "Quote char:"
+msgstr "Narekovaj:"
+
+msgid "Encoding:"
+msgstr "Kodiranje:"
+
+msgid "Use locale format"
+msgstr "Uporabi lokalizirano obliko"
+
+msgid "Field name"
+msgstr "Naziv polja"
+
+#, python-format
+msgid "CSV Export: %s"
+msgstr "CSV izvoz: %s"
+
+msgid "Open"
+msgstr "Odpri"
+
+msgid "_Save Export"
+msgstr "_Shrani izvoz"
+
+msgid "_URL Export"
+msgstr "_URL izvoz"
+
+msgid "_Delete Export"
+msgstr "_Izbriši izvoz"
+
+msgid "<b>Predefined exports</b>"
+msgstr "<b>Predefinirani izvozi</b>"
+
+msgid "Name"
+msgstr "Naziv"
+
+msgid "Listed Records"
+msgstr "Prikazani zapisi"
+
+msgid "Selected Records"
+msgstr "Izbrani zapisi"
+
+msgid "Ignore search limit"
+msgstr "Prezri omejitev iskanja"
+
+msgid "Add field names"
+msgstr "Dodaj imena polj"
+
+#, python-format
+msgid "%s (string)"
+msgstr "%s (niz)"
+
+#, python-format
+msgid "%s (model name)"
+msgstr "%s (ime modela)"
+
+#, python-format
+msgid "%s/Record Name"
+msgstr "%s/Naziv zapisa"
+
+msgid "What is the name of this export?"
+msgstr "Kako se imenuje ta izvoz?"
+
+#, python-format
+msgid "Override '%s' definition?"
+msgstr "Prepišem definicijo izvoza '%s'?"
+
+#, fuzzy, python-format
+msgid "%d record saved."
+msgid_plural "%d records saved."
+msgstr[0] "%d zapis shranjen."
+msgstr[1] "%d zapis shranjen."
+msgstr[2] "%d zapis shranjen."
+msgstr[3] "%d zapis shranjen."
+
+msgid "Export failed"
+msgstr "Izvoz ni uspel"
+
+msgid "Link"
+msgstr "Povezava"
+
+msgid "Delete"
+msgstr "Zbriši"
+
+msgid "Discard changes"
+msgstr "Zavrzi spremembe"
+
+msgid "Save and New"
+msgstr "Shrani in ustvari novo"
+
+msgid "Add and New"
+msgstr "Dodaj in ustvari novo"
+
+msgid "Save"
+msgstr "Shrani"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Apply changes"
+msgstr "Uporabi spremembe"
+
+msgid "Switch"
+msgstr "Preklopi"
+
+msgid "Remove <Del>"
+msgstr "Odstrani <Del>"
+
+msgid "Create a new record <F3>"
+msgstr "Ustvari nov zapis <F3>"
+
+msgid "Delete selected record <Del>"
+msgstr "Zbriši izbran zapis <Del>"
+
+msgid "Undelete selected record <Ins>"
+msgstr "Povrni izbran zapis <Ins>"
+
+#, python-format
+msgid "CSV Import: %s"
+msgstr "CSV uvoz: %s"
+
+#, fuzzy
+msgid "Import"
+msgstr "Poročilo"
+
+msgid "_Auto-Detect"
+msgstr "_Samozaznava"
+
+msgid "File to Import:"
+msgstr "Datoteka za uvoz:"
+
+msgid "Open..."
+msgstr "Odpri..."
+
+msgid "Lines to Skip:"
+msgstr "Izpuščene vrstice:"
+
+msgid "You must select an import file first."
+msgstr "Najprej morate izbrati datoteko za uvoz."
+
+msgid "Detection failed"
+msgstr "Zaznavanje datoteke ni uspelo"
+
+#, python-format
+msgid "Unknown column header \"%s\""
+msgstr "Neznana glava stolpca \"%s\""
+
+msgid "Error"
+msgstr "Napaka"
+
+msgid "Import failed"
+msgstr "Uvoz ni uspel"
+
+#, fuzzy, python-format
+msgid "%d record imported."
+msgid_plural "%d records imported."
+msgstr[0] "%d zapis uvožen."
+msgstr[1] "%d zapis uvožen."
+msgstr[2] "%d zapis uvožen."
+msgstr[3] "%d zapis uvožen."
+
+msgid "Search"
+msgstr "Išči"
+
+msgid "New"
+msgstr "Novo"
+
+#, python-format
+msgid "Search %s"
+msgstr "Išči %s"
+
+msgid "Wizard"
+msgstr "Čarovnik"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Created by"
+msgstr "Ustvaril"
+
+msgid "Created at"
+msgstr "Ustvarjeno ob"
+
+msgid "Edited by"
+msgstr "Uredil"
+
+msgid "Edited at"
+msgstr "Urejeno ob"
+
+msgid "Unable to set view tree state"
+msgstr "Ni možno nastaviti stanja obrazca"
+
+#, python-format
+msgid "\"%s\" is not valid according to its domain."
+msgstr "Polje \"%s\" ni veljavno glede na svojo domeno."
+
+#, python-format
+msgid "\"%s\" is required."
+msgstr "Polje \"%s\" je obvezno."
+
+#, python-format
+msgid "The values of \"%s\" are not valid."
+msgstr "Vrednosti v polju \"%s\" niso veljavne."
+
+msgid "Pre-validation"
+msgstr "Predpreverjanje"
+
+msgid ":"
+msgstr ":"
+
+msgid "Scan"
+msgstr "Skeniraj"
+
+msgid "Image Size"
+msgstr "Velikost podobe"
+
+msgid "Width:"
+msgstr "Širina:"
+
+msgid "Height:"
+msgstr "Velikost:"
+
+msgid "PNG image (*.png)"
+msgstr "PNG podoba (*.png)"
+
+msgid "Save As"
+msgstr "Shrani kot..."
+
+msgid "Image size too large."
+msgstr "Podoba je prevelika."
+
+#, fuzzy
+msgid "Reset Column Widths"
+msgstr "Shrani širino stolpcev"
+
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgid "Copy Row"
+msgstr "Kopiraj vrstico"
+
+msgid "Copy Rows"
+msgstr "Kopiraj vrstice"
+
+msgid "Copy Column"
+msgstr "Kopiraj stolpec"
+
+msgid "Paste Rows"
+msgstr "Prilepi vrstice"
+
+msgid ".."
+msgstr ".."
+
+msgid "Open filters"
+msgstr "Odpri filtre"
+
+msgid "Show bookmarks of filters"
+msgstr "Prikaži zaznamke filtrov"
+
+msgid "Remove this bookmark"
+msgstr "Odstrani ta zaznamek"
+
+msgid "Bookmark this filter"
+msgstr "Shrani ta filter"
+
+msgid "Show active records"
+msgstr "Prikaži aktivne zapise"
+
+msgid "Show inactive records"
+msgstr "Prikaži neaktivne zapise"
+
+msgid "Bookmark Name:"
+msgstr "Ime zaznamka:"
+
+msgid "Find"
+msgstr "Najdi"
+
+msgid "Today"
+msgstr "Danes"
+
+msgid "go back"
+msgstr "pojdi nazaj"
+
+msgid "go forward"
+msgstr "pojdi naprej"
+
+msgid "previous year"
+msgstr "Prejšnje leto"
+
+msgid "next year"
+msgstr "naslednje leto"
+
+msgid "Day"
+msgstr "Dan"
+
+msgid "Week"
+msgstr "Teden"
+
+msgid "Month"
+msgstr "Mesec"
+
+msgid "Select..."
+msgstr "Izberi..."
+
+msgid "Clear"
+msgstr "Počisti"
+
+msgid "All files"
+msgstr "Vse datoteke"
+
+msgid "Show plain text"
+msgstr "Prikaži navadno besedilo"
+
+#, fuzzy, python-format
+msgid "Select a color for \"%s\""
+msgstr "Izberite barvo za \"%s\""
+
+msgid "Add value"
+msgstr "Dodaj vrednost"
+
+#, python-format
+msgid "Remove \"%s\""
+msgstr "Odstrani \"%s\""
+
+msgid "Images"
+msgstr "Podobe"
+
+msgid "Add existing record"
+msgstr "Dodaj obstoječi zapis"
+
+msgid "Remove selected record"
+msgstr "Odstrani izbran zapis"
+
+#, fuzzy
+msgid "Restore selected record"
+msgstr "Odstrani izbran zapis"
+
+msgid "Open the record <F2>"
+msgstr "Odpri zapis <F2>"
+
+msgid "Clear the field <Del>"
+msgstr "Počisti polje <Del>"
+
+msgid "Search a record <F2>"
+msgstr "Poišči zapis <F2>"
+
+msgid "Edit selected record"
+msgstr "Uredi izbran zapis"
+
+msgid "Delete selected record"
+msgstr "Izbriši izbran zapis"
+
+#, fuzzy
+msgid "Undelete selected record"
+msgstr "Izbriši izbran zapis"
+
+#, python-format
+msgid "%s%%"
+msgstr "%s%%"
+
+msgid "Choose a language"
+msgstr "Izberi jezik"
+
+msgid "Translation"
+msgstr "Prevod"
+
+msgid "Edit"
+msgstr "Uredi"
+
+msgid "Fuzzy"
+msgstr "Nejasno"
+
+msgid "You need to save the record before adding translations."
+msgstr "Pred prevajanjem je potrebno shraniti zapis."
+
+msgid "No other language available."
+msgstr "Drugih jezikov ni na voljo."
+
+msgid "#ERROR"
+msgstr "#NAPAKA"
+
+msgid "Translate view"
+msgstr "Prevedi pogled"

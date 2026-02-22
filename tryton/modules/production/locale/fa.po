@@ -1,0 +1,697 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,boms:"
+msgid "BOMs"
+msgstr "BOMs"
+
+msgctxt "field:product.product,producible:"
+msgid "Producible"
+msgstr "قابل توليد"
+
+#, fuzzy
+msgctxt "field:product.product,production_lead_times:"
+msgid "Lead Times"
+msgstr "زمان پیشبرد"
+
+msgctxt "field:product.product-production.bom,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:product.product-production.bom,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:product.template,producible:"
+msgid "Producible"
+msgstr "قابل توليد"
+
+#, fuzzy
+msgctxt "field:production,assigned_by:"
+msgid "Assigned By"
+msgstr "تخصیص داده شده"
+
+msgctxt "field:production,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production,company:"
+msgid "Company"
+msgstr "شرکت"
+
+msgctxt "field:production,cost:"
+msgid "Cost"
+msgstr "هزینه"
+
+#, fuzzy
+msgctxt "field:production,done_by:"
+msgid "Done By"
+msgstr "Done"
+
+msgctxt "field:production,effective_start_date:"
+msgid "Effective Start Date"
+msgstr "شروع تاریخ موثر"
+
+msgctxt "field:production,inputs:"
+msgid "Input Materials"
+msgstr ""
+
+msgctxt "field:production,location:"
+msgid "Location"
+msgstr "مکان"
+
+msgctxt "field:production,number:"
+msgid "Number"
+msgstr "شماره"
+
+msgctxt "field:production,origin:"
+msgid "Origin"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,outputs:"
+msgid "Output Materials"
+msgstr "خروجی ها"
+
+#, fuzzy
+msgctxt "field:production,partially_assigned:"
+msgid "Partially Assigned"
+msgstr "تخصیص داده شده"
+
+msgctxt "field:production,planned_start_date:"
+msgid "Planned Start Date"
+msgstr "شروع تاریخ برنامه ریزی شده"
+
+msgctxt "field:production,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:production,quantity:"
+msgid "Quantity"
+msgstr "مقدار/تعداد"
+
+msgctxt "field:production,reference:"
+msgid "Reference"
+msgstr "مرجع"
+
+msgctxt "field:production,run_by:"
+msgid "Run By"
+msgstr ""
+
+msgctxt "field:production,state:"
+msgid "State"
+msgstr "وضعیت"
+
+msgctxt "field:production,type:"
+msgid "Type"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production,unit:"
+msgid "Unit"
+msgstr "واحد"
+
+#, fuzzy
+msgctxt "field:production,uom_category:"
+msgid "UoM Category"
+msgstr "دسته بندی واحد اندازه گیری"
+
+msgctxt "field:production,warehouse:"
+msgid "Warehouse"
+msgstr "انبار"
+
+msgctxt "field:production.bom,code:"
+msgid "Code"
+msgstr ""
+
+msgctxt "field:production.bom,code_readonly:"
+msgid "Code Readonly"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom,input_products:"
+msgid "Input Products"
+msgstr "محصولات خروجی"
+
+msgctxt "field:production.bom,inputs:"
+msgid "Input Materials"
+msgstr ""
+
+msgctxt "field:production.bom,name:"
+msgid "Name"
+msgstr "نام"
+
+msgctxt "field:production.bom,output_products:"
+msgid "Output Products"
+msgstr "محصولات خروجی"
+
+#, fuzzy
+msgctxt "field:production.bom,outputs:"
+msgid "Output Materials"
+msgstr "خروجی ها"
+
+msgctxt "field:production.bom,phantom:"
+msgid "Phantom"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.bom,phantom_quantity:"
+msgid "Quantity"
+msgstr "مقدار/تعداد"
+
+#, fuzzy
+msgctxt "field:production.bom,phantom_unit:"
+msgid "Unit"
+msgstr "واحد"
+
+msgctxt "field:production.bom.input,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.bom.input,phantom_bom:"
+msgid "Phantom BOM"
+msgstr ""
+
+msgctxt "field:production.bom.input,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:production.bom.input,quantity:"
+msgid "Quantity"
+msgstr "مقدار/تعداد"
+
+#, fuzzy
+msgctxt "field:production.bom.input,unit:"
+msgid "Unit"
+msgstr "واحد"
+
+msgctxt "field:production.bom.input,uom_category:"
+msgid "Uom Category"
+msgstr "دسته بندی واحد اندازه گیری"
+
+msgctxt "field:production.bom.output,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.bom.output,phantom_bom:"
+msgid "Phantom BOM"
+msgstr ""
+
+msgctxt "field:production.bom.output,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:production.bom.output,quantity:"
+msgid "Quantity"
+msgstr "مقدار/تعداد"
+
+#, fuzzy
+msgctxt "field:production.bom.output,unit:"
+msgid "Unit"
+msgstr "واحد"
+
+msgctxt "field:production.bom.output,uom_category:"
+msgid "Uom Category"
+msgstr "دسته بندی واحد اندازه گیری"
+
+msgctxt "field:production.bom.tree,childs:"
+msgid "Childs"
+msgstr "زیرمجموعه ها"
+
+msgctxt "field:production.bom.tree,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:production.bom.tree,quantity:"
+msgid "Quantity"
+msgstr "مقدار/تعداد"
+
+#, fuzzy
+msgctxt "field:production.bom.tree,unit:"
+msgid "Unit"
+msgstr "واحد"
+
+msgctxt "field:production.bom.tree.open.start,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.bom.tree.open.start,category:"
+msgid "Category"
+msgstr "دسته‌بندی‌"
+
+msgctxt "field:production.bom.tree.open.start,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:production.bom.tree.open.start,quantity:"
+msgid "Quantity"
+msgstr "مقدار/تعداد"
+
+#, fuzzy
+msgctxt "field:production.bom.tree.open.start,unit:"
+msgid "Unit"
+msgstr "واحد"
+
+msgctxt "field:production.bom.tree.open.tree,bom_tree:"
+msgid "BOM Tree"
+msgstr "BOM درخت"
+
+#, fuzzy
+msgctxt "field:production.configuration,bom_sequence:"
+msgid "BOM Sequence"
+msgstr "ادامه"
+
+msgctxt "field:production.configuration,production_sequence:"
+msgid "Production Sequence"
+msgstr "ادامه تولید"
+
+msgctxt "field:production.configuration.production_sequence,company:"
+msgid "Company"
+msgstr "شرکت"
+
+msgctxt ""
+"field:production.configuration.production_sequence,production_sequence:"
+msgid "Production Sequence"
+msgstr "ادامه تولید"
+
+msgctxt "field:production.lead_time,bom:"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "field:production.lead_time,lead_time:"
+msgid "Lead Time"
+msgstr "زمان انجام کار"
+
+msgctxt "field:production.lead_time,product:"
+msgid "Product"
+msgstr "محصول"
+
+msgctxt "field:stock.location,production_location:"
+msgid "Production"
+msgstr "تهیه کننده"
+
+#, fuzzy
+msgctxt "field:stock.location,production_output_location:"
+msgid "Production Output"
+msgstr "تولیدات خروجی"
+
+#, fuzzy
+msgctxt "field:stock.location,production_picking_location:"
+msgid "Production Picking"
+msgstr "تهیه کننده"
+
+#, fuzzy
+msgctxt "field:stock.lot.trace,production_input:"
+msgid "Production Input"
+msgstr "تولیدات ورودی"
+
+#, fuzzy
+msgctxt "field:stock.lot.trace,production_output:"
+msgid "Production Output"
+msgstr "تولیدات خروجی"
+
+#, fuzzy
+msgctxt "field:stock.move,production:"
+msgid "Production"
+msgstr "تهیه کننده"
+
+msgctxt "field:stock.move,production_cost_price_updated:"
+msgid "Cost Price Updated"
+msgstr ""
+
+msgctxt "field:stock.move,production_input:"
+msgid "Production Input"
+msgstr "تولیدات ورودی"
+
+msgctxt "field:stock.move,production_output:"
+msgid "Production Output"
+msgstr "تولیدات خروجی"
+
+msgctxt "help:production,number:"
+msgid "The main identifier for the shipment."
+msgstr ""
+
+msgctxt "help:production,reference:"
+msgid "The external identifier for the shipment."
+msgstr ""
+
+msgctxt "help:production,uom_category:"
+msgid "The category of Unit of Measure."
+msgstr ""
+
+msgctxt "help:production.bom,phantom:"
+msgid "If checked, the BoM can be used in another BoM."
+msgstr ""
+
+msgctxt "help:production.bom,phantom_quantity:"
+msgid "The quantity of the Phantom BoM"
+msgstr ""
+
+msgctxt "help:production.bom,phantom_unit:"
+msgid "The Unit of Measure of the Phantom BoM"
+msgstr ""
+
+msgctxt "help:production.configuration,bom_sequence:"
+msgid "Used to generate the BOM code."
+msgstr ""
+
+msgctxt "help:stock.location,production_output_location:"
+msgid ""
+"Where the produced goods are stored.\n"
+"Leave empty to use the warehouse storage location."
+msgstr ""
+
+msgctxt "help:stock.location,production_picking_location:"
+msgid ""
+"Where the production components are picked from.\n"
+"Leave empty to use the warehouse storage location."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_bom_form"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "model:ir.action,name:act_bom_list"
+msgid "BOMs"
+msgstr "BOMs"
+
+msgctxt "model:ir.action,name:act_product_in_bom"
+msgid "BOMs"
+msgstr "BOMs"
+
+msgctxt "model:ir.action,name:act_production_calendar"
+msgid "Productions"
+msgstr "تولیدات"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_production_configuration_form"
+msgid "Configuration"
+msgstr "پیکربندی"
+
+msgctxt "model:ir.action,name:act_production_list"
+msgid "Productions"
+msgstr "تولیدات"
+
+msgctxt "model:ir.action,name:wizard_bom_tree_open"
+msgid "BOM Tree"
+msgstr "BOM درخت"
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_production_assign"
+msgid "Assign Production"
+msgstr "اختصاص تولید"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_in_bom_output_domain_input"
+msgid "As Inputs"
+msgstr "به عنوان ورودی ها"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_in_bom_output_domain_output"
+msgid "As Outputs"
+msgstr "به عنوان خروجی ها"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_all"
+msgid "All"
+msgstr "همه"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_assigned"
+msgid "Assigned"
+msgstr "تخصیص داده شده"
+
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_available"
+msgid "Partially Assigned"
+msgstr "تخصیص داده شده"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_draft"
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_requests"
+msgid "Requests"
+msgstr "درخواست ها"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_running"
+msgid "Running"
+msgstr "در حال اجرا"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_waiting"
+msgid "Waiting"
+msgstr "در انتظار"
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_missing_product_list_price"
+msgid ""
+"The product \"%(product)s\" on production \"%(production)s\" does not have "
+"any list price defined."
+msgstr ""
+"هزینه های خروجی : \"%(outputs)s\" از تولید : \"%(production)s\"، با هزینه "
+"تولید : \"%(costs)s\" مطابقت ندارد."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_recursive_bom_bom"
+msgid "You cannot create a recursive BOM for BOM \"%(bom)s\"."
+msgstr "شما نمیتوانید یک BOM بازگشتی برای محصول :\"%(product)s\" ایجاد کنید."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_recursive_bom_product"
+msgid "You cannot create a recursive BOM for product \"%(product)s\"."
+msgstr "شما نمیتوانید یک BOM بازگشتی برای محصول :\"%(product)s\" ایجاد کنید."
+
+msgctxt "model:ir.message,text:msg_stock_move_production_single"
+msgid "Move can not be used for production input and output."
+msgstr ""
+
+msgctxt "model:ir.model.button,confirm:production_done_button"
+msgid "Are you sure you want to complete the production?"
+msgstr ""
+
+msgctxt "model:ir.model.button,string:production_assign_wizard_button"
+msgid "Assign"
+msgstr "Assign"
+
+msgctxt "model:ir.model.button,string:production_cancel_button"
+msgid "Cancel"
+msgstr "Cancel"
+
+msgctxt "model:ir.model.button,string:production_done_button"
+msgid "Complete"
+msgstr ""
+
+msgctxt "model:ir.model.button,string:production_draft_button"
+msgid "Draft"
+msgstr "Draft"
+
+msgctxt "model:ir.model.button,string:production_reset_bom_button"
+msgid "Reset to BOM"
+msgstr "Reset to BOM"
+
+msgctxt "model:ir.model.button,string:production_run_button"
+msgid "Run"
+msgstr "Run"
+
+msgctxt "model:ir.model.button,string:production_wait_button"
+msgid "Wait"
+msgstr "Wait"
+
+msgctxt "model:ir.rule.group,name:rule_group_production_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.sequence,name:sequence_production"
+msgid "Production"
+msgstr "تولید"
+
+#, fuzzy
+msgctxt "model:ir.sequence.type,name:sequence_type_bom"
+msgid "BOM"
+msgstr "BOM"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_production"
+msgid "Production"
+msgstr "تولید"
+
+msgctxt "model:ir.ui.menu,name:menu_bom_list"
+msgid "BOMs"
+msgstr "BOMs"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_production"
+msgid "Productions"
+msgstr "تولیدات"
+
+msgctxt "model:ir.ui.menu,name:menu_production_calendar"
+msgid "Productions"
+msgstr "تولیدات"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_production_configuration"
+msgid "Configuration"
+msgstr "پیکربندی"
+
+msgctxt "model:ir.ui.menu,name:menu_production_list"
+msgid "Productions"
+msgstr "تولیدات"
+
+msgctxt "model:product.product-production.bom,string:"
+msgid "Product - Production Bom"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:production,string:"
+msgid "Production"
+msgstr "تهیه کننده"
+
+#, fuzzy
+msgctxt "model:production.bom,string:"
+msgid "Production Bom"
+msgstr "تهیه کننده"
+
+#, fuzzy
+msgctxt "model:production.bom.input,string:"
+msgid "Production Bom Input"
+msgstr "تولیدات ورودی"
+
+#, fuzzy
+msgctxt "model:production.bom.output,string:"
+msgid "Production Bom Output"
+msgstr "تولیدات خروجی"
+
+#, fuzzy
+msgctxt "model:production.bom.tree,string:"
+msgid "Production Bom Tree"
+msgstr "زمان پیشبرد تولید"
+
+msgctxt "model:production.bom.tree.open.start,string:"
+msgid "Production Bom Tree Open Start"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:production.bom.tree.open.tree,string:"
+msgid "Production Bom Tree Open Tree"
+msgstr "ادامه تولید"
+
+#, fuzzy
+msgctxt "model:production.configuration,string:"
+msgid "Production Configuration"
+msgstr "پیکره بندی تولید"
+
+#, fuzzy
+msgctxt "model:production.configuration.production_sequence,string:"
+msgid "Production Configuration Production Sequence"
+msgstr "پیکره بندی تولید ادامه تولید"
+
+#, fuzzy
+msgctxt "model:production.lead_time,string:"
+msgid "Production Lead Time"
+msgstr "زمان پیشبرد تولید"
+
+msgctxt "model:res.group,name:group_production"
+msgid "Production"
+msgstr "تولید"
+
+msgctxt "model:res.group,name:group_production_admin"
+msgid "Production Administration"
+msgstr "مدیریت تولید"
+
+msgctxt "model:stock.location,name:location_production"
+msgid "Production"
+msgstr "تولید"
+
+#, fuzzy
+msgctxt "selection:ir.cron,method:"
+msgid "Reschedule Productions"
+msgstr "تولیدات"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Set Cost from Moves"
+msgstr ""
+
+msgctxt "selection:production,state:"
+msgid "Assigned"
+msgstr "تخصیص داده شده"
+
+#, fuzzy
+msgctxt "selection:production,state:"
+msgid "Cancelled"
+msgstr "لغو شده"
+
+msgctxt "selection:production,state:"
+msgid "Done"
+msgstr "انجام شد"
+
+msgctxt "selection:production,state:"
+msgid "Draft"
+msgstr "پیش‌نویس"
+
+msgctxt "selection:production,state:"
+msgid "Request"
+msgstr "درخواست"
+
+msgctxt "selection:production,state:"
+msgid "Running"
+msgstr "در حال اجرا"
+
+msgctxt "selection:production,state:"
+msgid "Waiting"
+msgstr "در انتظار"
+
+msgctxt "selection:production,type:"
+msgid "Assembly"
+msgstr ""
+
+msgctxt "selection:production,type:"
+msgid "Disassembly"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:product.template:"
+msgid "Production"
+msgstr "تهیه کننده"
+
+#, fuzzy
+msgctxt "view:production.bom.input:"
+msgid "Material"
+msgstr "خروجی ها"
+
+#, fuzzy
+msgctxt "view:production.bom.output:"
+msgid "Material"
+msgstr "خروجی ها"
+
+msgctxt "view:production.bom:"
+msgid "Lines"
+msgstr "خطوط"
+
+msgctxt "view:production:"
+msgid "Other Info"
+msgstr "سایر اطلاعات"
+
+msgctxt "wizard_button:production.bom.tree.open,start,end:"
+msgid "Cancel"
+msgstr "انصراف"
+
+msgctxt "wizard_button:production.bom.tree.open,start,tree:"
+msgid "OK"
+msgstr "قبول"
+
+msgctxt "wizard_button:production.bom.tree.open,tree,end:"
+msgid "Close"
+msgstr "بسته"
+
+msgctxt "wizard_button:production.bom.tree.open,tree,start:"
+msgid "Change"
+msgstr "تغییر"

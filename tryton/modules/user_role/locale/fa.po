@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:res.role,groups:"
+msgid "Groups"
+msgstr "گروه ها"
+
+msgctxt "field:res.role,name:"
+msgid "Name"
+msgstr "نام"
+
+#, fuzzy
+msgctxt "field:res.role,users:"
+msgid "Users"
+msgstr "کاربر"
+
+msgctxt "field:res.role-res.group,group:"
+msgid "Group"
+msgstr "گروه"
+
+msgctxt "field:res.role-res.group,role:"
+msgid "Role"
+msgstr "نقش، وظیفه"
+
+msgctxt "field:res.user,roles:"
+msgid "Roles"
+msgstr "نقش ها، وظایف"
+
+msgctxt "field:res.user.role,from_date:"
+msgid "From Date"
+msgstr "از تاریخ"
+
+msgctxt "field:res.user.role,role:"
+msgid "Role"
+msgstr "نقش، وظیفه"
+
+msgctxt "field:res.user.role,to_date:"
+msgid "To Date"
+msgstr "تا تاریخ"
+
+msgctxt "field:res.user.role,user:"
+msgid "User"
+msgstr "کاربر"
+
+msgctxt "model:ir.action,name:act_role_form"
+msgid "Roles"
+msgstr "نقش ها، وظایف"
+
+msgctxt "model:ir.ui.menu,name:menu_role_form"
+msgid "Roles"
+msgstr "نقش ها، وظایف"
+
+#, fuzzy
+msgctxt "model:res.role,string:"
+msgid "Role"
+msgstr "نقش، وظیفه"
+
+#, fuzzy
+msgctxt "model:res.role-res.group,string:"
+msgid "Role - Group"
+msgstr "گروه - نقش، وظیفه"
+
+#, fuzzy
+msgctxt "model:res.user.role,string:"
+msgid "User Role"
+msgstr "نقش کاربر"
+
+#, fuzzy
+msgctxt "selection:ir.cron,method:"
+msgid "Synchronize Users Roles"
+msgstr "هماهنگ سازی نقش های کاربران"
+
+msgctxt "view:res.role:"
+msgid "Access Permissions"
+msgstr ""
+
+msgctxt "view:res.role:"
+msgid "Members"
+msgstr ""
+
+msgctxt "view:res.user.role:"
+msgid "Time"
+msgstr ""

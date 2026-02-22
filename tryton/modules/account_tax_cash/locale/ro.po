@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:account.fiscalyear,tax_group_on_cash_basis:"
+msgid "Tax Group On Cash Basis"
+msgstr "Grup fiscal pe bază de numerar"
+
+#, fuzzy
+msgctxt "field:account.invoice,tax_group_on_cash_basis:"
+msgid "Tax Group On Cash Basis"
+msgstr "Grup fiscal pe bază de numerar"
+
+msgctxt "field:account.invoice.tax.group.cash,invoice:"
+msgid "Invoice"
+msgstr "Factură"
+
+#, fuzzy
+msgctxt "field:account.invoice.tax.group.cash,tax_group:"
+msgid "Tax Group"
+msgstr "Grup Fiscal"
+
+#, fuzzy
+msgctxt "field:account.period,tax_group_on_cash_basis:"
+msgid "Tax Group On Cash Basis"
+msgstr "Grup fiscal pe bază de numerar"
+
+msgctxt "field:account.tax.group.cash,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "An Fiscal"
+
+msgctxt "field:account.tax.group.cash,party:"
+msgid "Party"
+msgstr "Parte"
+
+msgctxt "field:account.tax.group.cash,period:"
+msgid "Period"
+msgstr "Perioadă"
+
+#, fuzzy
+msgctxt "field:account.tax.group.cash,tax_group:"
+msgid "Tax Group"
+msgstr "Grup Fiscal"
+
+msgctxt "field:account.tax.line,on_cash_basis:"
+msgid "On Cash Basis"
+msgstr "Pe bază de numerar"
+
+msgctxt "field:account.tax.line,period:"
+msgid "Period"
+msgstr "Perioadă"
+
+#, fuzzy
+msgctxt "field:party.party,supplier_tax_group_on_cash_basis:"
+msgid "Supplier Tax Group On Cash Basis"
+msgstr "Grup de impozitare a furnizorilor pe bază de numerar"
+
+msgctxt "help:account.fiscalyear,tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this fiscal year."
+msgstr ""
+
+msgctxt "help:account.invoice,tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this invoice."
+msgstr ""
+
+msgctxt "help:account.period,tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this period."
+msgstr ""
+
+msgctxt "help:party.party,supplier_tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this supplier."
+msgstr ""
+
+msgctxt "model:account.invoice.tax.group.cash,string:"
+msgid "Account Invoice Tax Group Cash"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:account.tax.group.cash,string:"
+msgid "Account Tax Group Cash"
+msgstr "Grup fiscal pe bază de numerar"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_close_period_line_payment"
+msgid ""
+"To close period \"%(period)s\" you must link all payable/receivable lines to"
+" invoices."
+msgstr ""
+
+msgctxt ""
+"model:ir.message,text:msg_tax_type_move_line_cash_basis_no_period_unique"
+msgid "Only one tax line on cash basis can be without period per move line."
+msgstr ""
+
+msgctxt "view:account.fiscalyear:"
+msgid "Taxes"
+msgstr ""

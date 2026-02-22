@@ -1,0 +1,1492 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.invoice,purchase_exception_state:"
+msgid "Exception State"
+msgstr "Estado da exceção"
+
+msgctxt "field:account.invoice,purchases:"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "field:party.party,customer_code:"
+msgid "Customer Code"
+msgstr "Código do Cliente"
+
+msgctxt "field:party.party,customer_codes:"
+msgid "Customer Codes"
+msgstr "Códigos do Cliente"
+
+msgctxt "field:party.party,supplier_currencies:"
+msgid "Supplier Currencies"
+msgstr "Moedas do Fornecedor"
+
+msgctxt "field:party.party,supplier_currency:"
+msgid "Supplier Currency"
+msgstr "Moeda do Fornecedor"
+
+msgctxt "field:party.party,supplier_lead_time:"
+msgid "Lead Time"
+msgstr "Tempo de Espera"
+
+msgctxt "field:party.party,supplier_lead_times:"
+msgid "Lead Times"
+msgstr "Tempos de Espera"
+
+msgctxt "field:party.party.customer_code,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:party.party.customer_code,customer_code:"
+msgid "Customer Code"
+msgstr "Código do Cliente"
+
+msgctxt "field:party.party.customer_code,party:"
+msgid "Party"
+msgstr "Pessoa"
+
+msgctxt "field:party.party.supplier_currency,party:"
+msgid "Party"
+msgstr "Pessoa"
+
+msgctxt "field:party.party.supplier_currency,supplier_currency:"
+msgid "Supplier Currency"
+msgstr "Moeda do Fornecedor"
+
+msgctxt "field:party.party.supplier_lead_time,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:party.party.supplier_lead_time,party:"
+msgid "Party"
+msgstr "Pessoa"
+
+msgctxt "field:party.party.supplier_lead_time,supplier_lead_time:"
+msgid "Lead Time"
+msgstr "Tempo de Espera"
+
+msgctxt "field:product.product,last_purchase_price_uom:"
+msgid "Last Purchase Price"
+msgstr "Último Preço de Compra"
+
+msgctxt "field:product.product,product_suppliers:"
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+msgctxt "field:product.product,purchasable:"
+msgid "Purchasable"
+msgstr "Comprável"
+
+msgctxt "field:product.product,purchase_price_uom:"
+msgid "Purchase Price"
+msgstr "Preço de Compra"
+
+msgctxt "field:product.product,purchase_uom:"
+msgid "Purchase UoM"
+msgstr "UdM de Compra"
+
+msgctxt "field:product.template,product_suppliers:"
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+msgctxt "field:product.template,purchasable:"
+msgid "Purchasable"
+msgstr "Comprável"
+
+msgctxt "field:product.template,purchase_uom:"
+msgid "Purchase UoM"
+msgstr "UdM de Compra"
+
+msgctxt "field:purchase.configuration,purchase_invoice_method:"
+msgid "Invoice Method"
+msgstr "Método da fatura"
+
+msgctxt "field:purchase.configuration,purchase_process_after:"
+msgid "Process Purchase after"
+msgstr "Processar Compra Após"
+
+msgctxt "field:purchase.configuration,purchase_sequence:"
+msgid "Purchase Sequence"
+msgstr "Sequência de Compra"
+
+msgctxt ""
+"field:purchase.configuration.purchase_method,purchase_invoice_method:"
+msgid "Invoice Method"
+msgstr "Método da fatura"
+
+msgctxt "field:purchase.configuration.sequence,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.configuration.sequence,purchase_sequence:"
+msgid "Purchase Sequence"
+msgstr "Sequência de Compra"
+
+msgctxt "field:purchase.handle.invoice.exception.ask,domain_invoices:"
+msgid "Domain Invoices"
+msgstr "Faturas do domínio"
+
+msgctxt "field:purchase.handle.invoice.exception.ask,ignore_invoices:"
+msgid "Invoices to Ignore"
+msgstr "Faturas para Ignorar"
+
+msgctxt "field:purchase.handle.invoice.exception.ask,recreate_invoices:"
+msgid "Invoices to Recreate"
+msgstr "Faturas para Recriar"
+
+msgctxt "field:purchase.handle.shipment.exception.ask,domain_moves:"
+msgid "Domain Stock Moves"
+msgstr "Movimentos de Domínio"
+
+msgctxt "field:purchase.handle.shipment.exception.ask,ignore_moves:"
+msgid "Stock Moves to Ignore"
+msgstr "Movimentos serem Ignorados"
+
+msgctxt "field:purchase.handle.shipment.exception.ask,recreate_moves:"
+msgid "Stock Moves to Recreate"
+msgstr "Movimentos para Recriar"
+
+msgctxt "field:purchase.line,actual_quantity:"
+msgid "Actual Quantity"
+msgstr "Quantidade Atual"
+
+msgctxt "field:purchase.line,amount:"
+msgid "Amount"
+msgstr "Quantidade"
+
+msgctxt "field:purchase.line,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.line,currency:"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "field:purchase.line,delivery_date:"
+msgid "Delivery Date"
+msgstr "Data de entrega"
+
+msgctxt "field:purchase.line,delivery_date_edit:"
+msgid "Edit Delivery Date"
+msgstr "Editar Data de Entrega"
+
+msgctxt "field:purchase.line,delivery_date_store:"
+msgid "Delivery Date"
+msgstr "Data de entrega"
+
+msgctxt "field:purchase.line,description:"
+msgid "Description"
+msgstr "Descrição"
+
+msgctxt "field:purchase.line,from_location:"
+msgid "From Location"
+msgstr "A Partir da Localização"
+
+msgctxt "field:purchase.line,invoice_lines:"
+msgid "Invoice Lines"
+msgstr "Linhas da fatura"
+
+msgctxt "field:purchase.line,invoice_progress:"
+msgid "Invoice Progress"
+msgstr "Andamento da Fatura"
+
+msgctxt "field:purchase.line,movable:"
+msgid "Movable"
+msgstr "Móvel"
+
+msgctxt "field:purchase.line,moves:"
+msgid "Stock Moves"
+msgstr "Movimentações de Estoque"
+
+msgctxt "field:purchase.line,moves_exception:"
+msgid "Moves Exception"
+msgstr "Exceção nas Movimentações"
+
+msgctxt "field:purchase.line,moves_ignored:"
+msgid "Ignored Stock Moves"
+msgstr "Movimentações de Estoque Ignoradas"
+
+msgctxt "field:purchase.line,moves_progress:"
+msgid "Moves Progress"
+msgstr "Progresso dos Movimentos"
+
+msgctxt "field:purchase.line,moves_recreated:"
+msgid "Recreated Moves"
+msgstr "Recriar Movimentações"
+
+msgctxt "field:purchase.line,note:"
+msgid "Note"
+msgstr "Observação"
+
+msgctxt "field:purchase.line,product:"
+msgid "Product"
+msgstr "Produto"
+
+msgctxt "field:purchase.line,product_supplier:"
+msgid "Supplier's Product"
+msgstr "Produto do Fornecedor"
+
+msgctxt "field:purchase.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Categoria da UdM do Produto"
+
+msgctxt "field:purchase.line,purchase:"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "field:purchase.line,purchase_date:"
+msgid "Purchase Date"
+msgstr "Data da Compra"
+
+msgctxt "field:purchase.line,purchase_state:"
+msgid "Purchase State"
+msgstr "Estado da Compra"
+
+msgctxt "field:purchase.line,quantity:"
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgctxt "field:purchase.line,summary:"
+msgid "Summary"
+msgstr "Resumo"
+
+msgctxt "field:purchase.line,supplier:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgctxt "field:purchase.line,taxes:"
+msgid "Taxes"
+msgstr "Impostos"
+
+msgctxt "field:purchase.line,to_location:"
+msgid "To Location"
+msgstr "Destino"
+
+msgctxt "field:purchase.line,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:purchase.line,unit:"
+msgid "Unit"
+msgstr "Unidade"
+
+msgctxt "field:purchase.line,unit_price:"
+msgid "Unit Price"
+msgstr "Preço unitário"
+
+msgctxt "field:purchase.line,warehouse:"
+msgid "Warehouse"
+msgstr "Armazém"
+
+msgctxt "field:purchase.line-account.tax,line:"
+msgid "Purchase Line"
+msgstr "Linha da compra"
+
+msgctxt "field:purchase.line-account.tax,tax:"
+msgid "Tax"
+msgstr "Impostos"
+
+msgctxt "field:purchase.line-ignored-stock.move,move:"
+msgid "Stock Move"
+msgstr "Movimentação do Estoque"
+
+msgctxt "field:purchase.line-ignored-stock.move,purchase_line:"
+msgid "Purchase Line"
+msgstr "Linha da compra"
+
+msgctxt "field:purchase.line-recreated-stock.move,move:"
+msgid "Stock Move"
+msgstr "Movimentação do Estoque"
+
+msgctxt "field:purchase.line-recreated-stock.move,purchase_line:"
+msgid "Purchase Line"
+msgstr "Linha da compra"
+
+msgctxt "field:purchase.product_supplier,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:purchase.product_supplier,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.product_supplier,currency:"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "field:purchase.product_supplier,lead_time:"
+msgid "Lead Time"
+msgstr "Tempo de Espera"
+
+msgctxt "field:purchase.product_supplier,name:"
+msgid "Name"
+msgstr "Nome"
+
+msgctxt "field:purchase.product_supplier,party:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgctxt "field:purchase.product_supplier,prices:"
+msgid "Prices"
+msgstr "Preços"
+
+msgctxt "field:purchase.product_supplier,product:"
+msgid "Variant"
+msgstr "Variante"
+
+msgctxt "field:purchase.product_supplier,template:"
+msgid "Product"
+msgstr "Produto"
+
+msgctxt "field:purchase.product_supplier,unit:"
+msgid "Unit"
+msgstr "Unidade"
+
+msgctxt "field:purchase.product_supplier.price,currency:"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "field:purchase.product_supplier.price,product_supplier:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgctxt "field:purchase.product_supplier.price,quantity:"
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgctxt "field:purchase.product_supplier.price,unit:"
+msgid "Unit"
+msgstr "Unidade"
+
+msgctxt "field:purchase.product_supplier.price,unit_price:"
+msgid "Unit Price"
+msgstr "Preço unitário"
+
+msgctxt "field:purchase.purchase,comment:"
+msgid "Comment"
+msgstr "Comentário"
+
+msgctxt "field:purchase.purchase,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.purchase,confirmed_by:"
+msgid "Confirmed By"
+msgstr "Confirmado Por"
+
+msgctxt "field:purchase.purchase,contact:"
+msgid "Contact"
+msgstr "Contato"
+
+msgctxt "field:purchase.purchase,currency:"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "field:purchase.purchase,delivery_date:"
+msgid "Delivery Date"
+msgstr "Data de entrega"
+
+msgctxt "field:purchase.purchase,description:"
+msgid "Description"
+msgstr "Descrição"
+
+msgctxt "field:purchase.purchase,invoice_address:"
+msgid "Invoice Address"
+msgstr "Endereço para faturamento"
+
+msgctxt "field:purchase.purchase,invoice_method:"
+msgid "Invoice Method"
+msgstr "Método da fatura"
+
+msgctxt "field:purchase.purchase,invoice_party:"
+msgid "Invoice Party"
+msgstr "Fatura da Pessoa"
+
+msgctxt "field:purchase.purchase,invoice_state:"
+msgid "Invoice State"
+msgstr "Estado da fatura"
+
+msgctxt "field:purchase.purchase,invoices:"
+msgid "Invoices"
+msgstr "Faturas"
+
+msgctxt "field:purchase.purchase,invoices_ignored:"
+msgid "Ignored Invoices"
+msgstr "Faturas ignoradas"
+
+msgctxt "field:purchase.purchase,invoices_recreated:"
+msgid "Recreated Invoices"
+msgstr "Faturas Recriadas"
+
+msgctxt "field:purchase.purchase,line_lines:"
+msgid "Line - Lines"
+msgstr "Linhas da Linha"
+
+msgctxt "field:purchase.purchase,lines:"
+msgid "Lines"
+msgstr "Linhas"
+
+msgctxt "field:purchase.purchase,moves:"
+msgid "Stock Moves"
+msgstr "Movimentações de Estoque"
+
+msgctxt "field:purchase.purchase,number:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "field:purchase.purchase,origin:"
+msgid "Origin"
+msgstr "Origem"
+
+msgctxt "field:purchase.purchase,party:"
+msgid "Party"
+msgstr "Parceiro"
+
+msgctxt "field:purchase.purchase,party_lang:"
+msgid "Party Language"
+msgstr "Língua do parceiro"
+
+msgctxt "field:purchase.purchase,payment_term:"
+msgid "Payment Term"
+msgstr "Prazo de pagamento"
+
+msgctxt "field:purchase.purchase,purchase_date:"
+msgid "Purchase Date"
+msgstr "Data da compra"
+
+msgctxt "field:purchase.purchase,quotation_expire:"
+msgid "Quotation Expire"
+msgstr "Vencimento da Cotação"
+
+msgctxt "field:purchase.purchase,quoted_by:"
+msgid "Quoted By"
+msgstr "Cotado Por"
+
+msgctxt "field:purchase.purchase,reference:"
+msgid "Reference"
+msgstr "Referência"
+
+msgctxt "field:purchase.purchase,shipment_returns:"
+msgid "Shipment Returns"
+msgstr "Retornos de Remessas"
+
+msgctxt "field:purchase.purchase,shipment_state:"
+msgid "Shipment State"
+msgstr "Estado da Remessa"
+
+msgctxt "field:purchase.purchase,shipments:"
+msgid "Shipments"
+msgstr "Remessas"
+
+msgctxt "field:purchase.purchase,state:"
+msgid "State"
+msgstr "Estado"
+
+msgctxt "field:purchase.purchase,tax_amount:"
+msgid "Tax"
+msgstr "Impostos"
+
+msgctxt "field:purchase.purchase,tax_amount_cache:"
+msgid "Tax Cache"
+msgstr "Tributos pré-calculados"
+
+msgctxt "field:purchase.purchase,total_amount:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "field:purchase.purchase,total_amount_cache:"
+msgid "Total Cache"
+msgstr "Total pré-calculado"
+
+msgctxt "field:purchase.purchase,untaxed_amount:"
+msgid "Untaxed"
+msgstr "Não tributado"
+
+msgctxt "field:purchase.purchase,untaxed_amount_cache:"
+msgid "Untaxed Cache"
+msgstr "Base pré-calculada isenta"
+
+msgctxt "field:purchase.purchase,warehouse:"
+msgid "Warehouse"
+msgstr "Almoxarifado"
+
+msgctxt "field:purchase.purchase-ignored-account.invoice,invoice:"
+msgid "Invoice"
+msgstr "Fatura"
+
+msgctxt "field:purchase.purchase-ignored-account.invoice,purchase:"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "field:purchase.purchase-recreated-account.invoice,invoice:"
+msgid "Invoice"
+msgstr "Fatura"
+
+msgctxt "field:purchase.purchase-recreated-account.invoice,purchase:"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "field:purchase.reporting.context,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.reporting.context,from_date:"
+msgid "From Date"
+msgstr "A Partir da Data"
+
+msgctxt "field:purchase.reporting.context,period:"
+msgid "Period"
+msgstr "Período"
+
+msgctxt "field:purchase.reporting.context,to_date:"
+msgid "To Date"
+msgstr "Até a Data"
+
+msgctxt "field:purchase.reporting.context,warehouse:"
+msgid "Warehouse"
+msgstr "Armazém"
+
+msgctxt "field:purchase.reporting.product,product:"
+msgid "Product"
+msgstr "Produto"
+
+msgctxt "field:purchase.reporting.product,product_supplier:"
+msgid "Supplier's Product"
+msgstr "Produto do Fornecedor"
+
+msgctxt "field:purchase.reporting.product.time_series,product:"
+msgid "Product"
+msgstr "Produto"
+
+#, fuzzy
+msgctxt "field:purchase.reporting.product.time_series,product_currency:"
+msgid "Product - Currency"
+msgstr "Moeda do Fornecedor da Pessoa"
+
+msgctxt "field:purchase.reporting.product.time_series,product_supplier:"
+msgid "Supplier's Product"
+msgstr "Produto do Fornecedor"
+
+msgctxt "field:purchase.reporting.supplier,supplier:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgctxt "field:purchase.reporting.supplier.time_series,supplier:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+#, fuzzy
+msgctxt "field:purchase.reporting.supplier.time_series,supplier_currency:"
+msgid "Supplier - Currency"
+msgstr "Moeda do Fornecedor"
+
+msgctxt "field:stock.location,supplier_return_location:"
+msgid "Supplier Return"
+msgstr "Retorno do Forenecedor"
+
+msgctxt "field:stock.move,purchase:"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "field:stock.move,purchase_exception_state:"
+msgid "Exception State"
+msgstr "Estado da exceção"
+
+msgctxt "field:stock.move,supplier:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgctxt "help:party.party,customer_code:"
+msgid ""
+"The code the party as supplier has assigned to the company as customer."
+msgstr ""
+"O código que a pessoa como fornecedora atribuiu à empresa como cliente."
+
+msgctxt "help:party.party,supplier_currency:"
+msgid "Default currency for purchases from this party."
+msgstr "Moeda padrão para compras desta pessoa."
+
+msgctxt "help:party.party,supplier_lead_time:"
+msgid ""
+"The time from confirming the purchase order to receiving the goods from the party when used as a supplier.\n"
+"Used if no lead time is set on the product supplier."
+msgstr ""
+"Tempo entre a confirmação do pedido de compra e o recebimento da mercadoria pela pessoa, quando utilizada como fornecedora.\n"
+"Usado se nenhum prazo de entrega for definido para o fornecedor do produto."
+
+msgctxt "help:party.party.supplier_currency,supplier_currency:"
+msgid "Default currency for purchases from this party."
+msgstr "Moeda padrão para compras desta pessoa."
+
+msgctxt "help:party.party.supplier_lead_time,supplier_lead_time:"
+msgid ""
+"The time from confirming the purchase order to receiving the goods from the party when used as a supplier.\n"
+"Used if no lead time is set on the product supplier."
+msgstr ""
+"Tempo entre a confirmação do pedido de compra e o recebimento da mercadoria pela pessoa, quando utilizada como fornecedora.\n"
+"Usado se nenhum prazo de entrega for definido para o fornecedor do produto."
+
+msgctxt "help:product.product,purchase_uom:"
+msgid "The default Unit of Measure for purchases."
+msgstr "A unidade de medida padrão para compras."
+
+msgctxt "help:product.template,purchase_uom:"
+msgid "The default Unit of Measure for purchases."
+msgstr "A unidade de medida padrão para compras."
+
+msgctxt "help:purchase.configuration,purchase_process_after:"
+msgid ""
+"The grace period during which confirmed purchase can still be reset to draft.\n"
+"Applied only if a worker queue is activated."
+msgstr ""
+"Período de carência durante o qual a compra confirmada ainda pode ser redefinida para rascunho.\n"
+"Aplicado somente se uma fila de trabalho estiver ativada."
+
+msgctxt "help:purchase.handle.invoice.exception.ask,ignore_invoices:"
+msgid "The selected cancelled invoices will be ignored."
+msgstr "As faturas canceladas selecionadas serão ignoradas."
+
+msgctxt "help:purchase.handle.invoice.exception.ask,recreate_invoices:"
+msgid "The selected cancelled invoices will be recreated."
+msgstr "As faturas canceladas selecionadas serão recriadas."
+
+msgctxt "help:purchase.handle.shipment.exception.ask,ignore_moves:"
+msgid "The selected cancelled stock moves will be ignored."
+msgstr "Os movimentos de stock cancelados selecionados serão ignorados."
+
+msgctxt "help:purchase.handle.shipment.exception.ask,recreate_moves:"
+msgid "The selected cancelled stock moves will be recreated."
+msgstr "Os movimentos de stock cancelados selecionados serão recriados."
+
+msgctxt "help:purchase.line,delivery_date_edit:"
+msgid "Check to edit the delivery date."
+msgstr "Marque para editar a data de entrega."
+
+msgctxt "help:purchase.line,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "A categoria de Unidade de Medida do produto."
+
+msgctxt "help:purchase.product_supplier,lead_time:"
+msgid ""
+"The time from confirming the purchase order to receiving the products.\n"
+"If empty the lead time of the supplier is used."
+msgstr ""
+"Tempo entre a confirmação do pedido de compra e o recebimento dos produtos.\n"
+"Caso o estoque esteja vazio, será utilizado o prazo de entrega do fornecedor."
+
+msgctxt "help:purchase.product_supplier,prices:"
+msgid ""
+"Add price for different criteria.\n"
+"The last matching line is used."
+msgstr ""
+"Adicione o preço para diferentes critérios.\n"
+"A última linha correspondente é usada."
+
+msgctxt "help:purchase.product_supplier.price,quantity:"
+msgid "Minimal quantity."
+msgstr "Quantidade mínima."
+
+msgctxt "help:purchase.product_supplier.price,unit:"
+msgid "The unit in which the quantity is specified."
+msgstr "A unidade na qual a quantidade é especificada."
+
+msgctxt "help:purchase.purchase,delivery_date:"
+msgid "The default delivery date for each line."
+msgstr "A data de entrega padrão para cada linha."
+
+msgctxt "help:stock.location,supplier_return_location:"
+msgid "If empty the Storage location is used."
+msgstr "Se vazio, a localização de Armazenamento será usada."
+
+msgctxt "model:ir.action,name:act_invoice_form"
+msgid "Invoices"
+msgstr "Faturas"
+
+msgctxt "model:ir.action,name:act_invoice_line_form"
+msgid "Invoice Lines"
+msgstr "Linhas da Fatura"
+
+msgctxt "model:ir.action,name:act_product_supplier_form"
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+msgctxt "model:ir.action,name:act_product_supplier_price_form"
+msgid "Prices"
+msgstr "Preços"
+
+msgctxt "model:ir.action,name:act_purchase_configuration_form"
+msgid "Configuration"
+msgstr "Configuração"
+
+msgctxt "model:ir.action,name:act_purchase_form"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.action,name:act_purchase_invoice_relate"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.action,name:act_purchase_line_relate"
+msgid "Purchase Lines"
+msgstr "Linhas de Compra"
+
+msgctxt "model:ir.action,name:act_purchase_move_relate"
+msgid "Stock Moves"
+msgstr "Movimentações de Estoque"
+
+msgctxt "model:ir.action,name:act_purchase_relate"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.action,name:act_purchase_relate_simple"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.action,name:act_reporting_main"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.action,name:act_reporting_main_time_series"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.action,name:act_reporting_product"
+msgid "Purchases per Product"
+msgstr "Compras por Produto"
+
+msgctxt "model:ir.action,name:act_reporting_product_time_series"
+msgid "Purchases per Product"
+msgstr "Compras por Produto"
+
+msgctxt "model:ir.action,name:act_reporting_supplier"
+msgid "Purchases per Supplier"
+msgstr "Compras por Fornecedor"
+
+msgctxt "model:ir.action,name:act_reporting_supplier_time_series"
+msgid "Purchases per Supplier"
+msgstr "Compras por Fornecedor"
+
+msgctxt "model:ir.action,name:act_return_form"
+msgid "Returns"
+msgstr "Devoluções"
+
+msgctxt "model:ir.action,name:act_shipment_form"
+msgid "Shipments"
+msgstr "Remessas"
+
+msgctxt "model:ir.action,name:report_purchase"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:ir.action,name:wizard_invoice_handle_exception"
+msgid "Handle Invoice Exception"
+msgstr "Exceção da Fatura"
+
+msgctxt "model:ir.action,name:wizard_modify_header"
+msgid "Modify Header"
+msgstr "Modificar Cabeçalho"
+
+msgctxt "model:ir.action,name:wizard_return_purchase"
+msgid "Return Purchase"
+msgstr "Devolução de compra"
+
+msgctxt "model:ir.action,name:wizard_shipment_handle_exception"
+msgid "Handle Shipment Exception"
+msgstr "Exceção da Remessa"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_form_domain_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_confirmed"
+msgid "Confirmed"
+msgstr "Confirmado"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_draft"
+msgid "Draft"
+msgstr "Rascunho"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_exception"
+msgid "Exception"
+msgstr "Exceção"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_processing"
+msgid "Processing"
+msgstr "Processando"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_form_domain_quotation"
+msgid "Quotation"
+msgstr "Cotação"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_line_relate_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_line_relate_done"
+msgid "Done"
+msgstr "Pronto"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_line_relate_pending"
+msgid "Pending"
+msgstr "Pendente"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_relate_all"
+msgid "All"
+msgstr "Todo"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_relate_done"
+msgid "Done"
+msgstr "Pronto"
+
+msgctxt "model:ir.action.act_window.domain,name:act_purchase_relate_pending"
+msgid "Pending"
+msgstr "Pendente"
+
+msgctxt "model:ir.message,text:msg_change_purchase_uom"
+msgid ""
+"You are trying to change the purchase unit of measure on which the purchase "
+"prices are based."
+msgstr ""
+"Você está tentando alterar a unidade de medida de compra na qual os preços "
+"de compra são baseados."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_erase_party_pending_purchase"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending purchases with "
+"company \"%(company)s\"."
+msgstr ""
+"Você não pode apagar a pessoa \"%(party)s\" enquanto ela tiver compras "
+"pendentes com a empresa \"%(company)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_delete_cancel"
+msgid "To delete purchase \"%(purchase)s\" you must cancel it."
+msgstr "Para excluir a compra \"%(purchase)s\" você deve cancelá-la."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_invoice_reset_draft"
+msgid ""
+"You cannot reset invoice \"%(invoice)s\" to draft because it was generated "
+"by a purchase."
+msgstr ""
+"Você não pode redefinir a fatura \"%(invoice)s\" para rascunho porque ela "
+"foi gerada por uma compra."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_line_create_draft"
+msgid ""
+"You cannot add lines to purchase \"%(purchase)s\" because it is no longer in"
+" a draft state."
+msgstr ""
+"Você não pode adicionar linhas à compra \"%(purchase)s\" porque ela não está"
+" mais em estado de rascunho."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_line_delete_cancel_draft"
+msgid ""
+"To delete line \"%(line)s\" you must cancel or reset to draft purchase "
+"\"%(purchase)s\"."
+msgstr ""
+"Para excluir a linha \"%(line)s\" você deve cancelar ou redefinir para "
+"rascunho de compra \"%(purchase)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_line_move_quantity"
+msgid ""
+"The purchase line \"%(line)s\" is moving %(extra)s in addition to the "
+"%(quantity)s ordered."
+msgstr ""
+"A linha de compra \"%(line)s\" está sendo movimentada %(extra)s além da "
+"%(quantity)s solicitada."
+
+msgctxt "model:ir.message,text:msg_purchase_line_tax_unique"
+msgid "A tax can be added only once to a purchase line."
+msgstr "Um imposto pode ser adicionado apenas uma vez a uma linha de compra."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_missing_account_expense"
+msgid ""
+"To invoice purchase \"%(purchase)s\" you must configure a default account "
+"expense."
+msgstr ""
+"Para faturar a compra \"%(purchase)s\" você deve configurar uma despesa de "
+"conta padrão."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_modify_header_draft"
+msgid ""
+"To modify the header of purchase \"%(purchase)s\", it must be in draft "
+"state."
+msgstr ""
+"Para modificar o cabeçalho da compra \"%(purchase)s\", ele deve estar em "
+"estado de rascunho."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_move_reset_draft"
+msgid ""
+"You cannot reset move \"%(move)s\" to draft because it was generated by a "
+"purchase."
+msgstr ""
+"Você não pode redefinir o movimento \"%(move)s\" para o rascunho porque ele "
+"foi gerado por uma compra."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_product_missing_account_expense"
+msgid ""
+"To invoice purchase \"%(purchase)s\" you must define an account expense for "
+"product \"%(product)s\"."
+msgstr ""
+"Para faturar a compra \"%(purchase)s\", você deve definir uma despesa de "
+"conta para o produto \"%(product)s\"."
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_company"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_currency"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_date"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_expense"
+msgid "Expense"
+msgstr "Despesa"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_expense_trend"
+msgid "Expense Trend"
+msgstr "Tendência dos Gastos"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_number"
+msgid "#"
+msgstr "#"
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_number_help"
+msgid "Number of purchases."
+msgstr "Número de Compras."
+
+msgctxt "model:ir.message,text:msg_purchase_reporting_time_series"
+msgid "Time Series"
+msgstr "Series Temporais"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_purchase_supplier_location_required"
+msgid ""
+"To process purchase \"%(purchase)s\" you must set a supplier location on "
+"party \"%(party)s\"."
+msgstr ""
+"Para processar a compra \"%(purchase)s\", você deve definir uma localização "
+"de fornecedor na parte \"%(party)s\"."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_warehouse_required_for_quotation"
+msgid ""
+"To get a quote for the purchase \"%(purchase)s\" you must enter a warehouse "
+"for the line \"%(line)s\"."
+msgstr ""
+"Para obter uma cotação para a compra \"%(purchase)s\" você deve informar um "
+"armazém."
+
+msgctxt "model:ir.model.button,string:purchase_cancel_button"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "model:ir.model.button,string:purchase_confirm_button"
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgctxt "model:ir.model.button,string:purchase_draft_button"
+msgid "Draft"
+msgstr "Rascunho"
+
+msgctxt "model:ir.model.button,string:purchase_hande_invoice_exception_button"
+msgid "Handle Invoice Exception"
+msgstr "Resolver Questão da Fatura"
+
+msgctxt ""
+"model:ir.model.button,string:purchase_hande_shipment_exception_button"
+msgid "Handle Shipment Exception"
+msgstr "Resolver Questão de Envio"
+
+msgctxt "model:ir.model.button,string:purchase_manual_invoice_button"
+msgid "Create Invoice"
+msgstr "Criar Fatura"
+
+msgctxt "model:ir.model.button,string:purchase_modify_header_button"
+msgid "Modify Header"
+msgstr "Modificar Cabeçalho"
+
+msgctxt "model:ir.model.button,string:purchase_process_button"
+msgid "Process"
+msgstr "Process"
+
+msgctxt "model:ir.model.button,string:purchase_quote_button"
+msgid "Quote"
+msgstr "Cotar"
+
+msgctxt "model:ir.rule.group,name:rule_group_product_supplier_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt "model:ir.rule.group,name:rule_group_purchase_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_main_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_main_time_series_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_product_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_product_time_series_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_supplier_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_reporting_supplier_time_series_companies"
+msgid "User in companies"
+msgstr "Usuário em Empresas"
+
+msgctxt "model:ir.sequence,name:sequence_purchase"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_purchase"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuração"
+
+msgctxt "model:ir.ui.menu,name:menu_product_supplier"
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_configuration"
+msgid "Configuration"
+msgstr "Configuração"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_form"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "Relatórios"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting_purchase"
+msgid "Purchases"
+msgstr "Compras"
+
+msgctxt "model:party.party.customer_code,string:"
+msgid "Party Customer Code"
+msgstr "Código do Cliente da Pessoa"
+
+msgctxt "model:party.party.supplier_currency,string:"
+msgid "Party Supplier Currency"
+msgstr "Moeda do Fornecedor da Pessoa"
+
+msgctxt "model:party.party.supplier_lead_time,string:"
+msgid "Party Supplier Lead Time"
+msgstr "Prazo de Entrega do Fornecedor"
+
+msgctxt "model:purchase.configuration,string:"
+msgid "Purchase Configuration"
+msgstr "Configuração da Compra"
+
+msgctxt "model:purchase.configuration.purchase_method,string:"
+msgid "Purchase Configuration Purchase Method"
+msgstr "Configurações de Compra Método de Compra"
+
+msgctxt "model:purchase.configuration.sequence,string:"
+msgid "Purchase Configuration Sequence"
+msgstr "Configurações da Sequência de Compra"
+
+msgctxt "model:purchase.handle.invoice.exception.ask,string:"
+msgid "Purchase Handle Invoice Exception Ask"
+msgstr "Resolver Questão de Faturamento de Compra"
+
+msgctxt "model:purchase.handle.shipment.exception.ask,string:"
+msgid "Purchase Handle Shipment Exception Ask"
+msgstr "Resolver Questão de Envio da Compra"
+
+msgctxt "model:purchase.line,string:"
+msgid "Purchase Line"
+msgstr "Linha da Compra"
+
+msgctxt "model:purchase.line-account.tax,string:"
+msgid "Purchase Line - Account Tax"
+msgstr "Linha da compra - Imposto"
+
+msgctxt "model:purchase.line-ignored-stock.move,string:"
+msgid "Purchase Line - Ignored - Stock Move"
+msgstr "Linha da Compra - Movimento Stock Ignorado"
+
+msgctxt "model:purchase.line-recreated-stock.move,string:"
+msgid "Purchase Line - Recreated - Stock Move"
+msgstr "Linha de Compra - Recriada - Movimento de Estoque"
+
+msgctxt "model:purchase.product_supplier,string:"
+msgid "Purchase Product Supplier"
+msgstr "Fornecedor de Produtos de Compra"
+
+msgctxt "model:purchase.product_supplier.price,string:"
+msgid "Purchase Product Supplier Price"
+msgstr "Preço do Fornecedor do Produto de Compra"
+
+msgctxt "model:purchase.purchase,string:"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:purchase.purchase-ignored-account.invoice,string:"
+msgid "Purchase - Ignored - Account Invoice"
+msgstr "Compra - Ignorada - Fatura"
+
+msgctxt "model:purchase.purchase-recreated-account.invoice,string:"
+msgid "Purchase - Recreated - Account Invoice"
+msgstr "Compra - Recriada - Fatura"
+
+msgctxt "model:purchase.reporting.context,string:"
+msgid "Purchase Reporting Context"
+msgstr "Contexto de Relatório de Compra"
+
+msgctxt "model:purchase.reporting.main,string:"
+msgid "Purchase Reporting Main"
+msgstr "Relatório de Compras Principal"
+
+msgctxt "model:purchase.reporting.main.time_series,string:"
+msgid "Purchase Reporting Main Time Series"
+msgstr "Relatório de Compras - Séries Temporais Principais"
+
+msgctxt "model:purchase.reporting.product,string:"
+msgid "Purchase Reporting Product"
+msgstr "Relatório de Compra de Produto"
+
+msgctxt "model:purchase.reporting.product.time_series,string:"
+msgid "Purchase Reporting Product Time Series"
+msgstr "Relatório de Compra Série Temporal do Produto"
+
+msgctxt "model:purchase.reporting.supplier,string:"
+msgid "Purchase Reporting Supplier"
+msgstr "Relatórios do Fornecedor da Compra"
+
+msgctxt "model:purchase.reporting.supplier.time_series,string:"
+msgid "Purchase Reporting Supplier Time Series"
+msgstr "Relatório de Compra Série Temporal"
+
+msgctxt "model:purchase.return_purchase.start,string:"
+msgid "Purchase Return Purchase Start"
+msgstr "Devolução do Inicio da Compra"
+
+msgctxt "model:res.group,name:group_purchase"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "model:res.group,name:group_purchase_admin"
+msgid "Purchase Administrator"
+msgstr "Administrador de Compras"
+
+msgctxt "report:purchase.purchase:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:purchase.purchase:"
+msgid "Amount"
+msgstr "Quantidade"
+
+msgctxt "report:purchase.purchase:"
+msgid "Customer Code:"
+msgstr "Código do Cliente:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Date:"
+msgstr "Data:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Delivery Address:"
+msgstr "Endereço de Entrega:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Description"
+msgstr "Descrição"
+
+msgctxt "report:purchase.purchase:"
+msgid "Description:"
+msgstr "Descrição:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Draft Purchase Order"
+msgstr "Rascunho de Ordem de Compra"
+
+#, fuzzy
+msgctxt "report:purchase.purchase:"
+msgid "Purchase Order No:"
+msgstr "Ordem de Compra nº:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgctxt "report:purchase.purchase:"
+msgid "Reference:"
+msgstr "Referência:"
+
+#, fuzzy
+msgctxt "report:purchase.purchase:"
+msgid "Request for Quotation No:"
+msgstr "Pedido de Cotação n°:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Taxes"
+msgstr "Impostos"
+
+msgctxt "report:purchase.purchase:"
+msgid "Taxes:"
+msgstr "Tributos:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Total (excl. taxes):"
+msgstr "Total (sem tributos):"
+
+msgctxt "report:purchase.purchase:"
+msgid "Total:"
+msgstr "Total:"
+
+msgctxt "report:purchase.purchase:"
+msgid "Unit Price"
+msgstr "Preço unitário"
+
+msgctxt "selection:account.invoice,purchase_exception_state:"
+msgid "Ignored"
+msgstr "Ignorado"
+
+msgctxt "selection:account.invoice,purchase_exception_state:"
+msgid "Recreated"
+msgstr "Recriado"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Comment"
+msgstr "Comentário"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Line"
+msgstr "Linha"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgctxt "selection:purchase.line,type:"
+msgid "Title"
+msgstr "Título"
+
+msgctxt "selection:purchase.purchase,invoice_method:"
+msgid "Based On Order"
+msgstr "Baseado na ordem"
+
+msgctxt "selection:purchase.purchase,invoice_method:"
+msgid "Based On Shipment"
+msgstr "Baseado Na Remessa"
+
+msgctxt "selection:purchase.purchase,invoice_method:"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Awaiting Payment"
+msgstr "Aguardando Pagamento"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Exception"
+msgstr "Exceção"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "None"
+msgstr "Nenhum"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Paid"
+msgstr "Pago"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Partially Paid"
+msgstr "Parcialmente Pago"
+
+msgctxt "selection:purchase.purchase,invoice_state:"
+msgid "Pending"
+msgstr "Pendente"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Exception"
+msgstr "Exceção"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "None"
+msgstr "Nenhum"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Partially Shipped"
+msgstr "Parcialmente Enviado"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Received"
+msgstr "Recebido"
+
+msgctxt "selection:purchase.purchase,shipment_state:"
+msgid "Waiting"
+msgstr "Espera"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Cancelled"
+msgstr "Cancelado"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Confirmed"
+msgstr "Confirmado"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Done"
+msgstr "Feito"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Draft"
+msgstr "Rascunho"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Processing"
+msgstr "Processando"
+
+msgctxt "selection:purchase.purchase,state:"
+msgid "Quotation"
+msgstr "Cotação"
+
+msgctxt "selection:purchase.reporting.context,period:"
+msgid "Day"
+msgstr "Dia"
+
+msgctxt "selection:purchase.reporting.context,period:"
+msgid "Month"
+msgstr "Mês"
+
+msgctxt "selection:purchase.reporting.context,period:"
+msgid "Year"
+msgstr "Ano"
+
+msgctxt "selection:stock.move,purchase_exception_state:"
+msgid "Ignored"
+msgstr "Ignorado"
+
+msgctxt "selection:stock.move,purchase_exception_state:"
+msgid "Recreated"
+msgstr "Recriado"
+
+msgctxt "view:party.party:"
+msgid "Supplier"
+msgstr "Fornecedor"
+
+msgctxt "view:product.template:"
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+msgctxt "view:purchase.handle.invoice.exception.ask:"
+msgid "Choose cancelled invoices to ignore or recreate:"
+msgstr "Selecione faturas canceladas para ignorar ou recriar:"
+
+msgctxt "view:purchase.handle.shipment.exception.ask:"
+msgid "Choose cancelled stock moves to ignore or recreate:"
+msgstr "Selecione movimentos de stock cancelados para ignorar ou recriar:"
+
+msgctxt "view:purchase.line:"
+msgid "Delivery Date:"
+msgstr "Data de Entrega:"
+
+msgctxt "view:purchase.line:"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "view:purchase.line:"
+msgid "Invoicing"
+msgstr "Faturamento"
+
+msgctxt "view:purchase.line:"
+msgid "Notes"
+msgstr "Observações"
+
+msgctxt "view:purchase.line:"
+msgid "Shipping"
+msgstr "Envio"
+
+msgctxt "view:purchase.line:"
+msgid "Taxes"
+msgstr "Impostos"
+
+msgctxt "view:purchase.purchase:"
+msgid "Other Info"
+msgstr "Outras Informações"
+
+msgctxt "view:purchase.purchase:"
+msgid "Purchase"
+msgstr "Compra"
+
+msgctxt "view:purchase.return_purchase.start:"
+msgid "Are you sure to return these/this purchase(s)?"
+msgstr "Tem certeza de que deseja devolver esta(s) compra(s)?"
+
+msgctxt "wizard_button:purchase.handle.invoice.exception,ask,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:purchase.handle.invoice.exception,ask,handle:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:purchase.handle.shipment.exception,ask,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:purchase.handle.shipment.exception,ask,handle:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:purchase.modify_header,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:purchase.modify_header,start,modify:"
+msgid "Modify"
+msgstr "Modificar"
+
+msgctxt "wizard_button:purchase.return_purchase,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:purchase.return_purchase,start,return_:"
+msgid "Return"
+msgstr "Devolver"

@@ -1,0 +1,202 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,chorus_login:"
+msgid "Login"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:account.configuration,chorus_password:"
+msgid "Password"
+msgstr "Kata sandi"
+
+msgctxt "field:account.configuration,chorus_piste_client_id:"
+msgid "Piste Client ID"
+msgstr ""
+
+msgctxt "field:account.configuration,chorus_piste_client_secret:"
+msgid "Piste Client Secret"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:account.configuration,chorus_service:"
+msgid "Service"
+msgstr "Jasa"
+
+#, fuzzy
+msgctxt "field:account.configuration,chorus_syntax:"
+msgid "Syntax"
+msgstr "Sintaks"
+
+msgctxt "field:account.credential.chorus,chorus_login:"
+msgid "Login"
+msgstr ""
+
+msgctxt "field:account.credential.chorus,chorus_password:"
+msgid "Password"
+msgstr "Kata sandi"
+
+msgctxt "field:account.credential.chorus,chorus_piste_client_id:"
+msgid "Piste Client ID"
+msgstr ""
+
+msgctxt "field:account.credential.chorus,chorus_piste_client_secret:"
+msgid "Piste Client Secret"
+msgstr ""
+
+msgctxt "field:account.credential.chorus,chorus_service:"
+msgid "Service"
+msgstr "Jasa"
+
+msgctxt "field:account.credential.chorus,company:"
+msgid "Company"
+msgstr "Perusahaan"
+
+msgctxt "field:account.invoice.chorus,data:"
+msgid "Data"
+msgstr ""
+
+msgctxt "field:account.invoice.chorus,data_file_id:"
+msgid "Data File ID"
+msgstr ""
+
+msgctxt "field:account.invoice.chorus,date:"
+msgid "Date"
+msgstr "Tanggal"
+
+msgctxt "field:account.invoice.chorus,filename:"
+msgid "Filename"
+msgstr ""
+
+msgctxt "field:account.invoice.chorus,invoice:"
+msgid "Invoice"
+msgstr "Faktur"
+
+msgctxt "field:account.invoice.chorus,number:"
+msgid "Number"
+msgstr "Nomor"
+
+msgctxt "field:account.invoice.chorus,state:"
+msgid "State"
+msgstr ""
+
+msgctxt "field:account.invoice.chorus,syntax:"
+msgid "Syntax"
+msgstr "Sintaks"
+
+msgctxt "field:party.party,chorus:"
+msgid "Chorus Pro"
+msgstr ""
+
+msgctxt "help:party.party,chorus:"
+msgid "Send documents for this party through Chorus Pro"
+msgstr ""
+
+msgctxt "model:account.credential.chorus,string:"
+msgid "Account Credential Chorus"
+msgstr ""
+
+msgctxt "model:account.invoice.chorus,string:"
+msgid "Account Invoice Chorus"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_invoice_chorus_form"
+msgid "Chorus"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_chorus_form_domain_all"
+msgid "All"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_chorus_form_domain_draft"
+msgid "Draft"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_chorus_form_domain_exception"
+msgid "Exception"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_chorus_form_domain_sent"
+msgid "Sent"
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_chorus_credential_modified"
+msgid "Are you sure you want to modify Chorus credentials?"
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_address_no_siret"
+msgid ""
+"To create a Chorus invoice for \"%(invoice)s\", you must set a SIRET on "
+"address \"%(address)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_delete_sent"
+msgid "You cannot delete Chorus invoice \"%(invoice)s\" because it is sent."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_invoice_unique"
+msgid "You can create only one Chorus invoice per invoice."
+msgstr ""
+
+msgctxt "model:ir.model.button,string:invoice_chorus_send_button"
+msgid "Send"
+msgstr ""
+
+msgctxt "model:ir.model.button,string:invoice_chorus_update_button"
+msgid "Update"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_invoice_chorus_form"
+msgid "Chorus"
+msgstr ""
+
+msgctxt "selection:account.configuration,chorus_service:"
+msgid "Production"
+msgstr "Produksi"
+
+msgctxt "selection:account.configuration,chorus_service:"
+msgid "Qualification"
+msgstr ""
+
+msgctxt "selection:account.credential.chorus,chorus_service:"
+msgid "Production"
+msgstr "Produksi"
+
+msgctxt "selection:account.credential.chorus,chorus_service:"
+msgid "Qualification"
+msgstr ""
+
+msgctxt "selection:account.invoice.chorus,state:"
+msgid "Done"
+msgstr ""
+
+msgctxt "selection:account.invoice.chorus,state:"
+msgid "Draft"
+msgstr ""
+
+msgctxt "selection:account.invoice.chorus,state:"
+msgid "Exception"
+msgstr ""
+
+msgctxt "selection:account.invoice.chorus,state:"
+msgid "Sent"
+msgstr ""
+
+msgctxt "selection:ir.cron,method:"
+msgid "Send invoices to Chorus"
+msgstr ""
+
+msgctxt "selection:ir.cron,method:"
+msgid "Update invoices from Chorus"
+msgstr ""
+
+msgctxt "view:account.configuration:"
+msgid "Chorus"
+msgstr ""

@@ -1,0 +1,35 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.move,product_secondary_uom_category:"
+msgid "Product Secondary UoM Category"
+msgstr "Categoria de la UdM secundaria del producte"
+
+msgctxt "field:stock.move,secondary_quantity:"
+msgid "Secondary Quantity"
+msgstr "Quantitat secundaria"
+
+msgctxt "field:stock.move,secondary_unit:"
+msgid "Secondary Unit"
+msgstr "Unitat secundaria"
+
+msgctxt "field:stock.move,secondary_unit_price:"
+msgid "Secondary Unit Price"
+msgstr "Preu unitari secundari"
+
+msgctxt "help:stock.move,product_secondary_uom_category:"
+msgid "The category of secondary Unit of Measure for the product."
+msgstr "La categoria de la unitat de mesura secundaria del producte."
+
+msgctxt "view:stock.move:"
+msgid "Quantity:"
+msgstr "Quantitat:"
+
+msgctxt "view:stock.move:"
+msgid "Unit Price:"
+msgstr "Preu unitari:"
+
+msgctxt "view:stock.move:"
+msgid "Unit:"
+msgstr "Unitat:"

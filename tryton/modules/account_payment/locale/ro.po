@@ -1,0 +1,862 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,payment_group_sequence:"
+msgid "Payment Group Sequence"
+msgstr "Secventa Grupului de Plati"
+
+#, fuzzy
+msgctxt "field:account.configuration,payment_sequence:"
+msgid "Payment Sequence"
+msgstr "Secventa Grupului de Plati"
+
+msgctxt "field:account.configuration.payment_group_sequence,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt ""
+"field:account.configuration.payment_group_sequence,payment_group_sequence:"
+msgid "Payment Group Sequence"
+msgstr "Secventa Grupului de Plati"
+
+#, fuzzy
+msgctxt "field:account.configuration.payment_sequence,company:"
+msgid "Company"
+msgstr "Societate"
+
+#, fuzzy
+msgctxt "field:account.configuration.payment_sequence,payment_sequence:"
+msgid "Payment Sequence"
+msgstr "Secventa Grupului de Plati"
+
+msgctxt "field:account.invoice,payment_direct_debit:"
+msgid "Direct Debit"
+msgstr "Debit Direct"
+
+msgctxt "field:account.move.line,payment_amount:"
+msgid "Amount to Pay"
+msgstr "Suma de Plata"
+
+#, fuzzy
+msgctxt "field:account.move.line,payment_amount_cache:"
+msgid "Amount to Pay Cache"
+msgstr "Suma de Plata"
+
+msgctxt "field:account.move.line,payment_blocked:"
+msgid "Blocked"
+msgstr "Blocat"
+
+msgctxt "field:account.move.line,payment_currency:"
+msgid "Payment Currency"
+msgstr "Moneda de Plată"
+
+msgctxt "field:account.move.line,payment_direct_debit:"
+msgid "Direct Debit"
+msgstr "Debit Direct"
+
+msgctxt "field:account.move.line,payment_kind:"
+msgid "Payment Kind"
+msgstr "Fel de Plata"
+
+msgctxt "field:account.move.line,payments:"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "field:account.move.line.create_direct_debit.start,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:account.move.line.pay.ask_journal,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:account.move.line.pay.ask_journal,currency:"
+msgid "Currency"
+msgstr "Valută"
+
+msgctxt "field:account.move.line.pay.ask_journal,journal:"
+msgid "Journal"
+msgstr "Jurnal"
+
+msgctxt "field:account.move.line.pay.ask_journal,journals:"
+msgid "Journals"
+msgstr "Jurnale"
+
+msgctxt "field:account.move.line.pay.start,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:account.payment,amount:"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "field:account.payment,approved_by:"
+msgid "Approved by"
+msgstr "Aprobat de"
+
+msgctxt "field:account.payment,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:account.payment,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.payment,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:account.payment,failed_by:"
+msgid "Failure Noted by"
+msgstr "Eșec Remarcat de"
+
+msgctxt "field:account.payment,group:"
+msgid "Group"
+msgstr "Grup"
+
+msgctxt "field:account.payment,journal:"
+msgid "Journal"
+msgstr "Jurnal"
+
+msgctxt "field:account.payment,kind:"
+msgid "Kind"
+msgstr "Fel"
+
+msgctxt "field:account.payment,line:"
+msgid "Line"
+msgstr "Rând"
+
+#, fuzzy
+msgctxt "field:account.payment,number:"
+msgid "Number"
+msgstr "Numar"
+
+msgctxt "field:account.payment,origin:"
+msgid "Origin"
+msgstr "Origine"
+
+msgctxt "field:account.payment,party:"
+msgid "Party"
+msgstr "Parte"
+
+msgctxt "field:account.payment,process_method:"
+msgid "Process Method"
+msgstr "Metoda de Procesare"
+
+msgctxt "field:account.payment,reference:"
+msgid "Reference"
+msgstr ""
+
+msgctxt "field:account.payment,reference_type:"
+msgid "Reference Type"
+msgstr ""
+
+msgctxt "field:account.payment,state:"
+msgid "State"
+msgstr "Stare"
+
+msgctxt "field:account.payment,submitted_by:"
+msgid "Submitted by"
+msgstr "Trimis de"
+
+msgctxt "field:account.payment,succeeded_by:"
+msgid "Success Noted by"
+msgstr "Succes Remarcat de"
+
+msgctxt "field:account.payment.group,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:account.payment.group,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:account.payment.group,journal:"
+msgid "Journal"
+msgstr "Jurnal"
+
+msgctxt "field:account.payment.group,kind:"
+msgid "Kind"
+msgstr "Fel"
+
+msgctxt "field:account.payment.group,number:"
+msgid "Number"
+msgstr "Numar"
+
+msgctxt "field:account.payment.group,payment_amount:"
+msgid "Payment Total Amount"
+msgstr "Suma Totala de Plata"
+
+msgctxt "field:account.payment.group,payment_amount_succeeded:"
+msgid "Payment Succeeded"
+msgstr "Plata a Reușit"
+
+msgctxt "field:account.payment.group,payment_complete:"
+msgid "Payment Complete"
+msgstr "Plata Finalizata"
+
+msgctxt "field:account.payment.group,payment_count:"
+msgid "Payment Count"
+msgstr "Numar de Plati"
+
+msgctxt "field:account.payment.group,payments:"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "field:account.payment.group,process_method:"
+msgid "Process Method"
+msgstr "Metoda de Procesare"
+
+msgctxt "field:account.payment.journal,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:account.payment.journal,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:account.payment.journal,name:"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "field:account.payment.journal,process_method:"
+msgid "Process Method"
+msgstr "Metoda de Procesare"
+
+msgctxt "field:party.party,payment_direct_debit:"
+msgid "Direct Debit"
+msgstr "Debit Direct"
+
+msgctxt "field:party.party,payment_direct_debits:"
+msgid "Direct Debits"
+msgstr "Debite Directe"
+
+msgctxt "field:party.party,payment_identical_parties:"
+msgid "Identical Parties"
+msgstr "Parti Identice"
+
+msgctxt "field:party.party,reception_direct_debits:"
+msgid "Direct Debits"
+msgstr "Debite Directe"
+
+msgctxt "field:party.party.payment_direct_debit,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:party.party.payment_direct_debit,party:"
+msgid "Party"
+msgstr "Parte"
+
+msgctxt "field:party.party.payment_direct_debit,payment_direct_debit:"
+msgid "Direct Debit"
+msgstr "Debit Direct"
+
+msgctxt "field:party.party.reception_direct_debit,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:party.party.reception_direct_debit,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:party.party.reception_direct_debit,journal:"
+msgid "Journal"
+msgstr "Jurnal"
+
+msgctxt "field:party.party.reception_direct_debit,party:"
+msgid "Party"
+msgstr "Parte"
+
+msgctxt "field:party.party.reception_direct_debit,process_method:"
+msgid "Process Method"
+msgstr "Metoda de Procesare"
+
+msgctxt "field:party.party.reception_direct_debit,type:"
+msgid "Type"
+msgstr ""
+
+msgctxt "help:account.invoice,payment_direct_debit:"
+msgid "Check if the invoice is paid by direct debit."
+msgstr "Verifica daca factura este platita prin debit direct."
+
+msgctxt "help:account.move.line,payment_direct_debit:"
+msgid "Check if the line will be paid by direct debit."
+msgstr "Verifica daca linia va fi platita prin debit direct."
+
+msgctxt "help:account.move.line.create_direct_debit.start,date:"
+msgid "Create direct debit for lines due up to this date."
+msgstr "Creează debit direct pentru rândurile scadente până în această dată."
+
+msgctxt "help:account.move.line.pay.start,date:"
+msgid ""
+"When the payments are scheduled to happen.\n"
+"Leave empty to use the lines' maturity dates."
+msgstr ""
+"Când plățile sunt programate să aibă loc.\n"
+"Lăsați gol pentru a utiliza datele de scadență ale rândurilor."
+
+msgctxt "help:account.payment.group,payment_amount:"
+msgid "The sum of all payment amounts."
+msgstr "Totalul sumelor de plata."
+
+msgctxt "help:account.payment.group,payment_amount_succeeded:"
+msgid "The sum of the amounts of the successful payments."
+msgstr "Totalul sumelor platilor reusite."
+
+msgctxt "help:account.payment.group,payment_complete:"
+msgid "All the payments in the group are complete."
+msgstr "Toate platile din grup sunt complete."
+
+msgctxt "help:account.payment.group,payment_count:"
+msgid "The number of payments in the group."
+msgstr "Numarul de plati din grup."
+
+#, fuzzy
+msgctxt "help:account.statement.rule,description:"
+msgid ""
+"\n"
+"'payment'"
+msgstr "Plată"
+
+msgctxt "help:party.party,payment_direct_debit:"
+msgid "Check if supplier does direct debit."
+msgstr "Verificați dacă furnizorul efectuează debitare directă."
+
+msgctxt "help:party.party,reception_direct_debits:"
+msgid "Fill to debit automatically the customer."
+msgstr "Completați pentru a debita automat clientul."
+
+msgctxt "help:party.party.payment_direct_debit,payment_direct_debit:"
+msgid "Check if supplier does direct debit."
+msgstr "Verificați dacă furnizorul efectuează debitare directă."
+
+msgctxt "help:party.party.reception_direct_debit,type:"
+msgid "Make a single payment."
+msgstr ""
+
+msgctxt "help:party.party.reception_direct_debit,type:"
+msgid "Make one payment per line."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:account.configuration.payment_group_sequence,string:"
+msgid "Account Configuration Payment Group Sequence"
+msgstr "Secventa Grupului de Plaţi - Configurare Cont"
+
+#, fuzzy
+msgctxt "model:account.configuration.payment_sequence,string:"
+msgid "Account Configuration Payment Sequence"
+msgstr "Secventa Grupului de Plaţi - Configurare Cont"
+
+#, fuzzy
+msgctxt "model:account.move.line.create_direct_debit.start,string:"
+msgid "Account Move Line Create Direct Debit Start"
+msgstr "Creare Debit Direct pentru Data de"
+
+msgctxt "model:account.move.line.pay.ask_journal,string:"
+msgid "Account Move Line Pay Ask Journal"
+msgstr ""
+
+msgctxt "model:account.move.line.pay.start,string:"
+msgid "Account Move Line Pay Start"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:account.payment,string:"
+msgid "Account Payment"
+msgstr "Grup de Plata in Cont"
+
+#, fuzzy
+msgctxt "model:account.payment.group,string:"
+msgid "Account Payment Group"
+msgstr "Grup de Plata in Cont"
+
+#, fuzzy
+msgctxt "model:account.payment.journal,string:"
+msgid "Account Payment Journal"
+msgstr "Grup de Plata in Cont"
+
+msgctxt "model:ir.action,name:act_move_line_form"
+msgid "Lines to Pay"
+msgstr "Rânduri de Plată"
+
+msgctxt "model:ir.action,name:act_pay_line"
+msgid "Pay Lines"
+msgstr "Rânduri de Plată"
+
+msgctxt "model:ir.action,name:act_payment_form"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "model:ir.action,name:act_payment_form_group_open"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "model:ir.action,name:act_payment_form_line_relate"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "model:ir.action,name:act_payment_form_payable"
+msgid "Payable Payments"
+msgstr "Plăţi Furnizor"
+
+msgctxt "model:ir.action,name:act_payment_form_receivable"
+msgid "Receivable Payments"
+msgstr "Plăţi Client"
+
+msgctxt "model:ir.action,name:act_payment_form_relate_party"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "model:ir.action,name:act_payment_group_form"
+msgid "Payment Groups"
+msgstr "Grupuri de Plati"
+
+msgctxt "model:ir.action,name:act_payment_journal_form"
+msgid "Payment Journals"
+msgstr "Jurnale de Plati"
+
+msgctxt "model:ir.action,name:act_process_payments"
+msgid "Process Payments"
+msgstr "Proceseaza Platile"
+
+msgctxt "model:ir.action,name:wizard_create_direct_debit"
+msgid "Create Direct Debit"
+msgstr "Creare Debit Direct"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_move_line_form_domain_payable"
+msgid "Payable"
+msgstr "Furnizor"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_move_line_form_domain_receivable"
+msgid "Receivable"
+msgstr "Client"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_group_open_domain_all"
+msgid "All"
+msgstr "Tot"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_group_open_domain_failed"
+msgid "Failed"
+msgstr "Esuat"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_group_open_domain_processing"
+msgid "Processing"
+msgstr "Procesare"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_group_open_domain_succeeded"
+msgid "Succeeded"
+msgstr "Reusit"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_payable_domain_all"
+msgid "All"
+msgstr "Tot"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_payable_domain_draft"
+msgid "Draft"
+msgstr "Ciorna"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_payable_domain_processing"
+msgid "Processing"
+msgstr "Procesare"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_payable_domain_to_approve"
+msgid "To Approve"
+msgstr "De Aprobat"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_payable_domain_to_process"
+msgid "To Process"
+msgstr "De Procesat"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_receivable_domain_all"
+msgid "All"
+msgstr "Tot"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_receivable_domain_draft"
+msgid "Draft"
+msgstr "Ciorna"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_receivable_domain_processing"
+msgid "Processing"
+msgstr "Procesare"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_form_receivable_domain_to_process"
+msgid "To Process"
+msgstr "De Procesat"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_group_form_domain_all"
+msgid "All"
+msgstr "Tot"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_payment_group_form_domain_not_completed"
+msgid "Pending"
+msgstr "In derulare"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_erase_party_pending_payment"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending payments with "
+"company \"%(company)s\"."
+msgstr ""
+"Nu puteți șterge partea \"%(party)s\" în timp ce aceasta are plăți în "
+"așteptare cu compania \"%(company)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_move_cancel_payments"
+msgid ""
+"The moves \"%(moves)s\" contain lines with payments, you may want to cancel "
+"them before cancelling."
+msgstr ""
+"Mișcările \"%(moves)s\" conțin rânduri cu plăți, vă recomandăm să le anulați"
+" înainte."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_move_line_delegate_payments"
+msgid ""
+"The lines \"%(lines)s\" have payments, you may want to cancel them before "
+"delegating."
+msgstr ""
+"Rândurile \"%(lines)s\" au plăți, vă recomandăm să le anulați înainte de a "
+"delega."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_move_line_group_payments"
+msgid ""
+"The lines \"%(lines)s\" have payments, you may want to cancel them before "
+"grouping."
+msgstr ""
+"Rândurile \"%(lines)s\" au plăți, este posibil să doriți să le anulați "
+"înainte de grupare."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_move_line_reschedule_payments"
+msgid ""
+"The lines \"%(lines)s\" have payments, you may want to cancel them before "
+"rescheduling."
+msgstr ""
+"Rândurile \"%(lines)s\" au plăți, vă recomandăm să le anulați înainte de a "
+"reprograma."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_pay_line_blocked"
+msgid "Line \"%(line)s\" is blocked for payment."
+msgstr "Rândul \"%(line)s\" este blocat pentru plată."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_pay_line_group"
+msgid ""
+"The lines \"%(names)s\" for %(party)s could be grouped with the line "
+"\"%(line)s\"."
+msgstr ""
+"Rândurile \"%(names)s\" pentru %(party)s pot fi grupate cu rândul "
+"\"%(line)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_delete_draft"
+msgid "To delete payment \"%(payment)s\" you must reset it to draft state."
+msgstr ""
+"Pentru a șterge plata \"%(payment)s\", trebuie să o resetați la starea de "
+"ciornă."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_overpay"
+msgid "Payment \"%(payment)s\" overpays line \"%(line)s\"."
+msgstr "Plata \"%(payment)s\" plătește în exces linia \"%(line)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_reconciled"
+msgid "The line \"%(line)s\" of payment \"%(payment)s\" is already reconciled."
+msgstr "Rândul \"%(line)s\" al plății \"%(payment)s\" este deja reconciliat."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_payment_reference_invalid"
+msgid "The %(type)s \"%(reference)s\" on payment \"%(payment)s\" is not valid."
+msgstr "Rândul \"%(line)s\" al plății \"%(payment)s\" este deja reconciliat."
+
+msgctxt "model:ir.model.button,confirm:payment_process_wizard_button"
+msgid "Are you sure you want to process the payments?"
+msgstr "Sigur doriți să procesați plățile?"
+
+msgctxt "model:ir.model.button,string:move_line_pay_button"
+msgid "Pay"
+msgstr "Plata"
+
+msgctxt "model:ir.model.button,string:move_line_payment_block_button"
+msgid "Block"
+msgstr "Blocare"
+
+msgctxt "model:ir.model.button,string:move_line_payment_unblock_button"
+msgid "Unblock"
+msgstr "Deblocare"
+
+msgctxt "model:ir.model.button,string:payment_approve_button"
+msgid "Approve"
+msgstr "Aproba"
+
+msgctxt "model:ir.model.button,string:payment_draft_button"
+msgid "Draft"
+msgstr "Ciorna"
+
+msgctxt "model:ir.model.button,string:payment_fail_button"
+msgid "Fail"
+msgstr "Esuat"
+
+msgctxt "model:ir.model.button,string:payment_group_succeed_button"
+msgid "Succeed"
+msgstr "Reusit"
+
+msgctxt "model:ir.model.button,string:payment_proceed_button"
+msgid "Processing"
+msgstr "Procesare"
+
+msgctxt "model:ir.model.button,string:payment_process_wizard_button"
+msgid "Process"
+msgstr "Proces"
+
+msgctxt "model:ir.model.button,string:payment_submit_button"
+msgid "Submit"
+msgstr "Trimite"
+
+msgctxt "model:ir.model.button,string:payment_succeed_button"
+msgid "Succeed"
+msgstr "Reusit"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_party_reception_direct_debit_companies"
+msgid "User in companies"
+msgstr "Utilizator in Companii"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment_companies"
+msgid "User in companies"
+msgstr "Utilizator in Companii"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment_group_companies"
+msgid "User in companies"
+msgstr "Utilizator in Companii"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment_journal_companies"
+msgid "User in companies"
+msgstr "Utilizator in Companii"
+
+#, fuzzy
+msgctxt "model:ir.sequence,name:sequence_account_payment"
+msgid "Default Account Payment"
+msgstr "Grup de plată implicit pentru cont"
+
+msgctxt "model:ir.sequence,name:sequence_account_payment_group"
+msgid "Default Account Payment Group"
+msgstr "Grup de plată implicit pentru cont"
+
+#, fuzzy
+msgctxt "model:ir.sequence.type,name:sequence_type_account_payment"
+msgid "Account Payment Group"
+msgstr "Grup de Plata in Cont"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_account_payment_group"
+msgid "Account Payment Group"
+msgstr "Grup de Plata in Cont"
+
+msgctxt "model:ir.ui.menu,name:menu_create_direct_debit"
+msgid "Create Direct Debit"
+msgstr "Creare Debit Direct"
+
+msgctxt "model:ir.ui.menu,name:menu_move_line_form"
+msgid "Lines to Pay"
+msgstr "Randuri de Plata"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_configuration"
+msgid "Payments"
+msgstr "Plati"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_form_payable"
+msgid "Payable Payments"
+msgstr "Plăti Furnizor"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_form_receivable"
+msgid "Receivable Payments"
+msgstr "Plati de Creanta"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_group_form"
+msgid "Payment Groups"
+msgstr "Grupuri de Plati"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_journal_form"
+msgid "Payment Journals"
+msgstr "Jurnale de Plati"
+
+msgctxt "model:ir.ui.menu,name:menu_payments"
+msgid "Payments"
+msgstr "Plati"
+
+#, fuzzy
+msgctxt "model:party.party.payment_direct_debit,string:"
+msgid "Party Payment Direct Debit"
+msgstr "Debitare Directă de Plată a Părților"
+
+#, fuzzy
+msgctxt "model:party.party.reception_direct_debit,string:"
+msgid "Party Reception Direct Debit"
+msgstr "Parte Recepţie Debit Direct"
+
+msgctxt "model:res.group,name:group_payment"
+msgid "Payment"
+msgstr "Plată"
+
+msgctxt "model:res.group,name:group_payment_approval"
+msgid "Payment Approval"
+msgstr "Aprobare Plata"
+
+msgctxt "selection:account.move.line,payment_kind:"
+msgid "Payable"
+msgstr "Furnizor"
+
+msgctxt "selection:account.move.line,payment_kind:"
+msgid "Receivable"
+msgstr "Creanţa"
+
+msgctxt "selection:account.payment,kind:"
+msgid "Payable"
+msgstr "Furnizor"
+
+msgctxt "selection:account.payment,kind:"
+msgid "Receivable"
+msgstr "Client"
+
+msgctxt "selection:account.payment,reference_type:"
+msgid "Creditor Reference"
+msgstr ""
+
+msgctxt "selection:account.payment,state:"
+msgid "Approved"
+msgstr "Aprobat"
+
+msgctxt "selection:account.payment,state:"
+msgid "Draft"
+msgstr "Ciorna"
+
+msgctxt "selection:account.payment,state:"
+msgid "Failed"
+msgstr "Esuat"
+
+msgctxt "selection:account.payment,state:"
+msgid "Processing"
+msgstr "In Curs de Procesare"
+
+msgctxt "selection:account.payment,state:"
+msgid "Submitted"
+msgstr "Depus"
+
+msgctxt "selection:account.payment,state:"
+msgid "Succeeded"
+msgstr "Reusit"
+
+msgctxt "selection:account.payment.group,kind:"
+msgid "Payable"
+msgstr "Furnizor"
+
+msgctxt "selection:account.payment.group,kind:"
+msgid "Receivable"
+msgstr "Creanţe"
+
+msgctxt "selection:account.payment.journal,process_method:"
+msgid "Manual"
+msgstr "Manual"
+
+#, fuzzy
+msgctxt "selection:party.party.reception_direct_debit,type:"
+msgid "Balance"
+msgstr "Anulare"
+
+#, fuzzy
+msgctxt "selection:party.party.reception_direct_debit,type:"
+msgid "Line"
+msgstr "Rând"
+
+#, fuzzy
+msgctxt "view:account.configuration:"
+msgid "Group Sequence:"
+msgstr "Secventa de Grup"
+
+msgctxt "view:account.configuration:"
+msgid "Payment"
+msgstr "Plată"
+
+#, fuzzy
+msgctxt "view:account.configuration:"
+msgid "Sequence:"
+msgstr "Secventa de Grup"
+
+msgctxt "view:account.move.line.create_direct_debit.start:"
+msgid "Create Direct Debit for date"
+msgstr "Creare Debit Direct pentru Data de"
+
+msgctxt "view:account.payment.group:"
+msgid "Complete"
+msgstr "Complet"
+
+msgctxt "view:account.payment.group:"
+msgid "Count"
+msgstr "Numărare"
+
+msgctxt "view:account.payment.group:"
+msgid "Payments Info"
+msgstr "Informatii de Plata"
+
+msgctxt "view:account.payment.group:"
+msgid "Succeeded"
+msgstr "Reusit"
+
+msgctxt "view:account.payment.group:"
+msgid "Total Amount"
+msgstr "Suma Totala"
+
+msgctxt "view:account.payment:"
+msgid "Other Info"
+msgstr "Alte Informatii"
+
+#, fuzzy
+msgctxt "view:account.payment:"
+msgid "Payment"
+msgstr "Plată"
+
+msgctxt "wizard_button:account.move.line.create_direct_debit,start,create_:"
+msgid "Create"
+msgstr "Creare"
+
+msgctxt "wizard_button:account.move.line.create_direct_debit,start,end:"
+msgid "Cancel"
+msgstr "Anulare"
+
+msgctxt "wizard_button:account.move.line.pay,ask_journal,end:"
+msgid "Cancel"
+msgstr "Anulare"
+
+msgctxt "wizard_button:account.move.line.pay,ask_journal,next_:"
+msgid "Pay"
+msgstr "Plata"
+
+msgctxt "wizard_button:account.move.line.pay,start,end:"
+msgid "Cancel"
+msgstr "Anuleaza"
+
+msgctxt "wizard_button:account.move.line.pay,start,next_:"
+msgid "Pay"
+msgstr "Plata"

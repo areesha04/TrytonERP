@@ -1,0 +1,502 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:res.group,buttons:"
+msgid "Buttons"
+msgstr "Gumbi"
+
+msgctxt "field:res.group,field_access:"
+msgid "Access Field"
+msgstr "Dostop do polj"
+
+msgctxt "field:res.group,menu_access:"
+msgid "Access Menu"
+msgstr "Dostop do menijev"
+
+msgctxt "field:res.group,model_access:"
+msgid "Access Model"
+msgstr "Dostop do modelov"
+
+msgctxt "field:res.group,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:res.group,parent:"
+msgid "Parent"
+msgstr "Matična skupina"
+
+msgctxt "field:res.group,rule_groups:"
+msgid "Rules"
+msgstr "Pravila"
+
+msgctxt "field:res.group,users:"
+msgid "Users"
+msgstr "Uporabniki"
+
+#, fuzzy
+msgctxt "field:res.notification,action:"
+msgid "Action"
+msgstr "Ukrep"
+
+#, fuzzy
+msgctxt "field:res.notification,action_value:"
+msgid "Action Value"
+msgstr "Ukrep"
+
+msgctxt "field:res.notification,description:"
+msgid "Description"
+msgstr ""
+
+msgctxt "field:res.notification,icon:"
+msgid "Icon"
+msgstr ""
+
+msgctxt "field:res.notification,label:"
+msgid "Label"
+msgstr ""
+
+msgctxt "field:res.notification,model:"
+msgid "Model"
+msgstr ""
+
+msgctxt "field:res.notification,model_ref:"
+msgid "Model"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:res.notification,records:"
+msgid "Records"
+msgstr "Ime"
+
+msgctxt "field:res.notification,unread:"
+msgid "Unread"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:res.notification,user:"
+msgid "User"
+msgstr "Uporabnik"
+
+msgctxt "field:res.user,actions:"
+msgid "Actions"
+msgstr "Ukrepi"
+
+msgctxt "field:res.user,applications:"
+msgid "Applications"
+msgstr "Aplikacije"
+
+msgctxt "field:res.user,avatar_badge_url:"
+msgid "Avatar Badge URL"
+msgstr "URL avatar značke"
+
+msgctxt "field:res.user,email:"
+msgid "Email"
+msgstr "E-pošta"
+
+msgctxt "field:res.user,groups:"
+msgid "Groups"
+msgstr "Skupine"
+
+msgctxt "field:res.user,language:"
+msgid "Language"
+msgstr "Jezik"
+
+msgctxt "field:res.user,language_direction:"
+msgid "Language Direction"
+msgstr "Smer jezika"
+
+msgctxt "field:res.user,login:"
+msgid "Login"
+msgstr "Prijava"
+
+#, fuzzy
+msgctxt "field:res.user,menu:"
+msgid "Menu"
+msgstr "Meni"
+
+msgctxt "field:res.user,name:"
+msgid "Name"
+msgstr "Naziv"
+
+#, fuzzy
+msgctxt "field:res.user,notifications:"
+msgid "Notifications"
+msgstr "Skupine z dovoljenjem za spremembe"
+
+msgctxt "field:res.user,password:"
+msgid "Password"
+msgstr "Geslo"
+
+msgctxt "field:res.user,password_hash:"
+msgid "Password Hash"
+msgstr "Zgoščena vrednost gesla"
+
+msgctxt "field:res.user,password_reset:"
+msgid "Reset Password"
+msgstr "Ponastavi geslo"
+
+msgctxt "field:res.user,password_reset_expire:"
+msgid "Reset Password Expire"
+msgstr "Potek ponastavitve gesla"
+
+msgctxt "field:res.user,pyson_menu:"
+msgid "PySON Menu"
+msgstr "PySON meni"
+
+msgctxt "field:res.user,sessions:"
+msgid "Sessions"
+msgstr "Seje"
+
+msgctxt "field:res.user,signature:"
+msgid "Signature"
+msgstr "Podpis"
+
+msgctxt "field:res.user,status_bar:"
+msgid "Status Bar"
+msgstr "Statusna vrstica"
+
+msgctxt "field:res.user,warnings:"
+msgid "Warnings"
+msgstr "Opozorila"
+
+msgctxt "field:res.user-ir.action,action:"
+msgid "Action"
+msgstr "Ukrep"
+
+msgctxt "field:res.user-ir.action,user:"
+msgid "User"
+msgstr "Uporabnik"
+
+msgctxt "field:res.user-res.group,group:"
+msgid "Group"
+msgstr "Skupina"
+
+msgctxt "field:res.user-res.group,user:"
+msgid "User"
+msgstr "Uporabnik"
+
+msgctxt "field:res.user.application,application:"
+msgid "Application"
+msgstr "Aplikacija"
+
+msgctxt "field:res.user.application,key:"
+msgid "Key"
+msgstr "Ključ"
+
+msgctxt "field:res.user.application,state:"
+msgid "State"
+msgstr "Stanje"
+
+msgctxt "field:res.user.application,user:"
+msgid "User"
+msgstr "Uporabnik"
+
+msgctxt "field:res.user.device,cookie:"
+msgid "Cookie"
+msgstr "Piškotek"
+
+msgctxt "field:res.user.device,login:"
+msgid "Login"
+msgstr "Prijava"
+
+msgctxt "field:res.user.login.attempt,device_cookie:"
+msgid "Device Cookie"
+msgstr "Piškotek naprave"
+
+msgctxt "field:res.user.login.attempt,ip_address:"
+msgid "IP Address"
+msgstr "IP naslov"
+
+msgctxt "field:res.user.login.attempt,ip_network:"
+msgid "IP Network"
+msgstr "IP omrežje"
+
+msgctxt "field:res.user.login.attempt,login:"
+msgid "Login"
+msgstr "Prijava"
+
+msgctxt "field:res.user.warning,always:"
+msgid "Always"
+msgstr "Vedno"
+
+msgctxt "field:res.user.warning,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:res.user.warning,user:"
+msgid "User"
+msgstr "Uporabnik"
+
+msgctxt "help:res.group,parent:"
+msgid "The group to inherit accesses from."
+msgstr "Skupina od katere se deduje dostop."
+
+msgctxt "help:res.user,actions:"
+msgid "Actions that will be run at login."
+msgstr "Ukrepi, ki se zaženejo ob prijavi."
+
+msgctxt "help:res.user,notifications:"
+msgid "Notifications to subscribe to."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_group_form"
+msgid "Groups"
+msgstr "Skupine"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_notification"
+msgid "Notifications"
+msgstr "Skupine z dovoljenjem za spremembe"
+
+msgctxt "model:ir.action,name:act_user_config"
+msgid "Configure Users"
+msgstr "Nastavi uporabnike"
+
+msgctxt "model:ir.action,name:act_user_form"
+msgid "Users"
+msgstr "Uporabniki"
+
+msgctxt "model:ir.action,name:report_email_reset_password"
+msgid "Reset Password"
+msgstr "Ponastavi gesla"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(user)s\" is not valid."
+msgstr "E-poštni naslov \"%(email)s\" uporabnika \"%(user)s\" ni veljaven."
+
+msgctxt "model:ir.message,text:msg_password_email"
+msgid "The password cannot be the same as user's email address."
+msgstr "Geslo se mora razlikovati od uporabnikovega e-poštnega naslova."
+
+msgctxt "model:ir.message,text:msg_password_forbidden"
+msgid "The password is forbidden."
+msgstr "To geslo ni dovoljeno."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_password_length"
+msgid "The password must have at least %(length)i character."
+msgid_plural "The password must have at least %(length)i characters."
+msgstr[0] "Geslo mora vsebovati najmanj %(length)i znakov."
+msgstr[1] "Geslo mora vsebovati najmanj %(length)i znakov."
+msgstr[2] "Geslo mora vsebovati najmanj %(length)i znakov."
+msgstr[3] "Geslo mora vsebovati najmanj %(length)i znakov."
+
+msgctxt "model:ir.message,text:msg_password_login"
+msgid "The password cannot be the same as user's login."
+msgstr "Geslo se mora razlikovati od uporabnikovega prijavnega imena."
+
+msgctxt "model:ir.message,text:msg_password_name"
+msgid "The password cannot be the same as user's name."
+msgstr "Geslo se mora razlikovati od uporabniškega imena."
+
+msgctxt "model:ir.message,text:msg_user_delete_forbidden"
+msgid ""
+"For logging purposes users cannot be deleted, instead they should be "
+"deactivated."
+msgstr "Uporabnika ni mogoče izbrisati, namesto tega naj se jih deaktivira."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_user_password"
+msgid "Password for %(login)s"
+msgstr "Geslo za %(login)s"
+
+msgctxt "model:ir.model.button,help:user_reset_password_button"
+msgid "Send by email a new temporary password to the user"
+msgstr "Pošlji uporabniku novo začasno geslo preko elektronske pošte"
+
+msgctxt "model:ir.model.button,string:user_application_cancel_button"
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgctxt "model:ir.model.button,string:user_application_validate_button"
+msgid "Validate"
+msgstr "Potrdi"
+
+msgctxt "model:ir.model.button,string:user_reset_password_button"
+msgid "Reset Password"
+msgstr "Reset Password"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_notification"
+msgid "Own notification"
+msgstr "Lastne uporabniške aplikacije"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_notification_admin"
+msgid "Any notification"
+msgstr "Vse uporabniške aplikacije"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application"
+msgid "Own user application"
+msgstr "Lastne uporabniške aplikacije"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application_admin"
+msgid "Any user application"
+msgstr "Vse uporabniške aplikacije"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_warning"
+msgid "Own warning"
+msgstr "Lastno opozorilo"
+
+msgctxt "model:ir.ui.menu,name:menu_group_form"
+msgid "Groups"
+msgstr "Skupine"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_notification_form"
+msgid "Notifications"
+msgstr "Skupine z dovoljenjem za spremembe"
+
+msgctxt "model:ir.ui.menu,name:menu_res"
+msgid "Users"
+msgstr "Uporabniki"
+
+msgctxt "model:ir.ui.menu,name:menu_user_form"
+msgid "Users"
+msgstr "Uporabniki"
+
+#, fuzzy
+msgctxt "model:res.group,string:"
+msgid "Group"
+msgstr "Skupina"
+
+#, fuzzy
+msgctxt "model:res.notification,string:"
+msgid "Notification"
+msgstr "Skupine z dovoljenjem za spremembe"
+
+#, fuzzy
+msgctxt "model:res.user,string:"
+msgid "User"
+msgstr "Uporabnik"
+
+#, fuzzy
+msgctxt "model:res.user-ir.action,string:"
+msgid "User - Action"
+msgstr "Uporabnik - Ukrep"
+
+#, fuzzy
+msgctxt "model:res.user-res.group,string:"
+msgid "User - Group"
+msgstr "Uporabnik - Skupina"
+
+#, fuzzy
+msgctxt "model:res.user.application,string:"
+msgid "User Application"
+msgstr "Uporabniška aplikacija"
+
+#, fuzzy
+msgctxt "model:res.user.config.start,string:"
+msgid "User Config Start"
+msgstr "Začetna nastavitev uporabnika"
+
+#, fuzzy
+msgctxt "model:res.user.device,string:"
+msgid "User Device"
+msgstr "Uporabniška naprava"
+
+#, fuzzy
+msgctxt "model:res.user.login.attempt,string:"
+msgid "User Login Attempt"
+msgstr "Poskus prijave"
+
+#, fuzzy
+msgctxt "model:res.user.warning,string:"
+msgid "User Warning"
+msgstr "Uporabniško opozorilo"
+
+#, python-format
+msgctxt "report:res.user.email_reset_password:"
+msgid ""
+"Hello,\n"
+"                we have received a request to reset the password for the account associated with [1:%(login)s]. No changes have been made to your account yet.[2:]\n"
+"                You can connect with this temporary password [3:%(password)s] to[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                You must set a new one from the user's preferences.[9:]"
+msgstr ""
+"Pozdravljeni,\n"
+"                prejeli smo zahtevek za ponastavitev gesla povezano z vašim uporabniškim računom [1:%(login)s]. Za enkrat vaš uporabniški račun še ni bil spremenjen.[2:]\n"
+"                Povežete se lahko s tem začasnim geslom [3:%(password)s] to[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                Novo geslo morate nastaviti v uporabniških nastavitvah.[9:]"
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "If you didn't make this request, you can safely ignore this email."
+msgstr "Če niste vložili te zahteve, lahko mirno prezrete to e-pošto."
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "Reset Password"
+msgstr "Ponastavitev gesla"
+
+#, python-format
+msgctxt "report:res.user.email_reset_password:"
+msgid "The password will expire in [1:%(datetime)s]."
+msgstr "Geslo poteče v [1:%(datetime)s]."
+
+msgctxt "selection:res.user.application,state:"
+msgid "Cancelled"
+msgstr "Preklicano"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Requested"
+msgstr "Zahtevano"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Validated"
+msgstr "Odobreno"
+
+msgctxt "view:res.group:"
+msgid "Access Permissions"
+msgstr "Dovoljenja za dostop"
+
+msgctxt "view:res.group:"
+msgid "Members"
+msgstr "Člani"
+
+msgctxt "view:res.user.config.start:"
+msgid "Be careful that the login must be unique."
+msgstr "Upoštevajte, da mora biti prijava edinstvena."
+
+msgctxt "view:res.user.config.start:"
+msgid "You can now add some users into the system."
+msgstr "Sedaj lahko v sistem dodajate uporabnike."
+
+msgctxt "view:res.user:"
+msgid "Access Permissions"
+msgstr "Dovoljenja za dostop"
+
+msgctxt "view:res.user:"
+msgid "Actions"
+msgstr "Ukrepi"
+
+msgctxt "view:res.user:"
+msgid "Group Membership"
+msgstr "Članstvo v skupinah"
+
+msgctxt "view:res.user:"
+msgid "Preferences"
+msgstr "Nastavitve"
+
+msgctxt "view:res.user:"
+msgid "User"
+msgstr "Uporabnik"
+
+msgctxt "wizard_button:res.user.config,start,end:"
+msgid "Cancel"
+msgstr "Prekliči"
+
+msgctxt "wizard_button:res.user.config,start,user:"
+msgid "OK"
+msgstr "V redu"
+
+msgctxt "wizard_button:res.user.config,user,add:"
+msgid "Add"
+msgstr "Dodaj"
+
+msgctxt "wizard_button:res.user.config,user,end:"
+msgid "End"
+msgstr "Zaključi"

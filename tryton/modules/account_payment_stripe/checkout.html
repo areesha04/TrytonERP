@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:py="http://genshi.edgewall.org/">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Stripe Checkout</title>
+        <script src="https://js.stripe.com/v3/">
+        </script>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            label {
+                display: block;
+                margin-bottom: 8px;
+            }
+            button {
+                background-color: #337ab7;
+                border-radius: 4px;
+                border: 1px solid #2e6da4;
+                color: #fff;
+                display: block;
+                font-size:2em;
+                margin: 10px auto;
+                padding: 0.5em 1em;
+            }
+            form {
+                width: 670px;
+                margin: 0 auto;
+                height: 100%;
+            }
+            #payment-errors {
+                padding: 4px 0;
+                color: #fa755a;
+            }
+        </style>
+    </head>
+    <body py:with="intent = record.stripe_intent">
+        <h1>${record.party.rec_name}</h1>
+        <form id="payment-form">
+            <div id="payment-element">
+            </div>
+            <div id="payment-error">
+            </div>
+            <button id="payment-submit" data-model="${data['model']}">
+                Submit
+            </button>
+        </form>
+        <script>
+            const model = '${data['model']}';
+            const customer_session_client_secret = '${data['customer_session_client_secret']}';
+            const stripe = Stripe('${record.stripe_account.publishable_key}');
+            const elements = stripe.elements({
+                'clientSecret': '${intent.client_secret}',
+                'customerSessionClientSecret': customer_session_client_secret || null,
+            });
+            const paymentElement = elements.create('payment', {
+            });
+            paymentElement.mount('#payment-element');
+            const form = document.getElementById('payment-form');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const options = {
+                    elements,
+                    confirmParams: {
+                        return_url: '${data['return_url']}',
+                    },
+                }
+                let prm;
+                if (model == 'account.payment.stripe.customer') {
+                   prm  = stripe.confirmSetup(options);
+                } else {
+                   prm = stripe.confirmPayment(options);
+                }
+                prm.then(function(result) {
+                    if (result.error) {
+                        const messageContainer = document.getElementById('payment-error');
+                        messageContainer.textContent = result.error.message;
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

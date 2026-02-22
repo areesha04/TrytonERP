@@ -1,0 +1,1731 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:ir.email.template,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "Kontaktai"
+
+#, fuzzy
+msgctxt "field:party.address,building_name:"
+msgid "Building Name"
+msgstr "Namo numeris"
+
+#, fuzzy
+msgctxt "field:party.address,building_number:"
+msgid "Building Number"
+msgstr "Namo numeris"
+
+msgctxt "field:party.address,city:"
+msgid "City"
+msgstr "Miestas"
+
+#, fuzzy
+msgctxt "field:party.address,contact_mechanisms:"
+msgid "Contact Mechanisms"
+msgstr "Kontaktai"
+
+msgctxt "field:party.address,country:"
+msgid "Country"
+msgstr "Šalis"
+
+#, fuzzy
+msgctxt "field:party.address,floor_number:"
+msgid "Floor Number"
+msgstr "Slovakijos gimimo numeris"
+
+msgctxt "field:party.address,full_address:"
+msgid "Full Address"
+msgstr "Pilnas adresas"
+
+#, fuzzy
+msgctxt "field:party.address,identifiers:"
+msgid "Identifiers"
+msgstr "Identifikatoriai"
+
+msgctxt "field:party.address,party:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "field:party.address,party_name:"
+msgid "Party Name"
+msgstr "Kontrahento pavadinimas"
+
+#, fuzzy
+msgctxt "field:party.address,post_box:"
+msgid "Post Box"
+msgstr "Šalies kodas"
+
+msgctxt "field:party.address,post_office:"
+msgid "Post Office"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:party.address,postal_code:"
+msgid "Postal Code"
+msgstr "Šalies kodas"
+
+msgctxt "field:party.address,private_bag:"
+msgid "Private Bag"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:party.address,room_number:"
+msgid "Room Number"
+msgstr "Rumunijos PVM kodas"
+
+msgctxt "field:party.address,street:"
+msgid "Street"
+msgstr "Gatvė"
+
+#, fuzzy
+msgctxt "field:party.address,street_name:"
+msgid "Street Name"
+msgstr "Gatvė"
+
+#, fuzzy
+msgctxt "field:party.address,street_single_line:"
+msgid "Street"
+msgstr "Gatvė"
+
+#, fuzzy
+msgctxt "field:party.address,street_unstructured:"
+msgid "Street"
+msgstr "Gatvė"
+
+msgctxt "field:party.address,subdivision:"
+msgid "Subdivision"
+msgstr "Regionas"
+
+#, fuzzy
+msgctxt "field:party.address,subdivision_types:"
+msgid "Subdivision Types"
+msgstr "Regionas"
+
+#, fuzzy
+msgctxt "field:party.address,unit_number:"
+msgid "Unit Number"
+msgstr "Danijos PVM kodas"
+
+#, fuzzy
+msgctxt "field:party.address.format,building_number_format:"
+msgid "Building Number Format"
+msgstr "Namo numeris"
+
+msgctxt "field:party.address.format,country_code:"
+msgid "Country Code"
+msgstr "Šalies kodas"
+
+msgctxt "field:party.address.format,floor_number_format:"
+msgid "Floor Number Format"
+msgstr ""
+
+msgctxt "field:party.address.format,format_:"
+msgid "Format"
+msgstr "Formatas"
+
+msgctxt "field:party.address.format,language_code:"
+msgid "Language Code"
+msgstr "Kalbos kodas"
+
+msgctxt "field:party.address.format,post_box_format:"
+msgid "Post Box Format"
+msgstr ""
+
+msgctxt "field:party.address.format,post_office_format:"
+msgid "Post Office Format"
+msgstr ""
+
+msgctxt "field:party.address.format,private_bag_format:"
+msgid "Private Bag Format"
+msgstr ""
+
+msgctxt "field:party.address.format,room_number_format:"
+msgid "Room Number Format"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:party.address.format,street_format:"
+msgid "Street Format"
+msgstr "Adreso formatai"
+
+msgctxt "field:party.address.format,unit_number_format:"
+msgid "Unit Number Format"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:party.address.subdivision_type,country_code:"
+msgid "Country Code"
+msgstr "Šalies kodas"
+
+#, fuzzy
+msgctxt "field:party.address.subdivision_type,types:"
+msgid "Subdivision Types"
+msgstr "Regionas"
+
+msgctxt "field:party.category,childs:"
+msgid "Children"
+msgstr "Dukterinės"
+
+msgctxt "field:party.category,name:"
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgctxt "field:party.category,parent:"
+msgid "Parent"
+msgstr "Motininė"
+
+msgctxt "field:party.check_vies.result,parties_failed:"
+msgid "Parties Failed"
+msgstr "Blogi kontrahentai"
+
+msgctxt "field:party.check_vies.result,parties_succeed:"
+msgid "Parties Succeed"
+msgstr "Geri kontrahentai"
+
+#, fuzzy
+msgctxt "field:party.configuration,identifier_types:"
+msgid "Identifier Types"
+msgstr "Identifikatoriai"
+
+msgctxt "field:party.configuration,party_lang:"
+msgid "Party Language"
+msgstr "Kontrahento kalba"
+
+msgctxt "field:party.configuration,party_sequence:"
+msgid "Party Sequence"
+msgstr "Kontrahento numeruotė"
+
+msgctxt "field:party.configuration.party_lang,party_lang:"
+msgid "Party Language"
+msgstr "Kontrahento kalba"
+
+msgctxt "field:party.configuration.party_sequence,party_sequence:"
+msgid "Party Sequence"
+msgstr "Kontrahento numeruotė"
+
+#, fuzzy
+msgctxt "field:party.contact_mechanism,address:"
+msgid "Address"
+msgstr "Adresas"
+
+msgctxt "field:party.contact_mechanism,comment:"
+msgid "Comment"
+msgstr "Komentaras"
+
+msgctxt "field:party.contact_mechanism,email:"
+msgid "Email"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:party.contact_mechanism,language:"
+msgid "Language"
+msgstr "Kalba"
+
+#, fuzzy
+msgctxt "field:party.contact_mechanism,languages:"
+msgid "Languages"
+msgstr "Kalbos"
+
+msgctxt "field:party.contact_mechanism,name:"
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgctxt "field:party.contact_mechanism,other_value:"
+msgid "Value"
+msgstr "Reikšmė"
+
+msgctxt "field:party.contact_mechanism,party:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "field:party.contact_mechanism,sip:"
+msgid "SIP"
+msgstr "SIP"
+
+msgctxt "field:party.contact_mechanism,skype:"
+msgid "Skype"
+msgstr "Skype"
+
+msgctxt "field:party.contact_mechanism,type:"
+msgid "Type"
+msgstr "Tipas"
+
+msgctxt "field:party.contact_mechanism,url:"
+msgid "URL"
+msgstr "Svetainės adresas"
+
+msgctxt "field:party.contact_mechanism,value:"
+msgid "Value"
+msgstr "Vertė"
+
+msgctxt "field:party.contact_mechanism,value_compact:"
+msgid "Value Compact"
+msgstr "Kompaktinė vertė"
+
+msgctxt "field:party.contact_mechanism,website:"
+msgid "Website"
+msgstr "Interneto svetainė"
+
+#, fuzzy
+msgctxt "field:party.contact_mechanism.language,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "Kontaktai"
+
+#, fuzzy
+msgctxt "field:party.contact_mechanism.language,language:"
+msgid "Language"
+msgstr "Kalba"
+
+msgctxt "field:party.erase.ask,party:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+#, fuzzy
+msgctxt "field:party.identifier,address:"
+msgid "Address"
+msgstr "Adresas"
+
+msgctxt "field:party.identifier,code:"
+msgid "Code"
+msgstr "Kodas"
+
+msgctxt "field:party.identifier,party:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "field:party.identifier,type:"
+msgid "Type"
+msgstr "Tipas"
+
+#, fuzzy
+msgctxt "field:party.identifier,type_address:"
+msgid "Type of Address"
+msgstr "Adresas"
+
+msgctxt "field:party.party,addresses:"
+msgid "Addresses"
+msgstr "Adresai"
+
+msgctxt "field:party.party,categories:"
+msgid "Categories"
+msgstr "Kategorijos"
+
+msgctxt "field:party.party,code:"
+msgid "Code"
+msgstr "Kodas"
+
+msgctxt "field:party.party,code_alnum:"
+msgid "Code Alphanumeric"
+msgstr ""
+
+msgctxt "field:party.party,code_digit:"
+msgid "Code Digit"
+msgstr ""
+
+msgctxt "field:party.party,code_readonly:"
+msgid "Code Readonly"
+msgstr "Tik skaitomas kodas"
+
+msgctxt "field:party.party,contact_mechanisms:"
+msgid "Contact Mechanisms"
+msgstr "Kontaktai"
+
+msgctxt "field:party.party,distance:"
+msgid "Distance"
+msgstr ""
+
+msgctxt "field:party.party,email:"
+msgid "Email"
+msgstr ""
+
+msgctxt "field:party.party,fax:"
+msgid "Fax"
+msgstr "Faksas"
+
+msgctxt "field:party.party,full_name:"
+msgid "Full Name"
+msgstr "Pilnas pavadinimas"
+
+msgctxt "field:party.party,identifiers:"
+msgid "Identifiers"
+msgstr "Identifikatoriai"
+
+msgctxt "field:party.party,lang:"
+msgid "Language"
+msgstr "Kalba"
+
+msgctxt "field:party.party,langs:"
+msgid "Languages"
+msgstr "Kalbos"
+
+msgctxt "field:party.party,mobile:"
+msgid "Mobile"
+msgstr "Mobilusis telefonas"
+
+msgctxt "field:party.party,name:"
+msgid "Name"
+msgstr "Pavadinimas"
+
+msgctxt "field:party.party,phone:"
+msgid "Phone"
+msgstr "Telefonas"
+
+msgctxt "field:party.party,replaced_by:"
+msgid "Replaced By"
+msgstr "Pakeičiantysis"
+
+msgctxt "field:party.party,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "Mokesčių mokėtojo identifikatorius"
+
+msgctxt "field:party.party,website:"
+msgid "Website"
+msgstr "Interneto svetainė"
+
+msgctxt "field:party.party-party.category,category:"
+msgid "Category"
+msgstr "Kategorija"
+
+msgctxt "field:party.party-party.category,party:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "field:party.party.lang,lang:"
+msgid "Language"
+msgstr "Kalba"
+
+msgctxt "field:party.party.lang,party:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "field:party.replace.ask,destination:"
+msgid "Destination"
+msgstr "Paskirties vieta"
+
+msgctxt "field:party.replace.ask,source:"
+msgid "Source"
+msgstr "Šaltinis"
+
+msgctxt "help:ir.email.template,contact_mechanism:"
+msgid "Define which email address to use from the party's contact mechanisms."
+msgstr ""
+
+msgctxt "help:party.address,party_name:"
+msgid "If filled, replace the name of the party for address formatting"
+msgstr ""
+
+msgctxt "help:party.address.format,building_number_format:"
+msgid "Use {} as placeholder for the building number."
+msgstr ""
+
+msgctxt "help:party.address.format,floor_number_format:"
+msgid "Use {} as placeholder for the floor number."
+msgstr ""
+
+msgctxt "help:party.address.format,format_:"
+msgid ""
+"Available variables (also in upper case and street variables):\n"
+"- ${party_name}\n"
+"- ${attn}\n"
+"- ${street}\n"
+"- ${postal_code}\n"
+"- ${city}\n"
+"- ${subdivision}\n"
+"- ${subdivision_code}\n"
+"- ${country}\n"
+"- ${country_code}"
+msgstr ""
+
+msgctxt "help:party.address.format,post_box_format:"
+msgid "Use {} as placeholder for the post box."
+msgstr ""
+
+msgctxt "help:party.address.format,post_office_format:"
+msgid "Use {} as placeholder for the post office."
+msgstr ""
+
+msgctxt "help:party.address.format,private_bag_format:"
+msgid "Use {} as placeholder for the private bag."
+msgstr ""
+
+msgctxt "help:party.address.format,room_number_format:"
+msgid "Use {} as placeholder for the room number."
+msgstr ""
+
+msgctxt "help:party.address.format,street_format:"
+msgid ""
+"Available variables (also in upper case):\n"
+"- ${street_name}\n"
+"- ${building_name}\n"
+"- ${building_number}\n"
+"- ${unit_number}\n"
+"- ${floor_number}\n"
+"- ${room_number}\n"
+"- ${post_box}\n"
+"- ${private_bag}\n"
+"- ${post_office}\n"
+msgstr ""
+
+msgctxt "help:party.address.format,unit_number_format:"
+msgid "Use {} as placeholder for the unit number."
+msgstr ""
+
+msgctxt "help:party.category,childs:"
+msgid "Add children below the category."
+msgstr ""
+
+msgctxt "help:party.category,name:"
+msgid "The main identifier of the category."
+msgstr ""
+
+msgctxt "help:party.category,parent:"
+msgid "Add the category below the parent."
+msgstr ""
+
+msgctxt "help:party.configuration,identifier_types:"
+msgid ""
+"Defines which identifier types are available.\n"
+"Leave empty for all of them."
+msgstr ""
+
+msgctxt "help:party.configuration,party_lang:"
+msgid "The default language for new parties."
+msgstr ""
+
+msgctxt "help:party.configuration,party_sequence:"
+msgid "Used to generate the party code."
+msgstr ""
+
+msgctxt "help:party.configuration.party_lang,party_lang:"
+msgid "The default language for new parties."
+msgstr ""
+
+msgctxt "help:party.configuration.party_sequence,party_sequence:"
+msgid "Used to generate the party code."
+msgstr ""
+
+msgctxt "help:party.contact_mechanism,language:"
+msgid ""
+"Used to translate communication made using the contact mechanism.\n"
+"Leave empty for the party language."
+msgstr ""
+
+msgctxt "help:party.erase.ask,party:"
+msgid "The party to be erased."
+msgstr ""
+
+msgctxt "help:party.identifier,address:"
+msgid "The address identified by this record."
+msgstr ""
+
+msgctxt "help:party.identifier,party:"
+msgid "The party identified by this record."
+msgstr ""
+
+msgctxt "help:party.party,categories:"
+msgid "The categories the party belongs to."
+msgstr ""
+
+msgctxt "help:party.party,code:"
+msgid "The unique identifier of the party."
+msgstr ""
+
+msgctxt "help:party.party,identifiers:"
+msgid "Add other identifiers of the party."
+msgstr ""
+
+msgctxt "help:party.party,lang:"
+msgid "Used to translate communications with the party."
+msgstr ""
+
+msgctxt "help:party.party,name:"
+msgid "The main identifier of the party."
+msgstr ""
+
+msgctxt "help:party.party,replaced_by:"
+msgid "The party replacing this one."
+msgstr ""
+
+msgctxt "help:party.party,tax_identifier:"
+msgid "The identifier used for tax report."
+msgstr ""
+
+msgctxt "help:party.replace.ask,destination:"
+msgid "The party that replaces."
+msgstr ""
+
+msgctxt "help:party.replace.ask,source:"
+msgid "The party to be replaced."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_address_form"
+msgid "Addresses"
+msgstr "Adresai"
+
+msgctxt "model:ir.action,name:act_address_format_form"
+msgid "Address Formats"
+msgstr "Adreso formatai"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_address_subdivision_type_form"
+msgid "Address Subdivision Types"
+msgstr "Regionas"
+
+msgctxt "model:ir.action,name:act_category_list"
+msgid "Categories"
+msgstr "Kategorijos"
+
+msgctxt "model:ir.action,name:act_category_tree"
+msgid "Categories"
+msgstr "Kategorijos"
+
+msgctxt "model:ir.action,name:act_contact_mechanism_form"
+msgid "Contact Mechanisms"
+msgstr "Kontaktai"
+
+msgctxt "model:ir.action,name:act_party_by_category"
+msgid "Parties by Category"
+msgstr "Kontrahentai pagal kategoriją"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_party_configuration_form"
+msgid "Configuration"
+msgstr "Nuostatos"
+
+msgctxt "model:ir.action,name:act_party_form"
+msgid "Parties"
+msgstr "Kontrahentai"
+
+msgctxt "model:ir.action,name:report_label"
+msgid "Labels"
+msgstr "Etiketės"
+
+msgctxt "model:ir.action,name:wizard_check_vies"
+msgid "Check VIES"
+msgstr "Tikrinti PVM kodą VIES bazėje"
+
+msgctxt "model:ir.action,name:wizard_erase"
+msgid "Erase"
+msgstr "Ištrinti"
+
+msgctxt "model:ir.action,name:wizard_replace"
+msgid "Replace"
+msgstr "Pakeisti"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_address_change_party"
+msgid "You cannot change the party of address \"%(address)s\"."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_address_subdivision_country_code_unique"
+msgid "The country code on subdivision type must be unique."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_category_name_unique"
+msgid "The name of party category must be unique by parent."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_contact_mechanism_change_party"
+msgid "You cannot change the party of contact mechanism \"%(contact)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_different_name"
+msgid "Parties have different names: \"%(source_name)s\" vs \"%(destination_name)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_different_tax_identifier"
+msgid ""
+"Parties have different tax identifiers: \"%(source_code)s\" vs "
+"\"%(destination_code)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for party \"%(party)s\" is not valid."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_erase_active_party"
+msgid "Party \"%(party)s\" cannot be erased because they are still active."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_identifier_type_remove"
+msgid ""
+"To remove the identifier type \"%(type)s\" from the configuration, you must "
+"change it on \"%(identifier)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invalid_code"
+msgid "The %(type)s \"%(code)s\" for party \"%(party)s\" is not valid."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invalid_format"
+msgid "Invalid format \"%(format)s\" with exception \"%(exception)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invalid_phone_number"
+msgid "The phone number \"%(phone)s\" for party \"%(party)s\" is not valid."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_party_code_unique"
+msgid "The code on party must be unique."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_party_contact_mechanism_duplicate"
+msgid "The party \"%(party)s\" has the same %(type)s \"%(value)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_party_identifier_duplicate"
+msgid "The party \"%(party)s\" has the same %(type)s \"%(code)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_party_set_contact_mechanism"
+msgid ""
+"To change the \"%(field)s\" for party \"%(party)s\", you must edit their "
+"contact mechanisms."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_vies_unavailable"
+msgid "The VIES service is unavailable, try again later."
+msgstr ""
+
+msgctxt "model:ir.sequence,name:sequence_party"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_party"
+msgid "Party"
+msgstr "Kontrahentas"
+
+msgctxt "model:ir.ui.menu,name:menu_address_form"
+msgid "Addresses"
+msgstr "Adresai"
+
+msgctxt "model:ir.ui.menu,name:menu_address_format_form"
+msgid "Address Formats"
+msgstr "Adreso formatai"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_address_subdivision_type_form"
+msgid "Address Subdivision Types"
+msgstr "Regionas"
+
+msgctxt "model:ir.ui.menu,name:menu_category_list"
+msgid "Categories"
+msgstr "Kategorijos"
+
+msgctxt "model:ir.ui.menu,name:menu_category_tree"
+msgid "Categories"
+msgstr "Kategorijos"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Nuostatos"
+
+msgctxt "model:ir.ui.menu,name:menu_contact_mechanism_form"
+msgid "Contact Mechanisms"
+msgstr "Kontaktai"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_party"
+msgid "Parties"
+msgstr "Kontrahentai"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_party_configuration"
+msgid "Configuration"
+msgstr "Nuostatos"
+
+msgctxt "model:ir.ui.menu,name:menu_party_form"
+msgid "Parties"
+msgstr "Kontrahentai"
+
+#, fuzzy
+msgctxt "model:party.address,string:"
+msgid "Party Address"
+msgstr "Adresas"
+
+#, fuzzy
+msgctxt "model:party.address.format,string:"
+msgid "Party Address Format"
+msgstr "Adreso formatas"
+
+#, fuzzy
+msgctxt "model:party.address.subdivision_type,string:"
+msgid "Party Address Subdivision Type"
+msgstr "Regionas"
+
+#, fuzzy
+msgctxt "model:party.category,string:"
+msgid "Party Category"
+msgstr "Kontrahentas - kategorija"
+
+msgctxt "model:party.check_vies.result,string:"
+msgid "Party Check Vies Result"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:party.configuration,string:"
+msgid "Party Configuration"
+msgstr "Kontrahento nuostatos"
+
+#, fuzzy
+msgctxt "model:party.configuration.party_lang,string:"
+msgid "Party Configuration Party Lang"
+msgstr "Kontrahento nuostatos - kalba"
+
+#, fuzzy
+msgctxt "model:party.configuration.party_sequence,string:"
+msgid "Party Configuration Party Sequence"
+msgstr "Kontrahento nuostatos - numeruotė"
+
+#, fuzzy
+msgctxt "model:party.contact_mechanism,string:"
+msgid "Party Contact Mechanism"
+msgstr "Kontaktai"
+
+#, fuzzy
+msgctxt "model:party.contact_mechanism.language,string:"
+msgid "Party Contact Mechanism Language"
+msgstr "Kontaktai"
+
+#, fuzzy
+msgctxt "model:party.erase.ask,string:"
+msgid "Party Erase Ask"
+msgstr "Kontrahento pavadinimas"
+
+#, fuzzy
+msgctxt "model:party.identifier,string:"
+msgid "Party Identifier"
+msgstr "Kontrahento identifikatorius"
+
+#, fuzzy
+msgctxt "model:party.party,string:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+#, fuzzy
+msgctxt "model:party.party-party.category,string:"
+msgid "Party - Party Category"
+msgstr "Kontrahentas - kategorija"
+
+#, fuzzy
+msgctxt "model:party.party.lang,string:"
+msgid "Party Lang"
+msgstr "Kontrahento kalba"
+
+msgctxt "model:party.replace.ask,string:"
+msgid "Party Replace Ask"
+msgstr ""
+
+msgctxt "model:res.group,name:group_party_admin"
+msgid "Party Administration"
+msgstr "Kontrahentų valdymas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Albanian VAT Number"
+msgstr "Albanijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Algerian Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Andorra Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Argentinian National Identity Number"
+msgstr "Mauricijaus nacionalinis kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Argentinian Tax Number"
+msgstr "Argentinos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Australian Business Number"
+msgstr "Australijos verslo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Australian Company Number"
+msgstr "Australijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Australian Tax File Number"
+msgstr "Australijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Company Register"
+msgstr "Austrijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Social Security Number"
+msgstr "Šveicarijos socialinio saugumo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Tax Identification"
+msgstr "Austrijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Austrian Umsatzsteuer-Identifikationsnummer"
+msgstr "Austrijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belarus VAT Number"
+msgstr "Bulgarijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian BIS Number"
+msgstr "Bulgarijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian Company Number"
+msgstr "Australijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian National Number"
+msgstr "Čilės nacionalinis mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Belgian VAT Number"
+msgstr "Bulgarijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Brazillian Company Identifier"
+msgstr "Brazilijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Brazillian National Identifier"
+msgstr "Brazilijos nacionalinis kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Bulgarian Number of a Foreigner"
+msgstr "Bulgarijos užsieniečio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Bulgarian Personal Identity Codes"
+msgstr "Bulgarijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Bulgarian VAT Number"
+msgstr "Bulgarijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Canadian Business Number"
+msgstr "Kanados verslo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Canadian Social Insurance Number"
+msgstr "Kanados socialinio draudimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Chilean National Tax Number"
+msgstr "Čilės nacionalinis mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Chinese Resident Identity Card Number"
+msgstr "Kinijos rezidento identifikacijos kortelės numeris"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Chinese Unified Social Credit Code"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Colombian Identity Code"
+msgstr "Kolumbijos identifikacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Costa Rica Foreigners ID Number"
+msgstr "Ispanijos užsieniečio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Costa Rica Physical Person ID Number"
+msgstr "Estijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Costa Rica Tax Number"
+msgstr "Meksikos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Croatian Identification Number"
+msgstr "Kroatijos identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Cuban Identity Card Number"
+msgstr "Kinijos rezidento identifikacijos kortelės numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Cypriot VAT Number"
+msgstr "Kipro PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Czech National Identifier"
+msgstr "Čekijos nacionalinis kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Czech VAT Number"
+msgstr "Čekijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Danish Citizen Number"
+msgstr "Danijos piliečio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Danish VAT Number"
+msgstr "Danijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dominican Republic National Identification Number"
+msgstr "Dominikos Respublikos nacionalinis identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dominican Republic Tax"
+msgstr "Dominikos Respublikos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch Citizen Identification Number"
+msgstr "Olandijos piliečio asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch School Identification Number"
+msgstr "Olandijos mokyklos identifikacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch Student Identification Number"
+msgstr "Olandijos studento identifikacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Dutch VAT Number"
+msgstr "Olandijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ecuadorian Personal Identity Code"
+msgstr "Ekvadoro asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ecuadorian Tax Identification"
+msgstr "Ekvadoro mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Egyptian Tax Registration Number"
+msgstr "JAV individualaus mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "El Salvador Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "English Unique Pupil Number"
+msgstr "Anglijos mokinio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Estonian Organisation Registration Code"
+msgstr "Estijos organizacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Estonian Personal ID Number"
+msgstr "Estijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Estonian VAT Number"
+msgstr "Estijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "European VAT Number"
+msgstr "Europos PVM kodas"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "European VAT on e-Commerce - One Stop Shop"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Faroese Tax Number"
+msgstr "Maltos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Association Identifier"
+msgstr "Suomijos asociacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Business Identifier"
+msgstr "Suomijos verslo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Individual Tax Number"
+msgstr "Suomijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish Personal Identity Code"
+msgstr "Suomijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Finnish VAT Number"
+msgstr "Suomijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Company Establishment Identification Number"
+msgstr "Prancūzijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Company Identification Number"
+msgstr "Prancūzijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Personal Identification Number"
+msgstr "Prancūzijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French Tax Identification Number"
+msgstr "Prancūzijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "French VAT Number"
+msgstr "Prancūzijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German Company Register Number"
+msgstr "Vokietijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German Personal Tax Number"
+msgstr "Vokietijos asmeninis mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "German VAT Number"
+msgstr "Vokietijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ghanaian Taxpayer Identification Number"
+msgstr "JAV mokesčių mokėtojo numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Greek Social Security Number"
+msgstr "JAV socialinio draudimo numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Greek VAT Number"
+msgstr "Graikijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Guatemala Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Guinean Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Hungarian VAT Number"
+msgstr "Vengrijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Icelandic Personal and Organisation Identity Code"
+msgstr "Islandijos asmenų ir organizacijų identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Icelandic VAT Number"
+msgstr "Islandijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian Digital Resident Personal Identity Number"
+msgstr "Indijos rezidento asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian Income Tax Identifier"
+msgstr "Indijos pajamų mokesčio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian VAT number"
+msgstr "Estijos PVM kodas"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indian Voter ID"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Indonesian VAT Number"
+msgstr "Estijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Irish Personal Number"
+msgstr "Airijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Irish VAT Number"
+msgstr "Airijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Israeli Company Number"
+msgstr "Australijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Israeli Identity Number"
+msgstr "Kroatijos identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Italian Tax Code for Individuals"
+msgstr "Italijos fizinių asmenų mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Italian VAT Number"
+msgstr "Italijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Japanese Corporate Number"
+msgstr "Ispanijos užsieniečio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Kenya Tax Number"
+msgstr "Argentinos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Latvian VAT Number"
+msgstr "Latvijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Lithuanian Legal Entities"
+msgstr "Airijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Lithuanian Personal Number"
+msgstr "Airijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Lithuanian VAT Number"
+msgstr "Lietuvos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Luxembourgian VAT Number"
+msgstr "Liuksemburgo PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Macedonian Tax Number"
+msgstr "Meksikos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Malaysian National Registration Identity Card Number"
+msgstr "Malaizijos asmens kortelės numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Maltese VAT Number"
+msgstr "Maltos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Mauritian National Identifier"
+msgstr "Mauricijaus nacionalinis kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Mexican Tax Number"
+msgstr "Meksikos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Moldavian Company Identification Number"
+msgstr "Kroatijos identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Monacan VAT Number"
+msgstr "Monako PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Montenegro Tax Number"
+msgstr "Meksikos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Moroccan Tax Number"
+msgstr "Meksikos mokesčių mokėtojo kodas"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "New Zealand Inland Revenue Department Number"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Norwegian Birth Number, the National Identity Number"
+msgstr "Dominikos Respublikos nacionalinis identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Norwegian Organisation Number"
+msgstr "Norvegijos organizacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Norwegian VAT Number"
+msgstr "Norvegijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Pakistani Computerised National Identity Card Number"
+msgstr "Malaizijos asmens kortelės numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Paraguay Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Peruvian Company Tax Number"
+msgstr "Australijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Peruvian Identity Number"
+msgstr "Kroatijos identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Polish National Identification Number"
+msgstr "Lenkijos nacionalinis identifikacijos kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Polish Register of Economic Units"
+msgstr "Lenkijos ekonominių vienetų registro kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Polish VAT Number"
+msgstr "Lenkijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Portuguese Identity Number"
+msgstr "Portugalijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Portuguese VAT Number"
+msgstr "Portugalijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Romanian Numerical Personal Code"
+msgstr "Rumunijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Romanian ONRC Number"
+msgstr "Rumunijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Romanian VAT Number"
+msgstr "Rumunijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Russian Tax identifier"
+msgstr "Rusijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "SEPA Identifier of the Creditor (AT-02)"
+msgstr "Kreditoriaus SEPA identifikatorius (AT-02)"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "San Marino National Tax Number"
+msgstr "San Marino nacionalinis mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Serbian Tax Identification"
+msgstr "Serbijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Singapore's Unique Entity Number"
+msgstr "Anglijos mokinio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovak Birth Number"
+msgstr "Slovakijos gimimo numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovak VAT Number"
+msgstr "Slovakijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovenian Corporate Registration Number"
+msgstr "Kolumbijos verslo mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovenian Unique Master Citizen Number"
+msgstr "Danijos piliečio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Slovenian VAT Number"
+msgstr "Slovėnijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South African Identity Document Number"
+msgstr "Kroatijos identifikavimo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South African Tax Identification Number"
+msgstr "Prancūzijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South Korea Business Registration Number"
+msgstr "Kolumbijos verslo mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "South Korean Resident Registration Number"
+msgstr "Prancūzijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Company Tax"
+msgstr "Ispanijos įmonės mokesčių kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Foreigner Number"
+msgstr "Ispanijos užsieniečio kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish Personal Identity Codes"
+msgstr "Ispanijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Spanish VAT Number"
+msgstr "Ispanijos PVM numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swedish Company Number"
+msgstr "Švedijos įmonės kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swedish Personal Number"
+msgstr "Airijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swedish VAT Number"
+msgstr "Švedijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swiss Business Identifier"
+msgstr "Šveicarijos verslo identifikatorius"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swiss Social Security Number"
+msgstr "Šveicarijos socialinio saugumo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Swiss VAT Number"
+msgstr "Šveicarijos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Taiwanese Tax Number"
+msgstr "Maltos PVM kodas"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Thai Memorandum of Association Number"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Thai Personal Identification Number"
+msgstr "Turkijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Thai Taxpayer Identification Number"
+msgstr "JAV mokesčių mokėtojo numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Tunisian Tax Number"
+msgstr "Argentinos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Turkish Personal Identification Number"
+msgstr "Turkijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Turkish Tax Identification Number"
+msgstr "Turkijos asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Adoption Taxpayer Identification Number"
+msgstr "JAV įvaikinimo mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Employer Identification Number"
+msgstr "JAV tarnautojo asmens kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Individual Taxpayer Identification Number"
+msgstr "JAV individualaus mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Preparer Tax Identification Number"
+msgstr "JAV mokesčių deklaracijų ruošėjo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Social Security Number"
+msgstr "JAV socialinio draudimo numeris"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "U.S. Taxpayer Identification Number"
+msgstr "JAV mokesčių mokėtojo numeris"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ukrainian Identifier for Enterprises and Organizations"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Ukrainian Individual Taxpayer Registration Number"
+msgstr "JAV individualaus mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "United Kingdom (and Isle of Man) VAT Number"
+msgstr "Jungtinės Karalystės (ir Meno salos) PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "United Kingdom National Health Service Patient Identifier"
+msgstr "Jungtinės Karalystės nacionalinės sveikatos tarnybos paciento numeris"
+
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "United Kingdom Unique Taxpayer Reference"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Uruguay Tax Number"
+msgstr "Vokietijos mokesčių mokėtojo kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Venezuelan VAT Number"
+msgstr "Europos PVM kodas"
+
+#, fuzzy
+msgctxt "selection:party.configuration,identifier_types:"
+msgid "Vietnam Tax Number"
+msgstr "Argentinos mokesčių mokėtojo kodas"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Email"
+msgstr ""
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Fax"
+msgstr "Faksas"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "IRC"
+msgstr "IRC"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Jabber"
+msgstr "Jabber"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Mobile"
+msgstr "Mobilusis telefonas"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Other"
+msgstr "Kitas"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Phone"
+msgstr "Telefonas"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "SIP"
+msgstr "SIP"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Skype"
+msgstr "Skype"
+
+msgctxt "selection:party.contact_mechanism,type:"
+msgid "Website"
+msgstr "Interneto svetainė"
+
+#, fuzzy
+msgctxt "view:party.address:"
+msgid "General"
+msgstr "Pagrindinis"
+
+msgctxt "view:party.party:"
+msgid "General"
+msgstr "Pagrindinis"
+
+msgctxt "view:party.replace.ask:"
+msgid "Party"
+msgstr "Kontrahentas"
+
+#, fuzzy
+msgctxt "view:party.replace.ask:"
+msgid "Replaced By"
+msgstr "Pakeičiantysis"
+
+msgctxt "wizard_button:party.check_vies,result,end:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:party.erase,ask,end:"
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+msgctxt "wizard_button:party.erase,ask,erase:"
+msgid "Erase"
+msgstr "Ištrinti"
+
+msgctxt "wizard_button:party.replace,ask,end:"
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+msgctxt "wizard_button:party.replace,ask,replace:"
+msgid "Replace"
+msgstr "Pakeisti"

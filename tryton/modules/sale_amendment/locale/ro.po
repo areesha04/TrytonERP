@@ -1,0 +1,190 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.amendment,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:sale.amendment,description:"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "field:sale.amendment,lines:"
+msgid "Lines"
+msgstr "Rânduri"
+
+msgctxt "field:sale.amendment,sale:"
+msgid "Sale"
+msgstr "Vânzare"
+
+msgctxt "field:sale.amendment,state:"
+msgid "State"
+msgstr "Stare"
+
+msgctxt "field:sale.amendment.line,action:"
+msgid "Action"
+msgstr "Acțiune"
+
+msgctxt "field:sale.amendment.line,amendment:"
+msgid "Amendment"
+msgstr "Amendament"
+
+msgctxt "field:sale.amendment.line,description:"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "field:sale.amendment.line,invoice_address:"
+msgid "Invoice Address"
+msgstr "Adresa de facturare"
+
+#, fuzzy
+msgctxt "field:sale.amendment.line,invoice_party:"
+msgid "Invoice Party"
+msgstr "Parte Facturată"
+
+msgctxt "field:sale.amendment.line,line:"
+msgid "Line"
+msgstr "Rând"
+
+msgctxt "field:sale.amendment.line,party:"
+msgid "Party"
+msgstr "Parte"
+
+msgctxt "field:sale.amendment.line,payment_term:"
+msgid "Payment Term"
+msgstr "Termen de plata"
+
+msgctxt "field:sale.amendment.line,product:"
+msgid "Product"
+msgstr "Produs"
+
+msgctxt "field:sale.amendment.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Categorie UM Produs"
+
+msgctxt "field:sale.amendment.line,quantity:"
+msgid "Quantity"
+msgstr "Cantitate"
+
+msgctxt "field:sale.amendment.line,sale:"
+msgid "Sale"
+msgstr "Vânzare"
+
+msgctxt "field:sale.amendment.line,shipment_address:"
+msgid "Shipment Address"
+msgstr "Adresa de expediere"
+
+msgctxt "field:sale.amendment.line,shipment_party:"
+msgid "Shipment Party"
+msgstr ""
+
+msgctxt "field:sale.amendment.line,state:"
+msgid "State"
+msgstr "Stare"
+
+msgctxt "field:sale.amendment.line,unit:"
+msgid "Unit"
+msgstr "Unitate"
+
+msgctxt "field:sale.amendment.line,unit_price:"
+msgid "Unit Price"
+msgstr "Preț unitar"
+
+msgctxt "field:sale.amendment.line,warehouse:"
+msgid "Warehouse"
+msgstr "Depozit"
+
+msgctxt "field:sale.sale,amendments:"
+msgid "Amendments"
+msgstr "Amendamente"
+
+msgctxt "model:ir.action,name:act_sale_amendment_form"
+msgid "Amendments"
+msgstr "Amendamente"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_amendment_form_domain_all"
+msgid "All"
+msgstr "Totul"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_amendment_form_domain_draft"
+msgid "Draft"
+msgstr "Ciornă"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_sale_amendment_form_domain_validated"
+msgid "Validated"
+msgstr "Validat"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_one_sale_at_time"
+msgid ""
+"You cannot validate more than one amendment at the same time for sale "
+"\"%(sale)s\"."
+msgstr ""
+"Nu puteți valida mai mult de un amendament în același timp pentru vânzarea "
+"\"%(sale)s\"."
+
+#, fuzzy
+msgctxt ""
+"model:ir.model.button,confirm:sale_amendment_validation_amendment_button"
+msgid "Are you sure you want to validate the amendments?"
+msgstr "Sigur doriți să validați amendamentele?"
+
+msgctxt ""
+"model:ir.model.button,string:sale_amendment_validation_amendment_button"
+msgid "Validate"
+msgstr "Validare"
+
+msgctxt "model:ir.rule.group,name:rule_group_sale_amendment_companies"
+msgid "User in companies"
+msgstr "Utilizator în Companii"
+
+msgctxt "model:ir.ui.menu,name:menu_sale_amendment"
+msgid "Amendments"
+msgstr "Amendamente"
+
+#, fuzzy
+msgctxt "model:res.group,name:group_sale_amendment"
+msgid "Sale Amendment"
+msgstr "Amendament de vânzare"
+
+#, fuzzy
+msgctxt "model:sale.amendment,string:"
+msgid "Sale Amendment"
+msgstr "Amendament de vânzare"
+
+#, fuzzy
+msgctxt "model:sale.amendment.line,string:"
+msgid "Sale Amendment Line"
+msgstr "Amendament de vânzare"
+
+msgctxt "selection:sale.amendment,state:"
+msgid "Draft"
+msgstr "Ciornă"
+
+msgctxt "selection:sale.amendment,state:"
+msgid "Validated"
+msgstr "Validat"
+
+msgctxt "selection:sale.amendment.line,action:"
+msgid "Change Line"
+msgstr "Schimbare rând"
+
+msgctxt "selection:sale.amendment.line,action:"
+msgid "Change Parties and Addresses"
+msgstr "Schimbare părți și adrese"
+
+msgctxt "selection:sale.amendment.line,action:"
+msgid "Change Payment Term"
+msgstr "Modificare termen de plată"
+
+msgctxt "selection:sale.amendment.line,action:"
+msgid "Change Warehouse"
+msgstr "Schimbare Depozit"
+
+msgctxt "selection:sale.amendment.line,action:"
+msgid "Recompute Taxes"
+msgstr "Recalculare impozite"

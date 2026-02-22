@@ -1,0 +1,78 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,weight_currency:"
+msgid "Currency"
+msgstr "Валута"
+
+msgctxt "field:carrier,weight_price_list:"
+msgid "Price List"
+msgstr "Ценова листа"
+
+#, fuzzy
+msgctxt "field:carrier,weight_uom:"
+msgid "Weight UoM"
+msgstr "Мер. ед. за тегло"
+
+msgctxt "field:carrier.weight_price_list,carrier:"
+msgid "Carrier"
+msgstr "Превозвач"
+
+#, fuzzy
+msgctxt "field:carrier.weight_price_list,currency:"
+msgid "Currency"
+msgstr "Валута"
+
+msgctxt "field:carrier.weight_price_list,price:"
+msgid "Price"
+msgstr "Цена"
+
+msgctxt "field:carrier.weight_price_list,weight:"
+msgid "Weight"
+msgstr "Тегло"
+
+#, fuzzy
+msgctxt "field:carrier.weight_price_list,weight_uom:"
+msgid "Weight UoM"
+msgstr "Мер. ед. за тегло"
+
+msgctxt "help:carrier,weight_currency:"
+msgid "The currency of the price."
+msgstr ""
+
+msgctxt "help:carrier,weight_price_list:"
+msgid ""
+"Add price per weight to the carrier service.\n"
+"The first line for which the weight is greater is used.\n"
+"The line with weight of 0 is used as default price."
+msgstr ""
+
+msgctxt "help:carrier,weight_uom:"
+msgid "The Unit of Measure of weight criteria for the price list."
+msgstr ""
+
+msgctxt "help:carrier.weight_price_list,carrier:"
+msgid "The carrier that the price list belongs to."
+msgstr ""
+
+msgctxt "help:carrier.weight_price_list,price:"
+msgid "The price of the carrier service."
+msgstr ""
+
+msgctxt "help:carrier.weight_price_list,weight:"
+msgid "The lower limit for the price."
+msgstr ""
+
+msgctxt "help:carrier.weight_price_list,weight_uom:"
+msgid "The Unit of Measure of the weight."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:carrier.weight_price_list,string:"
+msgid "Carrier Weight Price List"
+msgstr "Ценови лист на карго тегло"
+
+msgctxt "selection:carrier,carrier_cost_method:"
+msgid "Weight"
+msgstr "Тегло"

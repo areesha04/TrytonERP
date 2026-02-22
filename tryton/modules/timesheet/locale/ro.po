@@ -1,0 +1,410 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:timesheet.hours_employee,duration:"
+msgid "Duration"
+msgstr "Durata"
+
+msgctxt "field:timesheet.hours_employee,employee:"
+msgid "Employee"
+msgstr "Angajat"
+
+msgctxt "field:timesheet.hours_employee.context,end_date:"
+msgid "End Date"
+msgstr "Data Sfărşit"
+
+msgctxt "field:timesheet.hours_employee.context,start_date:"
+msgid "Start Date"
+msgstr "Data Început"
+
+msgctxt "field:timesheet.hours_employee_monthly,duration:"
+msgid "Duration"
+msgstr "Durata"
+
+msgctxt "field:timesheet.hours_employee_monthly,employee:"
+msgid "Employee"
+msgstr "Angajat"
+
+msgctxt "field:timesheet.hours_employee_monthly,month:"
+msgid "Month"
+msgstr "Luna"
+
+msgctxt "field:timesheet.hours_employee_monthly,year:"
+msgid "Year"
+msgstr "An"
+
+msgctxt "field:timesheet.hours_employee_weekly,duration:"
+msgid "Duration"
+msgstr "Durata"
+
+msgctxt "field:timesheet.hours_employee_weekly,employee:"
+msgid "Employee"
+msgstr "Angajat"
+
+msgctxt "field:timesheet.hours_employee_weekly,week:"
+msgid "Week"
+msgstr "Săptămâna"
+
+msgctxt "field:timesheet.hours_employee_weekly,year:"
+msgid "Year"
+msgstr "An"
+
+msgctxt "field:timesheet.line,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:timesheet.line,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:timesheet.line,description:"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "field:timesheet.line,duration:"
+msgid "Duration"
+msgstr "Durata"
+
+msgctxt "field:timesheet.line,employee:"
+msgid "Employee"
+msgstr "Angajat"
+
+msgctxt "field:timesheet.line,uuid:"
+msgid "UUID"
+msgstr "UUID"
+
+msgctxt "field:timesheet.line,work:"
+msgid "Work"
+msgstr "Muncă"
+
+msgctxt "field:timesheet.line.enter.start,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:timesheet.line.enter.start,employee:"
+msgid "Employee"
+msgstr "Angajat"
+
+msgctxt "field:timesheet.work,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:timesheet.work,duration:"
+msgid "Timesheet Duration"
+msgstr "Durata Foaie Pontaj"
+
+msgctxt "field:timesheet.work,name:"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "field:timesheet.work,origin:"
+msgid "Origin"
+msgstr "Origine"
+
+msgctxt "field:timesheet.work,timesheet_end_date:"
+msgid "Timesheet End"
+msgstr "Foaie Pontaj Sfârșit"
+
+msgctxt "field:timesheet.work,timesheet_lines:"
+msgid "Timesheet Lines"
+msgstr "Rânduri Foaie Pontaj"
+
+msgctxt "field:timesheet.work,timesheet_start_date:"
+msgid "Timesheet Start"
+msgstr "Foaie Pontaj Început"
+
+msgctxt "field:timesheet.work,work:"
+msgid "Work"
+msgstr "Muncă"
+
+msgctxt "field:timesheet.work.context,from_date:"
+msgid "From Date"
+msgstr "De la Data"
+
+msgctxt "field:timesheet.work.context,to_date:"
+msgid "To Date"
+msgstr "Până la Data"
+
+msgctxt "help:timesheet.line,company:"
+msgid "The company on which the time is spent."
+msgstr "Compania al cărei timp a fost folosit."
+
+msgctxt "help:timesheet.line,date:"
+msgid "When the time is spent."
+msgstr "Când a fost folosit timp."
+
+msgctxt "help:timesheet.line,description:"
+msgid "Additional description of the work done."
+msgstr "Descriere adițională al muncii efectuate."
+
+msgctxt "help:timesheet.line,employee:"
+msgid "The employee who spends the time."
+msgstr "Angajatul care foloseşte timp."
+
+msgctxt "help:timesheet.line,work:"
+msgid "The work on which the time is spent."
+msgstr "Muncă pe care este cheltuit timp."
+
+msgctxt "help:timesheet.line.enter.start,date:"
+msgid "When the time is spent."
+msgstr "Când este folosit timp."
+
+msgctxt "help:timesheet.line.enter.start,employee:"
+msgid "The employee who spends the time."
+msgstr "Angajatul care foloseşte timp."
+
+msgctxt "help:timesheet.work,company:"
+msgid "Make the work belong to the company."
+msgstr "Atribuire Muncă la compania."
+
+msgctxt "help:timesheet.work,duration:"
+msgid "Total time spent on this work."
+msgstr "Timp total folosit pentru muncă."
+
+msgctxt "help:timesheet.work,name:"
+msgid "The main identifier of the work."
+msgstr "Identificatorul principal pentru muncă."
+
+msgctxt "help:timesheet.work,origin:"
+msgid "Use to relate the time spent to other records."
+msgstr "Utilizaţi pentru a lega timpul folosit de alte înregistrări."
+
+msgctxt "help:timesheet.work,timesheet_end_date:"
+msgid "Restrict adding lines after the date."
+msgstr "Restricționați adăugarea de rânduri după dată."
+
+#, fuzzy
+msgctxt "help:timesheet.work,timesheet_lines:"
+msgid "Spend time on this work."
+msgstr "Petrece timp pe această lucrare."
+
+msgctxt "help:timesheet.work,timesheet_start_date:"
+msgid "Restrict adding lines before the date."
+msgstr "Restricționați adăugarea de rânduri înainte de dată."
+
+msgctxt "help:timesheet.work.context,from_date:"
+msgid "Do not take into account lines before the date."
+msgstr "Nu luați în considerare rândurile dinainte de dată."
+
+msgctxt "help:timesheet.work.context,to_date:"
+msgid "Do not take into account lines after the date."
+msgstr "Nu luați în considerare rândurile de după dată."
+
+msgctxt "model:ir.action,name:act_hours_employee_form"
+msgid "Hours per Employee"
+msgstr "Ore per Angajat"
+
+msgctxt "model:ir.action,name:act_hours_employee_monthly_form"
+msgid "Hours per Employee per Month"
+msgstr "Ore per Angajat per Luna"
+
+msgctxt "model:ir.action,name:act_hours_employee_weekly_form"
+msgid "Hours per Employee per Week"
+msgstr "Ore per Angajat per Saptamana"
+
+msgctxt "model:ir.action,name:act_line_enter"
+msgid "Enter Timesheet"
+msgstr "Introduceți Foaia de pontaj"
+
+msgctxt "model:ir.action,name:act_line_form"
+msgid "Lines"
+msgstr "Rânduri"
+
+msgctxt "model:ir.action,name:act_line_form_work"
+msgid "Timesheet Lines"
+msgstr "Rânduri Foaie Pontaj"
+
+msgctxt "model:ir.action,name:act_work_list"
+msgid "Works"
+msgstr "Manopera"
+
+msgctxt "model:ir.action,name:act_work_report"
+msgid "Works"
+msgstr "Manopera"
+
+msgctxt "model:ir.action.act_window.domain,name:act_work_list_domain_all"
+msgid "All"
+msgstr "Toate"
+
+msgctxt "model:ir.action.act_window.domain,name:act_work_list_domain_open"
+msgid "Open"
+msgstr "Deschis"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_line_duration_positive"
+msgid "The duration of line \"%(line)s\" must be positive."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_line_uuid_unique"
+msgid "The UUID of timesheet line must be unique."
+msgstr "UUID-ul rândului foii de pontaj trebuie să fie unic."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_work_company_different_origin"
+msgid "The companies associated with work \"%(work)s\" and its origin differ."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.message,text:msg_work_origin_unique_company"
+msgid "Work origin must be unique by company."
+msgstr "Originea muncii trebuie să fie unică pentru companie."
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_employee_admin"
+msgid "Any employee hours"
+msgstr "Orice program de angajat"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_employee_monthly"
+msgid "Own hours"
+msgstr "Programul propriu"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_employee_monthly_admin"
+msgid "Any employee hours"
+msgstr "Orice program de angajat"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_employee_weekly"
+msgid "Own hours"
+msgstr "Programul propriu"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_employee_weekly_admin"
+msgid "Any employee hours"
+msgstr "Orice program de angajat"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_employees"
+msgid "Own hours"
+msgstr "Programul propriu"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_hours_supervised_employees"
+msgid "Supervised employee's hours"
+msgstr "Programul de lucru al angajatului supravegheat"
+
+#, fuzzy
+msgctxt ""
+"model:ir.rule.group,name:rule_group_hours_supervised_employees_monthly"
+msgid "Supervised employee's hours"
+msgstr "Programul de lucru al angajatului supravegheat"
+
+#, fuzzy
+msgctxt ""
+"model:ir.rule.group,name:rule_group_hours_supervised_employees_weekly"
+msgid "Supervised employee's hours"
+msgstr "Programul de lucru al angajatului supravegheat"
+
+msgctxt "model:ir.rule.group,name:rule_group_line"
+msgid "Own timesheet line"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_line_admin"
+msgid "Any timesheet line"
+msgstr "Orice rând de foaie de pontaj"
+
+msgctxt "model:ir.rule.group,name:rule_group_line_companies"
+msgid "User in companies"
+msgstr "Utilizator în companii"
+
+msgctxt "model:ir.rule.group,name:rule_group_work_companies"
+msgid "User in companies"
+msgstr "Utilizator în companii"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configurare"
+
+msgctxt "model:ir.ui.menu,name:menu_hours_employee"
+msgid "Hours per Employee"
+msgstr "Ore per Angajat"
+
+msgctxt "model:ir.ui.menu,name:menu_hours_employee_open_monthly"
+msgid "Hours per Employee per Month"
+msgstr "Ore per Angajat per Luna"
+
+msgctxt "model:ir.ui.menu,name:menu_hours_employee_open_weekly"
+msgid "Hours per Employee per Week"
+msgstr "Ore per Angajat per Saptamana"
+
+msgctxt "model:ir.ui.menu,name:menu_line_enter"
+msgid "Enter Timesheet"
+msgstr "Introduceți Foaia de pontaj"
+
+msgctxt "model:ir.ui.menu,name:menu_line_form"
+msgid "Lines"
+msgstr "Rânduri"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "Raportare"
+
+msgctxt "model:ir.ui.menu,name:menu_timesheet"
+msgid "Timesheet"
+msgstr "Pontaj"
+
+msgctxt "model:ir.ui.menu,name:menu_work_list"
+msgid "Works"
+msgstr "Lucrări"
+
+msgctxt "model:ir.ui.menu,name:menu_work_report"
+msgid "Works"
+msgstr "Lucrări"
+
+msgctxt "model:res.group,name:group_timesheet_admin"
+msgid "Timesheet Administration"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:timesheet.hours_employee,string:"
+msgid "Timesheet Hours Employee"
+msgstr "Ore per Angajat"
+
+msgctxt "model:timesheet.hours_employee.context,string:"
+msgid "Timesheet Hours Employee Context"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:timesheet.hours_employee_monthly,string:"
+msgid "Timesheet Hours Employee Monthly"
+msgstr "Ore per Angajat per Luna"
+
+#, fuzzy
+msgctxt "model:timesheet.hours_employee_weekly,string:"
+msgid "Timesheet Hours Employee Weekly"
+msgstr "Ore per Angajat per Saptamana"
+
+#, fuzzy
+msgctxt "model:timesheet.line,string:"
+msgid "Timesheet Line"
+msgstr "Rând Foaie Pontaj"
+
+#, fuzzy
+msgctxt "model:timesheet.line.enter.start,string:"
+msgid "Timesheet Line Enter Start"
+msgstr "Foaie Pontaj Început"
+
+#, fuzzy
+msgctxt "model:timesheet.work,string:"
+msgid "Timesheet Work"
+msgstr "Pontaj"
+
+#, fuzzy
+msgctxt "model:timesheet.work.context,string:"
+msgid "Timesheet Work Context"
+msgstr "Rând Foaie Pontaj"
+
+msgctxt "selection:res.user.application,application:"
+msgid "Timesheet"
+msgstr "Pontaj"
+
+msgctxt "wizard_button:timesheet.line.enter,start,end:"
+msgid "Cancel"
+msgstr "Anulare"
+
+msgctxt "wizard_button:timesheet.line.enter,start,enter:"
+msgid "Enter"
+msgstr "Introducere"

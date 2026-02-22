@@ -1,0 +1,366 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:customs.agent,address:"
+msgid "Address"
+msgstr ""
+
+msgctxt "field:customs.agent,party:"
+msgid "Party"
+msgstr ""
+
+msgctxt "field:customs.agent,tax_identifier:"
+msgid "Tax Identifier"
+msgstr ""
+
+msgctxt "field:customs.agent.selection,agent:"
+msgid "Agent"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:customs.agent.selection,company:"
+msgid "Company"
+msgstr "Cálculo"
+
+#, fuzzy
+msgctxt "field:customs.agent.selection,from_country:"
+msgid "From Country"
+msgstr "País"
+
+#, fuzzy
+msgctxt "field:customs.agent.selection,to_country:"
+msgid "To Country"
+msgstr "País"
+
+msgctxt "field:customs.duty.rate,amount:"
+msgid "Amount"
+msgstr "Montante"
+
+msgctxt "field:customs.duty.rate,computation_type:"
+msgid "Computation Type"
+msgstr "Tipo de Cálculo"
+
+msgctxt "field:customs.duty.rate,country:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:customs.duty.rate,currency:"
+msgid "Currency"
+msgstr "Moeda"
+
+msgctxt "field:customs.duty.rate,end_date:"
+msgid "End Date"
+msgstr "Data Final"
+
+msgctxt "field:customs.duty.rate,organization:"
+msgid "Organization"
+msgstr "Organização"
+
+msgctxt "field:customs.duty.rate,start_date:"
+msgid "Start Date"
+msgstr "Data de início"
+
+msgctxt "field:customs.duty.rate,tariff_code:"
+msgid "Tariff Code"
+msgstr "Código Tarifário"
+
+msgctxt "field:customs.duty.rate,type:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:customs.duty.rate,uom:"
+msgid "UoM"
+msgstr "Unidade de Medida"
+
+msgctxt "field:customs.tariff.code,code:"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "field:customs.tariff.code,country:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:customs.tariff.code,description:"
+msgid "Description"
+msgstr "Descrição"
+
+msgctxt "field:customs.tariff.code,duty_rates:"
+msgid "Duty Rates"
+msgstr "Taxa de Aduana"
+
+msgctxt "field:customs.tariff.code,end_day:"
+msgid "End Day"
+msgstr "Dia Final"
+
+msgctxt "field:customs.tariff.code,end_month:"
+msgid "End Month"
+msgstr "Mês Final"
+
+msgctxt "field:customs.tariff.code,organization:"
+msgid "Organization"
+msgstr "Organização"
+
+msgctxt "field:customs.tariff.code,start_day:"
+msgid "Start Day"
+msgstr "Dia Inicial"
+
+msgctxt "field:customs.tariff.code,start_month:"
+msgid "Start Month"
+msgstr "Mês Inicial"
+
+msgctxt "field:product-customs.tariff.code,country:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:product-customs.tariff.code,end_day:"
+msgid "End Day"
+msgstr "Dia Final"
+
+msgctxt "field:product-customs.tariff.code,end_month:"
+msgid "End Month"
+msgstr "Mês Final"
+
+msgctxt "field:product-customs.tariff.code,organization:"
+msgid "Organization"
+msgstr "Organização"
+
+msgctxt "field:product-customs.tariff.code,product:"
+msgid "Product"
+msgstr "Produto"
+
+msgctxt "field:product-customs.tariff.code,start_day:"
+msgid "Start Day"
+msgstr "Dia Inicial"
+
+msgctxt "field:product-customs.tariff.code,start_month:"
+msgid "Start Month"
+msgstr "Mês Inicial"
+
+msgctxt "field:product-customs.tariff.code,tariff_code:"
+msgid "Tariff Code"
+msgstr "Código da Tarifa"
+
+msgctxt "field:product.category,customs:"
+msgid "Customs"
+msgstr "Aduana"
+
+msgctxt "field:product.category,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Códigos de Aduana"
+
+msgctxt "field:product.category,tariff_codes_parent:"
+msgid "Use Parent's Tariff Codes"
+msgstr "Usar Códigos de Aduana do Pai"
+
+msgctxt "field:product.product,country_of_origin:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:product.product,customs_category:"
+msgid "Customs Category"
+msgstr "Categoria Aduana"
+
+msgctxt "field:product.product,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Códigos de Aduana"
+
+msgctxt "field:product.product,tariff_codes_category:"
+msgid "Use Category's Tariff Codes"
+msgstr "Utilizar os Códigos da Categoria de Tarifa"
+
+msgctxt "field:product.template,country_of_origin:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:product.template,customs_category:"
+msgid "Customs Category"
+msgstr "Categoria Aduana"
+
+msgctxt "field:product.template,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Códigos de Tarifa"
+
+msgctxt "field:product.template,tariff_codes_category:"
+msgid "Use Category's Tariff Codes"
+msgstr "Utilizar os Códigos da Categoria de Tarifa"
+
+msgctxt "help:customs.agent,address:"
+msgid "The address of the agent."
+msgstr ""
+
+msgctxt "help:customs.agent,party:"
+msgid "The party which represents the import/export agent."
+msgstr ""
+
+msgctxt "help:customs.agent,tax_identifier:"
+msgid "The identifier of the agent for tax report."
+msgstr ""
+
+msgctxt "help:customs.agent.selection,agent:"
+msgid "The selected agent."
+msgstr ""
+
+msgctxt "help:customs.agent.selection,from_country:"
+msgid ""
+"Apply only when shipping from this country.\n"
+"Leave empty for any countries."
+msgstr ""
+
+msgctxt "help:customs.agent.selection,to_country:"
+msgid ""
+"Apply only when shipping to this country.\n"
+"Leave empty for any countries."
+msgstr ""
+
+msgctxt "help:customs.duty.rate,uom:"
+msgid "The Unit of Measure."
+msgstr "A Unidade de Medida."
+
+msgctxt "help:customs.tariff.code,code:"
+msgid "The code from Harmonized System of Nomenclature."
+msgstr "O Código da Nomenclatura do Sistema Harmonizado."
+
+msgctxt "help:product.category,tariff_codes_parent:"
+msgid "Use the tariff codes defined on the parent category."
+msgstr ""
+"Utilizar os códigos tarifários definidos na categoria principal ('pai')."
+
+msgctxt "help:product.product,country_of_origin:"
+msgid "The country of origin of the product."
+msgstr "O país de origem do produto."
+
+msgctxt "help:product.product,tariff_codes_category:"
+msgid "Use the tariff codes defined on the category."
+msgstr "Utilizar os códigos tarifários definidos na categoria."
+
+msgctxt "help:product.template,country_of_origin:"
+msgid "The country of origin of the product."
+msgstr "O país de origem do produto."
+
+msgctxt "help:product.template,tariff_codes_category:"
+msgid "Use the tariff codes defined on the category."
+msgstr "Utilizar os códigos tarifários definidos na categoria principal."
+
+#, fuzzy
+msgctxt "model:customs.agent,string:"
+msgid "Customs Agent"
+msgstr "Aduana"
+
+#, fuzzy
+msgctxt "model:customs.agent.selection,string:"
+msgid "Customs Agent Selection"
+msgstr "Administração de Alfândegas"
+
+msgctxt "model:customs.duty.rate,string:"
+msgid "Customs Duty Rate"
+msgstr "Taxa de Imposto Alfandegário"
+
+msgctxt "model:customs.tariff.code,string:"
+msgid "Customs Tariff Code"
+msgstr "Código da tarifa alfandegária"
+
+msgctxt "model:ir.action,name:act_customs_agent_form"
+msgid "Agents"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_customs_agent_selection_form"
+msgid "Selection"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_duty_rate_form"
+msgid "Duty Rates"
+msgstr "Taxas de Imposto"
+
+msgctxt "model:ir.action,name:act_tariff_code_form"
+msgid "Tariff Codes"
+msgstr "Códigos Tarifários"
+
+msgctxt "model:ir.action.act_window.domain,name:act_duty_rate_domain_export"
+msgid "Export"
+msgstr "Exportar"
+
+msgctxt "model:ir.action.act_window.domain,name:act_duty_rate_domain_import"
+msgid "Import"
+msgstr "Importar"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_customs_agent_selection_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_customs"
+msgid "Customs"
+msgstr "Alfândega"
+
+msgctxt "model:ir.ui.menu,name:menu_customs_agent_form"
+msgid "Agents"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_customs_agent_selection_form"
+msgid "Selection"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_duty_rate_form"
+msgid "Duty Rates"
+msgstr "Taxas de Imposto"
+
+msgctxt "model:ir.ui.menu,name:menu_tariff_code_form"
+msgid "Tariff Codes"
+msgstr "Códigos Tarifários"
+
+msgctxt "model:product-customs.tariff.code,string:"
+msgid "Product - Customs Tariff Code"
+msgstr "Produto - Código da Tarifa Alfandegária"
+
+msgctxt "model:res.group,name:group_customs_admin"
+msgid "Customs Administration"
+msgstr "Administração de Alfândegas"
+
+msgctxt "selection:customs.duty.rate,computation_type:"
+msgid "Amount"
+msgstr "Montante"
+
+msgctxt "selection:customs.duty.rate,computation_type:"
+msgid "Quantity"
+msgstr "Quantidade"
+
+msgctxt "selection:customs.duty.rate,type:"
+msgid "Export"
+msgstr "Exportar"
+
+msgctxt "selection:customs.duty.rate,type:"
+msgid "Import"
+msgstr "Importar"
+
+msgctxt "selection:product-customs.tariff.code,product:"
+msgid "Category"
+msgstr "Categoria"
+
+msgctxt "selection:product-customs.tariff.code,product:"
+msgid "Template"
+msgstr "Modelo"
+
+msgctxt "view:customs.agent.selection:"
+msgid "Criteria"
+msgstr ""
+
+msgctxt "view:customs.duty.rate:"
+msgid "Computation"
+msgstr "Cálculo"
+
+msgctxt "view:customs.tariff.code:"
+msgid "From"
+msgstr "De"
+
+msgctxt "view:customs.tariff.code:"
+msgid "To"
+msgstr "Para"
+
+msgctxt "view:product.category:"
+msgid "Customs"
+msgstr "Aduana"
+
+msgctxt "view:product.template:"
+msgid "Customs"
+msgstr "Aduana"

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="//page[@id='accounting']" position="inside">
+        <separator string="Invoice" colspan="4" id="invoice"/>
+        <label name="purchase_taxes_expense"/>
+        <field name="purchase_taxes_expense"/>
+        <label name="cancel_invoice_out"/>
+        <field name="cancel_invoice_out"/>
+    </xpath>
+</data>

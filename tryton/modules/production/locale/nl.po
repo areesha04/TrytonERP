@@ -1,0 +1,663 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,boms:"
+msgid "BOMs"
+msgstr "Stuklijsten"
+
+msgctxt "field:product.product,producible:"
+msgid "Producible"
+msgstr "Produceerbaar"
+
+msgctxt "field:product.product,production_lead_times:"
+msgid "Lead Times"
+msgstr "Doorlooptijden"
+
+msgctxt "field:product.product-production.bom,bom:"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "field:product.product-production.bom,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:product.template,producible:"
+msgid "Producible"
+msgstr "Produceerbaar"
+
+msgctxt "field:production,assigned_by:"
+msgid "Assigned By"
+msgstr "Toegewezen door"
+
+msgctxt "field:production,bom:"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "field:production,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:production,cost:"
+msgid "Cost"
+msgstr "Kosten"
+
+msgctxt "field:production,done_by:"
+msgid "Done By"
+msgstr "Gedaan door"
+
+msgctxt "field:production,effective_start_date:"
+msgid "Effective Start Date"
+msgstr "Effectieve startdatum"
+
+msgctxt "field:production,inputs:"
+msgid "Input Materials"
+msgstr "Materiaal invoer"
+
+msgctxt "field:production,location:"
+msgid "Location"
+msgstr "Plaats"
+
+msgctxt "field:production,number:"
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:production,origin:"
+msgid "Origin"
+msgstr "Oorsprong"
+
+msgctxt "field:production,outputs:"
+msgid "Output Materials"
+msgstr "Materiaal uitvoer"
+
+msgctxt "field:production,partially_assigned:"
+msgid "Partially Assigned"
+msgstr "Gedeeltelijk toegewezen"
+
+msgctxt "field:production,planned_start_date:"
+msgid "Planned Start Date"
+msgstr "Geplande startdatum"
+
+msgctxt "field:production,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:production,quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:production,reference:"
+msgid "Reference"
+msgstr "Referentie"
+
+msgctxt "field:production,run_by:"
+msgid "Run By"
+msgstr "Uitgevoerd door"
+
+msgctxt "field:production,state:"
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:production,type:"
+msgid "Type"
+msgstr "Soort"
+
+msgctxt "field:production,unit:"
+msgid "Unit"
+msgstr "Maateenheid"
+
+msgctxt "field:production,uom_category:"
+msgid "UoM Category"
+msgstr "Maateenheid categorie"
+
+msgctxt "field:production,warehouse:"
+msgid "Warehouse"
+msgstr "Magazijn"
+
+msgctxt "field:production.bom,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:production.bom,code_readonly:"
+msgid "Code Readonly"
+msgstr "Alleen-lezen code"
+
+msgctxt "field:production.bom,input_products:"
+msgid "Input Products"
+msgstr "Toegevoerde producten"
+
+msgctxt "field:production.bom,inputs:"
+msgid "Input Materials"
+msgstr "Materiaal invoer"
+
+msgctxt "field:production.bom,name:"
+msgid "Name"
+msgstr "Naam"
+
+msgctxt "field:production.bom,output_products:"
+msgid "Output Products"
+msgstr "Gegenereerde producten"
+
+msgctxt "field:production.bom,outputs:"
+msgid "Output Materials"
+msgstr "Materiaal uitvoer"
+
+msgctxt "field:production.bom,phantom:"
+msgid "Phantom"
+msgstr "Phantom"
+
+msgctxt "field:production.bom,phantom_quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:production.bom,phantom_unit:"
+msgid "Unit"
+msgstr "Eenheid"
+
+msgctxt "field:production.bom.input,bom:"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "field:production.bom.input,phantom_bom:"
+msgid "Phantom BOM"
+msgstr "Phantom stuklijst"
+
+msgctxt "field:production.bom.input,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:production.bom.input,quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:production.bom.input,unit:"
+msgid "Unit"
+msgstr "Maateenheid"
+
+msgctxt "field:production.bom.input,uom_category:"
+msgid "Uom Category"
+msgstr "Maateenheid categorie"
+
+msgctxt "field:production.bom.output,bom:"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "field:production.bom.output,phantom_bom:"
+msgid "Phantom BOM"
+msgstr "Phantom stuklijst"
+
+msgctxt "field:production.bom.output,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:production.bom.output,quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:production.bom.output,unit:"
+msgid "Unit"
+msgstr "Maateenheid"
+
+msgctxt "field:production.bom.output,uom_category:"
+msgid "Uom Category"
+msgstr "Maateenheid categorie"
+
+msgctxt "field:production.bom.tree,childs:"
+msgid "Childs"
+msgstr "Onderliggend niveau"
+
+msgctxt "field:production.bom.tree,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:production.bom.tree,quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:production.bom.tree,unit:"
+msgid "Unit"
+msgstr "Maateenheid"
+
+msgctxt "field:production.bom.tree.open.start,bom:"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "field:production.bom.tree.open.start,category:"
+msgid "Category"
+msgstr "Categorie"
+
+msgctxt "field:production.bom.tree.open.start,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:production.bom.tree.open.start,quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:production.bom.tree.open.start,unit:"
+msgid "Unit"
+msgstr "Maateenheid"
+
+msgctxt "field:production.bom.tree.open.tree,bom_tree:"
+msgid "BOM Tree"
+msgstr "Stuklijst boom structuur"
+
+msgctxt "field:production.configuration,bom_sequence:"
+msgid "BOM Sequence"
+msgstr "Stuklijst reeks"
+
+msgctxt "field:production.configuration,production_sequence:"
+msgid "Production Sequence"
+msgstr "Productiereeks"
+
+msgctxt "field:production.configuration.production_sequence,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt ""
+"field:production.configuration.production_sequence,production_sequence:"
+msgid "Production Sequence"
+msgstr "Productiereeks"
+
+msgctxt "field:production.lead_time,bom:"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "field:production.lead_time,lead_time:"
+msgid "Lead Time"
+msgstr "Doorlooptijd"
+
+msgctxt "field:production.lead_time,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:stock.location,production_location:"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "field:stock.location,production_output_location:"
+msgid "Production Output"
+msgstr "Productie uitvoer"
+
+msgctxt "field:stock.location,production_picking_location:"
+msgid "Production Picking"
+msgstr "Productie picking"
+
+msgctxt "field:stock.lot.trace,production_input:"
+msgid "Production Input"
+msgstr "Productie input"
+
+msgctxt "field:stock.lot.trace,production_output:"
+msgid "Production Output"
+msgstr "Productie uitvoer"
+
+msgctxt "field:stock.move,production:"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "field:stock.move,production_cost_price_updated:"
+msgid "Cost Price Updated"
+msgstr "Kostprijs bijgewerkt"
+
+msgctxt "field:stock.move,production_input:"
+msgid "Production Input"
+msgstr "Productie invoer"
+
+msgctxt "field:stock.move,production_output:"
+msgid "Production Output"
+msgstr "Productie uitvoer"
+
+msgctxt "help:production,number:"
+msgid "The main identifier for the shipment."
+msgstr "De hoofd identificatie voor de zending."
+
+msgctxt "help:production,reference:"
+msgid "The external identifier for the shipment."
+msgstr "De externe referentie voor de zending."
+
+msgctxt "help:production,uom_category:"
+msgid "The category of Unit of Measure."
+msgstr "De categorie van de maateenheid."
+
+msgctxt "help:production.bom,phantom:"
+msgid "If checked, the BoM can be used in another BoM."
+msgstr ""
+"Indien aangevinkt kan deze stuklijst gebruikt worden in een andere "
+"stuklijst."
+
+msgctxt "help:production.bom,phantom_quantity:"
+msgid "The quantity of the Phantom BoM"
+msgstr "De hoeveelheid van de phantom stuklijst"
+
+msgctxt "help:production.bom,phantom_unit:"
+msgid "The Unit of Measure of the Phantom BoM"
+msgstr "De maateenheid van de phantom stuklijst"
+
+msgctxt "help:production.configuration,bom_sequence:"
+msgid "Used to generate the BOM code."
+msgstr "Wordt gebruikt om de stuklijst code te genereren."
+
+msgctxt "help:stock.location,production_output_location:"
+msgid ""
+"Where the produced goods are stored.\n"
+"Leave empty to use the warehouse storage location."
+msgstr ""
+"Waar de gemaakte goederen worden opgeslagen.\n"
+"Laat leeg om de opslaglocatie van het magazijn te gebruiken."
+
+msgctxt "help:stock.location,production_picking_location:"
+msgid ""
+"Where the production components are picked from.\n"
+"Leave empty to use the warehouse storage location."
+msgstr ""
+"Waar de productiecomponenten vandaan worden gehaald.\n"
+"Laat leeg om de opslaglocatie van het magazijn te gebruiken."
+
+msgctxt "model:ir.action,name:act_bom_form"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "model:ir.action,name:act_bom_list"
+msgid "BOMs"
+msgstr "Stuklijsten"
+
+msgctxt "model:ir.action,name:act_product_in_bom"
+msgid "BOMs"
+msgstr "Stuklijsten"
+
+msgctxt "model:ir.action,name:act_production_calendar"
+msgid "Productions"
+msgstr "Producties"
+
+msgctxt "model:ir.action,name:act_production_configuration_form"
+msgid "Configuration"
+msgstr "Instellingen"
+
+msgctxt "model:ir.action,name:act_production_list"
+msgid "Productions"
+msgstr "Producties"
+
+msgctxt "model:ir.action,name:wizard_bom_tree_open"
+msgid "BOM Tree"
+msgstr "stuklijst boom structuur"
+
+msgctxt "model:ir.action,name:wizard_production_assign"
+msgid "Assign Production"
+msgstr "Wijs productie toe"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_in_bom_output_domain_input"
+msgid "As Inputs"
+msgstr "Als Input"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_product_in_bom_output_domain_output"
+msgid "As Outputs"
+msgstr "Als Outputs"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_all"
+msgid "All"
+msgstr "Alle"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_assigned"
+msgid "Assigned"
+msgstr "toegewezen"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_available"
+msgid "Partially Assigned"
+msgstr "Gedeeltelijk toegewezen"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_draft"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_requests"
+msgid "Requests"
+msgstr "Verzoeken"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_running"
+msgid "Running"
+msgstr "In uitvoering"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_production_list_domain_waiting"
+msgid "Waiting"
+msgstr "In afwachting"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_missing_product_list_price"
+msgid ""
+"The product \"%(product)s\" on production \"%(production)s\" does not have "
+"any list price defined."
+msgstr ""
+"Voor het product \"%(product)s\" in productie \"%(production)s\" is er geen "
+"catalogusprijs gedefinieerd."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_recursive_bom_bom"
+msgid "You cannot create a recursive BOM for BOM \"%(bom)s\"."
+msgstr "U kunt geen recursieve stuklijst maken voor stuklijst \"%(bom)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_recursive_bom_product"
+msgid "You cannot create a recursive BOM for product \"%(product)s\"."
+msgstr "U kunt geen recursieve stuklijst maken voor product \"%(product)s\"."
+
+msgctxt "model:ir.message,text:msg_stock_move_production_single"
+msgid "Move can not be used for production input and output."
+msgstr ""
+"Voorraadbeweging kan niet gebruikt worden voor productie in- en output."
+
+msgctxt "model:ir.model.button,confirm:production_done_button"
+msgid "Are you sure you want to complete the production?"
+msgstr "Weet je zeker dat je de productie wilt voltooien?"
+
+msgctxt "model:ir.model.button,string:production_assign_wizard_button"
+msgid "Assign"
+msgstr "Toewijzen"
+
+msgctxt "model:ir.model.button,string:production_cancel_button"
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgctxt "model:ir.model.button,string:production_done_button"
+msgid "Complete"
+msgstr "Voltooien"
+
+msgctxt "model:ir.model.button,string:production_draft_button"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt "model:ir.model.button,string:production_reset_bom_button"
+msgid "Reset to BOM"
+msgstr "Terugzetten naar stuklijst"
+
+msgctxt "model:ir.model.button,string:production_run_button"
+msgid "Run"
+msgstr "Uitvoeren"
+
+msgctxt "model:ir.model.button,string:production_wait_button"
+msgid "Wait"
+msgstr "Wachten"
+
+msgctxt "model:ir.rule.group,name:rule_group_production_companies"
+msgid "User in companies"
+msgstr "Gebruiker in het bedrijf"
+
+msgctxt "model:ir.sequence,name:sequence_production"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_bom"
+msgid "BOM"
+msgstr "Stuklijst"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_production"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "model:ir.ui.menu,name:menu_bom_list"
+msgid "BOMs"
+msgstr "Stuklijsten"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuratie"
+
+msgctxt "model:ir.ui.menu,name:menu_production"
+msgid "Productions"
+msgstr "Producties"
+
+msgctxt "model:ir.ui.menu,name:menu_production_calendar"
+msgid "Productions"
+msgstr "Producties"
+
+msgctxt "model:ir.ui.menu,name:menu_production_configuration"
+msgid "Configuration"
+msgstr "Instellingen"
+
+msgctxt "model:ir.ui.menu,name:menu_production_list"
+msgid "Productions"
+msgstr "Producties"
+
+msgctxt "model:product.product-production.bom,string:"
+msgid "Product - Production Bom"
+msgstr "Product - Productie BOM"
+
+msgctxt "model:production,string:"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "model:production.bom,string:"
+msgid "Production Bom"
+msgstr "Productie BOM"
+
+msgctxt "model:production.bom.input,string:"
+msgid "Production Bom Input"
+msgstr "Productie BOM invoer"
+
+msgctxt "model:production.bom.output,string:"
+msgid "Production Bom Output"
+msgstr "Productie BOM uitvoer"
+
+msgctxt "model:production.bom.tree,string:"
+msgid "Production Bom Tree"
+msgstr "Productie BOM structuur"
+
+msgctxt "model:production.bom.tree.open.start,string:"
+msgid "Production Bom Tree Open Start"
+msgstr "Productie BOM structuur openen start"
+
+msgctxt "model:production.bom.tree.open.tree,string:"
+msgid "Production Bom Tree Open Tree"
+msgstr "Productie BOM structuur open structuur"
+
+msgctxt "model:production.configuration,string:"
+msgid "Production Configuration"
+msgstr "Productie configuratie"
+
+msgctxt "model:production.configuration.production_sequence,string:"
+msgid "Production Configuration Production Sequence"
+msgstr "Productie configuratie productie reeks"
+
+msgctxt "model:production.lead_time,string:"
+msgid "Production Lead Time"
+msgstr "Productie doorlooptijd"
+
+msgctxt "model:res.group,name:group_production"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "model:res.group,name:group_production_admin"
+msgid "Production Administration"
+msgstr "Productie administratie"
+
+msgctxt "model:stock.location,name:location_production"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Reschedule Productions"
+msgstr "Productions opnieuw plannen"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Set Cost from Moves"
+msgstr "Stel kosten vast aan de hand van voorraadbewegingen"
+
+msgctxt "selection:production,state:"
+msgid "Assigned"
+msgstr "toegewezen"
+
+msgctxt "selection:production,state:"
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgctxt "selection:production,state:"
+msgid "Done"
+msgstr "Gereed"
+
+msgctxt "selection:production,state:"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt "selection:production,state:"
+msgid "Request"
+msgstr "Verzoek"
+
+msgctxt "selection:production,state:"
+msgid "Running"
+msgstr "In uitvoering"
+
+msgctxt "selection:production,state:"
+msgid "Waiting"
+msgstr "In afwachting"
+
+msgctxt "selection:production,type:"
+msgid "Assembly"
+msgstr "Montage"
+
+msgctxt "selection:production,type:"
+msgid "Disassembly"
+msgstr "Demontage"
+
+msgctxt "view:product.template:"
+msgid "Production"
+msgstr "Productie"
+
+msgctxt "view:production.bom.input:"
+msgid "Material"
+msgstr "Materiaal"
+
+msgctxt "view:production.bom.output:"
+msgid "Material"
+msgstr "Materiaal"
+
+msgctxt "view:production.bom:"
+msgid "Lines"
+msgstr "Regels"
+
+msgctxt "view:production:"
+msgid "Other Info"
+msgstr "Aanvullende informatie"
+
+msgctxt "wizard_button:production.bom.tree.open,start,end:"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "wizard_button:production.bom.tree.open,start,tree:"
+msgid "OK"
+msgstr "Ok"
+
+msgctxt "wizard_button:production.bom.tree.open,tree,end:"
+msgid "Close"
+msgstr "Sluiten"
+
+msgctxt "wizard_button:production.bom.tree.open,tree,start:"
+msgid "Change"
+msgstr "Wijzigen"

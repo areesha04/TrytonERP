@@ -1,0 +1,116 @@
+Metadata-Version: 2.4
+Name: trytond
+Version: 7.8.3
+Summary: Tryton server
+Home-page: http://www.tryton.org/
+Download-URL: http://downloads.tryton.org/7.8/
+Author: Tryton
+Author-email: foundation@tryton.org
+License: GPL-3
+Project-URL: Bug Tracker, https://bugs.tryton.org/
+Project-URL: Documentation, https://docs.tryton.org/latest/server/
+Project-URL: Forum, https://www.tryton.org/forum
+Project-URL: Source Code, https://code.tryton.org/tryton
+Keywords: business application platform ERP
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: Bulgarian
+Classifier: Natural Language :: Catalan
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Czech
+Classifier: Natural Language :: Dutch
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Finnish
+Classifier: Natural Language :: French
+Classifier: Natural Language :: German
+Classifier: Natural Language :: Hungarian
+Classifier: Natural Language :: Indonesian
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: Persian
+Classifier: Natural Language :: Polish
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Natural Language :: Romanian
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: Slovenian
+Classifier: Natural Language :: Spanish
+Classifier: Natural Language :: Turkish
+Classifier: Natural Language :: Ukrainian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: defusedxml
+Requires-Dist: lxml>=2.0
+Requires-Dist: relatorio[fodt]>=0.7.0
+Requires-Dist: Genshi
+Requires-Dist: python-dateutil
+Requires-Dist: polib
+Requires-Dist: python-sql>=1.5
+Requires-Dist: simpleeval
+Requires-Dist: werkzeug>=0.12
+Requires-Dist: pwdlib[argon2]>=0.2
+Requires-Dist: pytz; python_version < "3.9"
+Requires-Dist: backports.entry-points-selectable; python_version < "3.10"
+Provides-Extra: test
+Requires-Dist: pillow; extra == "test"
+Requires-Dist: pydot; extra == "test"
+Requires-Dist: html2text; extra == "test"
+Provides-Extra: postgresql
+Requires-Dist: psycopg2>=2.7.0; extra == "postgresql"
+Provides-Extra: graphviz
+Requires-Dist: pydot; extra == "graphviz"
+Provides-Extra: levenshtein
+Requires-Dist: python-Levenshtein; extra == "levenshtein"
+Provides-Extra: html2text
+Requires-Dist: html2text; extra == "html2text"
+Provides-Extra: weasyprint
+Requires-Dist: weasyprint; extra == "weasyprint"
+Provides-Extra: coroutine
+Requires-Dist: gevent>=1.1; extra == "coroutine"
+Provides-Extra: image
+Requires-Dist: pillow; extra == "image"
+Provides-Extra: barcode
+Requires-Dist: python-barcode[images]; extra == "barcode"
+Provides-Extra: qrcode
+Requires-Dist: qrcode[pil]; extra == "qrcode"
+Requires-Dist: webcolors; extra == "qrcode"
+Provides-Extra: completion
+Requires-Dist: argcomplete; extra == "completion"
+Provides-Extra: email-validation
+Requires-Dist: email-validator>=2; extra == "email-validation"
+Requires-Dist: dnspython; extra == "email-validation"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: platform
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+trytond
+=======
+
+The server of Tryton.
+Tryton is business software, ideal for companies of any size, easy to use,
+complete and 100% Open Source.
+It provides modularity, scalability and security.

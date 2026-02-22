@@ -1,0 +1,146 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.payment,account:"
+msgid "Account"
+msgstr "Rekening"
+
+msgctxt "field:account.payment,clearing_move:"
+msgid "Clearing Move"
+msgstr "tegenboeking"
+
+msgctxt "field:account.payment,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr "Compensatieboeking afgeletterd"
+
+msgctxt "field:account.payment,statement_lines:"
+msgid "Statement Lines"
+msgstr "Afschrift regels"
+
+msgctxt "field:account.payment.group,clearing_reconciled:"
+msgid "Clearing Reconciled"
+msgstr "Compensatieboeking afgeletterd"
+
+msgctxt "field:account.payment.group,statement_lines:"
+msgid "Statement Lines"
+msgstr "Afschrift regels"
+
+msgctxt "field:account.payment.journal,clearing_account:"
+msgid "Clearing Account"
+msgstr "tegen rekening"
+
+msgctxt "field:account.payment.journal,clearing_journal:"
+msgid "Clearing Journal"
+msgstr "tegen dagboek"
+
+msgctxt "field:account.payment.journal,clearing_posting_delay:"
+msgid "Clearing Posting Delay"
+msgstr "tegenboeking vertraging"
+
+msgctxt "field:account.payment.succeed.start,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "help:account.payment,account:"
+msgid "Define the account to use for clearing move."
+msgstr "definieer de rekening om te gebruiken voor de tegenboekingen."
+
+msgctxt "help:account.payment,clearing_reconciled:"
+msgid "Checked if clearing line is reconciled."
+msgstr "Aangevinkt als de compensatieboekingsregel is afgeletterd."
+
+msgctxt "help:account.payment.group,clearing_reconciled:"
+msgid "All payments in the group are reconciled."
+msgstr "Alle betalingen in de groep zijn afgeletterd."
+
+msgctxt "help:account.payment.journal,clearing_posting_delay:"
+msgid ""
+"Post automatically the clearing moves after the delay.\n"
+"Leave empty for no posting."
+msgstr ""
+"maak automatisch de tegenboeking na de vertraging (delay).\n"
+"Laat leeg om geen boekingen te maken."
+
+msgctxt "help:account.statement.rule,description:"
+msgid ""
+"\n"
+"'payment_group'"
+msgstr ""
+"\n"
+"'betalingsgroep'"
+
+msgctxt "model:account.payment.succeed.start,string:"
+msgid "Account Payment Succeed Start"
+msgstr "Betaling succesvol start"
+
+msgctxt "model:ir.action,name:wizard_payment_group_succeed"
+msgid "Succeed Groups"
+msgstr "Geslaagde groepen"
+
+msgctxt "model:ir.action,name:wizard_succeed"
+msgid "Succeed Payments"
+msgstr "geslaagde betalingen"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\"."
+msgstr ""
+"Om de betaling \"%(payment)s\" te verwerken, moet er een vervangende "
+"rekening geconfigureerd worden voor \"%(account)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_missing_journal"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a replacement "
+"account for \"%(account)s\" or an active account on the payment journal "
+"\"%(journal)s\"."
+msgstr ""
+"Om de betaling \"%(payment)s\" te verwerken, moet er een vervangend account "
+"geconfigureerd worden voor \"%(account)s\" of een actieve rekening van het "
+"betalingsdagboek \"%(journal)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_clearing_account_payable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a payable account "
+"for party \"%(party)s\"."
+msgstr ""
+"Om de betaling \"%(payment)s\" te verwerken, moet er een crediteurenrekening"
+" geconfigureerd worden voor relatie \"%(party)s\"."
+
+#, python-format
+msgctxt ""
+"model:ir.message,text:msg_payment_clearing_account_receivable_missing"
+msgid ""
+"To clear the payment \"%(payment)s\" you must configure a receivable account"
+" for party \"%(party)s\"."
+msgstr ""
+"Om de betaling \"%(payment)s\" te verwerken, moet er een debiteurenrekening "
+"geconfigureerd worden voor relatie \"%(party)s\"."
+
+msgctxt "model:ir.model.button,string:payment_group_succeed_wizard_button"
+msgid "Succeed"
+msgstr "Succesvol"
+
+msgctxt "model:ir.model.button,string:payment_succeed_wizard_button"
+msgid "Succeed"
+msgstr "geslaagd"
+
+msgctxt "selection:ir.cron,method:"
+msgid "Post Clearing Moves"
+msgstr "Maak tegenboekingen"
+
+msgctxt "view:account.payment.journal:"
+msgid "Clearing"
+msgstr "tegenboeking"
+
+msgctxt "wizard_button:account.payment.succeed,start,end:"
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgctxt "wizard_button:account.payment.succeed,start,succeed:"
+msgid "Succeed"
+msgstr "geslaagd"

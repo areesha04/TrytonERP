@@ -1,0 +1,485 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:res.group,buttons:"
+msgid "Buttons"
+msgstr "Knoppen"
+
+msgctxt "field:res.group,field_access:"
+msgid "Access Field"
+msgstr "Toegang veld"
+
+msgctxt "field:res.group,menu_access:"
+msgid "Access Menu"
+msgstr "Toegang menu"
+
+msgctxt "field:res.group,model_access:"
+msgid "Access Model"
+msgstr "Toegang model"
+
+msgctxt "field:res.group,name:"
+msgid "Name"
+msgstr "Naam"
+
+msgctxt "field:res.group,parent:"
+msgid "Parent"
+msgstr "Bovenliggend"
+
+msgctxt "field:res.group,rule_groups:"
+msgid "Rules"
+msgstr "Regels"
+
+msgctxt "field:res.group,users:"
+msgid "Users"
+msgstr "Gebruikers"
+
+msgctxt "field:res.notification,action:"
+msgid "Action"
+msgstr "Actie"
+
+msgctxt "field:res.notification,action_value:"
+msgid "Action Value"
+msgstr "Actiewaarde"
+
+msgctxt "field:res.notification,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:res.notification,icon:"
+msgid "Icon"
+msgstr "Pictogram"
+
+msgctxt "field:res.notification,label:"
+msgid "Label"
+msgstr "Label"
+
+msgctxt "field:res.notification,model:"
+msgid "Model"
+msgstr "Model"
+
+msgctxt "field:res.notification,model_ref:"
+msgid "Model"
+msgstr "Model"
+
+msgctxt "field:res.notification,records:"
+msgid "Records"
+msgstr "Records"
+
+msgctxt "field:res.notification,unread:"
+msgid "Unread"
+msgstr "Ongelezen"
+
+msgctxt "field:res.notification,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "field:res.user,actions:"
+msgid "Actions"
+msgstr "Acties"
+
+msgctxt "field:res.user,applications:"
+msgid "Applications"
+msgstr "Toepassingen"
+
+msgctxt "field:res.user,avatar_badge_url:"
+msgid "Avatar Badge URL"
+msgstr "Avatar-badge-URL"
+
+msgctxt "field:res.user,email:"
+msgid "Email"
+msgstr "E-mail"
+
+msgctxt "field:res.user,groups:"
+msgid "Groups"
+msgstr "Groepen"
+
+msgctxt "field:res.user,language:"
+msgid "Language"
+msgstr "Taal"
+
+msgctxt "field:res.user,language_direction:"
+msgid "Language Direction"
+msgstr "Taalrichting"
+
+msgctxt "field:res.user,login:"
+msgid "Login"
+msgstr "Inlognaam"
+
+msgctxt "field:res.user,menu:"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "field:res.user,name:"
+msgid "Name"
+msgstr "Naam"
+
+msgctxt "field:res.user,notifications:"
+msgid "Notifications"
+msgstr "Meldingen"
+
+msgctxt "field:res.user,password:"
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgctxt "field:res.user,password_hash:"
+msgid "Password Hash"
+msgstr "Wachtwoord Hash"
+
+msgctxt "field:res.user,password_reset:"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+msgctxt "field:res.user,password_reset_expire:"
+msgid "Reset Password Expire"
+msgstr "Reset wachtwoord verlopen"
+
+msgctxt "field:res.user,pyson_menu:"
+msgid "PySON Menu"
+msgstr "PySON menu"
+
+msgctxt "field:res.user,sessions:"
+msgid "Sessions"
+msgstr "Sessies"
+
+msgctxt "field:res.user,signature:"
+msgid "Signature"
+msgstr "Handtekening"
+
+msgctxt "field:res.user,status_bar:"
+msgid "Status Bar"
+msgstr "Statusbalk"
+
+msgctxt "field:res.user,warnings:"
+msgid "Warnings"
+msgstr "Waarschuwing"
+
+msgctxt "field:res.user-ir.action,action:"
+msgid "Action"
+msgstr "Actie"
+
+msgctxt "field:res.user-ir.action,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "field:res.user-res.group,group:"
+msgid "Group"
+msgstr "Groep"
+
+msgctxt "field:res.user-res.group,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "field:res.user.application,application:"
+msgid "Application"
+msgstr "Toepassingen"
+
+msgctxt "field:res.user.application,key:"
+msgid "Key"
+msgstr "Sleutel"
+
+msgctxt "field:res.user.application,state:"
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:res.user.application,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "field:res.user.device,cookie:"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "field:res.user.device,login:"
+msgid "Login"
+msgstr "Inlognaam"
+
+msgctxt "field:res.user.login.attempt,device_cookie:"
+msgid "Device Cookie"
+msgstr "Apparaatcookie"
+
+msgctxt "field:res.user.login.attempt,ip_address:"
+msgid "IP Address"
+msgstr "IP Adres"
+
+msgctxt "field:res.user.login.attempt,ip_network:"
+msgid "IP Network"
+msgstr "IP-netwerk"
+
+msgctxt "field:res.user.login.attempt,login:"
+msgid "Login"
+msgstr "Inlognaam"
+
+msgctxt "field:res.user.warning,always:"
+msgid "Always"
+msgstr "Altijd"
+
+msgctxt "field:res.user.warning,name:"
+msgid "Name"
+msgstr "Naam"
+
+msgctxt "field:res.user.warning,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "help:res.group,parent:"
+msgid "The group to inherit accesses from."
+msgstr "De groep waarvan de rechten worden overgenomen."
+
+msgctxt "help:res.user,actions:"
+msgid "Actions that will be run at login."
+msgstr "Deze acties worden na het inloggen uitgevoerd."
+
+msgctxt "help:res.user,notifications:"
+msgid "Notifications to subscribe to."
+msgstr "Meldingen om op te abonneren."
+
+msgctxt "model:ir.action,name:act_group_form"
+msgid "Groups"
+msgstr "Groepen"
+
+msgctxt "model:ir.action,name:act_notification"
+msgid "Notifications"
+msgstr "Meldingen"
+
+msgctxt "model:ir.action,name:act_user_config"
+msgid "Configure Users"
+msgstr "Gebruikers configureren"
+
+msgctxt "model:ir.action,name:act_user_form"
+msgid "Users"
+msgstr "Gebruikers"
+
+msgctxt "model:ir.action,name:report_email_reset_password"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(user)s\" is not valid."
+msgstr "Het email adres \"%(email)s\" voor \"%(user)s\" is niet geldig."
+
+msgctxt "model:ir.message,text:msg_password_email"
+msgid "The password cannot be the same as user's email address."
+msgstr ""
+"Het wachtwoord mag niet hetzelfde zijn als het e-mailadres van de gebruiker."
+
+msgctxt "model:ir.message,text:msg_password_forbidden"
+msgid "The password is forbidden."
+msgstr "Dit wachtwoord is niet toegestaan."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_password_length"
+msgid "The password must have at least %(length)i character."
+msgid_plural "The password must have at least %(length)i characters."
+msgstr[0] "Het wachtwoord moet minimaal %(length)i teken bevatten."
+msgstr[1] "Het wachtwoord moet minimaal %(length)i tekens bevatten."
+
+msgctxt "model:ir.message,text:msg_password_login"
+msgid "The password cannot be the same as user's login."
+msgstr ""
+"Het wachtwoord mag niet hetzelfde zijn als de gebruikersnaam van de "
+"gebruiker."
+
+msgctxt "model:ir.message,text:msg_password_name"
+msgid "The password cannot be the same as user's name."
+msgstr "Het wachtwoord mag niet hetzelfde zijn als de gebruikersnaam."
+
+msgctxt "model:ir.message,text:msg_user_delete_forbidden"
+msgid ""
+"For logging purposes users cannot be deleted, instead they should be "
+"deactivated."
+msgstr ""
+"Voor logboekdoeleinden kunnen gebruikers niet worden verwijderd, maar moeten"
+" ze worden gedeactiveerd."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_user_password"
+msgid "Password for %(login)s"
+msgstr "Wachtwoord voor %(login)s"
+
+msgctxt "model:ir.model.button,help:user_reset_password_button"
+msgid "Send by email a new temporary password to the user"
+msgstr "Stuur per e-mail een tijdelijk wachtwoord naar de gebruiker"
+
+msgctxt "model:ir.model.button,string:user_application_cancel_button"
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgctxt "model:ir.model.button,string:user_application_validate_button"
+msgid "Validate"
+msgstr "Valideren"
+
+msgctxt "model:ir.model.button,string:user_reset_password_button"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification"
+msgid "Own notification"
+msgstr "Eigen melding"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification_admin"
+msgid "Any notification"
+msgstr "Alle meldingen"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application"
+msgid "Own user application"
+msgstr "Eigen gebruikersapplicatie"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application_admin"
+msgid "Any user application"
+msgstr "Elke gebruikerstoepassing"
+
+msgctxt "model:ir.rule.group,name:rule_group_user_warning"
+msgid "Own warning"
+msgstr "Eigen waarschuwing"
+
+msgctxt "model:ir.ui.menu,name:menu_group_form"
+msgid "Groups"
+msgstr "Groepen"
+
+msgctxt "model:ir.ui.menu,name:menu_notification_form"
+msgid "Notifications"
+msgstr "Meldingen"
+
+msgctxt "model:ir.ui.menu,name:menu_res"
+msgid "Users"
+msgstr "Gebruikers"
+
+msgctxt "model:ir.ui.menu,name:menu_user_form"
+msgid "Users"
+msgstr "Gebruikers"
+
+msgctxt "model:res.group,string:"
+msgid "Group"
+msgstr "Groep"
+
+msgctxt "model:res.notification,string:"
+msgid "Notification"
+msgstr "Melding"
+
+msgctxt "model:res.user,string:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "model:res.user-ir.action,string:"
+msgid "User - Action"
+msgstr "Gebruiker - Actie"
+
+msgctxt "model:res.user-res.group,string:"
+msgid "User - Group"
+msgstr "Gebruiker - Groep"
+
+msgctxt "model:res.user.application,string:"
+msgid "User Application"
+msgstr "Gebruikerstoepassing"
+
+msgctxt "model:res.user.config.start,string:"
+msgid "User Config Start"
+msgstr "Gebruiker configuratie start"
+
+msgctxt "model:res.user.device,string:"
+msgid "User Device"
+msgstr "Gebruikersapparaat"
+
+msgctxt "model:res.user.login.attempt,string:"
+msgid "User Login Attempt"
+msgstr "Inlogpoging"
+
+msgctxt "model:res.user.warning,string:"
+msgid "User Warning"
+msgstr "Gebruikerswaarschuwing"
+
+#, python-format
+msgctxt "report:res.user.email_reset_password:"
+msgid ""
+"Hello,\n"
+"                we have received a request to reset the password for the account associated with [1:%(login)s]. No changes have been made to your account yet.[2:]\n"
+"                You can connect with this temporary password [3:%(password)s] to[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                You must set a new one from the user's preferences.[9:]"
+msgstr ""
+"Hallo,\n"
+"                We hebben het verzoek ontvangen om het wachtwoord voor de gebruiker geassocieerd met [1:%(login)s] opnieuw in te stellen. Op dit moment zijn er nog geen wijzigingen gedaan aan de gebruiker.[2:]\n"
+"                U kunt met het tijdelijke wachtwoord [3:%(password)s] connectie maken met[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                U moet een nieuwe wachtwoord instellen via de gebruikers voorkeuren.[9:]"
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "If you didn't make this request, you can safely ignore this email."
+msgstr "Als u zit verzoek niet hebt gedaan, kunt u deze email negeren."
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+#, python-format
+msgctxt "report:res.user.email_reset_password:"
+msgid "The password will expire in [1:%(datetime)s]."
+msgstr "Het wachtwoord verloopt op [1:%(datetime)s]."
+
+msgctxt "selection:res.user.application,state:"
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Requested"
+msgstr "Aangevraagd"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Validated"
+msgstr "Bevestigd"
+
+msgctxt "view:res.group:"
+msgid "Access Permissions"
+msgstr "Toegangsrechten"
+
+msgctxt "view:res.group:"
+msgid "Members"
+msgstr "Leden"
+
+msgctxt "view:res.user.config.start:"
+msgid "Be careful that the login must be unique."
+msgstr "Letop: De login moet uniek zijn."
+
+msgctxt "view:res.user.config.start:"
+msgid "You can now add some users into the system."
+msgstr "Er kunnen nu gebruikers toegevoegd worden aan het systeem."
+
+msgctxt "view:res.user:"
+msgid "Access Permissions"
+msgstr "Toegangsrechten"
+
+msgctxt "view:res.user:"
+msgid "Actions"
+msgstr "Acties"
+
+msgctxt "view:res.user:"
+msgid "Group Membership"
+msgstr "Groepslidmaatschap"
+
+msgctxt "view:res.user:"
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+msgctxt "view:res.user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "wizard_button:res.user.config,start,end:"
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgctxt "wizard_button:res.user.config,start,user:"
+msgid "OK"
+msgstr "Ok"
+
+msgctxt "wizard_button:res.user.config,user,add:"
+msgid "Add"
+msgstr "Toevoegen"
+
+msgctxt "wizard_button:res.user.config,user,end:"
+msgid "End"
+msgstr "Einde"

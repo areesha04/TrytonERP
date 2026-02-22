@@ -1,0 +1,303 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:project.work,children:"
+msgid "Children"
+msgstr "Podnaloge"
+
+msgctxt "field:project.work,comment:"
+msgid "Comment"
+msgstr "Opomba"
+
+msgctxt "field:project.work,company:"
+msgid "Company"
+msgstr "Družba"
+
+msgctxt "field:project.work,effort_duration:"
+msgid "Effort"
+msgstr "Porabljen čas"
+
+msgctxt "field:project.work,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:project.work,parent:"
+msgid "Parent"
+msgstr "Matičnia dejavnost"
+
+msgctxt "field:project.work,party:"
+msgid "Party"
+msgstr "Partner"
+
+msgctxt "field:project.work,party_address:"
+msgid "Contact Address"
+msgstr "Kontakt"
+
+msgctxt "field:project.work,path:"
+msgid "Path"
+msgstr "Pot"
+
+msgctxt "field:project.work,progress:"
+msgid "Progress"
+msgstr "Napredek"
+
+msgctxt "field:project.work,status:"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "field:project.work,timesheet_available:"
+msgid "Available on timesheets"
+msgstr "Na evidenci"
+
+msgctxt "field:project.work,timesheet_duration:"
+msgid "Duration"
+msgstr "Trajanje"
+
+msgctxt "field:project.work,timesheet_end_date:"
+msgid "Timesheet End"
+msgstr "Konec evidence"
+
+msgctxt "field:project.work,timesheet_start_date:"
+msgid "Timesheet Start"
+msgstr "Začetek evidence"
+
+msgctxt "field:project.work,timesheet_works:"
+msgid "Timesheet Works"
+msgstr "Evidentirane naloge"
+
+msgctxt "field:project.work,total_effort:"
+msgid "Total Effort"
+msgstr "Ocena skupaj"
+
+msgctxt "field:project.work,total_progress:"
+msgid "Total Progress"
+msgstr "Napredek skupaj"
+
+msgctxt "field:project.work,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:project.work.status,count:"
+msgid "Count"
+msgstr "Število"
+
+msgctxt "field:project.work.status,default:"
+msgid "Default"
+msgstr "Privzeto"
+
+msgctxt "field:project.work.status,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:project.work.status,progress:"
+msgid "Progress"
+msgstr "Napredek"
+
+msgctxt "field:project.work.status,types:"
+msgid "Types"
+msgstr "Vrsta"
+
+msgctxt "help:project.work,effort_duration:"
+msgid "Estimated Effort for this work."
+msgstr "Ocenjen čas za to nalogo."
+
+msgctxt "help:project.work,progress:"
+msgid "Estimated progress for this work."
+msgstr "Ocenjen napredek za to nalogo."
+
+msgctxt "help:project.work,timesheet_available:"
+msgid "Check to record time spent."
+msgstr "Označite za beleženje porabljenega časa."
+
+msgctxt "help:project.work,timesheet_duration:"
+msgid "Total time spent on this work and the sub-works."
+msgstr "Skupni čas, porabljen na tej nalogi in podnalogami."
+
+msgctxt "help:project.work,total_effort:"
+msgid "Estimated total effort for this work and the sub-works."
+msgstr "Skupen čas, porabljen za to nalogo in podnaloge."
+
+msgctxt "help:project.work,total_progress:"
+msgid "Estimated total progress for this work and the sub-works."
+msgstr "Skupen napredek za to nalogo in podnaloge."
+
+msgctxt "help:project.work.status,count:"
+msgid "Check to show the number of works in this status."
+msgstr "Označi za prikaz števila nalog v tem stanju."
+
+msgctxt "help:project.work.status,default:"
+msgid "Check to use as default status for the type."
+msgstr "Označi za uporabo kot privzetega stanja za vrsto."
+
+msgctxt "help:project.work.status,progress:"
+msgid "The minimum progress required for this status."
+msgstr "Minimalno napredovanje potrebno za to stanje."
+
+msgctxt "help:project.work.status,types:"
+msgid "The type of works which can use this status."
+msgstr "Vrsta naloge, ki sme uporabljati to stanje."
+
+msgctxt "model:ir.action,name:act_open_child_work"
+msgid "Tasks"
+msgstr "Naloge"
+
+msgctxt "model:ir.action,name:act_project_form"
+msgid "Projects"
+msgstr "Projekti"
+
+msgctxt "model:ir.action,name:act_project_tree"
+msgid "Projects"
+msgstr "Projekti"
+
+msgctxt "model:ir.action,name:act_task_form"
+msgid "Tasks"
+msgstr "Naloge"
+
+msgctxt "model:ir.action,name:act_timesheet_line_form_work"
+msgid "Timesheet Lines"
+msgstr "Vrstice urnika"
+
+msgctxt "model:ir.action,name:act_work_list"
+msgid "Works Efforts"
+msgstr "Delovna prizadevanja"
+
+msgctxt "model:ir.action,name:act_work_status"
+msgid "Work Status"
+msgstr "Stanje dela"
+
+msgctxt "model:ir.action,name:act_work_tree"
+msgid "Works Efforts"
+msgstr "Delovna prizadevanja"
+
+msgctxt "model:ir.message,text:msg_domain_all"
+msgid "All"
+msgstr "Vse"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_erase_party_opened_project"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have opened projects with "
+"company \"%(company)s\"."
+msgstr ""
+"Ni mogoče izbrisati partnerja \"%(party)s\", dokler so nanj vezani odpri "
+"projekti z družbo \"%(company)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_work_children_progress"
+msgid "To complete work \"%(work)s\" you must complete also all its children."
+msgstr ""
+"Za zaključek dela \"%(work)s\", je potrebno zaključiti tudi podrejene "
+"elemente."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_work_invalid_progress_status"
+msgid ""
+"To set work \"%(work)s\" in \"%(status)s\" status, you must increase its "
+"progress up to at least %(progress)s."
+msgstr ""
+"Če želite nastaviti delo »%(work)s« v stanje »%(status)s«, mora biti njegov "
+"napredek vsaj %(progress)s."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_work_parent_progress"
+msgid ""
+"To reopen the work \"%(work)s\", you must also reopen its parent "
+"\"%(parent)s\"."
+msgstr ""
+"Če želite znova odpreti delo \"%(work)s\", je potrebno znova odpreti tudi "
+"njegov matični zapis \"%(parent)s\"."
+
+msgctxt "model:ir.rule.group,name:rule_group_work_companies"
+msgid "User in companies"
+msgstr "Uporabnik v družbah"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Konfiguracija"
+
+msgctxt "model:ir.ui.menu,name:menu_project"
+msgid "Projects"
+msgstr "Projekti"
+
+msgctxt "model:ir.ui.menu,name:menu_project_form"
+msgid "Projects"
+msgstr "Projekti"
+
+msgctxt "model:ir.ui.menu,name:menu_project_tree"
+msgid "Projects"
+msgstr "Projekti"
+
+msgctxt "model:ir.ui.menu,name:menu_reporting"
+msgid "Reporting"
+msgstr "Poročanje"
+
+msgctxt "model:ir.ui.menu,name:menu_task_form"
+msgid "Tasks"
+msgstr "Naloge"
+
+msgctxt "model:ir.ui.menu,name:menu_work_list"
+msgid "Works Efforts"
+msgstr "Delovna prizadevanja"
+
+msgctxt "model:ir.ui.menu,name:menu_work_status"
+msgid "Work Status"
+msgstr "Stanje dela"
+
+msgctxt "model:ir.ui.menu,name:menu_work_tree"
+msgid "Works Efforts"
+msgstr "Delovna prizadevanja"
+
+#, fuzzy
+msgctxt "model:project.work,string:"
+msgid "Project Work"
+msgstr "Projekt"
+
+msgctxt "model:project.work.status,name:work_done_status"
+msgid "Done"
+msgstr "Zaključeno"
+
+msgctxt "model:project.work.status,name:work_open_status"
+msgid "Open"
+msgstr "Odprto"
+
+#, fuzzy
+msgctxt "model:project.work.status,string:"
+msgid "Project Work Status"
+msgstr "Stanje dela"
+
+msgctxt "model:res.group,name:group_project_admin"
+msgid "Project Administration"
+msgstr "Skrbištvo projektov"
+
+msgctxt "selection:project.work,type:"
+msgid "Project"
+msgstr "Projekt"
+
+msgctxt "selection:project.work,type:"
+msgid "Task"
+msgstr "Naloga"
+
+msgctxt "view:project.work.status:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:project.work:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:project.work:"
+msgid "End:"
+msgstr "Konec:"
+
+msgctxt "view:project.work:"
+msgid "General"
+msgstr "Splošno"
+
+msgctxt "view:project.work:"
+msgid "Start:"
+msgstr "Začetek:"
+
+msgctxt "view:project.work:"
+msgid "Timesheet:"
+msgstr "Urnik:"

@@ -1,0 +1,88 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,dunning_email_fallback:"
+msgid "Fall-back User"
+msgstr "Reserv kasutaja"
+
+msgctxt "field:account.dunning.level,email_contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "Kontakteerumise moodus"
+
+msgctxt "field:account.dunning.level,email_from:"
+msgid "From"
+msgstr "Saatja"
+
+msgctxt "field:account.dunning.level,email_template:"
+msgid "Email Template"
+msgstr "E-maili mall"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "Saada e-mail"
+
+#, fuzzy
+msgctxt "field:ir.email,dunning_level:"
+msgid "Level"
+msgstr "Tase"
+
+#, fuzzy
+msgctxt "help:account.configuration,dunning_email_fallback:"
+msgid "User notified when no email is found to send the dunning."
+msgstr "Kasutaja, keda teavitatakse, kui puudub e-mail millele saata meenutus"
+
+#, fuzzy
+msgctxt "help:account.dunning.level,email_contact_mechanism:"
+msgid "Define which email to use from the party's contact mechanisms."
+msgstr ""
+"Määra, kasutaja kontaktide mehanismide hulgast, missugust e-maili kasutada."
+
+msgctxt "help:account.dunning.level,email_from:"
+msgid "Leave empty for the value defined in the configuration file."
+msgstr "Jäta tühjaks, et rakenduks väärtus mis on määratud seadistuse failis."
+
+msgctxt "model:ir.action,name:report_email"
+msgid "Dunning Email"
+msgstr "Meenutuse email"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Amount"
+msgstr "Väärtus"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date"
+msgstr "Kuupäev"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date:"
+msgstr "Kuupäev:"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Description"
+msgstr "Nimetus"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Due Date"
+msgstr "Maksetähtaeg"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr "Tasud:"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Pending Payments Received"
+msgstr "Saadud tasumata maksed"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reference"
+msgstr "Viide"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reminder Notice"
+msgstr "Meeldetuletuse teade"
+
+#, fuzzy
+msgctxt "view:account.dunning.level:"
+msgid "Email"
+msgstr "E-mail"

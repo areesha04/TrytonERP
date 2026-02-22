@@ -1,0 +1,193 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:web.user,email:"
+msgid "Email"
+msgstr "E-Mail"
+
+msgctxt "field:web.user,email_token:"
+msgid "Email Token"
+msgstr "E-Mail Token"
+
+msgctxt "field:web.user,email_valid:"
+msgid "Email Valid"
+msgstr "E-Mail gültig"
+
+msgctxt "field:web.user,party:"
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:web.user,password:"
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "field:web.user,password_hash:"
+msgid "Password Hash"
+msgstr "Passwort Hash"
+
+msgctxt "field:web.user,reset_password_token:"
+msgid "Reset Password Token"
+msgstr "Passwortrücksetzungstoken"
+
+msgctxt "field:web.user,reset_password_token_expire:"
+msgid "Reset Password Token Expire"
+msgstr "Passwortrücksetzungstoken Verfall"
+
+msgctxt "field:web.user,secondary_parties:"
+msgid "Secondary Parties"
+msgstr "Sekundäre Parteien"
+
+msgctxt "field:web.user-party.party.secondary,party:"
+msgid "Party"
+msgstr "Partei"
+
+msgctxt "field:web.user-party.party.secondary,user:"
+msgid "User"
+msgstr "Benutzer"
+
+msgctxt "field:web.user.authenticate.attempt,device_cookie:"
+msgid "Device Cookie"
+msgstr "Geräte Cookie"
+
+msgctxt "field:web.user.authenticate.attempt,ip_address:"
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+msgctxt "field:web.user.authenticate.attempt,ip_network:"
+msgid "IP Network"
+msgstr "IP-Netz"
+
+msgctxt "field:web.user.authenticate.attempt,login:"
+msgid "Login"
+msgstr "Benutzername"
+
+msgctxt "field:web.user.session,key:"
+msgid "Key"
+msgstr "Schlüssel"
+
+msgctxt "field:web.user.session,user:"
+msgid "User"
+msgstr "Benutzer"
+
+msgctxt "model:ir.action,name:act_user_form"
+msgid "Web Users"
+msgstr "Webbenutzer"
+
+msgctxt "model:ir.action,name:act_user_form_party"
+msgid "Web Users"
+msgstr "Webbenutzer"
+
+msgctxt "model:ir.action,name:report_email_reset_password"
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+msgctxt "model:ir.action,name:report_email_validation"
+msgid "Email Validation"
+msgstr "E-Mail-Validierung"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_user_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(user)s\" is not valid."
+msgstr "Die E-Mail-Adresse \"%(email)s\" für \"%(user)s\" ist ungültig."
+
+msgctxt "model:ir.message,text:msg_user_email_unique"
+msgid "Email of active web user must be unique."
+msgstr "Die E-Mail eines aktiven Webbenutzers muss eindeutig sein."
+
+msgctxt "model:ir.message,text:msg_user_session_key_unique"
+msgid "Web user session key must be unique."
+msgstr ""
+"Der Sitzungsschlüssel eines Webbenutzers kann nur einmal vergeben werden."
+
+msgctxt "model:ir.model.button,string:user_reset_password_button"
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+msgctxt "model:ir.model.button,string:user_validate_email_button"
+msgid "Validate Email"
+msgstr "E-Mail validieren"
+
+msgctxt "model:ir.ui.menu,name:menu_user_form"
+msgid "Web Users"
+msgstr "Webbenutzer"
+
+msgctxt "model:web.user,string:"
+msgid "Web User"
+msgstr "Webbenutzer"
+
+msgctxt "model:web.user-party.party.secondary,string:"
+msgid "Web User - Party Secondary"
+msgstr "Webbenutzer - Sekundäre Partei"
+
+msgctxt "model:web.user.authenticate.attempt,string:"
+msgid "User Login Attempt"
+msgstr "Benutzeranmeldeversuch"
+
+msgctxt "model:web.user.session,string:"
+msgid "Web User Session"
+msgstr "Webbenutzer Sitzung"
+
+msgctxt "report:web.user.email_reset_password:"
+msgid "Button not working? Paste this into your browser:"
+msgstr ""
+"Sollte der Button nicht funktionieren, kopieren Sie bitte den folgenden Text"
+" in die Adresszeile Ihres Browsers:"
+
+#, python-format
+msgctxt "report:web.user.email_reset_password:"
+msgid ""
+"Hello, we received a request to reset the password for the account associated with [1:%(email)s]. No changes have been made to your account yet.[2:]\n"
+"                You can reset your password by clicking the link below:[3:]\n"
+"                [4:\n"
+"                    Reset Password\n"
+"                ]"
+msgstr ""
+"Hallo, wir haben eine Anfrage zum Zurücksetzen des Passworts für das mit [1:%(email)s) verknüpfte Konto erhalten. An Ihrem Konto wurden noch keine Änderungen vorgenommen.[2:]\n"
+"                Sie können Ihr Passwort zurücksetzen, indem Sie auf den folgenden Link klicken:[3:]\n"
+"                [4:\n"
+"                    Passwort zurücksetzen\n"
+"                ]"
+
+msgctxt "report:web.user.email_reset_password:"
+msgid "If you didn't make this request, you can ignore this email."
+msgstr ""
+"Ignorieren Sie bitte diese E-Mail, wenn Sie nicht der Urheber dieser Anfrage"
+" sind."
+
+msgctxt "report:web.user.email_reset_password:"
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#, python-format
+msgctxt "report:web.user.email_reset_password:"
+msgid "The link will expire in [1:%(datetime)s]."
+msgstr "Der Hyperlink wird in [1:%(datetime)s] ablaufen."
+
+#, python-format
+msgctxt "report:web.user.email_validation:"
+msgid "%(email)s"
+msgstr "%(email)s"
+
+msgctxt "report:web.user.email_validation:"
+msgid "Button is not working? Paste this into your browser:"
+msgstr ""
+"Wenn der Button nicht funktioniert, kopieren Sie bitte die folgende Zeile in"
+" die Adresszeile Ihres Browsers:"
+
+msgctxt "report:web.user.email_validation:"
+msgid "Email Validation"
+msgstr "E-Mail-Validierung"
+
+msgctxt "report:web.user.email_validation:"
+msgid "If you received this email by mistake, just ignore it."
+msgstr ""
+"Ignorieren Sie bitte diese E-Mail, wenn Sie sie irrtümlich erhalten haben."
+
+msgctxt "report:web.user.email_validation:"
+msgid "Just one more step.."
+msgstr "Nur noch ein Schritt..."
+
+msgctxt "report:web.user.email_validation:"
+msgid "Validate"
+msgstr "Prüfen"

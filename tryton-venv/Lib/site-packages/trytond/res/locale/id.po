@@ -1,0 +1,488 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:res.group,buttons:"
+msgid "Buttons"
+msgstr "Tombol"
+
+msgctxt "field:res.group,field_access:"
+msgid "Access Field"
+msgstr ""
+
+msgctxt "field:res.group,menu_access:"
+msgid "Access Menu"
+msgstr ""
+
+msgctxt "field:res.group,model_access:"
+msgid "Access Model"
+msgstr ""
+
+msgctxt "field:res.group,name:"
+msgid "Name"
+msgstr "Nama"
+
+msgctxt "field:res.group,parent:"
+msgid "Parent"
+msgstr "Induk"
+
+msgctxt "field:res.group,rule_groups:"
+msgid "Rules"
+msgstr ""
+
+msgctxt "field:res.group,users:"
+msgid "Users"
+msgstr "Pengguna"
+
+#, fuzzy
+msgctxt "field:res.notification,action:"
+msgid "Action"
+msgstr "Tindakan"
+
+#, fuzzy
+msgctxt "field:res.notification,action_value:"
+msgid "Action Value"
+msgstr "Tindakan"
+
+msgctxt "field:res.notification,description:"
+msgid "Description"
+msgstr ""
+
+msgctxt "field:res.notification,icon:"
+msgid "Icon"
+msgstr ""
+
+msgctxt "field:res.notification,label:"
+msgid "Label"
+msgstr ""
+
+msgctxt "field:res.notification,model:"
+msgid "Model"
+msgstr ""
+
+msgctxt "field:res.notification,model_ref:"
+msgid "Model"
+msgstr ""
+
+msgctxt "field:res.notification,records:"
+msgid "Records"
+msgstr ""
+
+msgctxt "field:res.notification,unread:"
+msgid "Unread"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:res.notification,user:"
+msgid "User"
+msgstr "Pengguna"
+
+msgctxt "field:res.user,actions:"
+msgid "Actions"
+msgstr "Tindakan"
+
+msgctxt "field:res.user,applications:"
+msgid "Applications"
+msgstr "Aplikasi-Aplikasi"
+
+msgctxt "field:res.user,avatar_badge_url:"
+msgid "Avatar Badge URL"
+msgstr ""
+
+msgctxt "field:res.user,email:"
+msgid "Email"
+msgstr "Email"
+
+msgctxt "field:res.user,groups:"
+msgid "Groups"
+msgstr ""
+
+msgctxt "field:res.user,language:"
+msgid "Language"
+msgstr "Bahasa"
+
+msgctxt "field:res.user,language_direction:"
+msgid "Language Direction"
+msgstr ""
+
+msgctxt "field:res.user,login:"
+msgid "Login"
+msgstr "Login"
+
+#, fuzzy
+msgctxt "field:res.user,menu:"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "field:res.user,name:"
+msgid "Name"
+msgstr "Nama"
+
+#, fuzzy
+msgctxt "field:res.user,notifications:"
+msgid "Notifications"
+msgstr "Aplikasi-Aplikasi"
+
+msgctxt "field:res.user,password:"
+msgid "Password"
+msgstr "Kata sandi"
+
+msgctxt "field:res.user,password_hash:"
+msgid "Password Hash"
+msgstr ""
+
+msgctxt "field:res.user,password_reset:"
+msgid "Reset Password"
+msgstr "Atur Ulang Kata Sandi"
+
+msgctxt "field:res.user,password_reset_expire:"
+msgid "Reset Password Expire"
+msgstr ""
+
+msgctxt "field:res.user,pyson_menu:"
+msgid "PySON Menu"
+msgstr "Menu PySON"
+
+msgctxt "field:res.user,sessions:"
+msgid "Sessions"
+msgstr ""
+
+msgctxt "field:res.user,signature:"
+msgid "Signature"
+msgstr ""
+
+msgctxt "field:res.user,status_bar:"
+msgid "Status Bar"
+msgstr ""
+
+msgctxt "field:res.user,warnings:"
+msgid "Warnings"
+msgstr ""
+
+msgctxt "field:res.user-ir.action,action:"
+msgid "Action"
+msgstr "Tindakan"
+
+msgctxt "field:res.user-ir.action,user:"
+msgid "User"
+msgstr "Pengguna"
+
+msgctxt "field:res.user-res.group,group:"
+msgid "Group"
+msgstr "Kelompok"
+
+msgctxt "field:res.user-res.group,user:"
+msgid "User"
+msgstr "Pengguna"
+
+msgctxt "field:res.user.application,application:"
+msgid "Application"
+msgstr "Aplikasi"
+
+msgctxt "field:res.user.application,key:"
+msgid "Key"
+msgstr "Kunci"
+
+msgctxt "field:res.user.application,state:"
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:res.user.application,user:"
+msgid "User"
+msgstr "Pengguna"
+
+msgctxt "field:res.user.device,cookie:"
+msgid "Cookie"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:res.user.device,login:"
+msgid "Login"
+msgstr "Login"
+
+msgctxt "field:res.user.login.attempt,device_cookie:"
+msgid "Device Cookie"
+msgstr ""
+
+msgctxt "field:res.user.login.attempt,ip_address:"
+msgid "IP Address"
+msgstr "Alamat IP"
+
+msgctxt "field:res.user.login.attempt,ip_network:"
+msgid "IP Network"
+msgstr ""
+
+msgctxt "field:res.user.login.attempt,login:"
+msgid "Login"
+msgstr ""
+
+msgctxt "field:res.user.warning,always:"
+msgid "Always"
+msgstr ""
+
+msgctxt "field:res.user.warning,name:"
+msgid "Name"
+msgstr "Nama"
+
+msgctxt "field:res.user.warning,user:"
+msgid "User"
+msgstr "Pengguna"
+
+msgctxt "help:res.group,parent:"
+msgid "The group to inherit accesses from."
+msgstr ""
+
+msgctxt "help:res.user,actions:"
+msgid "Actions that will be run at login."
+msgstr ""
+
+msgctxt "help:res.user,notifications:"
+msgid "Notifications to subscribe to."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_group_form"
+msgid "Groups"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_notification"
+msgid "Notifications"
+msgstr "Aplikasi-Aplikasi"
+
+msgctxt "model:ir.action,name:act_user_config"
+msgid "Configure Users"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_user_form"
+msgid "Users"
+msgstr "Pengguna"
+
+msgctxt "model:ir.action,name:report_email_reset_password"
+msgid "Reset Password"
+msgstr "Atur Ulang Kata Sandi"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(user)s\" is not valid."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_password_email"
+msgid "The password cannot be the same as user's email address."
+msgstr "Kata sandi tidak boleh sama dengan alamat email pengguna."
+
+msgctxt "model:ir.message,text:msg_password_forbidden"
+msgid "The password is forbidden."
+msgstr "Kata sandi itu terlarang."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_password_length"
+msgid "The password must have at least %(length)i character."
+msgid_plural "The password must have at least %(length)i characters."
+msgstr[0] ""
+
+msgctxt "model:ir.message,text:msg_password_login"
+msgid "The password cannot be the same as user's login."
+msgstr "Kata sandi tidak boleh sama dengan login pengguna."
+
+msgctxt "model:ir.message,text:msg_password_name"
+msgid "The password cannot be the same as user's name."
+msgstr "Kata sandi tidak boleh sama dengan nama pengguna."
+
+msgctxt "model:ir.message,text:msg_user_delete_forbidden"
+msgid ""
+"For logging purposes users cannot be deleted, instead they should be "
+"deactivated."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_user_password"
+msgid "Password for %(login)s"
+msgstr ""
+
+msgctxt "model:ir.model.button,help:user_reset_password_button"
+msgid "Send by email a new temporary password to the user"
+msgstr "Kirim melalui email kata sandi baru sementara ke pengguna"
+
+msgctxt "model:ir.model.button,string:user_application_cancel_button"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "model:ir.model.button,string:user_application_validate_button"
+msgid "Validate"
+msgstr ""
+
+msgctxt "model:ir.model.button,string:user_reset_password_button"
+msgid "Reset Password"
+msgstr "Atur Ulang Kata Sandi"
+
+msgctxt "model:ir.rule.group,name:rule_group_notification"
+msgid "Own notification"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_notification_admin"
+msgid "Any notification"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application"
+msgid "Own user application"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_user_application_admin"
+msgid "Any user application"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_user_warning"
+msgid "Own warning"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_group_form"
+msgid "Groups"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_notification_form"
+msgid "Notifications"
+msgstr "Aplikasi-Aplikasi"
+
+msgctxt "model:ir.ui.menu,name:menu_res"
+msgid "Users"
+msgstr "Pengguna"
+
+msgctxt "model:ir.ui.menu,name:menu_user_form"
+msgid "Users"
+msgstr "Pengguna"
+
+#, fuzzy
+msgctxt "model:res.group,string:"
+msgid "Group"
+msgstr "Kelompok"
+
+#, fuzzy
+msgctxt "model:res.notification,string:"
+msgid "Notification"
+msgstr "Aplikasi"
+
+#, fuzzy
+msgctxt "model:res.user,string:"
+msgid "User"
+msgstr "Pengguna"
+
+#, fuzzy
+msgctxt "model:res.user-ir.action,string:"
+msgid "User - Action"
+msgstr "Pengguna - Tindakan"
+
+#, fuzzy
+msgctxt "model:res.user-res.group,string:"
+msgid "User - Group"
+msgstr "Pengguna - Kelompok"
+
+#, fuzzy
+msgctxt "model:res.user.application,string:"
+msgid "User Application"
+msgstr "Aplikasi Pengguna"
+
+msgctxt "model:res.user.config.start,string:"
+msgid "User Config Start"
+msgstr ""
+
+msgctxt "model:res.user.device,string:"
+msgid "User Device"
+msgstr ""
+
+msgctxt "model:res.user.login.attempt,string:"
+msgid "User Login Attempt"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:res.user.warning,string:"
+msgid "User Warning"
+msgstr "Pengguna dalam kelompok"
+
+#, python-format
+msgctxt "report:res.user.email_reset_password:"
+msgid ""
+"Hello,\n"
+"                we have received a request to reset the password for the account associated with [1:%(login)s]. No changes have been made to your account yet.[2:]\n"
+"                You can connect with this temporary password [3:%(password)s] to[4:]\n"
+"                [5:tryton://%(host)s/%(database)s][6:]\n"
+"                [7:%(http_host)s/#%(database)s][8:]\n"
+"                You must set a new one from the user's preferences.[9:]"
+msgstr ""
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "If you didn't make this request, you can safely ignore this email."
+msgstr ""
+
+msgctxt "report:res.user.email_reset_password:"
+msgid "Reset Password"
+msgstr "Atur Ulang Kata Sandi"
+
+#, python-format
+msgctxt "report:res.user.email_reset_password:"
+msgid "The password will expire in [1:%(datetime)s]."
+msgstr "Kata sandi akan kedaluwarsa dalam [1:%(datetime)s]."
+
+msgctxt "selection:res.user.application,state:"
+msgid "Cancelled"
+msgstr "Dibatalkan"
+
+msgctxt "selection:res.user.application,state:"
+msgid "Requested"
+msgstr ""
+
+msgctxt "selection:res.user.application,state:"
+msgid "Validated"
+msgstr ""
+
+msgctxt "view:res.group:"
+msgid "Access Permissions"
+msgstr "Izin Akses"
+
+msgctxt "view:res.group:"
+msgid "Members"
+msgstr "Anggota"
+
+msgctxt "view:res.user.config.start:"
+msgid "Be careful that the login must be unique."
+msgstr "Hati-hati karena login harus unik."
+
+msgctxt "view:res.user.config.start:"
+msgid "You can now add some users into the system."
+msgstr "Anda sekarang dapat menambahkan beberapa pengguna ke dalam sistem."
+
+msgctxt "view:res.user:"
+msgid "Access Permissions"
+msgstr "Izin Akses"
+
+msgctxt "view:res.user:"
+msgid "Actions"
+msgstr "Tindakan"
+
+msgctxt "view:res.user:"
+msgid "Group Membership"
+msgstr ""
+
+msgctxt "view:res.user:"
+msgid "Preferences"
+msgstr ""
+
+msgctxt "view:res.user:"
+msgid "User"
+msgstr "Pengguna"
+
+msgctxt "wizard_button:res.user.config,start,end:"
+msgid "Cancel"
+msgstr "Batal"
+
+msgctxt "wizard_button:res.user.config,start,user:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:res.user.config,user,add:"
+msgid "Add"
+msgstr "Tambah"
+
+msgctxt "wizard_button:res.user.config,user,end:"
+msgid "End"
+msgstr "Selesai"

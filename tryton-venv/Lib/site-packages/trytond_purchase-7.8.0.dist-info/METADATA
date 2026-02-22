@@ -1,0 +1,93 @@
+Metadata-Version: 2.4
+Name: trytond_purchase
+Version: 7.8.0
+Summary: Tryton module for purchase
+Home-page: http://www.tryton.org/
+Download-URL: http://downloads.tryton.org/7.8/
+Author: Tryton
+Author-email: foundation@tryton.org
+License: GPL-3
+Project-URL: Bug Tracker, https://bugs.tryton.org/
+Project-URL: Documentation, https://docs.tryton.org/modules-purchase/
+Project-URL: Forum, https://www.tryton.org/forum
+Project-URL: Source Code, https://code.tryton.org/tryton
+Keywords: tryton purchase
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Legal Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: Bulgarian
+Classifier: Natural Language :: Catalan
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Czech
+Classifier: Natural Language :: Dutch
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Finnish
+Classifier: Natural Language :: French
+Classifier: Natural Language :: German
+Classifier: Natural Language :: Hungarian
+Classifier: Natural Language :: Indonesian
+Classifier: Natural Language :: Italian
+Classifier: Natural Language :: Persian
+Classifier: Natural Language :: Polish
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Natural Language :: Romanian
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: Slovenian
+Classifier: Natural Language :: Spanish
+Classifier: Natural Language :: Turkish
+Classifier: Natural Language :: Ukrainian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: python-sql>=0.4
+Requires-Dist: trytond_account<7.9,>=7.8
+Requires-Dist: trytond_account_invoice<7.9,>=7.8
+Requires-Dist: trytond_account_invoice_stock<7.9,>=7.8
+Requires-Dist: trytond_account_product<7.9,>=7.8
+Requires-Dist: trytond_company<7.9,>=7.8
+Requires-Dist: trytond_currency<7.9,>=7.8
+Requires-Dist: trytond_party<7.9,>=7.8
+Requires-Dist: trytond_product<7.9,>=7.8
+Requires-Dist: trytond_stock<7.9,>=7.8
+Requires-Dist: trytond<7.9,>=7.8
+Provides-Extra: test
+Requires-Dist: proteus<7.9,>=7.8; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: download-url
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+###############
+Purchase Module
+###############
+
+The *Purchase Module* provides everything that is required to create and
+manage purchases made by the company.
+It adds the idea of a purchase to Tryton, and allows it to be tracked as it
+moves through various states from draft to done.
+It makes it easy to create supplier shipments for the purchase, and includes
+the ability to automatically create related supplier invoices.
+

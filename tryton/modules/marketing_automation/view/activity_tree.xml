@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="name" expand="1"/>
+    <field name="on"/>
+    <field name="delay"/>
+    <field name="action"/>
+    <field name="email_open_rate" factor="100">
+        <suffix string="%" name="email_open_rate"/>
+    </field>
+    <field name="email_open_rate_trend" expand="1"/>
+    <field name="email_click_rate" factor="100">
+        <suffix string="%" name="email_click_rate"/>
+    </field>
+    <field name="email_open_rate_trend" expand="1"/>
+    <field name="email_click_through_rate" factor="100">
+        <suffix string="%" name="email_click_through_rate"/>
+    </field>
+    <field name="email_click_through_rate_trend" expand="1"/>
+</tree>

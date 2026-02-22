@@ -1,0 +1,136 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.category,image_url:"
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+msgctxt "field:product.category,images:"
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgctxt "field:product.category.image,cache:"
+msgid "Cache"
+msgstr "Cache"
+
+msgctxt "field:product.category.image,category:"
+msgid "Category"
+msgstr "Categorie"
+
+msgctxt "field:product.category.image,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:product.category.image,image:"
+msgid "Image"
+msgstr "Afbeelding"
+
+msgctxt "field:product.category.image,image_id:"
+msgid "Image ID"
+msgstr "Afbeelding ID"
+
+msgctxt "field:product.category.image.cache,category_image:"
+msgid "Category Image"
+msgstr "Categorie afbeelding"
+
+msgctxt "field:product.category.image.cache,height:"
+msgid "Height"
+msgstr "Hoogte"
+
+msgctxt "field:product.category.image.cache,image:"
+msgid "Image"
+msgstr "Afbeelding"
+
+msgctxt "field:product.category.image.cache,image_id:"
+msgid "Image ID"
+msgstr "Afbeelding ID"
+
+msgctxt "field:product.category.image.cache,width:"
+msgid "Width"
+msgstr "Breedte"
+
+msgctxt "field:product.image,cache:"
+msgid "Cache"
+msgstr "Cache"
+
+msgctxt "field:product.image,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:product.image,image:"
+msgid "Image"
+msgstr "Afbeelding"
+
+msgctxt "field:product.image,image_id:"
+msgid "Image ID"
+msgstr "Afbeeldings-ID"
+
+msgctxt "field:product.image,product:"
+msgid "Variant"
+msgstr "Variant"
+
+msgctxt "field:product.image,template:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:product.image.cache,height:"
+msgid "Height"
+msgstr "Hoogte"
+
+msgctxt "field:product.image.cache,image:"
+msgid "Image"
+msgstr "Afbeelding"
+
+msgctxt "field:product.image.cache,image_id:"
+msgid "Image ID"
+msgstr "Afbeeldings-ID"
+
+msgctxt "field:product.image.cache,product_image:"
+msgid "Product Image"
+msgstr "Product afbeelding"
+
+msgctxt "field:product.image.cache,width:"
+msgid "Width"
+msgstr "Breedte"
+
+msgctxt "field:product.product,image_url:"
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+msgctxt "field:product.product,images:"
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgctxt "field:product.template,image_url:"
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+msgctxt "field:product.template,images:"
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgctxt "model:ir.message,text:msg_image_cache_size_unique"
+msgid "The size of cached image must be unique."
+msgstr "De grootte van de in de cache opgeslagen afbeelding moet uniek zijn."
+
+msgctxt "model:ir.message,text:msg_product_image_error"
+msgid "Can not open or identify the image set for the product."
+msgstr ""
+"Kan de set met afbeeldingen voor het product niet openen of identificeren."
+
+msgctxt "model:product.category.image,string:"
+msgid "Product Category Image"
+msgstr "Product categorie afbeelding"
+
+msgctxt "model:product.category.image.cache,string:"
+msgid "Product Category Image Cache"
+msgstr "Product categorie afbeelding cache"
+
+msgctxt "model:product.image,string:"
+msgid "Product Image"
+msgstr "Product afbeelding"
+
+msgctxt "model:product.image.cache,string:"
+msgid "Product Image Cache"
+msgstr "Product afbeelding cache"

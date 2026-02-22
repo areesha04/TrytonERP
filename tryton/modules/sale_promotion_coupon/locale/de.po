@@ -1,0 +1,129 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.promotion,coupons:"
+msgid "Coupons"
+msgstr "Coupons"
+
+msgctxt "field:sale.promotion.coupon,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+# For a condensed but talking representation in list view it seems better to
+# put 'Anzahl' at the first place.
+msgctxt "field:sale.promotion.coupon,number_of_use:"
+msgid "Number of Use"
+msgstr "Maximale Anzahl Verwendung"
+
+msgctxt "field:sale.promotion.coupon,numbers:"
+msgid "Numbers"
+msgstr "Nummern"
+
+msgctxt "field:sale.promotion.coupon,per_party:"
+msgid "Per Party"
+msgstr "Pro Partei"
+
+msgctxt "field:sale.promotion.coupon,promotion:"
+msgid "Promotion"
+msgstr "Verkaufsaktion"
+
+msgctxt "field:sale.promotion.coupon.number,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:sale.promotion.coupon.number,coupon:"
+msgid "Coupon"
+msgstr "Coupon"
+
+msgctxt "field:sale.promotion.coupon.number,end_date:"
+msgid "End Date"
+msgstr "Enddatum"
+
+msgctxt "field:sale.promotion.coupon.number,number:"
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:sale.promotion.coupon.number,start_date:"
+msgid "Start Date"
+msgstr "Startdatum"
+
+msgctxt "field:sale.sale,coupon_parties:"
+msgid "Coupon Parties"
+msgstr "Coupons Parteien"
+
+msgctxt "field:sale.sale,coupons:"
+msgid "Coupons"
+msgstr "Coupons"
+
+msgctxt "field:sale.sale-sale.promotion.coupon.number,number:"
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:sale.sale-sale.promotion.coupon.number,sale:"
+msgid "Sale"
+msgstr "Verkauf"
+
+msgctxt "help:sale.promotion.coupon,number_of_use:"
+msgid ""
+"How much times a coupon number can be used.\n"
+"0 or below for no limit."
+msgstr ""
+"Wie oft eine Coupon-Nummer genutzt werden kann.\n"
+"0 oder weniger für kein Limit."
+
+msgctxt "help:sale.promotion.coupon,per_party:"
+msgid "Check to count usage per party."
+msgstr "Aktivieren um die Anzahl der Verwendungen pro Partei zu zählen."
+
+msgctxt "model:ir.action,name:act_promotion_coupon_number_form"
+msgid "Coupon Numbers"
+msgstr "Couponnummern"
+
+msgctxt "model:ir.message,text:msg_duplicate_numbers"
+msgid "The dates of coupon numbers with the same number can not overlap."
+msgstr ""
+"Die Datumsangaben von Couponnummern mit gleicher Nummer dürfen sich nicht "
+"überschneiden."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_promotion_coupon_number_end_date"
+msgid ""
+"The end date of coupons numbered \"%(numbers)s\" must be before "
+"%(start_date)s."
+msgstr ""
+"Das Enddatum von Coupons mit den Nummern „%(numbers)s“ muss vor dem "
+"%(start_date)s liegen."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_promotion_coupon_number_start_date"
+msgid ""
+"The start date of coupons numbered \"%(numbers)s\" must be after "
+"%(start_date)s."
+msgstr ""
+"Das Startdatum von Coupons mit den Nummern „%(numbers)s“ muss nach dem "
+"%(start_date)s liegen."
+
+msgctxt "model:ir.rule.group,name:rule_group_coupon_companies"
+msgid "User in companies"
+msgstr "Benutzer in Unternehmen"
+
+msgctxt "model:ir.rule.group,name:rule_group_coupon_number_companies"
+msgid "User in companies"
+msgstr "Benutzer in Unternehmen"
+
+msgctxt "model:ir.ui.menu,name:menu_promotion_coupon_number"
+msgid "Coupon Numbers"
+msgstr "Couponnummern"
+
+msgctxt "model:sale.promotion.coupon,string:"
+msgid "Sale Promotion Coupon"
+msgstr "Verkaufsaktion Coupon"
+
+msgctxt "model:sale.promotion.coupon.number,string:"
+msgid "Sale Promotion Coupon Number"
+msgstr "Verkaufsaktion Couponnummer"
+
+msgctxt "model:sale.sale-sale.promotion.coupon.number,string:"
+msgid "Sale - Sale Promotion Coupon Number"
+msgstr "Verkauf - Verkaufsaktions Couponnummer"

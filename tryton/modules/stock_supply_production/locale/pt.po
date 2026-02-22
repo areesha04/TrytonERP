@@ -1,0 +1,32 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:production.configuration,supply_period:"
+msgid "Supply Period"
+msgstr "Período de Abastecimento"
+
+msgctxt "field:production.configuration.supply_period,supply_period:"
+msgid "Supply Period"
+msgstr "Período de Abastecimento"
+
+msgctxt "model:ir.action,name:act_production_request"
+msgid "Request Productions"
+msgstr "Solicitar Produções"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_order_point_form_domain_production"
+msgid "Production"
+msgstr "Produção"
+
+msgctxt "model:ir.message,text:msg_late_productions"
+msgid "There are some productions that are late."
+msgstr "Algumas produções estão atrasadas."
+
+msgctxt "model:production.configuration.supply_period,string:"
+msgid "Production Configuration Supply Period"
+msgstr "Configurações do Período de Abastecimento na Produção"
+
+msgctxt "selection:stock.order_point,type:"
+msgid "Production"
+msgstr "Produção"

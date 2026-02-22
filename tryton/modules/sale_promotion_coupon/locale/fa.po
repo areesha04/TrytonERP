@@ -1,0 +1,128 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.promotion,coupons:"
+msgid "Coupons"
+msgstr "کوپن ها"
+
+msgctxt "field:sale.promotion.coupon,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:sale.promotion.coupon,number_of_use:"
+msgid "Number of Use"
+msgstr "تعداد استفاده"
+
+msgctxt "field:sale.promotion.coupon,numbers:"
+msgid "Numbers"
+msgstr "تعداد"
+
+msgctxt "field:sale.promotion.coupon,per_party:"
+msgid "Per Party"
+msgstr "در هر نهاد/سازمان"
+
+msgctxt "field:sale.promotion.coupon,promotion:"
+msgid "Promotion"
+msgstr "تبلیغ و ترویج"
+
+msgctxt "field:sale.promotion.coupon.number,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:sale.promotion.coupon.number,coupon:"
+msgid "Coupon"
+msgstr "کوپن"
+
+msgctxt "field:sale.promotion.coupon.number,end_date:"
+msgid "End Date"
+msgstr ""
+
+msgctxt "field:sale.promotion.coupon.number,number:"
+msgid "Number"
+msgstr "شماره"
+
+#, fuzzy
+msgctxt "field:sale.promotion.coupon.number,start_date:"
+msgid "Start Date"
+msgstr "تاریخ نوشته"
+
+#, fuzzy
+msgctxt "field:sale.sale,coupon_parties:"
+msgid "Coupon Parties"
+msgstr "کوپن ها"
+
+msgctxt "field:sale.sale,coupons:"
+msgid "Coupons"
+msgstr "کوپن ها"
+
+msgctxt "field:sale.sale-sale.promotion.coupon.number,number:"
+msgid "Number"
+msgstr "شماره"
+
+msgctxt "field:sale.sale-sale.promotion.coupon.number,sale:"
+msgid "Sale"
+msgstr "فروش"
+
+msgctxt "help:sale.promotion.coupon,number_of_use:"
+msgid ""
+"How much times a coupon number can be used.\n"
+"0 or below for no limit."
+msgstr ""
+"چه مدت زمان یک کوپن باید استفاده شود.\n"
+"0 یا کمتر برای نامحدود."
+
+msgctxt "help:sale.promotion.coupon,per_party:"
+msgid "Check to count usage per party."
+msgstr "تیک بزنید برای شمارش استفاده در هر نهاد/سازمان."
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_promotion_coupon_number_form"
+msgid "Coupon Numbers"
+msgstr "شماره کوپن تبلیغ و ترویج"
+
+msgctxt "model:ir.message,text:msg_duplicate_numbers"
+msgid "The dates of coupon numbers with the same number can not overlap."
+msgstr ""
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_promotion_coupon_number_end_date"
+msgid ""
+"The end date of coupons numbered \"%(numbers)s\" must be before "
+"%(start_date)s."
+msgstr "تعداد کوپن های :\"%s\" دوبرابر شده است."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_promotion_coupon_number_start_date"
+msgid ""
+"The start date of coupons numbered \"%(numbers)s\" must be after "
+"%(start_date)s."
+msgstr "تعداد کوپن های :\"%s\" دوبرابر شده است."
+
+msgctxt "model:ir.rule.group,name:rule_group_coupon_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_coupon_number_companies"
+msgid "User in companies"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_promotion_coupon_number"
+msgid "Coupon Numbers"
+msgstr "شماره کوپن تبلیغ و ترویج"
+
+#, fuzzy
+msgctxt "model:sale.promotion.coupon,string:"
+msgid "Sale Promotion Coupon"
+msgstr "کوپن تبلیغ و ترویج"
+
+#, fuzzy
+msgctxt "model:sale.promotion.coupon.number,string:"
+msgid "Sale Promotion Coupon Number"
+msgstr "فروش - شماره کوپن تبلیغ و ترویج"
+
+#, fuzzy
+msgctxt "model:sale.sale-sale.promotion.coupon.number,string:"
+msgid "Sale - Sale Promotion Coupon Number"
+msgstr "فروش - شماره کوپن تبلیغ و ترویج"

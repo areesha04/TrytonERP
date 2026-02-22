@@ -1,0 +1,86 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,dunning_email_fallback:"
+msgid "Fall-back User"
+msgstr ""
+
+msgctxt "field:account.dunning.level,email_contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr ""
+
+msgctxt "field:account.dunning.level,email_from:"
+msgid "From"
+msgstr "Kimden"
+
+msgctxt "field:account.dunning.level,email_template:"
+msgid "Email Template"
+msgstr "E-posta Taslağı"
+
+msgctxt "field:account.dunning.level,send_email:"
+msgid "Send Email"
+msgstr "E-posta Gönder"
+
+#, fuzzy
+msgctxt "field:ir.email,dunning_level:"
+msgid "Level"
+msgstr "Seviye"
+
+msgctxt "help:account.configuration,dunning_email_fallback:"
+msgid "User notified when no email is found to send the dunning."
+msgstr ""
+
+msgctxt "help:account.dunning.level,email_contact_mechanism:"
+msgid "Define which email to use from the party's contact mechanisms."
+msgstr ""
+
+msgctxt "help:account.dunning.level,email_from:"
+msgid "Leave empty for the value defined in the configuration file."
+msgstr "Konfigurasyon dosyasında tanımlanmış değer için boş bırakın."
+
+#, fuzzy
+msgctxt "model:ir.action,name:report_email"
+msgid "Dunning Email"
+msgstr "Dunning Email"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Amount"
+msgstr "Miktar"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date"
+msgstr "Tarih"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Date:"
+msgstr "Tarih:"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Description"
+msgstr "Tanım"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Due Date"
+msgstr "Son Tarih"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Fees:"
+msgstr "Ücretler:"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Pending Payments Received"
+msgstr "Beklemedeki Alınan Ödemeler"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reference"
+msgstr "Referans"
+
+msgctxt "report:account.dunning.letter:"
+msgid "Reminder Notice"
+msgstr "Hatırlatıcı Bildirim"
+
+#, fuzzy
+msgctxt "view:account.dunning.level:"
+msgid "Email"
+msgstr "E-posta Gönder"

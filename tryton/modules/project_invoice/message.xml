@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_invoiced_timesheet_line_modify_duration">
+            <field name="text">You cannot modify the duration of timesheet line "%(line)s" because it has been invoiced.</field>
+        </record>
+        <record model="ir.message" id="msg_invoiced_timesheet_line_modify_work">
+            <field name="text">You cannot modify the work of timesheet line "%(line)s" because it has been invoiced.</field>
+        </record>
+        <record model="ir.message" id="msg_invoiced_timesheet_line_delete">
+            <field name="text">You cannot delete timesheet line "%(line)s" because it has been invoiced.</field>
+        </record>
+        <record model="ir.message" id="msg_product_missing_account_revenue">
+            <field name="text">To invoice work "%(work)s" you must define an account revenue for product "%(product)s".</field>
+        </record>
+        <record model="ir.message" id="msg_missing_account_revenue">
+            <field name="text">To invoice work "%(work)s" you must configure a default account revenue.</field>
+        </record>
+        <record model="ir.message" id="msg_missing_list_price">
+            <field name="text">There is no list price on work "%(work)s".</field>
+        </record>
+        <record model="ir.message" id="msg_missing_party">
+            <field name="text">There is no party on work "%(work)s".</field>
+        </record>
+        <record model="ir.message" id="msg_invoiced_work_modify_effort">
+            <field name="text">You cannot modify the effort of work "%(work)s" because it has been invoiced.</field>
+        </record>
+        <record model="ir.message" id="msg_invoiced_work_delete">
+            <field name="text">You cannot delete work "%(work)s" because it has been invoiced.</field>
+        </record>
+        <record model="ir.message" id="msg_project_invoice_line_quantity">
+            <field name="text">The quantity of project invoice line "%(invoice_line)s" must be "%(quantity)s".</field>
+        </record>
+    </data>
+</tryton>

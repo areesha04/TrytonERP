@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.subscription.line,asset_lot:"
+msgid "Asset Lot"
+msgstr "Lot d'actif"
+
+msgctxt "field:sale.subscription.line,asset_lot_required:"
+msgid "Asset Lot Required"
+msgstr "Lot d'actif requis"
+
+msgctxt "field:sale.subscription.service,asset_lots:"
+msgid "Asset Lots"
+msgstr "Lots d'actif"
+
+msgctxt "field:sale.subscription.service,asset_lots_available:"
+msgid "Available Asset Lots"
+msgstr "Lot d'actif disponible"
+
+msgctxt "field:sale.subscription.service-stock.lot.asset,lot:"
+msgid "Lot"
+msgstr "Lot"
+
+msgctxt "field:sale.subscription.service-stock.lot.asset,service:"
+msgid "Service"
+msgstr "Service"
+
+msgctxt "field:stock.lot,subscribed:"
+msgid "Subscribed"
+msgstr "Abonné"
+
+msgctxt "field:stock.lot,subscription_lines:"
+msgid "Subscription Lines"
+msgstr "Lignes d'abonnement"
+
+msgctxt "field:stock.lot,subscription_services:"
+msgid "Services"
+msgstr "Services"
+
+msgctxt "model:ir.message,text:msg_asset_line_overlap"
+msgid ""
+"The dates of subscription lines with the same asset lot can not overlap."
+msgstr ""
+"Les dates des lignes d’abonnement ayant le même lot d’actifs ne peuvent pas "
+"se chevaucher."
+
+msgctxt "model:sale.subscription.service-stock.lot.asset,string:"
+msgid "Sale Subscription Service - Stock Lot Asset"
+msgstr "Service d'abonnement en vente - Lot d'actif de stock"

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="//page[@id='payment']" position="after">
+        <page id="sepa" string="SEPA">
+            <label name="sepa_mandate"/>
+            <field name="sepa_mandate"/>
+            <newline/>
+
+            <label name="sepa_payable_bank_account_number"/>
+            <field name="sepa_payable_bank_account_number"/>
+            <newline/>
+
+            <label name="sepa_info_id"/>
+            <field name="sepa_info_id" colspan="3"/>
+
+            <separator id="sepa_return_reason" string="Return Reason" colspan="4"/>
+            <label name="sepa_return_reason_code" string="Code"/>
+            <field name="sepa_return_reason_code"/>
+            <newline/>
+
+            <label name="sepa_return_reason_information" string="Information"/>
+            <field name="sepa_return_reason_information" yexpand="0" colspan="3"/>
+        </page>
+    </xpath>
+</data>

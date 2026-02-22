@@ -1,0 +1,307 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.attribute,web_shops:"
+msgid "Web Shops"
+msgstr "Веб-магазини"
+
+msgctxt "field:product.category,web_shops:"
+msgid "Web Shops"
+msgstr "Веб-магазини"
+
+msgctxt "field:product.image,web_shop:"
+msgid "Web Shop"
+msgstr "Веб-магазин"
+
+msgctxt "field:product.product,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Опис веб-магазину"
+
+#, fuzzy
+msgctxt "field:product.product,web_shop_urls:"
+msgid "Web Shop URLs"
+msgstr "Веб-магазини"
+
+msgctxt "field:product.product,web_shops:"
+msgid "Web Shops"
+msgstr "Веб-магазини"
+
+msgctxt "field:product.template,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Опис веб-магазину"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,product:"
+msgid "Product"
+msgstr "Товар"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,shop:"
+msgid "Shop"
+msgstr "Магазин"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,url:"
+msgid "Shop URL"
+msgstr "Магазин"
+
+msgctxt "field:sale.sale,web_id:"
+msgid "Web ID"
+msgstr "Веб-ID"
+
+msgctxt "field:sale.sale,web_shop:"
+msgid "Web Shop"
+msgstr "Веб-магазин"
+
+msgctxt "field:sale.sale,web_status_url:"
+msgid "Web Status URL"
+msgstr ""
+
+msgctxt "field:web.shop,attributes:"
+msgid "Attributes"
+msgstr "Атрибути"
+
+msgctxt "field:web.shop,attributes_removed:"
+msgid "Attributes Removed"
+msgstr "Атрибути видалено"
+
+msgctxt "field:web.shop,categories:"
+msgid "Categories"
+msgstr "Категорії"
+
+msgctxt "field:web.shop,categories_removed:"
+msgid "Categories Removed"
+msgstr "Категорії видалено"
+
+msgctxt "field:web.shop,company:"
+msgid "Company"
+msgstr "Компанія"
+
+#, fuzzy
+msgctxt "field:web.shop,countries:"
+msgid "Countries"
+msgstr "Категорії"
+
+msgctxt "field:web.shop,currency:"
+msgid "Currency"
+msgstr "Валюта"
+
+msgctxt "field:web.shop,guest_party:"
+msgid "Guest Party"
+msgstr "Гостьова особа"
+
+msgctxt "field:web.shop,language:"
+msgid "Language"
+msgstr "Мова"
+
+msgctxt "field:web.shop,name:"
+msgid "Name"
+msgstr "Назва"
+
+msgctxt "field:web.shop,non_sale_price_list:"
+msgid "Non-Sale Price List"
+msgstr ""
+
+msgctxt "field:web.shop,products:"
+msgid "Products"
+msgstr "Товари"
+
+msgctxt "field:web.shop,products_removed:"
+msgid "Products Removed"
+msgstr "Товари видалено"
+
+msgctxt "field:web.shop,sale_price_list:"
+msgid "Sale Price List"
+msgstr ""
+
+msgctxt "field:web.shop,type:"
+msgid "Type"
+msgstr "Тип"
+
+msgctxt "field:web.shop,warehouses:"
+msgid "Warehouses"
+msgstr "Склади"
+
+msgctxt "field:web.shop-country.country,country:"
+msgid "Country"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:web.shop-country.country,shop:"
+msgid "Shop"
+msgstr "Магазин"
+
+msgctxt "field:web.shop-product.attribute,attribute:"
+msgid "Attribute"
+msgstr "Атрибут"
+
+msgctxt "field:web.shop-product.attribute,shop:"
+msgid "Shop"
+msgstr "Магазин"
+
+msgctxt "field:web.shop-product.category,category:"
+msgid "Category"
+msgstr "Категорія"
+
+msgctxt "field:web.shop-product.category,shop:"
+msgid "Shop"
+msgstr "Магазин"
+
+msgctxt "field:web.shop-product.product,product:"
+msgid "Product"
+msgstr "Товар"
+
+msgctxt "field:web.shop-product.product,shop:"
+msgid "Shop"
+msgstr "Магазин"
+
+msgctxt "field:web.shop-stock.location,shop:"
+msgid "Shop"
+msgstr "Магазин"
+
+msgctxt "field:web.shop-stock.location,warehouse:"
+msgid "Warehouse"
+msgstr "Склад"
+
+msgctxt "field:web.user,invoice_address:"
+msgid "Invoice Address"
+msgstr "Адреса рахунку"
+
+msgctxt "field:web.user,shipment_address:"
+msgid "Shipment Address"
+msgstr "Адреса відвантаження"
+
+msgctxt "help:product.attribute,web_shops:"
+msgid "The list of web shops on which the attribute is published."
+msgstr "Список веб-магазинів, у яких опубліковано атрибут."
+
+msgctxt "help:product.category,web_shops:"
+msgid "The list of web shops on which the category is published."
+msgstr "Список веб-магазинів, у яких опублікована категорія."
+
+msgctxt "help:product.product,web_shops:"
+msgid "The list of web shops on which the product is published."
+msgstr "Список веб-магазинів, у яких опубліковано товар."
+
+msgctxt "help:sale.sale,web_status_url:"
+msgid "The URL where the customer can check the order's current status."
+msgstr ""
+
+msgctxt "help:web.shop,attributes:"
+msgid "The list of attributes to publish."
+msgstr "Список атрибутів для публікації."
+
+msgctxt "help:web.shop,attributes_removed:"
+msgid "The list of attributes to unpublish."
+msgstr "Список атрибутів, публікацію яких потрібно скасувати."
+
+msgctxt "help:web.shop,categories:"
+msgid "The list of categories to publish."
+msgstr "Список категорій для публікації."
+
+msgctxt "help:web.shop,categories_removed:"
+msgid "The list of categories to unpublish."
+msgstr "Список категорій, публікацію яких потрібно скасувати."
+
+msgctxt "help:web.shop,non_sale_price_list:"
+msgid ""
+"The price list to compute the price of products when it is not on sale."
+msgstr ""
+
+msgctxt "help:web.shop,products:"
+msgid "The list of products to publish."
+msgstr "Список товарів для публікації."
+
+msgctxt "help:web.shop,products_removed:"
+msgid "The list of products to unpublish."
+msgstr "Список товарів, публікацію яких потрібно скасувати."
+
+msgctxt "help:web.shop,sale_price_list:"
+msgid "The price list to compute sale price of products."
+msgstr ""
+
+msgctxt "help:web.shop,type:"
+msgid "The front-end used for the web shop."
+msgstr "Інтерфейс, який використовується для веб-магазину."
+
+msgctxt "model:ir.action,name:act_shop"
+msgid "Web Shops"
+msgstr "Веб-магазини"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_sale_invalid_party"
+msgid ""
+"To process the sale \"%(sale)s\" you must select another party instead of "
+"the guest \"%(party)s\"."
+msgstr ""
+"Щоб обробити продаж \"%(sale)s\", ви повинні вибрати іншу особу замість "
+"гостя \"%(party)s\"."
+
+#, fuzzy
+msgctxt "model:ir.message,text:msg_sale_web_shop_id_unique"
+msgid "The web ID on the sale must be unique per shop."
+msgstr "Веб-ID на продаж має бути унікальним."
+
+msgctxt "model:ir.message,text:msg_shop_name_unique"
+msgid "The web shop name must be unique."
+msgstr "Назва веб-магазину має бути унікальною."
+
+msgctxt "model:ir.model.button,string:sale_web_shop_update_button"
+msgid "Update from Web Shop"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_shop_companies"
+msgid "User in companies"
+msgstr "Користувач у компаніях"
+
+msgctxt "model:ir.ui.menu,name:menu_shop"
+msgid "Web Shops"
+msgstr "Веб-магазини"
+
+msgctxt "model:product.web_shop_url,string:"
+msgid "Product Web Shop Url"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:web.shop,string:"
+msgid "Web Shop"
+msgstr "Веб-магазин"
+
+#, fuzzy
+msgctxt "model:web.shop-country.country,string:"
+msgid "Web Shop - Country"
+msgstr "Веб-магазин - Товар"
+
+#, fuzzy
+msgctxt "model:web.shop-product.attribute,string:"
+msgid "Web Shop - Product Attribute"
+msgstr "Веб-магазин – Атрибут"
+
+#, fuzzy
+msgctxt "model:web.shop-product.category,string:"
+msgid "Web Shop - Product Category"
+msgstr "Веб-магазин – Категорія товару"
+
+#, fuzzy
+msgctxt "model:web.shop-product.product,string:"
+msgid "Web Shop - Product"
+msgstr "Веб-магазин - Товар"
+
+#, fuzzy
+msgctxt "model:web.shop-stock.location,string:"
+msgid "Web Shop - Stock Location"
+msgstr "Веб-магазин – Категорія товару"
+
+msgctxt "view:product.template:"
+msgid "Edit"
+msgstr "Редагувати"
+
+#, fuzzy
+msgctxt "view:product.template:"
+msgid "Web Shop"
+msgstr "Веб-магазин"
+
+msgctxt "view:web.shop:"
+msgid "Products"
+msgstr "Товари"

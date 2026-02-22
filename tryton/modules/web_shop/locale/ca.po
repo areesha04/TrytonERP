@@ -1,0 +1,294 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.attribute,web_shops:"
+msgid "Web Shops"
+msgstr "Botiga web"
+
+msgctxt "field:product.category,web_shops:"
+msgid "Web Shops"
+msgstr "Botigues web"
+
+msgctxt "field:product.image,web_shop:"
+msgid "Web Shop"
+msgstr "Botiga Web"
+
+msgctxt "field:product.product,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Descripció botiga web"
+
+msgctxt "field:product.product,web_shop_urls:"
+msgid "Web Shop URLs"
+msgstr "URL Botiga web"
+
+msgctxt "field:product.product,web_shops:"
+msgid "Web Shops"
+msgstr "Botigues web"
+
+msgctxt "field:product.template,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Descripció botiga web"
+
+msgctxt "field:product.web_shop_url,product:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "field:product.web_shop_url,shop:"
+msgid "Shop"
+msgstr "Botiga"
+
+msgctxt "field:product.web_shop_url,url:"
+msgid "Shop URL"
+msgstr "URL Botiga"
+
+msgctxt "field:sale.sale,web_id:"
+msgid "Web ID"
+msgstr "ID Web"
+
+msgctxt "field:sale.sale,web_shop:"
+msgid "Web Shop"
+msgstr "Botiga Web"
+
+msgctxt "field:sale.sale,web_status_url:"
+msgid "Web Status URL"
+msgstr "URL Estat web"
+
+msgctxt "field:web.shop,attributes:"
+msgid "Attributes"
+msgstr "Atributs"
+
+msgctxt "field:web.shop,attributes_removed:"
+msgid "Attributes Removed"
+msgstr "Atributes eliminats"
+
+msgctxt "field:web.shop,categories:"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "field:web.shop,categories_removed:"
+msgid "Categories Removed"
+msgstr "Categories eliminades"
+
+msgctxt "field:web.shop,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:web.shop,countries:"
+msgid "Countries"
+msgstr "Països"
+
+msgctxt "field:web.shop,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:web.shop,guest_party:"
+msgid "Guest Party"
+msgstr "Tercer Invitat"
+
+msgctxt "field:web.shop,language:"
+msgid "Language"
+msgstr "Idioma"
+
+msgctxt "field:web.shop,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:web.shop,non_sale_price_list:"
+msgid "Non-Sale Price List"
+msgstr "Tarifa de no-venda"
+
+msgctxt "field:web.shop,products:"
+msgid "Products"
+msgstr "Productes"
+
+msgctxt "field:web.shop,products_removed:"
+msgid "Products Removed"
+msgstr "Productes eliminats"
+
+msgctxt "field:web.shop,sale_price_list:"
+msgid "Sale Price List"
+msgstr "Tarifa de venda"
+
+msgctxt "field:web.shop,type:"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "field:web.shop,warehouses:"
+msgid "Warehouses"
+msgstr "Magatzems"
+
+msgctxt "field:web.shop-country.country,country:"
+msgid "Country"
+msgstr "País"
+
+msgctxt "field:web.shop-country.country,shop:"
+msgid "Shop"
+msgstr "Botiga"
+
+msgctxt "field:web.shop-product.attribute,attribute:"
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "field:web.shop-product.attribute,shop:"
+msgid "Shop"
+msgstr "Botiga"
+
+msgctxt "field:web.shop-product.category,category:"
+msgid "Category"
+msgstr "Categoria"
+
+msgctxt "field:web.shop-product.category,shop:"
+msgid "Shop"
+msgstr "Botiga"
+
+msgctxt "field:web.shop-product.product,product:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "field:web.shop-product.product,shop:"
+msgid "Shop"
+msgstr "Botiga"
+
+msgctxt "field:web.shop-stock.location,shop:"
+msgid "Shop"
+msgstr "Botiga"
+
+msgctxt "field:web.shop-stock.location,warehouse:"
+msgid "Warehouse"
+msgstr "Magatzem"
+
+msgctxt "field:web.user,invoice_address:"
+msgid "Invoice Address"
+msgstr "Adreça de facturació"
+
+msgctxt "field:web.user,shipment_address:"
+msgid "Shipment Address"
+msgstr "Adreça d'enviament"
+
+msgctxt "help:product.attribute,web_shops:"
+msgid "The list of web shops on which the attribute is published."
+msgstr "La llista de botigues online on s'ha publicat l'atribut."
+
+msgctxt "help:product.category,web_shops:"
+msgid "The list of web shops on which the category is published."
+msgstr "La llista de botigues on esta publicada la categoria."
+
+msgctxt "help:product.product,web_shops:"
+msgid "The list of web shops on which the product is published."
+msgstr "La llista de botigues on esta publicat el producte."
+
+msgctxt "help:sale.sale,web_status_url:"
+msgid "The URL where the customer can check the order's current status."
+msgstr "La URL on el client pot comprobar l'estat de la seva comanda."
+
+msgctxt "help:web.shop,attributes:"
+msgid "The list of attributes to publish."
+msgstr "La llista d'atributs a publicar."
+
+msgctxt "help:web.shop,attributes_removed:"
+msgid "The list of attributes to unpublish."
+msgstr "La llista d'atributs a despublicar."
+
+msgctxt "help:web.shop,categories:"
+msgid "The list of categories to publish."
+msgstr "La llsita de categories a publicar."
+
+msgctxt "help:web.shop,categories_removed:"
+msgid "The list of categories to unpublish."
+msgstr "La llista de categories a despublicar."
+
+msgctxt "help:web.shop,non_sale_price_list:"
+msgid ""
+"The price list to compute the price of products when it is not on sale."
+msgstr ""
+"La tarifa per calcular el preu dels productes quan no està a la venda."
+
+msgctxt "help:web.shop,products:"
+msgid "The list of products to publish."
+msgstr "La llista de productes a publicar."
+
+msgctxt "help:web.shop,products_removed:"
+msgid "The list of products to unpublish."
+msgstr "La llista de productes a despublicar."
+
+msgctxt "help:web.shop,sale_price_list:"
+msgid "The price list to compute sale price of products."
+msgstr "La tarifa per calcular el preu de venda dels productes."
+
+msgctxt "help:web.shop,type:"
+msgid "The front-end used for the web shop."
+msgstr "El front-end utiltizat per aquesta botiga."
+
+msgctxt "model:ir.action,name:act_shop"
+msgid "Web Shops"
+msgstr "Botigues web"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_sale_invalid_party"
+msgid ""
+"To process the sale \"%(sale)s\" you must select another party instead of "
+"the guest \"%(party)s\"."
+msgstr ""
+"Per a processar la venda \"%(sale)s\" heu de seleccionar un tercer diferent "
+"del invitat \"%(party)s\"."
+
+msgctxt "model:ir.message,text:msg_sale_web_shop_id_unique"
+msgid "The web ID on the sale must be unique per shop."
+msgstr "L'ID web de la venda ha de ser únic per botiga."
+
+msgctxt "model:ir.message,text:msg_shop_name_unique"
+msgid "The web shop name must be unique."
+msgstr "El nom de la botiga web ha de ser únic."
+
+msgctxt "model:ir.model.button,string:sale_web_shop_update_button"
+msgid "Update from Web Shop"
+msgstr "Actualitzar desde la tenda web"
+
+msgctxt "model:ir.rule.group,name:rule_group_shop_companies"
+msgid "User in companies"
+msgstr "Usuari a les empreses"
+
+msgctxt "model:ir.ui.menu,name:menu_shop"
+msgid "Web Shops"
+msgstr "Botigues web"
+
+msgctxt "model:product.web_shop_url,string:"
+msgid "Product Web Shop Url"
+msgstr "URL producte tenda web"
+
+msgctxt "model:web.shop,string:"
+msgid "Web Shop"
+msgstr "Botiga Web"
+
+msgctxt "model:web.shop-country.country,string:"
+msgid "Web Shop - Country"
+msgstr "Botiga web - País"
+
+msgctxt "model:web.shop-product.attribute,string:"
+msgid "Web Shop - Product Attribute"
+msgstr "Botiga Web - Atribut"
+
+msgctxt "model:web.shop-product.category,string:"
+msgid "Web Shop - Product Category"
+msgstr "Botiga web - Categoria de producte"
+
+msgctxt "model:web.shop-product.product,string:"
+msgid "Web Shop - Product"
+msgstr "Botiga web - Producte"
+
+msgctxt "model:web.shop-stock.location,string:"
+msgid "Web Shop - Stock Location"
+msgstr "Botiga web - Ubicació d'existències"
+
+msgctxt "view:product.template:"
+msgid "Edit"
+msgstr "Edita"
+
+msgctxt "view:product.template:"
+msgid "Web Shop"
+msgstr "Botiga Web"
+
+msgctxt "view:web.shop:"
+msgid "Products"
+msgstr "Productes"

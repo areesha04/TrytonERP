@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="//label[@name='types']" position="before">
+        <newline/>
+        <label name="peppyrus_server"/>
+        <field name="peppyrus_server"/>
+        <label name="peppyrus_api_key"/>
+        <field name="peppyrus_api_key"/>
+
+        <label name="peppyrus_incoming_webhook"/>
+        <field name="peppyrus_incoming_webhook"/>
+        <label name="peppyrus_outgoing_webhook"/>
+        <field name="peppyrus_outgoing_webhook"/>
+
+        <button name="peppyrus_new_identifier" colspan="4"/>
+        <newline/>
+    </xpath>
+</data>

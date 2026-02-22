@@ -1,0 +1,157 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,sendcloud_format:"
+msgid "Format"
+msgstr "Formato"
+
+msgctxt "field:carrier.credential.sendcloud,addresses:"
+msgid "Addresses"
+msgstr "Direcciones"
+
+msgctxt "field:carrier.credential.sendcloud,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:carrier.credential.sendcloud,public_key:"
+msgid "Public Key"
+msgstr "Clave pública"
+
+msgctxt "field:carrier.credential.sendcloud,secret_key:"
+msgid "Secret Key"
+msgstr "Clave secreta"
+
+msgctxt "field:carrier.credential.sendcloud,shipping_methods:"
+msgid "Methods"
+msgstr "Métodos"
+
+msgctxt "field:carrier.sendcloud.address,address:"
+msgid "Address"
+msgstr "Dirección"
+
+msgctxt "field:carrier.sendcloud.address,sendcloud:"
+msgid "Sendcloud"
+msgstr "Sendcloud"
+
+msgctxt "field:carrier.sendcloud.address,warehouse:"
+msgid "Warehouse"
+msgstr "Almacén"
+
+msgctxt "field:carrier.sendcloud.shipping_method,carrier:"
+msgid "Carrier"
+msgstr "Transportista"
+
+msgctxt "field:carrier.sendcloud.shipping_method,max_weight:"
+msgid "Maximal Weight"
+msgstr "Peso máximo"
+
+msgctxt "field:carrier.sendcloud.shipping_method,min_weight:"
+msgid "Minimal Weight"
+msgstr "Peso mínimo"
+
+msgctxt "field:carrier.sendcloud.shipping_method,sendcloud:"
+msgid "Sendcloud"
+msgstr "Sendcloud"
+
+msgctxt "field:carrier.sendcloud.shipping_method,shipping_method:"
+msgid "Shipping Method"
+msgstr "Método de envío"
+
+msgctxt "field:carrier.sendcloud.shipping_method,warehouse:"
+msgid "Warehouse"
+msgstr "Almacén"
+
+msgctxt "field:stock.package,sendcloud_shipping_id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.package,sendcloud_shipping_tracking_url:"
+msgid "Tracking URL"
+msgstr "URL Seguimiento"
+
+msgctxt "help:carrier.sendcloud.address,address:"
+msgid "Leave empty for the Sendcloud default."
+msgstr "Dejar vacío para el valor por defecto de Sendcloud."
+
+msgctxt "help:carrier.sendcloud.shipping_method,max_weight:"
+msgid "Maximal weight included in kg."
+msgstr "Peso máximo incluido en kg."
+
+msgctxt "help:carrier.sendcloud.shipping_method,min_weight:"
+msgid "Minimal weight included in kg."
+msgstr "Peso mínimo incluido en kg."
+
+msgctxt "model:carrier.credential.sendcloud,string:"
+msgid "Carrier Credential Sendcloud"
+msgstr "Credenciales transportista Sendcloud"
+
+msgctxt "model:carrier.sendcloud.address,string:"
+msgid "Carrier Sendcloud Address"
+msgstr "Dirección transportista Sendcloud"
+
+msgctxt "model:carrier.sendcloud.shipping_method,string:"
+msgid "Carrier Sendcloud Shipping Method"
+msgstr "Método de envío Sendcloud"
+
+msgctxt "model:ir.action,name:act_create_shipping_wizard"
+msgid "Create Sendcloud Shipping for Packages"
+msgstr "Crear envío Sendcloud para paquetes"
+
+msgctxt "model:ir.action,name:act_credential_form"
+msgid "Sendcloud Credentials"
+msgstr "Credenciales Sendcloud"
+
+msgctxt "model:ir.message,text:msg_sendcloud_credential_modified"
+msgid "Are you sure you want to modify Sendcloud credentials?"
+msgstr "¿Está seguro de que desea modificar las credenciales de Sendcloud?"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_sendcloud_webserver_error"
+msgid ""
+"Sendcloud webservice call failed with the following error message:\n"
+"%(message)s"
+msgstr ""
+"La llamada al servicio web de Sendcloud ha fallado con el siguiente mensaje de error:\n"
+"%(message)s"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_shipment_has_shipping_reference_number"
+msgid ""
+"You cannot create a shipping label for shipment \"%(shipment)s\" because it "
+"already has a shipping reference number."
+msgstr ""
+"No puedes crear una etiqueta de envío para el albarán \"%(shipment)s\" "
+"porque ya tiene un número de referencia del envío."
+
+msgctxt "model:ir.ui.menu,name:menu_credential_form"
+msgid "Sendcloud Credentials"
+msgstr "Credenciales Sendcloud"
+
+msgctxt "selection:carrier,sendcloud_format:"
+msgid "A4 - Bottom left"
+msgstr "A4 - Abajo a la izquierda"
+
+msgctxt "selection:carrier,sendcloud_format:"
+msgid "A4 - Bottom right"
+msgstr "A4 - Abajo a la derecha"
+
+msgctxt "selection:carrier,sendcloud_format:"
+msgid "A4 - Top left"
+msgstr "A4 - Arriba a la izquierda"
+
+msgctxt "selection:carrier,sendcloud_format:"
+msgid "A4 - Top right"
+msgstr "A4 - Arriba a la derecha"
+
+msgctxt "selection:carrier,sendcloud_format:"
+msgid "A6 - Full page"
+msgstr "A6 - Página completa"
+
+msgctxt "selection:carrier,shipping_service:"
+msgid "Sendcloud"
+msgstr "Sendcloud"
+
+msgctxt "view:carrier:"
+msgid "Sendcloud"
+msgstr "Sendcloud"

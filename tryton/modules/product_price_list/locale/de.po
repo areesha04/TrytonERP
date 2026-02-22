@@ -1,0 +1,160 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.price_list,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:product.price_list,lines:"
+msgid "Lines"
+msgstr "Konditionssätze"
+
+msgctxt "field:product.price_list,name:"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:product.price_list,price:"
+msgid "Price"
+msgstr "Preis"
+
+msgctxt "field:product.price_list,tax_included:"
+msgid "Tax Included"
+msgstr "Steuer Inklusive"
+
+msgctxt "field:product.price_list,unit:"
+msgid "Unit"
+msgstr "Einheit"
+
+msgctxt "field:product.price_list.line,category:"
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "field:product.price_list.line,formula:"
+msgid "Formula"
+msgstr "Formel"
+
+msgctxt "field:product.price_list.line,price_list:"
+msgid "Price List"
+msgstr "Preiskonditionsschema"
+
+msgctxt "field:product.price_list.line,product:"
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:product.price_list.line,quantity:"
+msgid "Quantity"
+msgstr "Menge"
+
+msgctxt "help:product.price_list,company:"
+msgid ""
+"Make the price list belong to the company.\n"
+"It defines the currency of the price list."
+msgstr ""
+"Das Preiskonditionsschema dem Unternehmen zuordnen.\n"
+"Dies definiert die Währung des Preiskonditionsschemas."
+
+msgctxt "help:product.price_list,lines:"
+msgid ""
+"Add price formulas for different criteria.\n"
+"The first matching line is used."
+msgstr ""
+"Erlaubt die Erfassung von Preisformeln für unterschiedliche Kriterien.\n"
+"Die erste Zeile mit übereinstimmenden Kriterien wird verwendet."
+
+msgctxt "help:product.price_list,name:"
+msgid "The main identifier of the price list."
+msgstr "Das Hauptidentifizierungsmerkmal des Preiskonditionsschemas."
+
+msgctxt "help:product.price_list,price:"
+msgid "The value used for 'unit_price'."
+msgstr "Der Betrag der für 'unit_price' benutzt wird."
+
+msgctxt "help:product.price_list,tax_included:"
+msgid "Check if result's formula includes taxes."
+msgstr "Aktivieren wenn das Ergebnis der Formel die Steuern beinhaltet."
+
+msgctxt "help:product.price_list,unit:"
+msgid "The unit in which the quantity is expressed."
+msgstr "Die Maßeinheit in der die Menge angegeben ist."
+
+msgctxt "help:product.price_list.line,category:"
+msgid "Apply only to products of this category."
+msgstr "Nur auf Artikel dieser Kategorie anwenden."
+
+msgctxt "help:product.price_list.line,formula:"
+msgid ""
+"Python expression that will be evaluated with:\n"
+"- unit_price: the original unit_price\n"
+"- cost_price: the cost price of the product\n"
+"- list_price: the list price of the product"
+msgstr ""
+"Ein Python-Ausdruck, der ausgewertet wird mit:\n"
+"- unit_price: Originaler Einzelpreis des Artikels\n"
+"- cost_price: Der Einstandspreis des Artikels\n"
+"- list_price: Der Listenpreis des Artikels"
+
+msgctxt "help:product.price_list.line,price_list:"
+msgid "The price list to which the line belongs."
+msgstr "Das Preiskonditionsschema dem der Konditionssatz zugeordnet ist."
+
+msgctxt "help:product.price_list.line,product:"
+msgid "Apply only to this product."
+msgstr "Nur auf diesen Artikel anwenden."
+
+msgctxt "help:product.price_list.line,quantity:"
+msgid "Apply only when quantity is greater."
+msgstr "Nur anwenden, wenn die Menge größer ist."
+
+msgctxt "model:ir.action,name:act_price_list_form"
+msgid "Price Lists"
+msgstr "Preiskonditionsschemata"
+
+msgctxt "model:ir.action,name:act_price_list_line_form"
+msgid "Price List Lines"
+msgstr "Konditionssätze"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invalid_formula"
+msgid ""
+"Invalid formula \"%(formula)s\" in price list line \"%(line)s\" with "
+"exception \"%(exception)s\"."
+msgstr ""
+"Ungültige Formel \"%(formula)s\" in Konditionssatz \"%(line)s\" mit "
+"Fehlermeldung \"%(exception)s\"."
+
+msgctxt "model:ir.model.button,string:price_list_open_lines_button"
+msgid "Open Lines"
+msgstr "Konditionssätze öffnen"
+
+msgctxt "model:ir.rule.group,name:rule_group_price_list_companies"
+msgid "User in companies"
+msgstr "Benutzer in Unternehmen"
+
+msgctxt "model:ir.ui.menu,name:menu_price_list"
+msgid "Price Lists"
+msgstr "Preiskonditionsschemata"
+
+msgctxt "model:product.price_list,string:"
+msgid "Product Price List"
+msgstr "Artikel Preiskonditionsschema"
+
+msgctxt "model:product.price_list.line,string:"
+msgid "Product Price List Line"
+msgstr "Artikel Konditionssatz"
+
+msgctxt "model:product.price_list.line.context,string:"
+msgid "Product Price List Line Context"
+msgstr "Artikel Konditionssatz Kontext"
+
+msgctxt "selection:product.price_list,price:"
+msgid "Cost Price"
+msgstr "Einstandspreis"
+
+msgctxt "selection:product.price_list,price:"
+msgid "List price"
+msgstr "Listenpreis"
+
+msgctxt "selection:product.price_list,unit:"
+msgid "Product Default"
+msgstr "Artikel Standard"

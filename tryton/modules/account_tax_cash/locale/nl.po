@@ -1,0 +1,95 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.fiscalyear,tax_group_on_cash_basis:"
+msgid "Tax Group On Cash Basis"
+msgstr "Belastinggroep op kasbasis"
+
+msgctxt "field:account.invoice,tax_group_on_cash_basis:"
+msgid "Tax Group On Cash Basis"
+msgstr "Belastinggroep op kasbasis"
+
+msgctxt "field:account.invoice.tax.group.cash,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice.tax.group.cash,tax_group:"
+msgid "Tax Group"
+msgstr "Belastinggroep"
+
+msgctxt "field:account.period,tax_group_on_cash_basis:"
+msgid "Tax Group On Cash Basis"
+msgstr "Belastinggroep op kasbasis"
+
+msgctxt "field:account.tax.group.cash,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "Boekjaar"
+
+msgctxt "field:account.tax.group.cash,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:account.tax.group.cash,period:"
+msgid "Period"
+msgstr "Periode"
+
+msgctxt "field:account.tax.group.cash,tax_group:"
+msgid "Tax Group"
+msgstr "Belastinggroep"
+
+msgctxt "field:account.tax.line,on_cash_basis:"
+msgid "On Cash Basis"
+msgstr "Op kasbasis"
+
+msgctxt "field:account.tax.line,period:"
+msgid "Period"
+msgstr "Periode"
+
+msgctxt "field:party.party,supplier_tax_group_on_cash_basis:"
+msgid "Supplier Tax Group On Cash Basis"
+msgstr "Belastinggroep leveranciers op kasbasis"
+
+msgctxt "help:account.fiscalyear,tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this fiscal year."
+msgstr "Aangegeven belastinggroep in de cash voor dit boekjaar."
+
+msgctxt "help:account.invoice,tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this invoice."
+msgstr "Aangegeven belastinggroep in de cash voor deze factuur."
+
+msgctxt "help:account.period,tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this period."
+msgstr "Aangegeven belastinggroep in de cash voor deze periode."
+
+msgctxt "help:party.party,supplier_tax_group_on_cash_basis:"
+msgid "The tax group reported on cash basis for this supplier."
+msgstr "Aangegeven belastinggroep in de cash voor deze leverancier."
+
+msgctxt "model:account.invoice.tax.group.cash,string:"
+msgid "Account Invoice Tax Group Cash"
+msgstr "Grootboek factuur belasting groep kas"
+
+msgctxt "model:account.tax.group.cash,string:"
+msgid "Account Tax Group Cash"
+msgstr "Grootboek belasting groep kas"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_close_period_line_payment"
+msgid ""
+"To close period \"%(period)s\" you must link all payable/receivable lines to"
+" invoices."
+msgstr ""
+"Om periode \"%(period)s\" te sluiten, moet u alle te betalen / te ontvangen "
+"regels aan facturen koppelen."
+
+msgctxt ""
+"model:ir.message,text:msg_tax_type_move_line_cash_basis_no_period_unique"
+msgid "Only one tax line on cash basis can be without period per move line."
+msgstr ""
+"Alleen één belasting regel op kas basis kan zonder periode per boekingsregel"
+" zijn."
+
+msgctxt "view:account.fiscalyear:"
+msgid "Taxes"
+msgstr "Belastingen"

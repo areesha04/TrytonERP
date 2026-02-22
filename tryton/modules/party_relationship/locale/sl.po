@@ -1,0 +1,110 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,relations:"
+msgid "Relations"
+msgstr "Razmerja"
+
+msgctxt "field:party.relation,active:"
+msgid "Active"
+msgstr "Aktivno"
+
+msgctxt "field:party.relation,end_date:"
+msgid "End Date"
+msgstr "Končni datum"
+
+msgctxt "field:party.relation,from_:"
+msgid "From"
+msgstr "Od"
+
+msgctxt "field:party.relation,start_date:"
+msgid "Start Date"
+msgstr "Začetni datum"
+
+msgctxt "field:party.relation,to:"
+msgid "To"
+msgstr "Do"
+
+msgctxt "field:party.relation,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:party.relation.all,active:"
+msgid "Active"
+msgstr "Aktivno"
+
+msgctxt "field:party.relation.all,end_date:"
+msgid "End Date"
+msgstr "Končni datum"
+
+msgctxt "field:party.relation.all,from_:"
+msgid "From"
+msgstr "Od"
+
+msgctxt "field:party.relation.all,start_date:"
+msgid "Start Date"
+msgstr "Začetni datum"
+
+msgctxt "field:party.relation.all,to:"
+msgid "To"
+msgstr "Do"
+
+msgctxt "field:party.relation.all,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:party.relation.type,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:party.relation.type,reverse:"
+msgid "Reverse Relation"
+msgstr "Obratno razmerje"
+
+msgctxt "field:party.relation.type,usages:"
+msgid "Usages"
+msgstr "Uporaba"
+
+msgctxt "help:party.relation.type,name:"
+msgid "The main identifier of the relation type."
+msgstr "Glavni identifikator za vrsto razmerjo."
+
+msgctxt "help:party.relation.type,reverse:"
+msgid "Create automatically the reverse relation."
+msgstr "Samodejno izdelava obratnega razmerja."
+
+msgctxt "model:ir.action,name:act_relation_all"
+msgid "Relations"
+msgstr "Razmerja"
+
+msgctxt "model:ir.action,name:act_relation_type"
+msgid "Relation Types"
+msgstr "Vrsta razmerja"
+
+msgctxt "model:ir.ui.menu,name:menu_relation_all"
+msgid "Relations"
+msgstr "Razmerja"
+
+msgctxt "model:ir.ui.menu,name:menu_relation_type"
+msgid "Relation Types"
+msgstr "Vrsta razmerja"
+
+#, fuzzy
+msgctxt "model:party.relation,string:"
+msgid "Party Relation"
+msgstr "Partnersko razmerje"
+
+#, fuzzy
+msgctxt "model:party.relation.all,string:"
+msgid "Party Relation"
+msgstr "Partnersko razmerje"
+
+#, fuzzy
+msgctxt "model:party.relation.type,string:"
+msgid "Party Relation Type"
+msgstr "Vrsta partnerskega razmerja"
+
+msgctxt "view:party.party:"
+msgid "Relations"
+msgstr "Razmerja"

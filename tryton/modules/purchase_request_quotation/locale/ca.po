@@ -1,0 +1,356 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:purchase.configuration,purchase_request_quotation_sequence:"
+msgid "Purchase Request Quotation Sequence"
+msgstr "Seqüència de pressupost de sol·licitud de compra"
+
+msgctxt ""
+"field:purchase.configuration.sequence,purchase_request_quotation_sequence:"
+msgid "Purchase Request Quotation Sequence"
+msgstr "Seqüència de pressupost de sol·licitud de compra"
+
+msgctxt "field:purchase.request,best_quotation_line:"
+msgid "Best Quotation Line"
+msgstr "Millor línia de pressupost"
+
+msgctxt "field:purchase.request,preferred_quotation_line:"
+msgid "Preferred Quotation Line"
+msgstr "Línia de pressupost preferida"
+
+msgctxt "field:purchase.request,quotation_lines:"
+msgid "Quotation Lines"
+msgstr "Línies de pressupost"
+
+msgctxt "field:purchase.request,quotation_lines_active:"
+msgid "Active Quotation Lines"
+msgstr "Línies de pressupost actives"
+
+msgctxt "field:purchase.request.quotation,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:purchase.request.quotation,lines:"
+msgid "Lines"
+msgstr "Línies"
+
+msgctxt "field:purchase.request.quotation,number:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "field:purchase.request.quotation,reference:"
+msgid "Reference"
+msgstr "Referència"
+
+msgctxt "field:purchase.request.quotation,revision:"
+msgid "Revision"
+msgstr "Revisió"
+
+msgctxt "field:purchase.request.quotation,state:"
+msgid "State"
+msgstr "Estat"
+
+msgctxt "field:purchase.request.quotation,supplier:"
+msgid "Supplier"
+msgstr "Proveïdor"
+
+msgctxt "field:purchase.request.quotation,supplier_address:"
+msgid "Supplier Address"
+msgstr "Direcció proveïdor"
+
+msgctxt "field:purchase.request.quotation,warehouse:"
+msgid "Warehouse"
+msgstr "Magatzem"
+
+msgctxt "field:purchase.request.quotation.create.ask_suppliers,suppliers:"
+msgid "Suppliers"
+msgstr "Proveïdors"
+
+msgctxt "field:purchase.request.quotation.line,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:purchase.request.quotation.line,description:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "field:purchase.request.quotation.line,product:"
+msgid "Product"
+msgstr "Producte"
+
+msgctxt "field:purchase.request.quotation.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Categoria UdM del producte"
+
+msgctxt "field:purchase.request.quotation.line,quantity:"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt "field:purchase.request.quotation.line,quotation:"
+msgid "Quotation"
+msgstr "Pressupost"
+
+msgctxt "field:purchase.request.quotation.line,quotation_state:"
+msgid "Quotation State"
+msgstr "Estat pressupost"
+
+msgctxt "field:purchase.request.quotation.line,request:"
+msgid "Request"
+msgstr "Sol·licitud"
+
+msgctxt "field:purchase.request.quotation.line,supplier:"
+msgid "Supplier"
+msgstr "Proveïdor"
+
+msgctxt "field:purchase.request.quotation.line,supply_date:"
+msgid "Supply Date"
+msgstr "Data de subministre"
+
+msgctxt "field:purchase.request.quotation.line,unit:"
+msgid "Unit"
+msgstr "Unitat"
+
+msgctxt "field:purchase.request.quotation.line,unit_price:"
+msgid "Unit Price"
+msgstr "Preu unitari"
+
+msgctxt "help:purchase.request,preferred_quotation_line:"
+msgid ""
+"The quotation that will be chosen to create the purchase\n"
+"otherwise first ordered received quotation line will be selected."
+msgstr ""
+"El pressupost que s'utilitzarà per crear la compra\n"
+"Si no s'especifica s'utilitzarà la primera línia."
+
+msgctxt "help:purchase.request.quotation,number:"
+msgid "The unique identifier of the quotation."
+msgstr "El identificador únic del pressupost."
+
+msgctxt "help:purchase.request.quotation,reference:"
+msgid "The reference used by the supplier."
+msgstr "La referència utilitzada pel proveïdor."
+
+msgctxt "help:purchase.request.quotation,revision:"
+msgid "Number incremented each time the quotation is sent."
+msgstr "Número incrementat cada vegada que s'envia el pressupost."
+
+msgctxt "help:purchase.request.quotation.line,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "La categoria de la unitat de mesura del producte."
+
+msgctxt "help:purchase.request.quotation.line,request:"
+msgid "The request which this line belongs to."
+msgstr "La sol·licitud a la que pertany aquesta línia."
+
+msgctxt "help:purchase.request.quotation.line,supply_date:"
+msgid "When it should be delivered."
+msgstr "Quan s'ha de rebre."
+
+msgctxt "model:ir.action,name:act_purchase_request_form"
+msgid "Quotations"
+msgstr "Pressupostos"
+
+msgctxt "model:ir.action,name:act_purchase_request_quotation_form"
+msgid "Quotations"
+msgstr "Pressupostos"
+
+msgctxt "model:ir.action,name:report_purchase_request_quotation"
+msgid "Purchase Request Quotation"
+msgstr "Pressupost de sol·licitud de compra"
+
+msgctxt "model:ir.action,name:wizard_create_quotation"
+msgid "Create Quotation"
+msgstr "Crea pressupost"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_form_domain_quotation"
+msgid "Quotation"
+msgstr "Pressupost"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_form_domain_received"
+msgid "Received"
+msgstr "Rebut"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_quotation_form_view1_domain_all"
+msgid "All"
+msgstr "Tot"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_quotation_form_view1_domain_draft"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_quotation_form_view1_domain_sent"
+msgid "Sent"
+msgstr "Enviada"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_previous_quotation"
+msgid "Quotations have already been made for the requests \"%(requests)s\"."
+msgstr "Ja s'han realitzat pressupostos per les sol·licituds \"%(requests)s\"."
+
+msgctxt ""
+"model:ir.model.button,string:purchase_request_create_quotation_button"
+msgid "Create Quotations"
+msgstr "Crea pressupostos"
+
+msgctxt "model:ir.rule.group,name:rule_group_request_quotation_companies"
+msgid "User in companies"
+msgstr "Usuari a les empreses"
+
+msgctxt "model:ir.sequence,name:sequence_purchase_request_quotation"
+msgid "Purchase Request Quotation"
+msgstr "Pressupost de sol·licitud de compra"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_purchase_request_quotation"
+msgid "Purchase Request Quotation"
+msgstr "Pressupost de sol·licitud de compra"
+
+msgctxt "model:ir.ui.menu,name:menu_purchase_request_quotation_form"
+msgid "Quotations"
+msgstr "Pressupostos"
+
+msgctxt "model:purchase.request.quotation,string:"
+msgid "Purchase Request Quotation"
+msgstr "Pressupost de sol·licitud de compra"
+
+msgctxt "model:purchase.request.quotation.create.ask_suppliers,string:"
+msgid "Purchase Request Quotation Create Ask Suppliers"
+msgstr "Introdueix proveïdors de pressupost de sol·licitud de compra"
+
+msgctxt "model:purchase.request.quotation.line,string:"
+msgid "Purchase Request Quotation Line"
+msgstr "Línia de pressupost de sol·licitud de compra"
+
+msgctxt "report:purchase.request.quotation:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Customer Code:"
+msgstr "Codi client:"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Date:"
+msgstr "Data:"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Delivery Address:"
+msgstr "Direcció d'enviament:"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Expected Supply Date"
+msgstr "Data subministre esperada"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Purchase Request for Quotation No:"
+msgstr "Pressupost de sol·licitud de compra Núm.:"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Quantity"
+msgstr "Quantitat"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Quotation"
+msgstr "Pressupost"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Reference:"
+msgstr "Referència:"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Revision:"
+msgstr "Revisió:"
+
+msgctxt "report:purchase.request.quotation:"
+msgid "Unit Price"
+msgstr "Preu unitari"
+
+msgctxt "selection:purchase.request,state:"
+msgid "Quotation"
+msgstr "Pressupost"
+
+msgctxt "selection:purchase.request,state:"
+msgid "Received"
+msgstr "Rebut"
+
+msgctxt "selection:purchase.request.quotation,state:"
+msgid "Cancelled"
+msgstr "Cancel·lat"
+
+msgctxt "selection:purchase.request.quotation,state:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "selection:purchase.request.quotation,state:"
+msgid "Received"
+msgstr "Rebut"
+
+msgctxt "selection:purchase.request.quotation,state:"
+msgid "Rejected"
+msgstr "Rebutjat"
+
+msgctxt "selection:purchase.request.quotation,state:"
+msgid "Sent"
+msgstr "Enviada"
+
+msgctxt "view:purchase.request.quotation.line:"
+msgid "General"
+msgstr "General"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Other Info"
+msgstr "Informació addicional"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Quotation"
+msgstr "Pressupost"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Receive"
+msgstr "Rep"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Reject"
+msgstr "Rebutja"
+
+msgctxt "view:purchase.request.quotation:"
+msgid "Send"
+msgstr "Envia"
+
+msgctxt "view:purchase.request:"
+msgid "Preferred Quotation:"
+msgstr "Pressupost preferit:"
+
+msgctxt "view:purchase.request:"
+msgid "Quotations"
+msgstr "Pressupostos"
+
+msgctxt ""
+"wizard_button:purchase.request.quotation.create,ask_suppliers,create_quotations:"
+msgid "Process"
+msgstr "Processa"
+
+msgctxt "wizard_button:purchase.request.quotation.create,ask_suppliers,end:"
+msgid "Cancel"
+msgstr "Cancel·la"

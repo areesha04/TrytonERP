@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="promotion_view_form">
+            <field name="model">sale.promotion</field>
+            <field name="inherit" ref="sale_promotion.promotion_view_form"/>
+            <field name="name">promotion_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="coupon_view_form">
+            <field name="model">sale.promotion.coupon</field>
+            <field name="type">form</field>
+            <field name="name">coupon_form</field>
+        </record>
+        <record model="ir.ui.view" id="coupon_view_list">
+            <field name="model">sale.promotion.coupon</field>
+            <field name="type">tree</field>
+            <field name="name">coupon_list</field>
+        </record>
+
+        <record model="ir.rule.group" id="rule_group_coupon_companies">
+            <field name="name">User in companies</field>
+            <field name="model">sale.promotion.coupon</field>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_coupon_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_coupon_companies"/>
+        </record>
+
+        <record model="ir.ui.view" id="coupon_number_view_form">
+            <field name="model">sale.promotion.coupon.number</field>
+            <field name="type">form</field>
+            <field name="name">coupon_number_form</field>
+        </record>
+        <record model="ir.ui.view" id="coupon_number_view_list">
+            <field name="model">sale.promotion.coupon.number</field>
+            <field name="type">tree</field>
+            <field name="name">coupon_number_list</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_promotion_coupon_number_form">
+            <field name="name">Coupon Numbers</field>
+            <field name="res_model">sale.promotion.coupon.number</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_promotion_coupon_number_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="coupon_number_view_list"/>
+            <field name="act_window" ref="act_promotion_coupon_number_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_promotion_coupon_number_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="coupon_number_view_form"/>
+            <field name="act_window" ref="act_promotion_coupon_number_form"/>
+        </record>
+        <menuitem
+            parent="sale.menu_configuration"
+            action="act_promotion_coupon_number_form"
+            sequence="30"
+            id="menu_promotion_coupon_number"/>
+
+        <record model="ir.rule.group" id="rule_group_coupon_number_companies">
+            <field name="name">User in companies</field>
+            <field name="model">sale.promotion.coupon.number</field>
+            <field name="global_p" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_coupon_number_companies">
+            <field name="domain" eval="[('company', 'in', Eval('companies', []))]" pyson="1"/>
+            <field name="rule_group" ref="rule_group_coupon_number_companies"/>
+        </record>
+
+        <record model="ir.ui.view" id="sale_view_form">
+            <field name="model">sale.sale</field>
+            <field name="inherit" ref="sale.sale_view_form"/>
+            <field name="name">sale_form</field>
+        </record>
+    </data>
+</tryton>

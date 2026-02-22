@@ -1,0 +1,297 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.attribute,web_shops:"
+msgid "Web Shops"
+msgstr "Webshops"
+
+msgctxt "field:product.category,web_shops:"
+msgid "Web Shops"
+msgstr "Webshops"
+
+msgctxt "field:product.image,web_shop:"
+msgid "Web Shop"
+msgstr "Webshop"
+
+msgctxt "field:product.product,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Webshop Beschreibung"
+
+msgctxt "field:product.product,web_shop_urls:"
+msgid "Web Shop URLs"
+msgstr "Webshop-URLs"
+
+msgctxt "field:product.product,web_shops:"
+msgid "Web Shops"
+msgstr "Webshops"
+
+msgctxt "field:product.template,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Webshop Beschreibung"
+
+msgctxt "field:product.web_shop_url,product:"
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:product.web_shop_url,shop:"
+msgid "Shop"
+msgstr "Webshop"
+
+msgctxt "field:product.web_shop_url,url:"
+msgid "Shop URL"
+msgstr "Webshop-URL"
+
+msgctxt "field:sale.sale,web_id:"
+msgid "Web ID"
+msgstr "Web ID"
+
+msgctxt "field:sale.sale,web_shop:"
+msgid "Web Shop"
+msgstr "Webshop"
+
+msgctxt "field:sale.sale,web_status_url:"
+msgid "Web Status URL"
+msgstr "Web-Status-URL"
+
+msgctxt "field:web.shop,attributes:"
+msgid "Attributes"
+msgstr "Attribute"
+
+msgctxt "field:web.shop,attributes_removed:"
+msgid "Attributes Removed"
+msgstr "Entfernte Attribute"
+
+msgctxt "field:web.shop,categories:"
+msgid "Categories"
+msgstr "Kategorien"
+
+msgctxt "field:web.shop,categories_removed:"
+msgid "Categories Removed"
+msgstr "Entfernte Kategorien"
+
+msgctxt "field:web.shop,company:"
+msgid "Company"
+msgstr "Unternehmen"
+
+msgctxt "field:web.shop,countries:"
+msgid "Countries"
+msgstr "Länder"
+
+msgctxt "field:web.shop,currency:"
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:web.shop,guest_party:"
+msgid "Guest Party"
+msgstr "Partei für Gäste"
+
+msgctxt "field:web.shop,language:"
+msgid "Language"
+msgstr "Sprache"
+
+msgctxt "field:web.shop,name:"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field:web.shop,non_sale_price_list:"
+msgid "Non-Sale Price List"
+msgstr "Vergleichspreiskonditionsschema"
+
+msgctxt "field:web.shop,products:"
+msgid "Products"
+msgstr "Artikel"
+
+msgctxt "field:web.shop,products_removed:"
+msgid "Products Removed"
+msgstr "Entfernte Artikel"
+
+msgctxt "field:web.shop,sale_price_list:"
+msgid "Sale Price List"
+msgstr "Preiskonditionsschema Verkauf"
+
+msgctxt "field:web.shop,type:"
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "field:web.shop,warehouses:"
+msgid "Warehouses"
+msgstr "Logistikstandorte"
+
+msgctxt "field:web.shop-country.country,country:"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "field:web.shop-country.country,shop:"
+msgid "Shop"
+msgstr "Webshop"
+
+msgctxt "field:web.shop-product.attribute,attribute:"
+msgid "Attribute"
+msgstr "Attribut"
+
+msgctxt "field:web.shop-product.attribute,shop:"
+msgid "Shop"
+msgstr "Webshop"
+
+msgctxt "field:web.shop-product.category,category:"
+msgid "Category"
+msgstr "Kategorie"
+
+msgctxt "field:web.shop-product.category,shop:"
+msgid "Shop"
+msgstr "Webshop"
+
+msgctxt "field:web.shop-product.product,product:"
+msgid "Product"
+msgstr "Artikel"
+
+msgctxt "field:web.shop-product.product,shop:"
+msgid "Shop"
+msgstr "Webshop"
+
+msgctxt "field:web.shop-stock.location,shop:"
+msgid "Shop"
+msgstr "Webshop"
+
+msgctxt "field:web.shop-stock.location,warehouse:"
+msgid "Warehouse"
+msgstr "Logistikstandort"
+
+msgctxt "field:web.user,invoice_address:"
+msgid "Invoice Address"
+msgstr "Rechnungsadresse"
+
+msgctxt "field:web.user,shipment_address:"
+msgid "Shipment Address"
+msgstr "Lieferadresse"
+
+msgctxt "help:product.attribute,web_shops:"
+msgid "The list of web shops on which the attribute is published."
+msgstr "Die Liste der Webshops auf denen das Attribut veröffentlicht wird."
+
+msgctxt "help:product.category,web_shops:"
+msgid "The list of web shops on which the category is published."
+msgstr "Die Liste von Webshop auf dem die Kategorie veröffentlicht wird."
+
+msgctxt "help:product.product,web_shops:"
+msgid "The list of web shops on which the product is published."
+msgstr "Die Liste der Webshops in denen der Artikel veröffentlicht wird."
+
+msgctxt "help:sale.sale,web_status_url:"
+msgid "The URL where the customer can check the order's current status."
+msgstr ""
+"Die URL, unter der der Kunde den aktuellen Status seiner Bestellung einsehen"
+" kann."
+
+msgctxt "help:web.shop,attributes:"
+msgid "The list of attributes to publish."
+msgstr "Liste der zu veröffentlichenden Attribute."
+
+msgctxt "help:web.shop,attributes_removed:"
+msgid "The list of attributes to unpublish."
+msgstr "Liste der von der Veröffentlichung zurückzuziehenden Artikel."
+
+msgctxt "help:web.shop,categories:"
+msgid "The list of categories to publish."
+msgstr "Liste der zu veröffentlichenden Kategorien."
+
+msgctxt "help:web.shop,categories_removed:"
+msgid "The list of categories to unpublish."
+msgstr "Liste der von der Veröffentlichung zurückzuziehenden Kategorien."
+
+msgctxt "help:web.shop,non_sale_price_list:"
+msgid ""
+"The price list to compute the price of products when it is not on sale."
+msgstr ""
+"Das Preiskonditionsschema zur Berechnung des Basispreises zum Zweck der "
+"Preisgegenüberstellung."
+
+msgctxt "help:web.shop,products:"
+msgid "The list of products to publish."
+msgstr "Liste der zu veröffentlichenden Artikel."
+
+msgctxt "help:web.shop,products_removed:"
+msgid "The list of products to unpublish."
+msgstr "Liste der von der Veröffentlichung zurückzuziehenden Artikel."
+
+msgctxt "help:web.shop,sale_price_list:"
+msgid "The price list to compute sale price of products."
+msgstr "Preiskonditionsschema zur Berechnung der Verkaufspreise der Artikel."
+
+msgctxt "help:web.shop,type:"
+msgid "The front-end used for the web shop."
+msgstr "Das für den Webshop genutzte Frontend."
+
+msgctxt "model:ir.action,name:act_shop"
+msgid "Web Shops"
+msgstr "Webshops"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_sale_invalid_party"
+msgid ""
+"To process the sale \"%(sale)s\" you must select another party instead of "
+"the guest \"%(party)s\"."
+msgstr ""
+"Um Verkauf \"%(sale)s\" auszuführen muss eine andere Partei als die "
+"Gastpartei \"%(party)s\" ausgewählt werden."
+
+msgctxt "model:ir.message,text:msg_sale_web_shop_id_unique"
+msgid "The web ID on the sale must be unique per shop."
+msgstr "Die Web-ID auf dem Verkauf muss pro Webshop eindeutig sein."
+
+msgctxt "model:ir.message,text:msg_shop_name_unique"
+msgid "The web shop name must be unique."
+msgstr "Der Name des Webshops muss eindeutig sein."
+
+msgctxt "model:ir.model.button,string:sale_web_shop_update_button"
+msgid "Update from Web Shop"
+msgstr "Aus dem Webshop aktualisieren"
+
+msgctxt "model:ir.rule.group,name:rule_group_shop_companies"
+msgid "User in companies"
+msgstr "Benutzer in Unternehmen"
+
+msgctxt "model:ir.ui.menu,name:menu_shop"
+msgid "Web Shops"
+msgstr "Webshops"
+
+msgctxt "model:product.web_shop_url,string:"
+msgid "Product Web Shop Url"
+msgstr "Artikel Webshop-URL"
+
+msgctxt "model:web.shop,string:"
+msgid "Web Shop"
+msgstr "Webshop"
+
+msgctxt "model:web.shop-country.country,string:"
+msgid "Web Shop - Country"
+msgstr "Webshop - Land"
+
+msgctxt "model:web.shop-product.attribute,string:"
+msgid "Web Shop - Product Attribute"
+msgstr "Webshop - Artikelattribut"
+
+msgctxt "model:web.shop-product.category,string:"
+msgid "Web Shop - Product Category"
+msgstr "Webshop - Artikelkategorie"
+
+msgctxt "model:web.shop-product.product,string:"
+msgid "Web Shop - Product"
+msgstr "Webshop - Artikel"
+
+msgctxt "model:web.shop-stock.location,string:"
+msgid "Web Shop - Stock Location"
+msgstr "Webshop - Lagerort"
+
+msgctxt "view:product.template:"
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgctxt "view:product.template:"
+msgid "Web Shop"
+msgstr "Webshop"
+
+msgctxt "view:web.shop:"
+msgid "Products"
+msgstr "Artikel"

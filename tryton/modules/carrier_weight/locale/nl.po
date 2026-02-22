@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,weight_currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:carrier,weight_price_list:"
+msgid "Price List"
+msgstr "Prijslijst"
+
+msgctxt "field:carrier,weight_uom:"
+msgid "Weight UoM"
+msgstr "Maateenheid gewicht"
+
+msgctxt "field:carrier.weight_price_list,carrier:"
+msgid "Carrier"
+msgstr "Transporteur"
+
+msgctxt "field:carrier.weight_price_list,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:carrier.weight_price_list,price:"
+msgid "Price"
+msgstr "Prijs"
+
+msgctxt "field:carrier.weight_price_list,weight:"
+msgid "Weight"
+msgstr "Gewicht"
+
+msgctxt "field:carrier.weight_price_list,weight_uom:"
+msgid "Weight UoM"
+msgstr "Maateenheid gewicht"
+
+msgctxt "help:carrier,weight_currency:"
+msgid "The currency of the price."
+msgstr "De valuta van de prijs."
+
+msgctxt "help:carrier,weight_price_list:"
+msgid ""
+"Add price per weight to the carrier service.\n"
+"The first line for which the weight is greater is used.\n"
+"The line with weight of 0 is used as default price."
+msgstr ""
+"Voeg prijs per gewicht toe aan de koerier service.\n"
+"De eerste regel waarvan het gewicht groter is wordt gebruikt.\n"
+"De regel met gewicht 0 wordt gebruikt als standaard prijs."
+
+msgctxt "help:carrier,weight_uom:"
+msgid "The Unit of Measure of weight criteria for the price list."
+msgstr "De maateenheid van gewichtscriteria voor de prijslijst."
+
+msgctxt "help:carrier.weight_price_list,carrier:"
+msgid "The carrier that the price list belongs to."
+msgstr "De prijslijst van de transporteur."
+
+msgctxt "help:carrier.weight_price_list,price:"
+msgid "The price of the carrier service."
+msgstr "De prijs van de transport service."
+
+msgctxt "help:carrier.weight_price_list,weight:"
+msgid "The lower limit for the price."
+msgstr "De ondergrens voor de prijs."
+
+msgctxt "help:carrier.weight_price_list,weight_uom:"
+msgid "The Unit of Measure of the weight."
+msgstr "De maateenheid van het gewicht."
+
+msgctxt "model:carrier.weight_price_list,string:"
+msgid "Carrier Weight Price List"
+msgstr "Prijslijst vervoerder gewicht"
+
+msgctxt "selection:carrier,carrier_cost_method:"
+msgid "Weight"
+msgstr "Gewicht"

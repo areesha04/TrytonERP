@@ -1,0 +1,83 @@
+#
+#, fuzzy
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.account.rule,account:"
+msgid "Substitution Account"
+msgstr "Nadomestni konto"
+
+msgctxt "field:account.account.rule,company:"
+msgid "Company"
+msgstr "Družba"
+
+#, fuzzy
+msgctxt "field:account.account.rule,end_date:"
+msgid "End Date"
+msgstr "Končni datum"
+
+msgctxt "field:account.account.rule,origin_account:"
+msgid "Original Account"
+msgstr "Izvorni konto"
+
+msgctxt "field:account.account.rule,return_:"
+msgid "Return"
+msgstr "Vračilo"
+
+#, fuzzy
+msgctxt "field:account.account.rule,start_date:"
+msgid "Start Date"
+msgstr "Začetni datum"
+
+msgctxt "field:account.account.rule,tax:"
+msgid "Tax"
+msgstr "Davek"
+
+msgctxt "field:account.account.rule,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:account.account.rule,warehouse:"
+msgid "Warehouse"
+msgstr "Skladišče"
+
+msgctxt "help:account.account.rule,return_:"
+msgid "Check to limit to return operation."
+msgstr "Izberite, da pravilo konta omejite na izvajanje vračil."
+
+#, fuzzy
+msgctxt "model:account.account.rule,string:"
+msgid "Account Rule"
+msgstr "Pravilo konta"
+
+msgctxt "model:ir.action,name:act_account_rule_form"
+msgid "Account Rules"
+msgstr "Pravila konta"
+
+msgctxt "model:ir.rule.group,name:rule_group_account_rule_companies"
+msgid "User in companies"
+msgstr "Uporabniki v družbah"
+
+msgctxt "model:ir.ui.menu,name:menu_account_rule_form"
+msgid "Account Rules"
+msgstr "Pravila konta"
+
+msgctxt "selection:account.account.rule,type:"
+msgid "Expense"
+msgstr "Odhodek"
+
+msgctxt "selection:account.account.rule,type:"
+msgid "Payable"
+msgstr "Dolg"
+
+msgctxt "selection:account.account.rule,type:"
+msgid "Receivable"
+msgstr "Terjatev"
+
+msgctxt "selection:account.account.rule,type:"
+msgid "Revenue"
+msgstr "Prihodek"
+
+msgctxt "selection:account.account.rule,type:"
+msgid "Stock"
+msgstr "Zaloga"

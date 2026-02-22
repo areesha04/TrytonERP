@@ -1,0 +1,171 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.line,original_amount:"
+msgid "Original Amount"
+msgstr ""
+
+msgctxt "field:sale.line,original_unit_price:"
+msgid "Original Unit Price"
+msgstr ""
+
+msgctxt "field:sale.line,promotion:"
+msgid "Promotion"
+msgstr "Promocja"
+
+msgctxt "field:sale.promotion,amount:"
+msgid "Amount"
+msgstr ""
+
+msgctxt "field:sale.promotion,categories:"
+msgid "Categories"
+msgstr ""
+
+msgctxt "field:sale.promotion,company:"
+msgid "Company"
+msgstr "Firma"
+
+msgctxt "field:sale.promotion,currency:"
+msgid "Currency"
+msgstr ""
+
+msgctxt "field:sale.promotion,end_date:"
+msgid "End Date"
+msgstr "Data ukończenia"
+
+msgctxt "field:sale.promotion,formula:"
+msgid "Formula"
+msgstr "Formuła"
+
+msgctxt "field:sale.promotion,name:"
+msgid "Name"
+msgstr "Nazwa"
+
+msgctxt "field:sale.promotion,price_list:"
+msgid "Price List"
+msgstr "Cennik"
+
+msgctxt "field:sale.promotion,products:"
+msgid "Products"
+msgstr "Produkty"
+
+msgctxt "field:sale.promotion,quantity:"
+msgid "Quantity"
+msgstr "Ilość"
+
+msgctxt "field:sale.promotion,start_date:"
+msgid "Start Date"
+msgstr "Data rozpoczęcia"
+
+msgctxt "field:sale.promotion,unit:"
+msgid "Unit"
+msgstr "Jednostka"
+
+msgctxt "field:sale.promotion,untaxed_amount:"
+msgid "Untaxed Amount"
+msgstr ""
+
+msgctxt "field:sale.promotion-product.category,category:"
+msgid "Category"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:sale.promotion-product.category,promotion:"
+msgid "Promotion"
+msgstr "Promocja"
+
+msgctxt "field:sale.promotion-product.product,product:"
+msgid "Product"
+msgstr "Produkt"
+
+msgctxt "field:sale.promotion-product.product,promotion:"
+msgid "Promotion"
+msgstr "Promocja"
+
+#, fuzzy
+msgctxt "field:sale.reporting.promotion,promotion:"
+msgid "Promotion"
+msgstr "Promocja"
+
+msgctxt "field:sale.sale,original_tax_amount:"
+msgid "Original Tax"
+msgstr ""
+
+msgctxt "field:sale.sale,original_total_amount:"
+msgid "Original Total"
+msgstr ""
+
+msgctxt "field:sale.sale,original_untaxed_amount:"
+msgid "Original Untaxed"
+msgstr ""
+
+msgctxt "help:sale.promotion,formula:"
+msgid ""
+"Python expression that will be evaluated with:\n"
+"- unit_price: the original unit_price"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_promotion_form"
+msgid "Promotions"
+msgstr "Promotions"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_promotion_relate"
+msgid "Sale Promotions"
+msgstr "Sale Promotions"
+
+msgctxt "model:ir.action,name:act_sale_relate"
+msgid "Sales"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_sale_reporting_promotion"
+msgid "Sales per Promotion"
+msgstr "Promocja sprzedaży"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invalid_formula"
+msgid ""
+"Invalid formula \"%(formula)s\" in promotion \"%(promotion)s\" 'with "
+"exception \"%(exception)s\"."
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_promotion_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_reporting_promotion_companies"
+msgid "User in companies"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_promotion"
+msgid "Promotions"
+msgstr "Promotions"
+
+#, fuzzy
+msgctxt "model:sale.promotion,string:"
+msgid "Sale Promotion"
+msgstr "Promocja sprzedaży"
+
+#, fuzzy
+msgctxt "model:sale.promotion-product.category,string:"
+msgid "Sale Promotion - Product Category"
+msgstr "Promocja sprzedaży - Produkt"
+
+#, fuzzy
+msgctxt "model:sale.promotion-product.product,string:"
+msgid "Sale Promotion - Product"
+msgstr "Promocja sprzedaży - Produkt"
+
+#, fuzzy
+msgctxt "model:sale.reporting.promotion,string:"
+msgid "Sale Reporting Promotion"
+msgstr "Promocja sprzedaży"
+
+#, fuzzy
+msgctxt "view:sale.promotion:"
+msgid "Products"
+msgstr "Produkty"

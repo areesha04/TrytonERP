@@ -1,0 +1,1663 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.configuration,customer_payment_reference_number:"
+msgid "Customer Payment Reference Number"
+msgstr "Referentie nummer klant betaling"
+
+msgctxt "field:account.configuration,default_customer_payment_term:"
+msgid "Default Customer Payment Term"
+msgstr "Standaard betalingstermijn klanten"
+
+msgctxt "field:account.configuration.default_payment_term,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt ""
+"field:account.configuration.default_payment_term,default_customer_payment_term:"
+msgid "Default Customer Payment Term"
+msgstr "Standaard betalingstermijn klanten"
+
+msgctxt "field:account.configuration.payment_reference,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt ""
+"field:account.configuration.payment_reference,customer_payment_reference_number:"
+msgid "Customer Payment Reference Number"
+msgstr "Referentie nummer klant betaling"
+
+msgctxt "field:account.fiscalyear,invoice_sequences:"
+msgid "Invoice Sequences"
+msgstr "Factuur reeksen"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,fiscalyear:"
+msgid "Fiscal Year"
+msgstr "Boekjaar"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,in_credit_note_sequence:"
+msgid "Supplier Credit Note Sequence"
+msgstr "Leverancier credit factuur reeks"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,in_invoice_sequence:"
+msgid "Supplier Invoice Sequence"
+msgstr "Leverancier factuur reeks"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,out_credit_note_sequence:"
+msgid "Customer Credit Note Sequence"
+msgstr "Klant credit factuur reeks"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,out_invoice_sequence:"
+msgid "Customer Invoice Sequence"
+msgstr "Klant factuur reeks"
+
+msgctxt "field:account.fiscalyear.invoice_sequence,period:"
+msgid "Period"
+msgstr "Periode"
+
+msgctxt "field:account.invoice,account:"
+msgid "Account"
+msgstr "Grootboekrekening"
+
+msgctxt "field:account.invoice,accounting_date:"
+msgid "Accounting Date"
+msgstr "Boekingsdatum"
+
+msgctxt "field:account.invoice,additional_moves:"
+msgid "Additional Moves"
+msgstr "Extra boekingen"
+
+msgctxt "field:account.invoice,allow_cancel:"
+msgid "Allow Cancel Invoice"
+msgstr "Sta factuur annuleren toe"
+
+msgctxt "field:account.invoice,alternative_payees:"
+msgid "Alternative Payee"
+msgstr "Alternatieve Betaler"
+
+msgctxt "field:account.invoice,amount_to_pay:"
+msgid "Amount to Pay"
+msgstr "Te betalen bedrag"
+
+msgctxt "field:account.invoice,amount_to_pay_today:"
+msgid "Amount to Pay Today"
+msgstr "Vandaag te betalen"
+
+msgctxt "field:account.invoice,cancel_move:"
+msgid "Cancel Move"
+msgstr "Annuleer boeking"
+
+msgctxt "field:account.invoice,comment:"
+msgid "Comment"
+msgstr "Opmerking"
+
+msgctxt "field:account.invoice,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:account.invoice,company_party:"
+msgid "Company Party"
+msgstr "Bedrijf relatie"
+
+msgctxt "field:account.invoice,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice,currency_date:"
+msgid "Currency Date"
+msgstr "Wisselkoersdatum"
+
+msgctxt "field:account.invoice,customer_payment_reference:"
+msgid "Customer Payment Reference"
+msgstr "Referentie klant betaling"
+
+msgctxt "field:account.invoice,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:account.invoice,has_account_move:"
+msgid "Has Account Move"
+msgstr "Heeft boeking"
+
+msgctxt "field:account.invoice,has_payment_method:"
+msgid "Has Payment Method"
+msgstr "Heeft Betalingsmethode"
+
+msgctxt "field:account.invoice,has_report_cache:"
+msgid "Has Report Cached"
+msgstr "Rapport opgeslagen in cache"
+
+msgctxt "field:account.invoice,invoice_address:"
+msgid "Invoice Address"
+msgstr "Factuuradres"
+
+msgctxt "field:account.invoice,invoice_date:"
+msgid "Invoice Date"
+msgstr "Factuurdatum"
+
+msgctxt "field:account.invoice,invoice_report_cache:"
+msgid "Invoice Report"
+msgstr "Factuurrapport"
+
+msgctxt "field:account.invoice,invoice_report_cache_id:"
+msgid "Invoice Report ID"
+msgstr "Factuurrapport-ID"
+
+msgctxt "field:account.invoice,invoice_report_format:"
+msgid "Invoice Report Format"
+msgstr "Opmaak factuuroverzicht"
+
+msgctxt "field:account.invoice,invoice_report_revisions:"
+msgid "Invoice Report Revisions"
+msgstr "Factuur rapport revisies"
+
+msgctxt "field:account.invoice,journal:"
+msgid "Journal"
+msgstr "Dagboek"
+
+msgctxt "field:account.invoice,line_lines:"
+msgid "Line - Lines"
+msgstr "Regel - Regels"
+
+msgctxt "field:account.invoice,lines:"
+msgid "Lines"
+msgstr "Regels"
+
+msgctxt "field:account.invoice,lines_to_pay:"
+msgid "Lines to Pay"
+msgstr "Te betalen regels"
+
+msgctxt "field:account.invoice,move:"
+msgid "Move"
+msgstr "Boeking"
+
+msgctxt "field:account.invoice,number:"
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "field:account.invoice,number_alnum:"
+msgid "Number Alphanumeric"
+msgstr "Alfanumeriek nummer"
+
+msgctxt "field:account.invoice,number_digit:"
+msgid "Number Digit"
+msgstr "Aantal cijfers"
+
+msgctxt "field:account.invoice,origins:"
+msgid "Origins"
+msgstr "Oorsprong"
+
+msgctxt "field:account.invoice,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:account.invoice,party_lang:"
+msgid "Party Language"
+msgstr "Taal relatie"
+
+msgctxt "field:account.invoice,party_tax_identifier:"
+msgid "Party Tax Identifier"
+msgstr "Relatie belasting identificatie"
+
+msgctxt "field:account.invoice,payment_lines:"
+msgid "Payment Lines"
+msgstr "Betalingsregels"
+
+msgctxt "field:account.invoice,payment_term:"
+msgid "Payment Term"
+msgstr "Betalingstermijn"
+
+msgctxt "field:account.invoice,payment_term_date:"
+msgid "Payment Term Date"
+msgstr "Betalingstermijn datum"
+
+msgctxt "field:account.invoice,posted_by:"
+msgid "Posted By"
+msgstr "Geboekt door"
+
+msgctxt "field:account.invoice,reconciled:"
+msgid "Reconciled"
+msgstr "Afgeletterd"
+
+msgctxt "field:account.invoice,reconciliation_lines:"
+msgid "Payment Lines"
+msgstr "Betalingsregels"
+
+msgctxt "field:account.invoice,reference:"
+msgid "Reference"
+msgstr "Referentie"
+
+msgctxt "field:account.invoice,sequence:"
+msgid "Sequence"
+msgstr "Reeks"
+
+msgctxt "field:account.invoice,sequence_type_cache:"
+msgid "Sequence Type Cache"
+msgstr "Soorten reeks cache"
+
+msgctxt "field:account.invoice,state:"
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:account.invoice,supplier_payment_reference:"
+msgid "Payment Reference"
+msgstr "Betalingskenmerk"
+
+msgctxt "field:account.invoice,supplier_payment_reference_type:"
+msgid "Payment Reference Type"
+msgstr "Soort betalingskenmerk"
+
+msgctxt "field:account.invoice,tax_amount:"
+msgid "Tax"
+msgstr "Belasting"
+
+msgctxt "field:account.invoice,tax_amount_cache:"
+msgid "Tax Cache"
+msgstr "Belasting Cache"
+
+msgctxt "field:account.invoice,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "Belasting identificatie"
+
+msgctxt "field:account.invoice,taxes:"
+msgid "Tax Lines"
+msgstr "Belastingregels"
+
+msgctxt "field:account.invoice,total_amount:"
+msgid "Total"
+msgstr "Totaal"
+
+msgctxt "field:account.invoice,total_amount_cache:"
+msgid "Total Cache"
+msgstr "Totaal Cache"
+
+msgctxt "field:account.invoice,type:"
+msgid "Type"
+msgstr "Soort"
+
+msgctxt "field:account.invoice,type_name:"
+msgid "Type"
+msgstr "Soort"
+
+msgctxt "field:account.invoice,untaxed_amount:"
+msgid "Untaxed"
+msgstr "Onbelast"
+
+msgctxt "field:account.invoice,untaxed_amount_cache:"
+msgid "Untaxed Cache"
+msgstr "Onbelast Cache"
+
+msgctxt "field:account.invoice,validated_by:"
+msgid "Validated By"
+msgstr "Gevalideerd door"
+
+msgctxt "field:account.invoice-account.move.line,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice-account.move.line,invoice_account:"
+msgid "Invoice Account"
+msgstr "Factuur grootboekrekening"
+
+msgctxt "field:account.invoice-account.move.line,invoice_alternative_payees:"
+msgid "Invoice Alternative Payees"
+msgstr "Factuur Alternatieve Betalers"
+
+msgctxt "field:account.invoice-account.move.line,invoice_party:"
+msgid "Invoice Party"
+msgstr "Factuur relatie"
+
+msgctxt "field:account.invoice-account.move.line,line:"
+msgid "Payment Line"
+msgstr "Betalingsregel"
+
+msgctxt "field:account.invoice-additional-account.move,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice-additional-account.move,move:"
+msgid "Additional Move"
+msgstr "Extra boeking"
+
+msgctxt "field:account.invoice.alternative_payee,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice.alternative_payee,party:"
+msgid "Payee"
+msgstr "Betaler"
+
+msgctxt "field:account.invoice.credit.start,invoice_date:"
+msgid "Invoice Date"
+msgstr "Factuurdatum"
+
+msgctxt "field:account.invoice.credit.start,with_refund:"
+msgid "With Refund"
+msgstr "Met terugbetaling"
+
+msgctxt "field:account.invoice.credit.start,with_refund_allowed:"
+msgid "With Refund Allowed"
+msgstr "Met terugbetaling toegestaan"
+
+msgctxt "field:account.invoice.edocument.result,file:"
+msgid "File"
+msgstr "Bestand"
+
+msgctxt "field:account.invoice.edocument.result,filename:"
+msgid "File Name"
+msgstr "Bestandsnaam"
+
+msgctxt "field:account.invoice.edocument.start,format:"
+msgid "Format"
+msgstr "Formaat"
+
+msgctxt "field:account.invoice.edocument.start,template:"
+msgid "Template"
+msgstr "Template"
+
+msgctxt "field:account.invoice.line,account:"
+msgid "Account"
+msgstr "Grootboekrekening"
+
+msgctxt "field:account.invoice.line,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:account.invoice.line,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:account.invoice.line,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.line,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:account.invoice.line,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice.line,invoice_description:"
+msgid "Invoice Description"
+msgstr "Factuur Omschrijving"
+
+msgctxt "field:account.invoice.line,invoice_party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:account.invoice.line,invoice_state:"
+msgid "Invoice State"
+msgstr "Factuur status"
+
+msgctxt "field:account.invoice.line,invoice_taxes:"
+msgid "Invoice Taxes"
+msgstr "Factuur belastingen"
+
+msgctxt "field:account.invoice.line,invoice_type:"
+msgid "Invoice Type"
+msgstr "Factuur soort"
+
+msgctxt "field:account.invoice.line,note:"
+msgid "Note"
+msgstr "Notitie"
+
+msgctxt "field:account.invoice.line,origin:"
+msgid "Origin"
+msgstr "Oorsprong"
+
+msgctxt "field:account.invoice.line,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:account.invoice.line,party_lang:"
+msgid "Party Language"
+msgstr "Taal relatie"
+
+msgctxt "field:account.invoice.line,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:account.invoice.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Product eenheidsmaat categorie"
+
+msgctxt "field:account.invoice.line,quantity:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "field:account.invoice.line,summary:"
+msgid "Summary"
+msgstr "Samenvatting"
+
+msgctxt "field:account.invoice.line,taxes:"
+msgid "Taxes"
+msgstr "Belastingen"
+
+msgctxt "field:account.invoice.line,taxes_date:"
+msgid "Taxes Date"
+msgstr "Belastingen datum"
+
+msgctxt "field:account.invoice.line,taxes_deductible_rate:"
+msgid "Taxes Deductible Rate"
+msgstr "Aftrekbaar belastingtarief"
+
+msgctxt "field:account.invoice.line,type:"
+msgid "Type"
+msgstr "Soort"
+
+msgctxt "field:account.invoice.line,unit:"
+msgid "Unit"
+msgstr "Eenheid"
+
+msgctxt "field:account.invoice.line,unit_price:"
+msgid "Unit Price"
+msgstr "Eenheidsprijs"
+
+msgctxt "field:account.invoice.line-account.tax,line:"
+msgid "Invoice Line"
+msgstr "Factuurregel"
+
+msgctxt "field:account.invoice.line-account.tax,tax:"
+msgid "Tax"
+msgstr "Belasting"
+
+msgctxt "field:account.invoice.pay.ask,amount:"
+msgid "Payment Amount"
+msgstr "Te betalen bedrag"
+
+msgctxt "field:account.invoice.pay.ask,amount_writeoff:"
+msgid "Write-Off Amount"
+msgstr "Afboekingsbedrag"
+
+msgctxt "field:account.invoice.pay.ask,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:account.invoice.pay.ask,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.pay.ask,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice.pay.ask,lines:"
+msgid "Lines"
+msgstr "Regels"
+
+msgctxt "field:account.invoice.pay.ask,lines_to_pay:"
+msgid "Lines to Pay"
+msgstr "Te betalen regels"
+
+msgctxt "field:account.invoice.pay.ask,payment_lines:"
+msgid "Payment Lines"
+msgstr "Betalingsregels"
+
+msgctxt "field:account.invoice.pay.ask,type:"
+msgid "Type"
+msgstr "Soort"
+
+msgctxt "field:account.invoice.pay.ask,writeoff:"
+msgid "Write Off"
+msgstr "Afboeking"
+
+msgctxt "field:account.invoice.pay.start,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:account.invoice.pay.start,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:account.invoice.pay.start,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.pay.start,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:account.invoice.pay.start,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:account.invoice.pay.start,invoice_account:"
+msgid "Invoice Account"
+msgstr "Factuur grootboekrekening"
+
+msgctxt "field:account.invoice.pay.start,payee:"
+msgid "Payee"
+msgstr "Betaler"
+
+msgctxt "field:account.invoice.pay.start,payees:"
+msgid "Payees"
+msgstr "Betalers"
+
+msgctxt "field:account.invoice.pay.start,payment_method:"
+msgid "Payment Method"
+msgstr "Betalingsmethode"
+
+msgctxt "field:account.invoice.payment.method,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:account.invoice.payment.method,credit_account:"
+msgid "Credit Account"
+msgstr "Credit grootboekrekening"
+
+msgctxt "field:account.invoice.payment.method,debit_account:"
+msgid "Debit Account"
+msgstr "Debet grootboekrekening"
+
+msgctxt "field:account.invoice.payment.method,journal:"
+msgid "Journal"
+msgstr "Dagboek"
+
+msgctxt "field:account.invoice.payment.method,name:"
+msgid "Name"
+msgstr "Naam"
+
+msgctxt "field:account.invoice.payment_term,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:account.invoice.payment_term,lines:"
+msgid "Lines"
+msgstr "Regels"
+
+msgctxt "field:account.invoice.payment_term,name:"
+msgid "Name"
+msgstr "Naam"
+
+msgctxt "field:account.invoice.payment_term.line,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:account.invoice.payment_term.line,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.payment_term.line,divisor:"
+msgid "Divisor"
+msgstr "Deler"
+
+msgctxt "field:account.invoice.payment_term.line,payment:"
+msgid "Payment Term"
+msgstr "Betalingstermijn"
+
+msgctxt "field:account.invoice.payment_term.line,ratio:"
+msgid "Ratio"
+msgstr "Verhouding"
+
+msgctxt "field:account.invoice.payment_term.line,relativedeltas:"
+msgid "Deltas"
+msgstr "Ratio's"
+
+msgctxt "field:account.invoice.payment_term.line,type:"
+msgid "Type"
+msgstr "Soort"
+
+msgctxt "field:account.invoice.payment_term.line.delta,day:"
+msgid "Day of Month"
+msgstr "Dag van de maand"
+
+msgctxt "field:account.invoice.payment_term.line.delta,days:"
+msgid "Number of Days"
+msgstr "Aantal dagen"
+
+msgctxt "field:account.invoice.payment_term.line.delta,line:"
+msgid "Payment Term Line"
+msgstr "Betalingstermijn regel"
+
+msgctxt "field:account.invoice.payment_term.line.delta,month:"
+msgid "Month"
+msgstr "Maand"
+
+msgctxt "field:account.invoice.payment_term.line.delta,months:"
+msgid "Number of Months"
+msgstr "Aantal maanden"
+
+msgctxt "field:account.invoice.payment_term.line.delta,weekday:"
+msgid "Day of Week"
+msgstr "Dag van de week"
+
+msgctxt "field:account.invoice.payment_term.line.delta,weeks:"
+msgid "Number of Weeks"
+msgstr "Aantal weken"
+
+msgctxt "field:account.invoice.payment_term.test,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:account.invoice.payment_term.test,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.payment_term.test,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:account.invoice.payment_term.test,payment_term:"
+msgid "Payment Term"
+msgstr "Betalingstermijn"
+
+msgctxt "field:account.invoice.payment_term.test,result:"
+msgid "Result"
+msgstr "Resultaat"
+
+msgctxt "field:account.invoice.payment_term.test.result,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:account.invoice.payment_term.test.result,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.payment_term.test.result,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:account.invoice.report.revision,date:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "field:account.invoice.report.revision,filename:"
+msgid "File Name"
+msgstr "Bestandsnaam"
+
+msgctxt "field:account.invoice.report.revision,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice.report.revision,invoice_report_cache:"
+msgid "Invoice Report"
+msgstr "Factuur rapport"
+
+msgctxt "field:account.invoice.report.revision,invoice_report_cache_id:"
+msgid "Invoice Report ID"
+msgstr "Factuur rapport ID"
+
+msgctxt "field:account.invoice.report.revision,invoice_report_format:"
+msgid "Invoice Report Format"
+msgstr "Opmaak factuur rapport"
+
+msgctxt "field:account.invoice.tax,account:"
+msgid "Account"
+msgstr "Grootboekrekening"
+
+msgctxt "field:account.invoice.tax,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:account.invoice.tax,base:"
+msgid "Base"
+msgstr "Basis"
+
+msgctxt "field:account.invoice.tax,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:account.invoice.tax,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:account.invoice.tax,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:account.invoice.tax,invoice_state:"
+msgid "Invoice State"
+msgstr "Factuur status"
+
+msgctxt "field:account.invoice.tax,legal_notice:"
+msgid "Legal Notice"
+msgstr "Juridische kennisgeving"
+
+msgctxt "field:account.invoice.tax,manual:"
+msgid "Manual"
+msgstr "Handmatig"
+
+msgctxt "field:account.invoice.tax,sequence_number:"
+msgid "Sequence Number"
+msgstr "Reeksnummer"
+
+msgctxt "field:account.invoice.tax,tax:"
+msgid "Tax"
+msgstr "Belasting"
+
+msgctxt "field:account.move.line,invoice_payment:"
+msgid "Invoice Payment"
+msgstr "Factuurbetaling"
+
+msgctxt "field:account.move.line,invoice_payments:"
+msgid "Invoice Payments"
+msgstr "Factuurbetalingen"
+
+msgctxt "field:company.company,cancel_invoice_out:"
+msgid "Cancel Customer Invoice"
+msgstr "Annuleer klant factuur"
+
+msgctxt "field:company.company,purchase_taxes_expense:"
+msgid "Purchase Taxes as Expense"
+msgstr "Inkoop belastingen als onkosten"
+
+msgctxt "field:party.address,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:party.contact_mechanism,invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "field:party.party,customer_payment_term:"
+msgid "Customer Payment Term"
+msgstr "Betalingstermijn klant"
+
+msgctxt "field:party.party,payment_terms:"
+msgid "Payment Terms"
+msgstr "Betalingstermijnen"
+
+msgctxt "field:party.party,supplier_payment_term:"
+msgid "Supplier Payment Term"
+msgstr "Betalingstermijn leverancier"
+
+msgctxt "field:party.party.payment_term,customer_payment_term:"
+msgid "Customer Payment Term"
+msgstr "Betalingstermijn klant"
+
+msgctxt "field:party.party.payment_term,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:party.party.payment_term,supplier_payment_term:"
+msgid "Supplier Payment Term"
+msgstr "Betalingstermijn leverancier"
+
+msgctxt "help:account.configuration,customer_payment_reference_number:"
+msgid "The number used to generate the customer payment reference."
+msgstr "Het nummer wat gebruikt wordt om het betalingskenmerk te genereren."
+
+msgctxt "help:account.invoice,payment_term_date:"
+msgid ""
+"The date from which the payment term is calculated.\n"
+"Leave empty to use the invoice date."
+msgstr ""
+"De datum vanaf wanneer de betalingstermijn wordt berekend.\n"
+"Laat leeg voor de factuurdatum."
+
+msgctxt "help:account.invoice.credit.start,with_refund:"
+msgid "If true, the current invoice(s) will be cancelled."
+msgstr "Bij activering worden de huidige factu(u)r(en) geannuleerd."
+
+msgctxt "help:account.invoice.line,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "De categorie van de maateenheid voor het product."
+
+msgctxt "help:account.invoice.line,taxes_date:"
+msgid ""
+"The date at which the taxes are computed.\n"
+"Leave empty for the accounting date."
+msgstr ""
+"De datum waarop de belastingen worden berekend.\n"
+"Laat leeg voor de boekingsdatum."
+
+msgctxt "help:company.company,cancel_invoice_out:"
+msgid "Allow cancelling move of customer invoice."
+msgstr "Sta het annuleren van boekingen van klant facturen toe."
+
+msgctxt "help:company.company,purchase_taxes_expense:"
+msgid "Check to book purchase taxes as expense."
+msgstr "Aanvinken om inkoopbelasting als onkosten te boeken."
+
+msgctxt "model:account.configuration.default_payment_term,string:"
+msgid "Account Configuration Default Payment Term"
+msgstr "Boekhouden configuratie standaard betalingstermijn"
+
+msgctxt "model:account.configuration.payment_reference,string:"
+msgid "Account Configuration Payment Reference"
+msgstr "Boekhouden configuratie betalingskenmerk"
+
+msgctxt "model:account.fiscalyear.invoice_sequence,string:"
+msgid "Account Fiscalyear Invoice Sequence"
+msgstr "Grootboek boekjaar factuur reeks"
+
+msgctxt "model:account.invoice,string:"
+msgid "Account Invoice"
+msgstr "Grootboek factuur"
+
+msgctxt "model:account.invoice-account.move.line,string:"
+msgid "Account Invoice - Account Move Line"
+msgstr "Grootboek factuur - Grootboek boekingsregel"
+
+msgctxt "model:account.invoice-additional-account.move,string:"
+msgid "Account Invoice - Additional - Account Move"
+msgstr "Grootboek factuur - Extra - Grootboek boeking"
+
+msgctxt "model:account.invoice.alternative_payee,string:"
+msgid "Account Invoice Alternative Payee"
+msgstr "Grootboek factuur alternatieve betaler"
+
+msgctxt "model:account.invoice.credit.start,string:"
+msgid "Account Invoice Credit Start"
+msgstr "Grootboek credit factuur start"
+
+msgctxt "model:account.invoice.edocument.result,string:"
+msgid "Account Invoice Edocument Result"
+msgstr "Grootboek factuur E-document resultaat"
+
+msgctxt "model:account.invoice.edocument.start,string:"
+msgid "Account Invoice Edocument Start"
+msgstr "Grootboek factuur E-document start"
+
+msgctxt "model:account.invoice.line,string:"
+msgid "Account Invoice Line"
+msgstr "Grootboek factuurregel"
+
+msgctxt "model:account.invoice.line-account.tax,string:"
+msgid "Account Invoice Line - Account Tax"
+msgstr "Grootboek factuurregel - Grootboek belasting"
+
+msgctxt "model:account.invoice.pay.ask,string:"
+msgid "Account Invoice Pay Ask"
+msgstr "Grootboek factuur betalen vraag"
+
+msgctxt "model:account.invoice.pay.start,string:"
+msgid "Account Invoice Pay Start"
+msgstr "Grootboek factuur betalen start"
+
+msgctxt "model:account.invoice.payment.method,string:"
+msgid "Account Invoice Payment Method"
+msgstr "Grootboek factuur betaal mogelijkheid"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_0"
+msgid "Upon Receipt"
+msgstr "Bij ontvangst"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_30_eom"
+msgid "Net 30 days End of Month"
+msgstr "Netto 30 dagen eind van de maand"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_60_eom"
+msgid "Net 60 days End of Month"
+msgstr "Netto 60 dagen eind van de maand"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_eom"
+msgid "End of Month"
+msgstr "Eind van de maand"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_eom_following"
+msgid "End of Month Following"
+msgstr "Eind van de volgende maand"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net10"
+msgid "Net 10 days"
+msgstr "Netto 10 dagen"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net15"
+msgid "Net 15 days"
+msgstr "Netto 15 dagen"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net30"
+msgid "Net 30 days"
+msgstr "Netto 30 dagen"
+
+msgctxt "model:account.invoice.payment_term,name:payment_term_net60"
+msgid "Net 60 days"
+msgstr "Netto 60 dagen"
+
+msgctxt "model:account.invoice.payment_term,string:"
+msgid "Account Invoice Payment Term"
+msgstr "Grootboek factuur betalingstermijn"
+
+msgctxt "model:account.invoice.payment_term.line,string:"
+msgid "Account Invoice Payment Term Line"
+msgstr "Grootboek factuur betalingstermijn regel"
+
+msgctxt "model:account.invoice.payment_term.line.delta,string:"
+msgid "Account Invoice Payment Term Line Delta"
+msgstr "Grootboek factuur betalingstermijn regel delta"
+
+msgctxt "model:account.invoice.payment_term.test,string:"
+msgid "Account Invoice Payment Term Test"
+msgstr "Grootboek factuur betalingstermijn test"
+
+msgctxt "model:account.invoice.payment_term.test.result,string:"
+msgid "Account Invoice Payment Term Test Result"
+msgstr "Grootboek factuur betalingstermijn test resultaat"
+
+msgctxt "model:account.invoice.report.revision,string:"
+msgid "Account Invoice Report Revision"
+msgstr "Grootboek factuur rapport revisie"
+
+msgctxt "model:account.invoice.tax,string:"
+msgid "Account Invoice Tax"
+msgstr "Grootboek factuur belasting"
+
+msgctxt "model:ir.action,name:act_delegate_lines_to_pay_wizard"
+msgid "Delegate Lines to Pay"
+msgstr "Te betalen regels overdragen"
+
+msgctxt "model:ir.action,name:act_invoice_form"
+msgid "Invoices"
+msgstr "Facturen"
+
+msgctxt "model:ir.action,name:act_invoice_in_form"
+msgid "Supplier Invoices"
+msgstr "Leverancier facturen"
+
+msgctxt "model:ir.action,name:act_invoice_out_form"
+msgid "Customer Invoices"
+msgstr "Klant facturen"
+
+msgctxt "model:ir.action,name:act_invoice_relate"
+msgid "Invoices"
+msgstr "Facturen"
+
+msgctxt "model:ir.action,name:act_payment_method_form"
+msgid "Invoice Payment Methods"
+msgstr "Factuur betaalmethodes"
+
+msgctxt "model:ir.action,name:act_payment_term_form"
+msgid "Payment Terms"
+msgstr "Betalingstermijnen"
+
+msgctxt "model:ir.action,name:act_reschedule_lines_to_pay_wizard"
+msgid "Reschedule Lines to Pay"
+msgstr "Te betalen regels herplannen"
+
+msgctxt "model:ir.action,name:credit"
+msgid "Credit"
+msgstr "Crediteren"
+
+msgctxt "model:ir.action,name:edocument"
+msgid "E-document"
+msgstr "E-document"
+
+msgctxt "model:ir.action,name:refresh_invoice_report_wizard"
+msgid "Invoice (revised)"
+msgstr "Factuur (gereviseerd)"
+
+msgctxt "model:ir.action,name:report_invoice"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "model:ir.action,name:wizard_pay"
+msgid "Pay Invoice"
+msgstr "Betaal Factuur"
+
+msgctxt "model:ir.action,name:wizard_payment_term_test"
+msgid "Test Payment Term"
+msgstr "Test betalingstermijn"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_in_domain_all"
+msgid "All"
+msgstr "Alles"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_in_domain_draft"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_in_domain_posted"
+msgid "Posted"
+msgstr "Geboekt"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_in_domain_validated"
+msgid "Validated"
+msgstr "Bevestigd"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_out_domain_all"
+msgid "All"
+msgstr "Alles"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_out_domain_draft"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_out_domain_posted"
+msgid "Posted"
+msgstr "Geboekt"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_invoice_out_domain_validated"
+msgid "Validated"
+msgstr "Bevestigd"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_relate_all"
+msgid "All"
+msgstr "Alles"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_relate_paid"
+msgid "Paid"
+msgstr "Betaald"
+
+msgctxt "model:ir.action.act_window.domain,name:act_invoice_relate_pending"
+msgid "Pending"
+msgstr "In behandeling"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_cancel_invoice_move"
+msgid "The moves \"%(moves)s\" have the posted invoices \"%(invoices)s\" as origin."
+msgstr ""
+"De boekingen \"%(moves)s\" hebben de geboekte facturen \"%(invoices)s\" als "
+"bron."
+
+msgctxt "model:ir.message,text:msg_cancel_invoice_move_description"
+msgid ""
+"Cancelling them will reconcile the move lines thus paying the invoices. You "
+"might want to cancel the invoices first."
+msgstr ""
+"Annuleren zal de boekingen afletteren en de facturen dus betalen. Misschien "
+"wilt u de facturen eerst annuleren."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_close_period_non_posted_invoices"
+msgid "To close the periods you must post the invoices \"%(invoices)s\"."
+msgstr "Om de periodes af te sluiten moet u de facturen \"%(invoices)s\" boeken."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_erase_party_pending_invoice"
+msgid ""
+"You cannot erase party \"%(party)s\" while they have pending invoices with "
+"company \"%(company)s\"."
+msgstr ""
+"U kunt de relatie \"%(party)s\" niet verwijderen terwijl ze facturen hebben "
+"die in behandeling zijn bij bedrijf \"%(company)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_credit_refund_not_posted"
+msgid "You cannot refund invoice \"%(invoice)s\" because it is not posted."
+msgstr ""
+"U kunt de factuur \"%(invoice)s\" niet terugbetalen omdat ze niet geboekt "
+"is."
+
+#, python-format
+msgctxt ""
+"model:ir.message,text:msg_invoice_currency_exchange_credit_account_missing"
+msgid ""
+"To post invoice \"%(invoice)s\", you must define a currency exchange credit "
+"account for \"%(company)s\"."
+msgstr ""
+"Om factuur \"%(invoice)s\" te kunnen boeken, moet u een credit "
+"grootboekrekening voor de wisselkoers definiëren voor \"%(company)s\"."
+
+#, python-format
+msgctxt ""
+"model:ir.message,text:msg_invoice_currency_exchange_debit_account_missing"
+msgid ""
+"To post invoice \"%(invoice)s\", you must define a currency exchange debit "
+"account for \"%(company)s\"."
+msgstr ""
+"Om factuur \"%(invoice)s\" te kunnen boeken, moet u een debet "
+"grootboekrekening voor de wisselkoers definiëren voor \"%(company)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_customer_cancel_move"
+msgid ""
+"You cannot cancel customer invoice \"%(invoice)s\" because it is posted and "
+"company setup does not allow it."
+msgstr ""
+"U kunt klant factuur \"%(invoice)s\" niet annuleren omdat deze is geboekt en"
+" de bedrijfsinstellingen dit niet toelaten."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_date_future"
+msgid "The invoices \"%(invoices)s\" have an invoice date in the future."
+msgstr "De facturen \"%(invoices)s\" hebben een factuurdatum in de toekomst."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_default_taxes"
+msgid "The invoice \"%(invoice)s\" does not have the default taxes for %(lines)s."
+msgstr ""
+"De factuur \"%(invoice)s\" heeft niet de standaard belastingen voor "
+"%(lines)s."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_delete_cancel"
+msgid "To delete invoice \"%(invoice)s\" you must cancel it."
+msgstr "Om de factuur \"%(invoice)s\" te verwijderen, moet u deze annuleren."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_delete_numbered"
+msgid "You cannot delete invoice \"%(invoice)s\" because it has a number."
+msgstr ""
+"U kunt factuur \"%(invoice)s\" niet verwijderen omdat deze een nummer heeft."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_line_create_draft"
+msgid ""
+"You cannot add lines to invoice \"%(invoice)s\" because it is no longer in a"
+" draft state."
+msgstr ""
+"U kunt geen regels toevoegen aan de factuur \"%(invoice)s\" omdat deze niet "
+"langer in status concept staat."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_line_modify"
+msgid ""
+"You cannot modify line \"%(line)s\" because its invoice \"%(invoice)s\" is "
+"posted, paid or cancelled."
+msgstr ""
+"U kunt regel \"%(line)s\" niet wijzigen omdat de factuur \"%(invoice)s\" "
+"geboekt, betaald of geannuleerd is."
+
+msgctxt "model:ir.message,text:msg_invoice_line_tax_unique"
+msgid "A tax can be added only once to an invoice line."
+msgstr ""
+"Een belasting kan slechts één keer worden toegevoegd aan een factuurregel."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_modify"
+msgid ""
+"You cannot modify invoice \"%(invoice)s\" because it is posted, paid or "
+"cancelled."
+msgstr ""
+"U kunt de factuur \"%(invoice)s\" niet wijzigen omdat deze geboekt, betaald "
+"of geannuleerd is."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_no_sequence"
+msgid ""
+"To post invoice \"%(invoice)s\", you must define a sequence on fiscal year "
+"\"%(fiscalyear)s\"."
+msgstr ""
+"Om factuur \"%(invoice)s\" te kunnen boeken, moet u een reeks definiëren in "
+"het fiscale jaar \"%(fiscalyear)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_number_after"
+msgid ""
+"To number the invoice \"%(invoice)s\", you must set an invoice date after "
+"\"%(date)s\" because the sequence \"%(sequence)s\" has already been used for"
+" invoice \"%(after_invoice)s\"."
+msgstr ""
+"Om de factuur \"%(invoice)s\" te nummeren, moet u een factuurdatum instellen"
+" na \"%(date)s\" omdat de reeks \"%(sequence)s\" al is gebruikt voor factuur"
+" \"%(after_invoice)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_overpay_paid"
+msgid ""
+"You cannot overpay invoice \"%(invoice)s\" because there is no more left to "
+"pay."
+msgstr ""
+"U kunt factuur \"%(invoice)s\" niet meer betalen omdat er niets meer te "
+"betalen is."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_pay_amount_greater_amount_to_pay"
+msgid ""
+"You cannot add a partial payment on invoice \"%(invoice)s\" with an amount "
+"greater than the amount to pay \"%(amount_to_pay)s\"."
+msgstr ""
+"U kunt geen gedeeltelijke betaling invoeren voor factuur\"%(invoice)s\" met "
+"een bedrag dat groter is dan het openstaande bedrag \"%(amount_to_pay)s\"."
+
+msgctxt "model:ir.message,text:msg_invoice_payment_line_unique"
+msgid "A payment line can be linked to only one invoice."
+msgstr "Een betalingsregel kan aan slechts één factuur worden gekoppeld."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_payment_lines_add_remove_paid"
+msgid "You cannot add/remove payment lines on paid invoice \"%(invoice)s\"."
+msgstr ""
+"U kunt geen betalingsregels toevoegen of verwijderen op de betaalde factuur "
+"\"%(invoice)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_payment_lines_greater_amount"
+msgid ""
+"Payment lines amount on invoice \"%(invoice)s\" can not be greater than the "
+"invoice amount."
+msgstr ""
+"Het bedrag van de betalingsregels op factuur \"\"%(invoice)s\" kan niet "
+"groter zijn dan het factuurbedrag."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_payment_term_date_past"
+msgid "The invoice \"%(invoice)s\" generates a payment date \"%(date)s\" in the past."
+msgstr ""
+"De factuur \"%(invoice)s\" genereert een betalingsdatum \"%(date)s\" in het "
+"verleden."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_similar"
+msgid "The invoice \"%(invoice)s\" is similar to invoice \"%(similar)s\"."
+msgstr "De factuur \"%(invoice)s\" is vergelijkbaar aan factuur \"%(similar)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_supplier_payment_reference_invalid"
+msgid "The %(type)s \"%(reference)s\" on invoice \"%(invoice)s\" is not valid."
+msgstr "De %(type)s \"%(reference)s\" op factuur \"%(invoice)s\" is niet geldig."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_tax_create_draft"
+msgid ""
+"You cannot add taxes to invoice \"%(invoice)s\" because it is no longer in a"
+" draft state."
+msgstr ""
+"U kunt geen belastingen toevoegen aan factuur \"%(invoice)s\" omdat deze "
+"niet langer in status concept staat."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_tax_invalid"
+msgid ""
+"The taxes on invoice \"%(invoice)s\" are not valid, you must save it again "
+"to force them to be recalculated."
+msgstr ""
+"De belastingen op de factuur \"%(invoice)s\" zijn niet geldig, u moet deze "
+"nogmaals opslaan om een herberekening af te dwingen."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invoice_tax_modify"
+msgid ""
+"You cannot modify tax \"%(tax)s\" because its invoice \"%(invoice)s\" is "
+"posted, paid or cancelled."
+msgstr ""
+"U kunt de belasting \"%(tax)s\" niet aanpassen omdat de factuur "
+"\"%(invoice)s\" geboekt, betaald of geannuleerd is."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_term_invalid_ratio_divisor"
+msgid "The ratio and divisor are not consistent on line \"%(line)s\"."
+msgstr "De verhouding en de deler komen niet overeen op regel \"%(line)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_term_missing_last_remainder"
+msgid ""
+"To save payment term \"%(payment_term)s\", you must append a last remainder "
+"line."
+msgstr ""
+"Om de betalingstermijn \"%(payment_term)s\" op te slaan, moet de laatste "
+"regel een regel met het resterende bedrag zijn."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_payment_term_missing_remainder"
+msgid ""
+"To compute terms, you must append a remainder line on payment term "
+"\"%(payment_term)s\"."
+msgstr ""
+"Om de voorwaarden te berekenen, moet u aan betalingsvoorwaarde "
+"\"%(payment_term)s\" aan het eind een regel met het resterende bedrag "
+"toevoegen."
+
+msgctxt "model:ir.message,text:msg_payment_term_non_zero_ratio_divisor"
+msgid "The ratio and divisor can not be both equal to zero."
+msgstr "De verhouding en de deler kunnen niet beide gelijk zijn aan nul."
+
+msgctxt "model:ir.model.button,confirm:invoice_cancel_button"
+msgid "Are you sure you want to cancel the invoices?"
+msgstr "Weet u zeker dat u de facturen wilt annuleren?"
+
+msgctxt "model:ir.model.button,confirm:invoice_post_button"
+msgid "Are you sure you want to post the invoices?"
+msgstr "Weet u zeker dat u de facturen wilt boeken?"
+
+msgctxt "model:ir.model.button,help:invoice_cancel_button"
+msgid "Cancel the invoice"
+msgstr "Annuleer factuur"
+
+msgctxt "model:ir.model.button,help:invoice_validate_button"
+msgid "Also known as Pro Forma"
+msgstr "Ook bekend als Pro Forma"
+
+msgctxt "model:ir.model.button,string:invoice_cancel_button"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "model:ir.model.button,string:invoice_delegate_lines_to_pay_button"
+msgid "Modify Payee"
+msgstr "Wijzig Betaler"
+
+msgctxt "model:ir.model.button,string:invoice_draft_button"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt "model:ir.model.button,string:invoice_pay_button"
+msgid "Pay"
+msgstr "Betalen"
+
+msgctxt "model:ir.model.button,string:invoice_post_button"
+msgid "Post"
+msgstr "Boeken"
+
+msgctxt "model:ir.model.button,string:invoice_process_button"
+msgid "Process"
+msgstr "Verwerken"
+
+msgctxt "model:ir.model.button,string:invoice_reschedule_lines_to_pay_button"
+msgid "Reschedule"
+msgstr "Herplannen"
+
+msgctxt "model:ir.model.button,string:invoice_validate_button"
+msgid "Validate"
+msgstr "Valideren"
+
+msgctxt "model:ir.rule.group,name:rule_group_invoice_companies"
+msgid "User in companies"
+msgstr "Gebruiker in bedrijven"
+
+msgctxt "model:ir.rule.group,name:rule_group_invoice_line_companies"
+msgid "User in companies"
+msgstr "Gebruiker in bedrijven"
+
+msgctxt "model:ir.rule.group,name:rule_group_invoice_sequence_companies"
+msgid "User in companies"
+msgstr "Gebruiker in bedrijven"
+
+msgctxt "model:ir.rule.group,name:rule_group_payment_method_companies"
+msgid "User in companies"
+msgstr "Gebruiker in bedrijven"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_account_invoice"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "model:ir.ui.menu,name:menu_invoice_in_form"
+msgid "Supplier Invoices"
+msgstr "Leverancier facturen"
+
+msgctxt "model:ir.ui.menu,name:menu_invoice_out_form"
+msgid "Customer Invoices"
+msgstr "Klant facturen"
+
+msgctxt "model:ir.ui.menu,name:menu_invoices"
+msgid "Invoices"
+msgstr "Facturen"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_method_form"
+msgid "Invoice Payment Methods"
+msgstr "Factuur betaalmethodes"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_term_form"
+msgid "Payment Terms"
+msgstr "Betalingstermijnen"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_term_test"
+msgid "Test Payment Term"
+msgstr "Test betalingstermijn"
+
+msgctxt "model:ir.ui.menu,name:menu_payment_terms_configuration"
+msgid "Payment Terms"
+msgstr "Betalingstermijnen"
+
+msgctxt "model:party.party.payment_term,string:"
+msgid "Party Payment Term"
+msgstr "Relatie betalingstermijn"
+
+msgctxt "report:account.invoice:"
+msgid ":"
+msgstr ":"
+
+msgctxt "report:account.invoice:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "report:account.invoice:"
+msgid "Base"
+msgstr "Basis"
+
+msgctxt "report:account.invoice:"
+msgid "Date"
+msgstr "Datum"
+
+msgctxt "report:account.invoice:"
+msgid "Date:"
+msgstr "Datum:"
+
+msgctxt "report:account.invoice:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "report:account.invoice:"
+msgid "Description:"
+msgstr "Omschrijving:"
+
+msgctxt "report:account.invoice:"
+msgid "Draft Invoice"
+msgstr "Concept factuur"
+
+msgctxt "report:account.invoice:"
+msgid "Invoice No:"
+msgstr "Factuur No:"
+
+msgctxt "report:account.invoice:"
+msgid "Payment Term"
+msgstr "Betalingstermijn"
+
+msgctxt "report:account.invoice:"
+msgid "Pro forma Invoice"
+msgstr "Pro forma factuur"
+
+msgctxt "report:account.invoice:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "report:account.invoice:"
+msgid "Reference"
+msgstr "Referentie"
+
+msgctxt "report:account.invoice:"
+msgid "Reference:"
+msgstr "Referentie:"
+
+msgctxt "report:account.invoice:"
+msgid "Supplier Invoice No:"
+msgstr "Leverancier factuurnummer No:"
+
+msgctxt "report:account.invoice:"
+msgid "Tax"
+msgstr "Belasting"
+
+msgctxt "report:account.invoice:"
+msgid "Taxes"
+msgstr "Belastingen"
+
+msgctxt "report:account.invoice:"
+msgid "Taxes:"
+msgstr "Belastingen:"
+
+msgctxt "report:account.invoice:"
+msgid "Total (excl. taxes):"
+msgstr "Totaal (excl. belasting):"
+
+msgctxt "report:account.invoice:"
+msgid "Total:"
+msgstr "Totaal:"
+
+msgctxt "report:account.invoice:"
+msgid "Unit Price"
+msgstr "Eenheidsprijs"
+
+msgctxt ""
+"selection:account.configuration.payment_reference,customer_payment_reference_number:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt ""
+"selection:account.configuration.payment_reference,customer_payment_reference_number:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "selection:account.invoice,sequence_type_cache:"
+msgid "Credit Note"
+msgstr "Credit factuur"
+
+msgctxt "selection:account.invoice,sequence_type_cache:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Draft"
+msgstr "Concept"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Paid"
+msgstr "Betaald"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Posted"
+msgstr "Geboekt"
+
+msgctxt "selection:account.invoice,state:"
+msgid "Validated"
+msgstr "Bevestigd"
+
+msgctxt "selection:account.invoice,supplier_payment_reference_type:"
+msgid "Creditor Reference"
+msgstr "Referentie schuldeiser"
+
+msgctxt "selection:account.invoice,type:"
+msgid "Customer"
+msgstr "Klant"
+
+msgctxt "selection:account.invoice,type:"
+msgid "Supplier"
+msgstr "Leverancier"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Comment"
+msgstr "Opmerking"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Line"
+msgstr "Regel"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+msgctxt "selection:account.invoice.line,type:"
+msgid "Title"
+msgstr "Titel"
+
+msgctxt "selection:account.invoice.pay.ask,type:"
+msgid "Overpayment"
+msgstr "Te veel betaald"
+
+msgctxt "selection:account.invoice.pay.ask,type:"
+msgid "Partial Payment"
+msgstr "Gedeeltelijke betaling"
+
+msgctxt "selection:account.invoice.pay.ask,type:"
+msgid "Write-Off"
+msgstr "Afboeking"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Fixed"
+msgstr "Vast"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Percentage on Remainder"
+msgstr "Percentage van resterend bedrag"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Percentage on Total"
+msgstr "Percentage van totaal"
+
+msgctxt "selection:account.invoice.payment_term.line,type:"
+msgid "Remainder"
+msgstr "Resterend"
+
+msgctxt "view:account.invoice.credit.start:"
+msgid "Are you sure to credit these/this invoice(s)?"
+msgstr "Weet u zeker dat u deze factu(u)r(en) wil crediteren?"
+
+msgctxt "view:account.invoice.line:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:account.invoice.line:"
+msgid "General"
+msgstr "Algemeen"
+
+msgctxt "view:account.invoice.line:"
+msgid "Notes"
+msgstr "Notities"
+
+msgctxt "view:account.invoice.payment_term.line.delta:"
+msgid "Operations are applied in this displayed order."
+msgstr "Bewerkingen worden in de weergegeven volgorde uitgevoerd."
+
+msgctxt "view:account.invoice.payment_term.line:"
+msgid "%"
+msgstr "%"
+
+msgctxt "view:account.invoice.report.revision:"
+msgid "Time"
+msgstr "Tijd"
+
+msgctxt "view:account.invoice:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "view:account.invoice:"
+msgid "Other Info"
+msgstr "Aanvullende informatie"
+
+msgctxt "view:account.invoice:"
+msgid "Payment"
+msgstr "Betaling"
+
+msgctxt "view:account.invoice:"
+msgid "Tax Identifier:"
+msgstr "Belasting identificatie:"
+
+msgctxt "view:company.company:"
+msgid "Invoice"
+msgstr "Factuur"
+
+msgctxt "view:party.party:"
+msgid "Payment Terms"
+msgstr "Betalingstermijnen"
+
+msgctxt "wizard_button:account.invoice.credit,start,credit:"
+msgid "Credit"
+msgstr "Crediteer"
+
+msgctxt "wizard_button:account.invoice.credit,start,end:"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "wizard_button:account.invoice.edocument,result,end:"
+msgid "Close"
+msgstr "Sluiten"
+
+msgctxt "wizard_button:account.invoice.edocument,start,end:"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "wizard_button:account.invoice.edocument,start,render:"
+msgid "Render"
+msgstr "Weergeven"
+
+msgctxt "wizard_button:account.invoice.pay,ask,end:"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "wizard_button:account.invoice.pay,ask,pay:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.invoice.pay,start,choice:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:account.invoice.pay,start,end:"
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgctxt "wizard_button:account.invoice.payment_term.test,test,end:"
+msgid "Close"
+msgstr "Sluiten"

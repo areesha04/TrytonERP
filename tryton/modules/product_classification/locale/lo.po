@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.classification.dummy,name:"
+msgid "Name"
+msgstr "ຊື່"
+
+msgctxt "field:product.classification.dummy,selectable:"
+msgid "Selectable"
+msgstr "ເລືອກໄດ້"
+
+msgctxt "field:product.classification_tree.dummy,childs:"
+msgid "Children"
+msgstr "ບັນຊີຍ່ອຍ"
+
+msgctxt "field:product.classification_tree.dummy,name:"
+msgid "Name"
+msgstr "ຊື"
+
+msgctxt "field:product.classification_tree.dummy,parent:"
+msgid "Parent"
+msgstr "ບັນຊີແມ່"
+
+msgctxt "field:product.classification_tree.dummy,selectable:"
+msgid "Selectable"
+msgstr "ເລືອກໄດ້"
+
+msgctxt "field:product.product,classification:"
+msgid "Classification"
+msgstr "ການຈັດປະເພດ"
+
+msgctxt "field:product.template,classification:"
+msgid "Classification"
+msgstr "ການຈັດປະເພດ"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_classification"
+msgid "Classifications"
+msgstr "Classifications"
+
+#, fuzzy
+msgctxt "model:product.classification.dummy,string:"
+msgid "Product Classification Dummy"
+msgstr "ການຈັດປະເພດ ຜະລິດຕະພັນ"
+
+#, fuzzy
+msgctxt "model:product.classification_tree.dummy,string:"
+msgid "Product Classification Tree Dummy"
+msgstr "ຕາຕະລາງຈັດປະເພດ ຜະລິດຕະພັນ"

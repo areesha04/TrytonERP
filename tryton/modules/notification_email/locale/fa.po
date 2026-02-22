@@ -1,0 +1,188 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:ir.email,notification_email:"
+msgid "Notification Email"
+msgstr "ایمیل‌های اطلاعیه"
+
+#, fuzzy
+msgctxt "field:ir.email,notification_trigger:"
+msgid "Notification Trigger"
+msgstr "اطلاعیه"
+
+msgctxt "field:ir.trigger,notification_email:"
+msgid "Email Notification"
+msgstr "ایمیل اطلاعیه"
+
+#, fuzzy
+msgctxt "field:ir.trigger,notification_email_required:"
+msgid "Notification Email Required"
+msgstr "ایمیل‌های اطلاعیه"
+
+msgctxt "field:notification.email,attachments:"
+msgid "Attachments"
+msgstr "پیوست ها"
+
+msgctxt "field:notification.email,contact_mechanism:"
+msgid "Contact Mechanism"
+msgstr "مکانیسم های تماس"
+
+msgctxt "field:notification.email,content:"
+msgid "Content"
+msgstr "محتوا"
+
+#, fuzzy
+msgctxt "field:notification.email,fallback_recipients:"
+msgid "Recipients Fallback"
+msgstr "کاربردریافت کننده پاسخگو"
+
+#, fuzzy
+msgctxt "field:notification.email,fallback_recipients_hidden:"
+msgid "Hidden Recipients Fallback"
+msgstr "کاربردریافت کننده پاسخگو پنهان"
+
+#, fuzzy
+msgctxt "field:notification.email,fallback_recipients_secondary:"
+msgid "Secondary Recipients Fallback"
+msgstr "کاربردریافت کننده پاسخگو ثانویه"
+
+msgctxt "field:notification.email,from_:"
+msgid "From"
+msgstr "از"
+
+msgctxt "field:notification.email,model:"
+msgid "Model"
+msgstr "مدل"
+
+msgctxt "field:notification.email,recipients:"
+msgid "Recipients"
+msgstr "گیرندگان"
+
+msgctxt "field:notification.email,recipients_hidden:"
+msgid "Hidden Recipients"
+msgstr "گیرنده گان پنهان"
+
+msgctxt "field:notification.email,recipients_secondary:"
+msgid "Secondary Recipients"
+msgstr "گیرندگان ثانویه"
+
+msgctxt "field:notification.email,send_after:"
+msgid "Send After"
+msgstr ""
+
+msgctxt "field:notification.email,subject:"
+msgid "Subject"
+msgstr ""
+
+msgctxt "field:notification.email,triggers:"
+msgid "Triggers"
+msgstr "ماشه ها"
+
+msgctxt "field:notification.email.attachment,model:"
+msgid "Model"
+msgstr "مدل"
+
+msgctxt "field:notification.email.attachment,notification:"
+msgid "Notification"
+msgstr "اطلاعیه"
+
+msgctxt "field:notification.email.attachment,report:"
+msgid "Report"
+msgstr "گزارش"
+
+msgctxt "help:notification.email,attachments:"
+msgid "The reports used as attachments."
+msgstr "استفاده از گزارش ها بعنوان پیوست ها."
+
+msgctxt "help:notification.email,contact_mechanism:"
+msgid "Define which email to use from the party's contact mechanisms"
+msgstr ""
+"تعیین کنید کدام ایمیل برای استفاده از مکانیزم های تماس نهاد/سازمان استفاده "
+"شود"
+
+msgctxt "help:notification.email,content:"
+msgid "The report used as email template."
+msgstr "استفاده از گزارش بعنوان الگوی ایمیل."
+
+#, fuzzy
+msgctxt "help:notification.email,fallback_recipients:"
+msgid "User notified when no recipients email is found."
+msgstr "ابلاغ به کاربر هنگامی که هیچ گیرنده ایمیلی یافت نشد"
+
+#, fuzzy
+msgctxt "help:notification.email,fallback_recipients_hidden:"
+msgid "User notified when no hidden recipients email is found."
+msgstr "ابلاغ به کاربر هنگامی که هیچ گیرنده پنهان ایمیلی یافت نشد"
+
+#, fuzzy
+msgctxt "help:notification.email,fallback_recipients_secondary:"
+msgid "User notified when no secondary recipients email is found."
+msgstr "ابلاغ به کاربر هنگامی که هیچ گیرنده ثانویه ایمیلی یافت نشد"
+
+msgctxt "help:notification.email,from_:"
+msgid "Leave empty for the value defined in the configuration file."
+msgstr "برای مقدار تعریف شده در فایل پیکربندی خالی بگذارید."
+
+msgctxt "help:notification.email,recipients:"
+msgid "The field that contains the recipient(s)."
+msgstr "فیلد حاوی گیرنده (ها)."
+
+msgctxt "help:notification.email,recipients_hidden:"
+msgid "The field that contains the hidden recipient(s)."
+msgstr "فیلد حاوی گیرنده (ها) پنهان."
+
+msgctxt "help:notification.email,recipients_secondary:"
+msgid "The field that contains the secondary recipient(s)."
+msgstr "فیلد حاوی گیرنده (ها) ثانویه."
+
+msgctxt "help:notification.email,send_after:"
+msgid ""
+"The delay after which the email must be sent.\n"
+"Applied if a worker queue is activated."
+msgstr ""
+
+msgctxt "help:notification.email,subject:"
+msgid ""
+"The Genshi syntax can be used with 'record' in the evaluation context.\n"
+"If empty the report name will be used."
+msgstr ""
+
+msgctxt "help:notification.email,triggers:"
+msgid "Add a trigger for the notification."
+msgstr "یک ماشه برای اعلان اضافه کنید."
+
+msgctxt "model:ir.action,name:act_email_form"
+msgid "Notification Emails"
+msgstr "ایمیل‌های اطلاعیه"
+
+msgctxt "model:ir.action,name:act_ir_email_form_relate_notification"
+msgid "Emails"
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_notification_invalid_subject"
+msgid ""
+"Invalid email subject in notification \"%(notification)s\" with exception "
+"\"%(exception)s\"."
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_email_form"
+msgid "Notification Emails"
+msgstr "ایمیل‌های اطلاعیه"
+
+#, fuzzy
+msgctxt "model:notification.email,string:"
+msgid "Notification Email"
+msgstr "ایمیل‌های اطلاعیه"
+
+#, fuzzy
+msgctxt "model:notification.email.attachment,string:"
+msgid "Notification Email Attachment"
+msgstr "پیوست ایمیل اطلاعیه"
+
+#, fuzzy
+msgctxt "selection:ir.trigger,action:"
+msgid "Email Notification"
+msgstr "ایمیل اطلاعیه"

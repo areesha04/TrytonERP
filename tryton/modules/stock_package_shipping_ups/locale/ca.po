@@ -1,0 +1,331 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,ups_label_height:"
+msgid "Label Height"
+msgstr "Alçada de l'etiqueta"
+
+msgctxt "field:carrier,ups_label_image_format:"
+msgid "Label Image Format"
+msgstr "Format de la imatge de l'etiqueta"
+
+msgctxt "field:carrier,ups_notifications:"
+msgid "Notifications"
+msgstr "Notificacions"
+
+msgctxt "field:carrier,ups_service_type:"
+msgid "Service Type"
+msgstr "Tipus de servei"
+
+msgctxt "field:carrier.credential.ups,account_number:"
+msgid "Account Number"
+msgstr "Número de compte"
+
+msgctxt "field:carrier.credential.ups,client_id:"
+msgid "Client ID"
+msgstr "ID Client"
+
+msgctxt "field:carrier.credential.ups,client_secret:"
+msgid "Client Secret"
+msgstr "Secret client"
+
+msgctxt "field:carrier.credential.ups,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:carrier.credential.ups,server:"
+msgid "Server"
+msgstr "Servidor"
+
+msgctxt "field:carrier.credential.ups,use_international_forms:"
+msgid "Use International Forms"
+msgstr "Utilitza formats internacionals"
+
+msgctxt "field:carrier.credential.ups,use_metric:"
+msgid "Use Metric"
+msgstr "Usa mètric"
+
+msgctxt "field:customs.agent,ups_account_number:"
+msgid "UPS Account Number"
+msgstr "Número de compte UPS"
+
+msgctxt "field:product.uom,ups_code:"
+msgid "UPS Code"
+msgstr "Codi UPS"
+
+msgctxt "field:stock.package.type,ups_code:"
+msgid "UPS Code"
+msgstr "Codi UPS"
+
+msgctxt "model:carrier.credential.ups,string:"
+msgid "Carrier Credential Ups"
+msgstr "Credencials UPS"
+
+msgctxt "model:ir.action,name:act_create_shipping_ups_wizard"
+msgid "Create UPS Shipping for Packages"
+msgstr "Crea enviament UPS per paquets"
+
+msgctxt "model:ir.action,name:act_ups_credential_form"
+msgid "UPS Credentials"
+msgstr "Credencials UPS"
+
+msgctxt "model:ir.message,text:msg_general_merchandise"
+msgid "General Merchandise"
+msgstr "Mercancies generals"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_phone_required"
+msgid ""
+"To validate shipment \"%(shipment)s\" you must add phone number for address "
+"\"%(address)s\"."
+msgstr ""
+"Per a validar l'albarà \"%(shipment)s\" s'ha d'afegir un número de telèfon a"
+" l'adreça \"%(address)s\"."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_shipment_has_reference_number"
+msgid ""
+"You cannot create shipping for shipment \"%(shipment)s\" because it has "
+"already a reference number."
+msgstr ""
+"No podeu crear el enviament per l'albarà \"%(shipment)s\" perquè ja té un "
+"número de referència."
+
+msgctxt "model:ir.message,text:msg_ups_credential_modified"
+msgid "Are you sure you want to modify UPS credentials?"
+msgstr "Estàs segur que vols modificar les credencials de UPS?"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_ups_webservice_error"
+msgid ""
+"UPS webservice call failed with the following error message:\n"
+"%(message)s"
+msgstr ""
+"La crida al servei web UPS ha fallat amb el següent missatge d'error:\n"
+"%(message)s"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_warehouse_address_required"
+msgid ""
+"To validate shipment \"%(shipment)s\" you must set an address on warehouse "
+"\"%(warehouse)s\"."
+msgstr ""
+"Per validar l'albarà \"%(shipment)s\" heu d'establir una adreça al magatzem "
+"\"%(warehouse)s\"."
+
+msgctxt "model:ir.ui.menu,name:menu_ups_credential_form"
+msgid "UPS Credentials"
+msgstr "Credencials UPS"
+
+msgctxt "selection:carrier,shipping_service:"
+msgid "UPS"
+msgstr "UPS"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "Alternate Delivery Location"
+msgstr "Direcció d'enviament alternativa"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "Quantum View Delivery"
+msgstr "Lliurament"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "Quantum View Exception"
+msgstr "Excepció"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "Quantum View In-transit"
+msgstr "En trànsit"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "Quantum View Shop"
+msgstr "Tenda"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "Return or Label Creation"
+msgstr "Creació de devolució o etiqueta"
+
+msgctxt "selection:carrier,ups_notifications:"
+msgid "UPS Access Point Shipper"
+msgstr "UPS Punt d'accés de transportista"
+
+msgctxt "selection:carrier.credential.ups,server:"
+msgid "Production"
+msgstr "Producció"
+
+msgctxt "selection:carrier.credential.ups,server:"
+msgid "Testing"
+msgstr "Proves"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Bag"
+msgstr "Bossa"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Barrel"
+msgstr "Barril"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Bolt"
+msgstr "Tornillo"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Box"
+msgstr "Caixa"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Bunch"
+msgstr "Manotada"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Bundle"
+msgstr "Ram"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Butt"
+msgstr "Cul"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Canister"
+msgstr "Recipient"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Carton"
+msgstr "Caixa de cartró"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Case"
+msgstr "Cas"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Centimeter"
+msgstr "Centímetre"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Container"
+msgstr "Contenedor"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Crate"
+msgstr "Caixa d'emalatge"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Cylinder"
+msgstr "Cilindre"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Dozen"
+msgstr "Dotzena"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Each"
+msgstr "Cada un"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Envelope"
+msgstr "Envoltori"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Feet"
+msgstr "Peus"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Kilogram"
+msgstr "Quilogram"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Kilograms"
+msgstr "Quilograms"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Liter"
+msgstr "Litre"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Meter"
+msgstr "Metre"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Number"
+msgstr "Número"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Other"
+msgstr "Un altre"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Package"
+msgstr "Paquet"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Packet"
+msgstr "Paquet"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Pair"
+msgstr "Parella"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Pairs"
+msgstr "Parelles"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Pallet"
+msgstr "Palet"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Piece"
+msgstr "Peça"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Pieces"
+msgstr "Peces"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Pound"
+msgstr "Lliura"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Pounds"
+msgstr "Lliures"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Proof Liters"
+msgstr "Litres de prova"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Roll"
+msgstr "Rotllo"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Set"
+msgstr "Conjunt"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Square Meters"
+msgstr "Metres cuadrats"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Square Yards"
+msgstr "Yardes cuadrades"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Tube"
+msgstr "Tub"
+
+msgctxt "selection:product.uom,ups_code:"
+msgid "Yard"
+msgstr "Iarda"
+
+msgctxt "view:carrier.credential.ups:"
+msgid "Credential Information"
+msgstr "Informació de les credencials"
+
+msgctxt "view:carrier:"
+msgid "UPS"
+msgstr "UPS"
+
+msgctxt "view:stock.package.type:"
+msgid "UPS"
+msgstr "UPS"

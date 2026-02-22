@@ -1,0 +1,221 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.account.type,unearned_revenue:"
+msgid "Unearned Revenue"
+msgstr ""
+
+msgctxt "field:account.account.type.template,unearned_revenue:"
+msgid "Unearned Revenue"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:account.invoice.line,advance_payment_recalled_lines:"
+msgid "Advance Payment Recalled Lines"
+msgstr "Postavka avansnega pogoja"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,account:"
+msgid "Account"
+msgstr "Konto"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,amount:"
+msgid "Amount"
+msgstr "Znesek"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,block_shipping:"
+msgid "Block Shipping"
+msgstr "Blokada odpreme"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,block_supply:"
+msgid "Block Supply"
+msgstr "Blokada dobave"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,completed:"
+msgid "Completed"
+msgstr "Zaključeno"
+
+msgctxt "field:sale.advance_payment.line,currency:"
+msgid "Currency"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,description:"
+msgid "Description"
+msgstr "Opis"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,invoice_delay:"
+msgid "Invoice Delay"
+msgstr "Zamik računa"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,invoice_lines:"
+msgid "Invoice Lines"
+msgstr "Postavke računa"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,sale:"
+msgid "Sale"
+msgstr "Prodajni nalog"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,sale_company:"
+msgid "Company"
+msgstr "Družba"
+
+#, fuzzy
+msgctxt "field:sale.advance_payment.line,sale_state:"
+msgid "Sale State"
+msgstr "Stanje prodajnega naloga"
+
+msgctxt "field:sale.advance_payment_term,lines:"
+msgid "Lines"
+msgstr "Postavke"
+
+msgctxt "field:sale.advance_payment_term,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:sale.advance_payment_term.line,account:"
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:sale.advance_payment_term.line,accounts:"
+msgid "Accounts"
+msgstr "Konti"
+
+msgctxt "field:sale.advance_payment_term.line,advance_payment_term:"
+msgid "Advance Payment Term"
+msgstr "Avansni pogoj"
+
+msgctxt "field:sale.advance_payment_term.line,block_shipping:"
+msgid "Block Shipping"
+msgstr "Blokada odpreme"
+
+msgctxt "field:sale.advance_payment_term.line,block_supply:"
+msgid "Block Supply"
+msgstr "Blokada dobave"
+
+msgctxt "field:sale.advance_payment_term.line,description:"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "field:sale.advance_payment_term.line,formula:"
+msgid "Formula"
+msgstr "Formula"
+
+msgctxt "field:sale.advance_payment_term.line,invoice_delay:"
+msgid "Invoice Delay"
+msgstr "Zamik računa"
+
+msgctxt "field:sale.advance_payment_term.line.account,account:"
+msgid "Account"
+msgstr "Konto"
+
+msgctxt "field:sale.advance_payment_term.line.account,company:"
+msgid "Company"
+msgstr "Družba"
+
+msgctxt "field:sale.advance_payment_term.line.account,line:"
+msgid "Line"
+msgstr "Postavka"
+
+msgctxt "field:sale.sale,advance_payment_invoices:"
+msgid "Advance Payment Invoices"
+msgstr "Avansni računi"
+
+#, fuzzy
+msgctxt "field:sale.sale,advance_payment_lines:"
+msgid "Advance Payment Lines"
+msgstr "Advance Payment Terms"
+
+msgctxt "field:sale.sale,advance_payment_term:"
+msgid "Advance Payment Term"
+msgstr "Avansni pogoj"
+
+msgctxt "help:sale.advance_payment_term.line,account:"
+msgid "Used for the line of advance payment invoice."
+msgstr "Upošteva se na postavkah avansnega računa."
+
+msgctxt "help:sale.advance_payment_term.line,block_shipping:"
+msgid "Check to prevent the packing of the shipment before advance payment."
+msgstr "Označite, če je avans pogoj za pakiranje pošiljke."
+
+msgctxt "help:sale.advance_payment_term.line,block_supply:"
+msgid "Check to prevent any supply request before advance payment."
+msgstr "Označite, če je avans pogoj za katerokoli dobavo."
+
+msgctxt "help:sale.advance_payment_term.line,description:"
+msgid "Used as description for the invoice line."
+msgstr "Upošteva se pri opisu postavke računa."
+
+msgctxt "help:sale.advance_payment_term.line,formula:"
+msgid ""
+"A python expression used to compute the advance payment amount that will be evaluated with:\n"
+"- total_amount: The total amount of the sale.\n"
+"- untaxed_amount: The total untaxed amount of the sale."
+msgstr ""
+"Pythonski izraz za znesek avansa, preračunan z:\n"
+"- total_amount: skupni znesek,\n"
+"- untaxed_amount: skupni neobdavčeni znesek."
+
+msgctxt "help:sale.advance_payment_term.line,invoice_delay:"
+msgid ""
+"Delta to apply on the sale date for the date of the advance payment invoice."
+msgstr ""
+"Upoštevan zamik od datuma prodajnega naloga za datum avansnega računa."
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_advance_payment_term_form"
+msgid "Advance Payment Terms"
+msgstr "Advance Payment Terms"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_shipping_blocked"
+msgid ""
+"To pack shipments the customer must paid the advance payment for sale "
+"\"%(sale)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_term_line_invalid_formula"
+msgid ""
+"Invalid formula \"%(formula)s\" in term line \"%(term_line)s\" with "
+"exception \"%(exception)s\"."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_advance_payment_term"
+msgid "Advance Payment Terms"
+msgstr "Advance Payment Terms"
+
+#, fuzzy
+msgctxt "model:sale.advance_payment.line,string:"
+msgid "Sale Advance Payment Line"
+msgstr "Postavka avansnega pogoja"
+
+#, fuzzy
+msgctxt "model:sale.advance_payment_term,string:"
+msgid "Sale Advance Payment Term"
+msgstr "Avansni pogoj"
+
+#, fuzzy
+msgctxt "model:sale.advance_payment_term.line,string:"
+msgid "Sale Advance Payment Term Line"
+msgstr "Postavka avansnega pogoja"
+
+#, fuzzy
+msgctxt "model:sale.advance_payment_term.line.account,string:"
+msgid "Sale Advance Payment Term Line Account"
+msgstr "Konto postavke avansnega pogoja"
+
+#, fuzzy
+msgctxt "view:sale.sale:"
+msgid "Advance Payment"
+msgstr "Avansni pogoj"

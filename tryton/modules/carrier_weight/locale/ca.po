@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,weight_currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:carrier,weight_price_list:"
+msgid "Price List"
+msgstr "Tarifa"
+
+msgctxt "field:carrier,weight_uom:"
+msgid "Weight UoM"
+msgstr "UdM del pes"
+
+msgctxt "field:carrier.weight_price_list,carrier:"
+msgid "Carrier"
+msgstr "Transportista"
+
+msgctxt "field:carrier.weight_price_list,currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:carrier.weight_price_list,price:"
+msgid "Price"
+msgstr "Preu"
+
+msgctxt "field:carrier.weight_price_list,weight:"
+msgid "Weight"
+msgstr "Pes"
+
+msgctxt "field:carrier.weight_price_list,weight_uom:"
+msgid "Weight UoM"
+msgstr "UdM del pes"
+
+msgctxt "help:carrier,weight_currency:"
+msgid "The currency of the price."
+msgstr "La moneda del preu."
+
+msgctxt "help:carrier,weight_price_list:"
+msgid ""
+"Add price per weight to the carrier service.\n"
+"The first line for which the weight is greater is used.\n"
+"The line with weight of 0 is used as default price."
+msgstr ""
+"Afegeix el preu per pes al servei del transportista.\n"
+"S'utilitza la primera línia que el pes es superior. \n"
+"Una línia amb pes 0 s'utilitzarà com a preu per defecte."
+
+msgctxt "help:carrier,weight_uom:"
+msgid "The Unit of Measure of weight criteria for the price list."
+msgstr "La unitat de mesura del pes utilitzada per la tarifa."
+
+msgctxt "help:carrier.weight_price_list,carrier:"
+msgid "The carrier that the price list belongs to."
+msgstr "El transportista al que pertany la tarifa."
+
+msgctxt "help:carrier.weight_price_list,price:"
+msgid "The price of the carrier service."
+msgstr "El preu del servei del transportista."
+
+msgctxt "help:carrier.weight_price_list,weight:"
+msgid "The lower limit for the price."
+msgstr "El límit inferior al que aplica el preu."
+
+msgctxt "help:carrier.weight_price_list,weight_uom:"
+msgid "The Unit of Measure of the weight."
+msgstr "La unitat de mesura del pes."
+
+msgctxt "model:carrier.weight_price_list,string:"
+msgid "Carrier Weight Price List"
+msgstr "Tarifa pes transportista"
+
+msgctxt "selection:carrier,carrier_cost_method:"
+msgid "Weight"
+msgstr "Pes"

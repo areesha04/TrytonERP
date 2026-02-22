@@ -1,0 +1,294 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:purchase.line,requests:"
+msgid "Requests"
+msgstr ""
+
+msgctxt "field:purchase.request,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:purchase.request,computed_quantity:"
+msgid "Computed Quantity"
+msgstr "Cantitate calculată"
+
+msgctxt "field:purchase.request,computed_unit:"
+msgid "Computed Unit"
+msgstr "Unitate calculată"
+
+msgctxt "field:purchase.request,default_uom:"
+msgid "Default UoM"
+msgstr "UM Implicită"
+
+msgctxt "field:purchase.request,description:"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "field:purchase.request,exception_ignored:"
+msgid "Ignored Exception"
+msgstr "Excepție ignorată"
+
+msgctxt "field:purchase.request,origin:"
+msgid "Origin"
+msgstr "Origine"
+
+msgctxt "field:purchase.request,party:"
+msgid "Party"
+msgstr "Parte"
+
+msgctxt "field:purchase.request,product:"
+msgid "Product"
+msgstr "Produs"
+
+msgctxt "field:purchase.request,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Categorie UM Produs"
+
+msgctxt "field:purchase.request,purchase:"
+msgid "Purchase"
+msgstr "Achiziție"
+
+msgctxt "field:purchase.request,purchase_date:"
+msgid "Best Purchase Date"
+msgstr "Cea mai bună dată de achiziție"
+
+msgctxt "field:purchase.request,purchase_line:"
+msgid "Purchase Line"
+msgstr "Rând de Achiziție"
+
+msgctxt "field:purchase.request,purchased_by:"
+msgid "Purchased By"
+msgstr "Achiziționat de"
+
+msgctxt "field:purchase.request,quantity:"
+msgid "Quantity"
+msgstr "Cantitate"
+
+msgctxt "field:purchase.request,state:"
+msgid "State"
+msgstr "Stare"
+
+msgctxt "field:purchase.request,stock_level:"
+msgid "Stock at Supply Date"
+msgstr "Stoc la data aprovizionării"
+
+msgctxt "field:purchase.request,summary:"
+msgid "Summary"
+msgstr "Sumar"
+
+msgctxt "field:purchase.request,supply_date:"
+msgid "Expected Supply Date"
+msgstr "Data estimată de aprovizionare"
+
+msgctxt "field:purchase.request,unit:"
+msgid "Unit"
+msgstr "Unitate"
+
+msgctxt "field:purchase.request,warehouse:"
+msgid "Warehouse"
+msgstr "Depozit"
+
+msgctxt "field:purchase.request,warehouse_required:"
+msgid "Warehouse Required"
+msgstr "Depozit necesar"
+
+msgctxt "field:purchase.request.create_purchase.ask_party,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:purchase.request.create_purchase.ask_party,description:"
+msgid "Description"
+msgstr "Descriere"
+
+msgctxt "field:purchase.request.create_purchase.ask_party,party:"
+msgid "Supplier"
+msgstr "Furnizor"
+
+msgctxt "field:purchase.request.create_purchase.ask_party,product:"
+msgid "Product"
+msgstr "Produs"
+
+msgctxt "help:purchase.request,default_uom:"
+msgid "The default Unit of Measure."
+msgstr "Unitatea de măsură implicită."
+
+msgctxt "help:purchase.request,product_uom_category:"
+msgid "The category of Unit of Measure for the product."
+msgstr "Categoria de unitate de măsură pentru produs."
+
+msgctxt "help:purchase.request,stock_level:"
+msgid "The low stock level in the warehouse prompted the request."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_open_purchase_form"
+msgid "Purchases"
+msgstr "Achiziții"
+
+msgctxt "model:ir.action,name:act_open_request_form"
+msgid "Purchase Requests"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_purchase_request_form"
+msgid "Requests"
+msgstr "Cereri de achiziție"
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_create_purchase"
+msgid "Create Purchases"
+msgstr "Creare achiziție"
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_purchase_cancellation_handle_exception"
+msgid "Handle Purchase Cancellation"
+msgstr "Gestionați anularea achiziției"
+
+#, fuzzy
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_form_domain_all"
+msgid "All"
+msgstr "Tot"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_form_domain_draft"
+msgid "Draft"
+msgstr "Ciornă"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_purchase_request_form_domain_exception"
+msgid "Exception"
+msgstr "Excepție"
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_purchase_delete_request"
+msgid ""
+"You cannot delete purchase \"%(purchase)s\" because it is linked to purchase"
+" requests."
+msgstr ""
+"Nu puteți șterge achiziția \"%(purchase)s\" deoarece este legată de "
+"solicitările de achiziție."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_purchase_request_warehouse"
+msgid ""
+"Warehouse \"%(purchase_warehouse)s\" on purchase \"%(purchase)s\" is "
+"different to warehouse \"%(request_warehouse)s\" on linked purchase request "
+"\"%(request)s\"."
+msgstr ""
+"Depozitul \"%(purchase_warehouse)s\" la achiziția \"%(purchase)s\" este "
+"diferit de depozitul \"%(request_warehouse)s\" la cererea de achiziție "
+"aferentă \"%(request)s\"."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_request_delete_purchased"
+msgid ""
+"You cannot delete purchase request \"%(request)s\" because it is purchased."
+msgstr ""
+"Nu puteți șterge solicitarea de achiziție \"%(request)s\" deoarece este "
+"achiziționată."
+
+#, fuzzy
+msgctxt "model:ir.message,text:msg_request_no_create"
+msgid "Purchase requests can only be created by the system."
+msgstr "Solicitările de achiziție pot fi create numai de sistem."
+
+#, fuzzy
+msgctxt ""
+"model:ir.model.button,string:purchase_hande_purchase_cancellation_exception_button"
+msgid "Handle Purchase Cancellation"
+msgstr "Gestionați anularea achiziției"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:purchase_request_create_purchase_button"
+msgid "Create Purchases"
+msgstr "Creare achiziție"
+
+msgctxt "model:ir.rule.group,name:rule_group_purchase_request_companies"
+msgid "User in companies"
+msgstr "Utilizator în Companii"
+
+#, fuzzy
+msgctxt "model:ir.ui.menu,name:menu_purchase_request_form"
+msgid "Requests"
+msgstr "Cereri de achiziție"
+
+#, fuzzy
+msgctxt "model:purchase.request,string:"
+msgid "Purchase Request"
+msgstr "Cerere de achiziție"
+
+msgctxt "model:purchase.request.create_purchase.ask_party,string:"
+msgid "Purchase Request Create Purchase Ask Party"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:purchase.request.handle.purchase.cancellation.start,string:"
+msgid "Purchase Request Handle Purchase Cancellation Start"
+msgstr "Gestionați anularea achiziției"
+
+#, fuzzy
+msgctxt "model:res.group,name:group_purchase_request"
+msgid "Purchase Request"
+msgstr "Cerere de achiziție"
+
+msgctxt "selection:purchase.request,state:"
+msgid "Cancelled"
+msgstr "Anulat"
+
+msgctxt "selection:purchase.request,state:"
+msgid "Done"
+msgstr "Terminat"
+
+msgctxt "selection:purchase.request,state:"
+msgid "Draft"
+msgstr "Ciornă"
+
+msgctxt "selection:purchase.request,state:"
+msgid "Exception"
+msgstr "Excepție"
+
+#, fuzzy
+msgctxt "selection:purchase.request,state:"
+msgid "Purchased"
+msgstr "Achiziționat"
+
+#, fuzzy
+msgctxt "view:purchase.request.handle.purchase.cancellation.start:"
+msgid "Do you want to cancel the request or to reset it to draft?"
+msgstr "Doriți să anulați solicitarea sau să o resetați la ciornă?"
+
+msgctxt "view:purchase.request:"
+msgid "Product Info"
+msgstr "Informații produs"
+
+#, fuzzy
+msgctxt "view:purchase.request:"
+msgid "Supply Info"
+msgstr "Informații de aprovizionare"
+
+msgctxt "wizard_button:purchase.request.create_purchase,ask_party,end:"
+msgid "Cancel"
+msgstr "Anulare"
+
+msgctxt "wizard_button:purchase.request.create_purchase,ask_party,start:"
+msgid "Continue"
+msgstr "Continuare"
+
+#, fuzzy
+msgctxt ""
+"wizard_button:purchase.request.handle.purchase.cancellation,start,cancel_request:"
+msgid "Cancel Request"
+msgstr "Anulare solicitare"
+
+msgctxt ""
+"wizard_button:purchase.request.handle.purchase.cancellation,start,end:"
+msgid "Cancel"
+msgstr "Anulare"
+
+#, fuzzy
+msgctxt ""
+"wizard_button:purchase.request.handle.purchase.cancellation,start,reset:"
+msgid "Reset to Draft"
+msgstr "Resetare la ciornă"

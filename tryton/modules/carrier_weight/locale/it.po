@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,weight_currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:carrier,weight_price_list:"
+msgid "Price List"
+msgstr "listino"
+
+#, fuzzy
+msgctxt "field:carrier,weight_uom:"
+msgid "Weight UoM"
+msgstr "udm peso"
+
+msgctxt "field:carrier.weight_price_list,carrier:"
+msgid "Carrier"
+msgstr "Vettore"
+
+msgctxt "field:carrier.weight_price_list,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:carrier.weight_price_list,price:"
+msgid "Price"
+msgstr "Prezzo"
+
+msgctxt "field:carrier.weight_price_list,weight:"
+msgid "Weight"
+msgstr "Peso"
+
+#, fuzzy
+msgctxt "field:carrier.weight_price_list,weight_uom:"
+msgid "Weight UoM"
+msgstr "udm peso"
+
+msgctxt "help:carrier,weight_currency:"
+msgid "The currency of the price."
+msgstr "La valuta del prezzo."
+
+msgctxt "help:carrier,weight_price_list:"
+msgid ""
+"Add price per weight to the carrier service.\n"
+"The first line for which the weight is greater is used.\n"
+"The line with weight of 0 is used as default price."
+msgstr ""
+
+#, fuzzy
+msgctxt "help:carrier,weight_uom:"
+msgid "The Unit of Measure of weight criteria for the price list."
+msgstr "L'unità di peso utilizzata nel listino prezzi."
+
+msgctxt "help:carrier.weight_price_list,carrier:"
+msgid "The carrier that the price list belongs to."
+msgstr "Il corriere a cui appartiene il listino prezzi."
+
+msgctxt "help:carrier.weight_price_list,price:"
+msgid "The price of the carrier service."
+msgstr "Il prezzo del servizio di trasporto."
+
+msgctxt "help:carrier.weight_price_list,weight:"
+msgid "The lower limit for the price."
+msgstr "Il limite inferiore per il prezzo."
+
+#, fuzzy
+msgctxt "help:carrier.weight_price_list,weight_uom:"
+msgid "The Unit of Measure of the weight."
+msgstr "L'unità di peso utilizzata nel listino prezzi."
+
+#, fuzzy
+msgctxt "model:carrier.weight_price_list,string:"
+msgid "Carrier Weight Price List"
+msgstr "listino vettore per peso"
+
+msgctxt "selection:carrier,carrier_cost_method:"
+msgid "Weight"
+msgstr "Peso"

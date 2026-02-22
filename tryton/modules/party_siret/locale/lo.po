@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.address,siret:"
+msgid "SIRET"
+msgstr ""
+
+msgctxt "field:party.party,siren:"
+msgid "SIREN"
+msgstr ""
+
+msgctxt "help:company.company,footer:"
+msgid "- ${siren}\n"
+msgstr ""
+
+msgctxt "help:company.company,header:"
+msgid "- ${siren}\n"
+msgstr ""

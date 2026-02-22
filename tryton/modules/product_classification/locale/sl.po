@@ -1,0 +1,49 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.classification.dummy,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:product.classification.dummy,selectable:"
+msgid "Selectable"
+msgstr "Izbirno"
+
+msgctxt "field:product.classification_tree.dummy,childs:"
+msgid "Children"
+msgstr "Podklasifikacije"
+
+msgctxt "field:product.classification_tree.dummy,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:product.classification_tree.dummy,parent:"
+msgid "Parent"
+msgstr "Nadklasifikacija"
+
+msgctxt "field:product.classification_tree.dummy,selectable:"
+msgid "Selectable"
+msgstr "Izbirno"
+
+msgctxt "field:product.product,classification:"
+msgid "Classification"
+msgstr "Klasifikacija"
+
+msgctxt "field:product.template,classification:"
+msgid "Classification"
+msgstr "Klasifikacija"
+
+msgctxt "model:ir.ui.menu,name:menu_classification"
+msgid "Classifications"
+msgstr "Klasifikacije"
+
+#, fuzzy
+msgctxt "model:product.classification.dummy,string:"
+msgid "Product Classification Dummy"
+msgstr "Navidezna klasifikacija izdelka"
+
+#, fuzzy
+msgctxt "model:product.classification_tree.dummy,string:"
+msgid "Product Classification Tree Dummy"
+msgstr "Navidezno klasifikacijsko drevo izdelka"

@@ -1,0 +1,48 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:production.split.start,count:"
+msgid "Count"
+msgstr "Loend"
+
+msgctxt "field:production.split.start,quantity:"
+msgid "Quantity"
+msgstr "Kogus"
+
+msgctxt "field:production.split.start,unit:"
+msgid "Unit"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:production.split.start,uom_category:"
+msgid "UoM Category"
+msgstr "Mõõtühiku kategooria"
+
+msgctxt "help:production.split.start,count:"
+msgid "The limit number of productions"
+msgstr "Tootmiste piirnumber"
+
+msgctxt "help:production.split.start,uom_category:"
+msgid "The category of Unit of Measure."
+msgstr ""
+
+msgctxt "model:ir.action,name:wizard_split_production"
+msgid "Split Production"
+msgstr "Tootmise poolitamine"
+
+msgctxt "model:ir.model.button,string:production_split_wizard_button"
+msgid "Split"
+msgstr "Poolitamine"
+
+msgctxt "model:production.split.start,string:"
+msgid "Production Split Start"
+msgstr ""
+
+msgctxt "wizard_button:production.split,start,end:"
+msgid "Cancel"
+msgstr "Tühista"
+
+msgctxt "wizard_button:production.split,start,split:"
+msgid "Split"
+msgstr "Poolitamine"

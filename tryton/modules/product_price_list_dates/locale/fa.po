@@ -1,0 +1,20 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.price_list.line,end_date:"
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+msgctxt "field:product.price_list.line,start_date:"
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+msgctxt "field:product.price_list.line.context,date:"
+msgid "Date"
+msgstr "تاریخ"
+
+#, fuzzy
+msgctxt "field:product.sale.context,date:"
+msgid "Date"
+msgstr "تاریخ"

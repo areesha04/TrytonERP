@@ -1,0 +1,104 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.extra,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:sale.extra,currency:"
+msgid "Currency"
+msgstr "Monedă"
+
+msgctxt "field:sale.extra,end_date:"
+msgid "End Date"
+msgstr "Data de sfârşit"
+
+msgctxt "field:sale.extra,lines:"
+msgid "Lines"
+msgstr "Rânduri"
+
+msgctxt "field:sale.extra,name:"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "field:sale.extra,price_list:"
+msgid "Price List"
+msgstr "Listă de prețuri"
+
+msgctxt "field:sale.extra,sale_amount:"
+msgid "Sale Amount"
+msgstr "Valoarea vânzării"
+
+msgctxt "field:sale.extra,start_date:"
+msgid "Start Date"
+msgstr "Data de Început"
+
+msgctxt "field:sale.extra.line,currency:"
+msgid "Currency"
+msgstr "Monedă"
+
+#, fuzzy
+msgctxt "field:sale.extra.line,extra:"
+msgid "Extra"
+msgstr "Suplimentar"
+
+msgctxt "field:sale.extra.line,free:"
+msgid "Free"
+msgstr "Gratuit"
+
+msgctxt "field:sale.extra.line,product:"
+msgid "Product"
+msgstr "Produs"
+
+msgctxt "field:sale.extra.line,product_uom_category:"
+msgid "Product UoM Category"
+msgstr "Categorie UM Produs"
+
+msgctxt "field:sale.extra.line,quantity:"
+msgid "Quantity"
+msgstr "Cantitate"
+
+msgctxt "field:sale.extra.line,sale_amount:"
+msgid "Sale Amount"
+msgstr "Valoarea vânzării"
+
+msgctxt "field:sale.extra.line,unit:"
+msgid "Unit"
+msgstr "Unitate"
+
+#, fuzzy
+msgctxt "field:sale.line,extra:"
+msgid "Extra"
+msgstr "Suplimentar"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_extra_form"
+msgid "Extras"
+msgstr "In plus"
+
+msgctxt "model:ir.action,name:act_extra_relate"
+msgid "Sale Extras"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_extra_companies"
+msgid "User in companies"
+msgstr "Utilizator în Companii"
+
+msgctxt "model:ir.ui.menu,name:menu_extra"
+msgid "Extras"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:sale.extra,string:"
+msgid "Sale Extra"
+msgstr "Suplimentar"
+
+#, fuzzy
+msgctxt "model:sale.extra.line,string:"
+msgid "Sale Extra Line"
+msgstr "Rând de vânzare"
+
+msgctxt "view:sale.extra.line:"
+msgid "Sale Line"
+msgstr "Rând de vânzare"

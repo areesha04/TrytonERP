@@ -1,0 +1,307 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.configuration,package_sequence:"
+msgid "Package Sequence"
+msgstr "Séquence de colis"
+
+msgctxt "field:stock.configuration.sequence,package_sequence:"
+msgid "Package Sequence"
+msgstr "Séquence de colis"
+
+msgctxt "field:stock.move,package:"
+msgid "Package"
+msgstr "Colis"
+
+msgctxt "field:stock.package,allowed_moves:"
+msgid "Allowed Moves"
+msgstr "Mouvements autorisés"
+
+msgctxt "field:stock.package,children:"
+msgid "Children"
+msgstr "Enfants"
+
+msgctxt "field:stock.package,company:"
+msgid "Company"
+msgstr "Société"
+
+msgctxt "field:stock.package,height:"
+msgid "Height"
+msgstr "Hauteur"
+
+msgctxt "field:stock.package,height_uom:"
+msgid "Height UoM"
+msgstr "UDM de hauteur"
+
+msgctxt "field:stock.package,length:"
+msgid "Length"
+msgstr "Longueur"
+
+msgctxt "field:stock.package,length_uom:"
+msgid "Length UoM"
+msgstr "UDM de longueur"
+
+msgctxt "field:stock.package,moves:"
+msgid "Moves"
+msgstr "Mouvements"
+
+msgctxt "field:stock.package,number:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:stock.package,packaging_volume:"
+msgid "Packaging Volume"
+msgstr "Volume de l'emballage"
+
+msgctxt "field:stock.package,packaging_volume_uom:"
+msgid "Packaging Volume UoM"
+msgstr "UDM de volume de l'emballage"
+
+msgctxt "field:stock.package,packaging_weight:"
+msgid "Packaging Weight"
+msgstr "Poids de l'emballage"
+
+msgctxt "field:stock.package,packaging_weight_uom:"
+msgid "Packaging Weight UoM"
+msgstr "UDM de poids de l'emballage"
+
+msgctxt "field:stock.package,parent:"
+msgid "Parent"
+msgstr "Parent"
+
+msgctxt "field:stock.package,shipment:"
+msgid "Shipment"
+msgstr "Expédition"
+
+msgctxt "field:stock.package,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:stock.package,type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:stock.package,width:"
+msgid "Width"
+msgstr "Largeur"
+
+msgctxt "field:stock.package,width_uom:"
+msgid "Width UoM"
+msgstr "UDM de largeur"
+
+msgctxt "field:stock.package.type,height:"
+msgid "Height"
+msgstr "Hauteur"
+
+msgctxt "field:stock.package.type,height_uom:"
+msgid "Height UoM"
+msgstr "UDM de hauteur"
+
+msgctxt "field:stock.package.type,length:"
+msgid "Length"
+msgstr "Longueur"
+
+msgctxt "field:stock.package.type,length_uom:"
+msgid "Length UoM"
+msgstr "UDM de longueur"
+
+msgctxt "field:stock.package.type,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:stock.package.type,packaging_volume:"
+msgid "Packaging Volume"
+msgstr "Volume de l'emballage"
+
+msgctxt "field:stock.package.type,packaging_volume_uom:"
+msgid "Packaging Volume UoM"
+msgstr "UDM de volume de l'emballage"
+
+msgctxt "field:stock.package.type,packaging_weight:"
+msgid "Packaging Weight"
+msgstr "Poids de l'emballage"
+
+msgctxt "field:stock.package.type,packaging_weight_uom:"
+msgid "Packaging Weight UoM"
+msgstr "UDM de poids de l'emballage"
+
+msgctxt "field:stock.package.type,width:"
+msgid "Width"
+msgstr "Largeur"
+
+msgctxt "field:stock.package.type,width_uom:"
+msgid "Width UoM"
+msgstr "UDM de largeur"
+
+msgctxt "field:stock.shipment.in.return,packages:"
+msgid "Packages"
+msgstr "Colis"
+
+msgctxt "field:stock.shipment.in.return,root_packages:"
+msgid "Packages"
+msgstr "Colis"
+
+msgctxt "field:stock.shipment.internal,packages:"
+msgid "Packages"
+msgstr "Colis"
+
+msgctxt "field:stock.shipment.internal,root_packages:"
+msgid "Packages"
+msgstr "Colis"
+
+msgctxt "field:stock.shipment.out,packages:"
+msgid "Packages"
+msgstr "Colis"
+
+msgctxt "field:stock.shipment.out,root_packages:"
+msgid "Packages"
+msgstr "Colis"
+
+msgctxt "help:stock.package,height:"
+msgid "The height of the package."
+msgstr "La hauteur du colis."
+
+msgctxt "help:stock.package,height_uom:"
+msgid "The Unit of Measure for the package height."
+msgstr "L'Unité De Mesure pour la hauteur du colis."
+
+msgctxt "help:stock.package,length:"
+msgid "The length of the package."
+msgstr "La longueur du colis."
+
+msgctxt "help:stock.package,length_uom:"
+msgid "The Unit of Measure for the package length."
+msgstr "L'Unité De Mesure pour la longueur du colis."
+
+msgctxt "help:stock.package,packaging_volume:"
+msgid "The volume of the package."
+msgstr "Le volume du colis."
+
+msgctxt "help:stock.package,packaging_volume_uom:"
+msgid "The Unit of Measure for the packaging volume."
+msgstr "L'Unité De Mesure pour le volume de l'emballage."
+
+msgctxt "help:stock.package,packaging_weight:"
+msgid "The weight of the package when empty."
+msgstr "Le poids du colis vide."
+
+msgctxt "help:stock.package,packaging_weight_uom:"
+msgid "The Unit of Measure for the packaging weight."
+msgstr "L'Unité De Mesure pour le poids de l'emballage."
+
+msgctxt "help:stock.package,width:"
+msgid "The width of the package."
+msgstr "La largeur du colis."
+
+msgctxt "help:stock.package,width_uom:"
+msgid "The Unit of Measure for the package width."
+msgstr "L'Unité De Mesure pour la largeur du colis."
+
+msgctxt "help:stock.package.type,height:"
+msgid "The height of the package."
+msgstr "La hauteur du colis."
+
+msgctxt "help:stock.package.type,height_uom:"
+msgid "The Unit of Measure for the package height."
+msgstr "L'Unité De Mesure pour la hauteur du colis."
+
+msgctxt "help:stock.package.type,length:"
+msgid "The length of the package."
+msgstr "La longueur du colis."
+
+msgctxt "help:stock.package.type,length_uom:"
+msgid "The Unit of Measure for the package length."
+msgstr "L'Unité De Mesure pour la longueur du colis."
+
+msgctxt "help:stock.package.type,packaging_volume:"
+msgid "The volume of the package."
+msgstr "Le volume du colis."
+
+msgctxt "help:stock.package.type,packaging_volume_uom:"
+msgid "The Unit of Measure for the packaging volume."
+msgstr "L'Unité De Mesure pour le volume de l'emballage."
+
+msgctxt "help:stock.package.type,packaging_weight:"
+msgid "The weight of the package when empty."
+msgstr "Le poids du colis vide."
+
+msgctxt "help:stock.package.type,packaging_weight_uom:"
+msgid "The Unit of Measure for the packaging weight."
+msgstr "L'Unité De Mesure pour le poids de l'emballage."
+
+msgctxt "help:stock.package.type,width:"
+msgid "The width of the package."
+msgstr "La largeur du colis."
+
+msgctxt "help:stock.package.type,width_uom:"
+msgid "The Unit of Measure for the package width."
+msgstr "L'Unité De Mesure pour la largeur du colis."
+
+msgctxt "model:ir.action,name:act_package_type_form"
+msgid "Package Types"
+msgstr "Types de colis"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_package_mismatch"
+msgid "To process shipment \"%(shipment)s\", you must pack all its moves."
+msgstr ""
+"Pour traiter l’expédition « %(shipment)s », vous devez emballer tous ces "
+"mouvements."
+
+#, python-format
+msgctxt "model:ir.message,text:msg_package_volume_too_small"
+msgid ""
+"The volume (%(volume)s) of package \"%(package)s\" is too small for summed "
+"volume (%(children_volume)s) of its children packages."
+msgstr ""
+"Le volume (%(volume)s) du colis « %(package)s » est trop petit pour le "
+"volume additionné (%(children_volume)s) de ses colis enfants."
+
+msgctxt "model:ir.rule.group,name:rule_group_package_companies"
+msgid "User in companies"
+msgstr "Utilisateur dans les sociétés"
+
+msgctxt "model:ir.sequence,name:sequence_package"
+msgid "Stock Package"
+msgstr "Colis de stock"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_package"
+msgid "Stock Package"
+msgstr "Colis de stock"
+
+msgctxt "model:ir.ui.menu,name:menu_package_form"
+msgid "Package Types"
+msgstr "Types de colis"
+
+msgctxt "model:stock.package,string:"
+msgid "Stock Package"
+msgstr "Colis de stock"
+
+msgctxt "model:stock.package.type,string:"
+msgid "Stock Package Type"
+msgstr "Type de colis de stock"
+
+msgctxt "selection:stock.package,state:"
+msgid "Closed"
+msgstr "Fermé"
+
+msgctxt "selection:stock.package,state:"
+msgid "Open"
+msgstr "Ouvert"
+
+msgctxt "view:stock.configuration:"
+msgid "Package"
+msgstr "Colis"
+
+msgctxt "view:stock.configuration:"
+msgid "Sequence"
+msgstr "Séquence"
+
+msgctxt "view:stock.package.type:"
+msgid "Measurements"
+msgstr "Mesures"
+
+msgctxt "view:stock.package:"
+msgid "Measurements"
+msgstr "Mesures"

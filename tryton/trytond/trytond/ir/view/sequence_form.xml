@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="name"/>
+    <field name="name" colspan="3"/>
+    <label name="sequence_type"/>
+    <field name="sequence_type" widget="selection"/>
+    <label name="active"/>
+    <field name="active"/>
+    <label name="prefix"/>
+    <field name="prefix"/>
+    <label name="suffix"/>
+    <field name="suffix"/>
+    <label name="type"/>
+    <field name="type"/>
+    <label name="preview"/>
+    <field name="preview"/>
+
+    <label name="padding"/>
+    <field name="padding" />
+    <label name="number_increment"/>
+    <field name="number_increment"/>
+    <label name="number_next"/>
+    <field name="number_next"/>
+    <newline/>
+
+    <label name="timestamp_rounding"/>
+    <field name="timestamp_rounding"/>
+    <label name="timestamp_offset"/>
+    <field name="timestamp_offset"/>
+    <label name="last_timestamp"/>
+    <field name="last_timestamp"/>
+    <newline/>
+</form>

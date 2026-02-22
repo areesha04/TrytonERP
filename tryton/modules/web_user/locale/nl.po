@@ -1,0 +1,185 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:web.user,email:"
+msgid "Email"
+msgstr "Email"
+
+msgctxt "field:web.user,email_token:"
+msgid "Email Token"
+msgstr "Email token"
+
+msgctxt "field:web.user,email_valid:"
+msgid "Email Valid"
+msgstr "Email geldig"
+
+msgctxt "field:web.user,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:web.user,password:"
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgctxt "field:web.user,password_hash:"
+msgid "Password Hash"
+msgstr "Wachtwoord Hash"
+
+msgctxt "field:web.user,reset_password_token:"
+msgid "Reset Password Token"
+msgstr "Reset wachtwoord token"
+
+msgctxt "field:web.user,reset_password_token_expire:"
+msgid "Reset Password Token Expire"
+msgstr "Reset wachtwoord token verlopen"
+
+msgctxt "field:web.user,secondary_parties:"
+msgid "Secondary Parties"
+msgstr "Secundaire Relaties"
+
+msgctxt "field:web.user-party.party.secondary,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:web.user-party.party.secondary,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "field:web.user.authenticate.attempt,device_cookie:"
+msgid "Device Cookie"
+msgstr "Apparaatcookie"
+
+msgctxt "field:web.user.authenticate.attempt,ip_address:"
+msgid "IP Address"
+msgstr "IP Adres"
+
+msgctxt "field:web.user.authenticate.attempt,ip_network:"
+msgid "IP Network"
+msgstr "IP-netwerk"
+
+msgctxt "field:web.user.authenticate.attempt,login:"
+msgid "Login"
+msgstr "Loginnaam"
+
+msgctxt "field:web.user.session,key:"
+msgid "Key"
+msgstr "Sleutel"
+
+msgctxt "field:web.user.session,user:"
+msgid "User"
+msgstr "Gebruiker"
+
+msgctxt "model:ir.action,name:act_user_form"
+msgid "Web Users"
+msgstr "Webgebruikers"
+
+msgctxt "model:ir.action,name:act_user_form_party"
+msgid "Web Users"
+msgstr "Webgebruikers"
+
+msgctxt "model:ir.action,name:report_email_reset_password"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+msgctxt "model:ir.action,name:report_email_validation"
+msgid "Email Validation"
+msgstr "E-mailvalidatie"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_user_email_invalid"
+msgid "The email address \"%(email)s\" for \"%(user)s\" is not valid."
+msgstr "Het email adres \"%(email)s\" voor \"%(user)s\" is niet geldig."
+
+msgctxt "model:ir.message,text:msg_user_email_unique"
+msgid "Email of active web user must be unique."
+msgstr "Email van actieve webgebruiker moet uniek zijn."
+
+msgctxt "model:ir.message,text:msg_user_session_key_unique"
+msgid "Web user session key must be unique."
+msgstr "Webgebruikerssessiesleutel moet uniek zijn."
+
+msgctxt "model:ir.model.button,string:user_reset_password_button"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+msgctxt "model:ir.model.button,string:user_validate_email_button"
+msgid "Validate Email"
+msgstr "Email valideren"
+
+msgctxt "model:ir.ui.menu,name:menu_user_form"
+msgid "Web Users"
+msgstr "Webgebruikers"
+
+msgctxt "model:web.user,string:"
+msgid "Web User"
+msgstr "Web gebruiker"
+
+msgctxt "model:web.user-party.party.secondary,string:"
+msgid "Web User - Party Secondary"
+msgstr "Web gebruiker - Secundaire relatie"
+
+msgctxt "model:web.user.authenticate.attempt,string:"
+msgid "User Login Attempt"
+msgstr "Login poging"
+
+msgctxt "model:web.user.session,string:"
+msgid "Web User Session"
+msgstr "Web gebruikerssessie"
+
+msgctxt "report:web.user.email_reset_password:"
+msgid "Button not working? Paste this into your browser:"
+msgstr "Werkt de knop niet? Plak dit in uw browser:"
+
+#, python-format
+msgctxt "report:web.user.email_reset_password:"
+msgid ""
+"Hello, we received a request to reset the password for the account associated with [1:%(email)s]. No changes have been made to your account yet.[2:]\n"
+"                You can reset your password by clicking the link below:[3:]\n"
+"                [4:\n"
+"                    Reset Password\n"
+"                ]"
+msgstr ""
+"Hallo, we hebben een aanvraag ontvangen om het wachtwoord voor gebruiker [1:%(email)s] te resetten. Op dit moment zijn er nog geen wijzigingen gedaan aan de gebruiker.[2:]\n"
+"                U kunt het wachtwoord resetten door op de onderstaande link te klikken:[3:]\n"
+"                [4:\n"
+"                     Reset wachtwoord\n"
+"                ]"
+
+msgctxt "report:web.user.email_reset_password:"
+msgid "If you didn't make this request, you can ignore this email."
+msgstr "Indien u dit verzoek niet hebt gedaan, kunt u deze e-mail negeren."
+
+msgctxt "report:web.user.email_reset_password:"
+msgid "Reset Password"
+msgstr "Reset wachtwoord"
+
+#, python-format
+msgctxt "report:web.user.email_reset_password:"
+msgid "The link will expire in [1:%(datetime)s]."
+msgstr "De link vervalt in [1:%(datetime)s]."
+
+#, python-format
+msgctxt "report:web.user.email_validation:"
+msgid "%(email)s"
+msgstr "%(email)s"
+
+msgctxt "report:web.user.email_validation:"
+msgid "Button is not working? Paste this into your browser:"
+msgstr "Knop werkt niet? Plak dit in uw browser:"
+
+msgctxt "report:web.user.email_validation:"
+msgid "Email Validation"
+msgstr "E-mailvalidatie"
+
+msgctxt "report:web.user.email_validation:"
+msgid "If you received this email by mistake, just ignore it."
+msgstr "Negeer deze email, als u deze per ongeluk hebt ontvangen."
+
+msgctxt "report:web.user.email_validation:"
+msgid "Just one more step.."
+msgstr "Nog maar één stap.."
+
+msgctxt "report:web.user.email_validation:"
+msgid "Validate"
+msgstr "Goedkeuren"

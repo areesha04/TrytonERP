@@ -1,0 +1,73 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product,supply_on_sale:"
+msgid "Supply On Sale"
+msgstr ""
+
+msgctxt "field:product.template,supply_on_sale:"
+msgid "Supply On Sale"
+msgstr ""
+
+msgctxt "field:purchase.request,sale_lines:"
+msgid "Sale Lines"
+msgstr ""
+
+msgctxt "field:sale.line,purchase_request:"
+msgid "Purchase Request"
+msgstr ""
+
+msgctxt "field:sale.line,supply_state:"
+msgid "Supply State"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_purchase_request_form"
+msgid "Purchase Requests"
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_order_point_product_supply_on_sale"
+msgid "The product \"%(product)s\" is supplied on sale."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_template_supply_on_sale_order_point"
+msgid "The product has purchase order points \"%(order_points)s\" defined."
+msgstr ""
+
+msgctxt "selection:product.product,supply_on_sale:"
+msgid "Always"
+msgstr ""
+
+msgctxt "selection:product.product,supply_on_sale:"
+msgid "Never"
+msgstr ""
+
+msgctxt "selection:product.product,supply_on_sale:"
+msgid "Stock First"
+msgstr ""
+
+msgctxt "selection:product.template,supply_on_sale:"
+msgid "Always"
+msgstr ""
+
+msgctxt "selection:product.template,supply_on_sale:"
+msgid "Never"
+msgstr ""
+
+msgctxt "selection:product.template,supply_on_sale:"
+msgid "Stock First"
+msgstr ""
+
+msgctxt "selection:sale.line,supply_state:"
+msgid "Cancelled"
+msgstr ""
+
+msgctxt "selection:sale.line,supply_state:"
+msgid "Requested"
+msgstr ""
+
+msgctxt "selection:sale.line,supply_state:"
+msgid "Supplied"
+msgstr ""

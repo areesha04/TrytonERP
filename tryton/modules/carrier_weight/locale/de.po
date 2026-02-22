@@ -1,0 +1,79 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,weight_currency:"
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:carrier,weight_price_list:"
+msgid "Price List"
+msgstr "Preiskonditionsschema"
+
+msgctxt "field:carrier,weight_uom:"
+msgid "Weight UoM"
+msgstr "Gewichtsmaßeinheit"
+
+msgctxt "field:carrier.weight_price_list,carrier:"
+msgid "Carrier"
+msgstr "Versanddienstleister"
+
+msgctxt "field:carrier.weight_price_list,currency:"
+msgid "Currency"
+msgstr "Währung"
+
+msgctxt "field:carrier.weight_price_list,price:"
+msgid "Price"
+msgstr "Preis"
+
+msgctxt "field:carrier.weight_price_list,weight:"
+msgid "Weight"
+msgstr "Gewicht"
+
+msgctxt "field:carrier.weight_price_list,weight_uom:"
+msgid "Weight UoM"
+msgstr "Gewichtsmaßeinheit"
+
+msgctxt "help:carrier,weight_currency:"
+msgid "The currency of the price."
+msgstr "Die Währung des Preises."
+
+msgctxt "help:carrier,weight_price_list:"
+msgid ""
+"Add price per weight to the carrier service.\n"
+"The first line for which the weight is greater is used.\n"
+"The line with weight of 0 is used as default price."
+msgstr ""
+"Fügt den Preis pro Gewicht zur Versanddienstleistung hinzu.\n"
+"Die erste Zeile, bei der das Gewicht größer ist, wird verwendet.\n"
+"Die Zeile mit einem Gewicht von 0 wird als Standardpreis verwendet."
+
+msgctxt "help:carrier,weight_uom:"
+msgid "The Unit of Measure of weight criteria for the price list."
+msgstr ""
+"Die Gewichtseinheit des Gewichtskriteriums für das Preiskonditionsschema."
+
+msgctxt "help:carrier.weight_price_list,carrier:"
+msgid "The carrier that the price list belongs to."
+msgstr ""
+"Der Versanddienstleister dem dieses Preiskonditionsschema zugeordnet ist."
+
+msgctxt "help:carrier.weight_price_list,price:"
+msgid "The price of the carrier service."
+msgstr "Der Preis der Versanddienstleistung."
+
+msgctxt "help:carrier.weight_price_list,weight:"
+msgid "The lower limit for the price."
+msgstr "Die Untergrenze für den Preis."
+
+msgctxt "help:carrier.weight_price_list,weight_uom:"
+msgid "The Unit of Measure of the weight."
+msgstr "Die Maßeinheit für das Gewicht."
+
+msgctxt "model:carrier.weight_price_list,string:"
+msgid "Carrier Weight Price List"
+msgstr "Versanddienstleister Gewicht Preiskonditionsschema"
+
+msgctxt "selection:carrier,carrier_cost_method:"
+msgid "Weight"
+msgstr "Gewicht"

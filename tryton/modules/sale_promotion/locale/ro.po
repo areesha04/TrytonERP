@@ -1,0 +1,175 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:sale.line,original_amount:"
+msgid "Original Amount"
+msgstr "Sumă neimpozată"
+
+#, fuzzy
+msgctxt "field:sale.line,original_unit_price:"
+msgid "Original Unit Price"
+msgstr "Ciornă Preț unitar"
+
+msgctxt "field:sale.line,promotion:"
+msgid "Promotion"
+msgstr "Promoție"
+
+msgctxt "field:sale.promotion,amount:"
+msgid "Amount"
+msgstr "Suma"
+
+msgctxt "field:sale.promotion,categories:"
+msgid "Categories"
+msgstr "Categorii"
+
+msgctxt "field:sale.promotion,company:"
+msgid "Company"
+msgstr "Societate"
+
+msgctxt "field:sale.promotion,currency:"
+msgid "Currency"
+msgstr "Monedă"
+
+msgctxt "field:sale.promotion,end_date:"
+msgid "End Date"
+msgstr "Data de sfârşit"
+
+msgctxt "field:sale.promotion,formula:"
+msgid "Formula"
+msgstr "Formulă"
+
+msgctxt "field:sale.promotion,name:"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "field:sale.promotion,price_list:"
+msgid "Price List"
+msgstr "Listă de prețuri"
+
+msgctxt "field:sale.promotion,products:"
+msgid "Products"
+msgstr "Produse"
+
+msgctxt "field:sale.promotion,quantity:"
+msgid "Quantity"
+msgstr "Cantitate"
+
+msgctxt "field:sale.promotion,start_date:"
+msgid "Start Date"
+msgstr "Data de Început"
+
+msgctxt "field:sale.promotion,unit:"
+msgid "Unit"
+msgstr "Unitate"
+
+msgctxt "field:sale.promotion,untaxed_amount:"
+msgid "Untaxed Amount"
+msgstr "Sumă neimpozată"
+
+msgctxt "field:sale.promotion-product.category,category:"
+msgid "Category"
+msgstr "Categorie"
+
+msgctxt "field:sale.promotion-product.category,promotion:"
+msgid "Promotion"
+msgstr "Promoție"
+
+msgctxt "field:sale.promotion-product.product,product:"
+msgid "Product"
+msgstr "Produs"
+
+msgctxt "field:sale.promotion-product.product,promotion:"
+msgid "Promotion"
+msgstr "Promoție"
+
+#, fuzzy
+msgctxt "field:sale.reporting.promotion,promotion:"
+msgid "Promotion"
+msgstr "Promoție"
+
+msgctxt "field:sale.sale,original_tax_amount:"
+msgid "Original Tax"
+msgstr ""
+
+msgctxt "field:sale.sale,original_total_amount:"
+msgid "Original Total"
+msgstr ""
+
+msgctxt "field:sale.sale,original_untaxed_amount:"
+msgid "Original Untaxed"
+msgstr ""
+
+#, fuzzy
+msgctxt "help:sale.promotion,formula:"
+msgid ""
+"Python expression that will be evaluated with:\n"
+"- unit_price: the original unit_price"
+msgstr ""
+"Expresie Python care va fi evaluată cu:\n"
+"- unit_price: unit_price inițial"
+
+msgctxt "model:ir.action,name:act_promotion_form"
+msgid "Promotions"
+msgstr "Promoții"
+
+msgctxt "model:ir.action,name:act_promotion_relate"
+msgid "Sale Promotions"
+msgstr "Promoții de vânzare"
+
+msgctxt "model:ir.action,name:act_sale_relate"
+msgid "Sales"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_sale_reporting_promotion"
+msgid "Sales per Promotion"
+msgstr "Promoție de vânzare"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_invalid_formula"
+msgid ""
+"Invalid formula \"%(formula)s\" in promotion \"%(promotion)s\" 'with "
+"exception \"%(exception)s\"."
+msgstr ""
+"Formula \"%(formula)s\" invalidă în promoția \"%(promotion)s\" cu excepția "
+"\"%(exception)s\"."
+
+msgctxt "model:ir.rule.group,name:rule_group_promotion_companies"
+msgid "User in companies"
+msgstr "Utilizator în Companii"
+
+#, fuzzy
+msgctxt "model:ir.rule.group,name:rule_group_reporting_promotion_companies"
+msgid "User in companies"
+msgstr "Utilizator în Companii"
+
+msgctxt "model:ir.ui.menu,name:menu_promotion"
+msgid "Promotions"
+msgstr "Promoții"
+
+#, fuzzy
+msgctxt "model:sale.promotion,string:"
+msgid "Sale Promotion"
+msgstr "Promoție de vânzare"
+
+#, fuzzy
+msgctxt "model:sale.promotion-product.category,string:"
+msgid "Sale Promotion - Product Category"
+msgstr "Promoție de vânzare - Categorie de produse"
+
+#, fuzzy
+msgctxt "model:sale.promotion-product.product,string:"
+msgid "Sale Promotion - Product"
+msgstr "Promoție de vânzare - Produs"
+
+#, fuzzy
+msgctxt "model:sale.reporting.promotion,string:"
+msgid "Sale Reporting Promotion"
+msgstr "Promoție de vânzare"
+
+#, fuzzy
+msgctxt "view:sale.promotion:"
+msgid "Products"
+msgstr "Produse"

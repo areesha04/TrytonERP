@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form cursor="number">
+    <label name="account"/>
+    <field name="account"/>
+    <group col="-1" colspan="2" id="checkboxes">
+        <label name="active"/>
+        <field name="active" xexpand="0" width="25"/>
+        <label name="sequence"/>
+        <field name="sequence"/>
+    </group>
+
+    <label name="type"/>
+    <field name="type"/>
+    <label name="number"/>
+    <field name="number"/>
+</form>

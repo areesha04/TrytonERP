@@ -1,0 +1,439 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.company,currency:"
+msgid "Currency"
+msgstr ""
+
+msgctxt "field:company.company,employees:"
+msgid "Employees"
+msgstr ""
+
+msgctxt "field:company.company,footer:"
+msgid "Footer"
+msgstr ""
+
+msgctxt "field:company.company,header:"
+msgid "Header"
+msgstr ""
+
+msgctxt "field:company.company,logo:"
+msgid "Logo"
+msgstr ""
+
+msgctxt "field:company.company,logo_cache:"
+msgid "Cache"
+msgstr ""
+
+msgctxt "field:company.company,party:"
+msgid "Party"
+msgstr ""
+
+msgctxt "field:company.company,tax_identifiers:"
+msgid "Tax Identifiers"
+msgstr ""
+
+msgctxt "field:company.company,timezone:"
+msgid "Timezone"
+msgstr ""
+
+msgctxt "field:company.company.logo.cache,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:company.company.logo.cache,height:"
+msgid "Height"
+msgstr ""
+
+msgctxt "field:company.company.logo.cache,image:"
+msgid "Image"
+msgstr ""
+
+msgctxt "field:company.company.logo.cache,width:"
+msgid "Width"
+msgstr ""
+
+msgctxt "field:company.company.tax_identifier,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:company.company.tax_identifier,company_party:"
+msgid "Company Party"
+msgstr ""
+
+msgctxt "field:company.company.tax_identifier,country:"
+msgid "Country"
+msgstr ""
+
+msgctxt "field:company.company.tax_identifier,organization:"
+msgid "Organization"
+msgstr ""
+
+msgctxt "field:company.company.tax_identifier,tax_identifier:"
+msgid "Tax Identifier"
+msgstr ""
+
+msgctxt "field:company.employee,active:"
+msgid "Active"
+msgstr ""
+
+msgctxt "field:company.employee,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:company.employee,end_date:"
+msgid "End Date"
+msgstr ""
+
+msgctxt "field:company.employee,party:"
+msgid "Party"
+msgstr ""
+
+msgctxt "field:company.employee,start_date:"
+msgid "Start Date"
+msgstr ""
+
+msgctxt "field:company.employee,subordinates:"
+msgid "Subordinates"
+msgstr ""
+
+msgctxt "field:company.employee,supervisor:"
+msgid "Supervisor"
+msgstr ""
+
+msgctxt "field:ir.cron,companies:"
+msgid "Companies"
+msgstr ""
+
+msgctxt "field:ir.cron-company.company,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:ir.cron-company.company,cron:"
+msgid "Cron"
+msgstr "Programador de tareas"
+
+msgctxt "field:ir.sequence,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:ir.sequence.strict,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:party.configuration.party_lang,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:party.contact_mechanism.language,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:party.party.lang,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:res.user,companies:"
+msgid "Companies"
+msgstr ""
+
+msgctxt "field:res.user,company:"
+msgid "Current Company"
+msgstr ""
+
+msgctxt "field:res.user,company_filter:"
+msgid "Company Filter"
+msgstr ""
+
+msgctxt "field:res.user,employee:"
+msgid "Current Employee"
+msgstr ""
+
+msgctxt "field:res.user,employees:"
+msgid "Employees"
+msgstr ""
+
+msgctxt "field:res.user-company.company,company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "field:res.user-company.company,user:"
+msgid "User"
+msgstr ""
+
+msgctxt "field:res.user-company.employee,employee:"
+msgid "Employee"
+msgstr ""
+
+msgctxt "field:res.user-company.employee,user:"
+msgid "User"
+msgstr ""
+
+msgctxt "help:company.company,currency:"
+msgid "The main currency for the company."
+msgstr ""
+
+msgctxt "help:company.company,employees:"
+msgid "Add employees to the company."
+msgstr ""
+
+msgctxt "help:company.company,footer:"
+msgid ""
+"The text to display on report footers.\n"
+"The following placeholders can be used:\n"
+"- ${name}\n"
+"- ${phone}\n"
+"- ${mobile}\n"
+"- ${fax}\n"
+"- ${email}\n"
+"- ${website}\n"
+"- ${address}\n"
+"- ${tax_identifier}\n"
+msgstr ""
+
+msgctxt "help:company.company,header:"
+msgid ""
+"The text to display on report headers.\n"
+"The following placeholders can be used:\n"
+"- ${name}\n"
+"- ${phone}\n"
+"- ${mobile}\n"
+"- ${fax}\n"
+"- ${email}\n"
+"- ${website}\n"
+"- ${address}\n"
+"- ${tax_identifier}\n"
+msgstr ""
+
+msgctxt "help:company.company,tax_identifiers:"
+msgid ""
+"Uses the first identifier that matches the criteria.\n"
+"If none match, uses the party's tax identifier."
+msgstr ""
+
+msgctxt "help:company.company,timezone:"
+msgid "Used to compute the today date."
+msgstr ""
+
+msgctxt "help:company.company.tax_identifier,country:"
+msgid "Applies only to addresses in this country."
+msgstr ""
+
+msgctxt "help:company.company.tax_identifier,organization:"
+msgid "Applies only to addresses in this organization."
+msgstr ""
+
+msgctxt "help:company.company.tax_identifier,tax_identifier:"
+msgid "The identifier used for tax report."
+msgstr ""
+
+msgctxt "help:company.employee,company:"
+msgid "The company to which the employee belongs."
+msgstr ""
+
+msgctxt "help:company.employee,end_date:"
+msgid "When the employee leaves the company."
+msgstr ""
+
+msgctxt "help:company.employee,party:"
+msgid "The party which represents the employee."
+msgstr ""
+
+msgctxt "help:company.employee,start_date:"
+msgid "When the employee joins the company."
+msgstr ""
+
+msgctxt "help:company.employee,subordinates:"
+msgid "The employees to be overseen by this employee."
+msgstr ""
+
+msgctxt "help:company.employee,supervisor:"
+msgid "The employee who oversees this employee."
+msgstr ""
+
+msgctxt "help:ir.cron,companies:"
+msgid "Companies registered for this cron."
+msgstr ""
+
+msgctxt "help:ir.rule,domain:"
+msgid ""
+"\n"
+"- \"companies\" as list of ids from the current user"
+msgstr ""
+
+msgctxt "help:ir.sequence,company:"
+msgid "Restricts the sequence usage to the company."
+msgstr ""
+
+msgctxt "help:ir.sequence.strict,company:"
+msgid "Restricts the sequence usage to the company."
+msgstr ""
+
+msgctxt "help:res.user,companies:"
+msgid "The companies that the user has access to."
+msgstr ""
+
+msgctxt "help:res.user,company:"
+msgid "Select the company to work for."
+msgstr ""
+
+msgctxt "help:res.user,company_filter:"
+msgid "Define records of which companies are shown."
+msgstr ""
+
+msgctxt "help:res.user,employee:"
+msgid "Select the employee to make the user behave as such."
+msgstr ""
+
+msgctxt "help:res.user,employees:"
+msgid "Add employees to grant the user access to them."
+msgstr ""
+
+msgctxt "model:company.company,string:"
+msgid "Company"
+msgstr ""
+
+msgctxt "model:company.company.config.start,string:"
+msgid "Company Config Start"
+msgstr ""
+
+msgctxt "model:company.company.logo.cache,string:"
+msgid "Company Logo Cache"
+msgstr ""
+
+msgctxt "model:company.company.tax_identifier,string:"
+msgid "Company Tax Identifier"
+msgstr ""
+
+msgctxt "model:company.employee,string:"
+msgid "Company Employee"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_company_config"
+msgid "Configure Company"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_company_list"
+msgid "Companies"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_employee_form"
+msgid "Employees"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_employee_subordinates"
+msgid "Supervised by"
+msgstr ""
+
+msgctxt "model:ir.action,name:report_letter"
+msgid "Letter"
+msgstr ""
+
+msgctxt "model:ir.cron-company.company,string:"
+msgid "Cron - Company"
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_company_logo_cache_size_unique"
+msgid "The size of cached company logo must be unique."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_company_logo_error"
+msgid "Can not open or identify the image set for the company logo."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_company_party_unique"
+msgid "A party can only be assigned to one company."
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_sequence_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_sequence_strict_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_company"
+msgid "Companies"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_company_list"
+msgid "Companies"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_employee_form"
+msgid "Employees"
+msgstr ""
+
+msgctxt "model:res.group,name:group_company_admin"
+msgid "Company Administration"
+msgstr ""
+
+msgctxt "model:res.group,name:group_employee_admin"
+msgid "Employee Administration"
+msgstr ""
+
+msgctxt "model:res.user-company.company,string:"
+msgid "User - Company"
+msgstr ""
+
+msgctxt "model:res.user-company.employee,string:"
+msgid "User - Company Employee"
+msgstr ""
+
+msgctxt "report:party.letter:"
+msgid "Best Regards,"
+msgstr ""
+
+msgctxt "report:party.letter:"
+msgid "Date:"
+msgstr ""
+
+msgctxt "report:party.letter:"
+msgid "Dear Madams and Sirs,"
+msgstr ""
+
+msgctxt "report:party.letter:"
+msgid "Subject:"
+msgstr ""
+
+msgctxt "selection:res.user,company_filter:"
+msgid "All"
+msgstr ""
+
+msgctxt "selection:res.user,company_filter:"
+msgid "Current"
+msgstr ""
+
+msgctxt "view:company.company.config.start:"
+msgid "You can now add your company into the system."
+msgstr ""
+
+msgctxt "view:company.company:"
+msgid "Company"
+msgstr ""
+
+msgctxt "view:company.company:"
+msgid "Reports"
+msgstr ""
+
+msgctxt "view:company.employee:"
+msgid "Employee"
+msgstr ""
+
+msgctxt "wizard_button:company.company.config,company,add:"
+msgid "Add"
+msgstr ""
+
+msgctxt "wizard_button:company.company.config,company,end:"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "wizard_button:company.company.config,start,company:"
+msgid "OK"
+msgstr ""
+
+msgctxt "wizard_button:company.company.config,start,end:"
+msgid "Cancel"
+msgstr ""

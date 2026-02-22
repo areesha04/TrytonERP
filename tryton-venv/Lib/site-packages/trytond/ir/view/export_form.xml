@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="resource"/>
+    <field name="resource"/>
+
+    <label name="records"/>
+    <field name="records"/>
+    <group col="-1" colspan="2" id="checkboxes">
+        <label name="header"/>
+        <field name="header" xexpand="0" width="25"/>
+        <label name="ignore_search_limit"/>
+        <field name="ignore_search_limit" xexpand="0" width="25"/>
+    </group>
+
+    <label name="user"/>
+    <field name="user"/>
+
+    <field name="groups" colspan="4"/>
+
+    <field name="write_groups" colspan="4"/>
+
+    <field name="export_fields" colspan="4"/>
+</form>

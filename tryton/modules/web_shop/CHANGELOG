@@ -1,0 +1,54 @@
+
+Version 7.8.0 - 2025-12-15
+--------------------------
+* Bug fixes (see mercurial logs for details)
+* Add a status URL to sales
+* Add button to update the sales from their web shop
+* Add web shop URLs to products
+
+Version 7.6.0 - 2025-04-28
+--------------------------
+* Bug fixes (see mercurial logs for details)
+* Remove support for Python 3.8
+* Add support for Python 3.13
+
+Version 7.4.0 - 2024-11-04
+--------------------------
+* Bug fixes (see mercurial logs for details)
+
+
+Version 7.2.0 - 2024-04-29
+--------------------------
+* Bug fixes (see mercurial logs for details)
+* Add countries for web shop
+* Support sale price list per web shop
+
+Version 7.0.0 - 2023-10-30
+--------------------------
+* Bug fixes (see mercurial logs for details)
+* Add support for Python 3.12
+
+Version 6.8.0 - 2023-05-01
+--------------------------
+* Bug fixes (see mercurial logs for details)
+* Remove support for Python 3.7
+* Add support for Python 3.11
+
+Version 6.6.0 - 2022-10-31
+--------------------------
+* Bug fixes (see mercurial logs for details)
+
+Version 6.4.0 - 2022-05-02
+* Bug fixes (see mercurial logs for details)
+* Add support for Python 3.10
+* Remove support for Python 3.6
+
+Version 6.2.0 - 2021-11-01
+* Bug fixes (see mercurial logs for details)
+* Add web shop check box to product image
+
+Version 6.0.0 - 2021-05-03
+* Bug fixes (see mercurial logs for details)
+
+Version 5.8.0 - 2020-11-02
+* Initial release

@@ -1,0 +1,680 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#, fuzzy
+msgctxt "field:ir.email,marketing_automation_activity:"
+msgid "Activity"
+msgstr "Aktiviteet"
+
+#, fuzzy
+msgctxt "field:ir.email,marketing_automation_record:"
+msgid "Record"
+msgstr "Kirje"
+
+msgctxt "field:marketing.automation.activity,action:"
+msgid "Action"
+msgstr "Toiming"
+
+msgctxt "field:marketing.automation.activity,children:"
+msgid "Children"
+msgstr "Alamjaotus"
+
+msgctxt "field:marketing.automation.activity,condition:"
+msgid "Condition"
+msgstr "Tingimus"
+
+msgctxt "field:marketing.automation.activity,delay:"
+msgid "Delay"
+msgstr "Viide"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_click_rate:"
+msgid "Email Click Rate"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_click_rate_trend:"
+msgid "Email Click Rate Trend"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_click_through_rate:"
+msgid "Email Click-Through Rate"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_click_through_rate_trend:"
+msgid "Email Click-Through Rate Trend"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_clicked:"
+msgid "Emails Clicked"
+msgstr "E-mailid valitud"
+
+msgctxt "field:marketing.automation.activity,email_from:"
+msgid "From"
+msgstr "Saatja"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_open_rate:"
+msgid "Email Open Rate"
+msgstr "E-mail avatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_open_rate_trend:"
+msgid "Email Open Rate Trend"
+msgstr "E-mail avatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_opened:"
+msgid "Emails Opened"
+msgstr "E-mailid avatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_template:"
+msgid "Email Template"
+msgstr "E-maili vorm"
+
+#, fuzzy
+msgctxt "field:marketing.automation.activity,email_title:"
+msgid "Email Title"
+msgstr "E-maili pealkiri"
+
+msgctxt "field:marketing.automation.activity,event:"
+msgid "Event"
+msgstr "Sündmus"
+
+msgctxt "field:marketing.automation.activity,name:"
+msgid "Name"
+msgstr "Nimetus"
+
+msgctxt "field:marketing.automation.activity,negative:"
+msgid "Negative"
+msgstr "Neatiivne"
+
+msgctxt "field:marketing.automation.activity,on:"
+msgid "On"
+msgstr "Aktiivne"
+
+msgctxt "field:marketing.automation.activity,parent:"
+msgid "Parent"
+msgstr "Ülemjaotus"
+
+msgctxt "field:marketing.automation.activity,parent_action:"
+msgid "Parent Action"
+msgstr "Ülemjaotuse toiming"
+
+msgctxt "field:marketing.automation.activity,record_count:"
+msgid "Records"
+msgstr "Kirjed"
+
+msgctxt "field:marketing.automation.record,blocked:"
+msgid "Blocked"
+msgstr "Blokeeirtud"
+
+msgctxt "field:marketing.automation.record,record:"
+msgid "Record"
+msgstr "Kirje"
+
+msgctxt "field:marketing.automation.record,scenario:"
+msgid "Scenario"
+msgstr "Stsenaarium"
+
+msgctxt "field:marketing.automation.record,uuid:"
+msgid "UUID"
+msgstr "UUID"
+
+msgctxt "field:marketing.automation.record.activity,activity:"
+msgid "Activity"
+msgstr "Aktiviteet"
+
+msgctxt "field:marketing.automation.record.activity,activity_action:"
+msgid "Activity Action"
+msgstr "Aktiviteedi toiming"
+
+msgctxt "field:marketing.automation.record.activity,at:"
+msgid "At"
+msgstr "Asukohas"
+
+#, fuzzy
+msgctxt "field:marketing.automation.record.activity,email_clicked:"
+msgid "Email Clicked"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.record.activity,email_opened:"
+msgid "Email Opened"
+msgstr "E-mail avatud"
+
+msgctxt "field:marketing.automation.record.activity,record:"
+msgid "Record"
+msgstr "Kirje"
+
+msgctxt "field:marketing.automation.record.activity,state:"
+msgid "State"
+msgstr "Olek"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,activity:"
+msgid "Activity"
+msgstr "Aktiviteet"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,activity_action:"
+msgid "Activity Action"
+msgstr "Aktiviteedi toiming"
+
+msgctxt "field:marketing.automation.reporting.activity,date:"
+msgid "Date"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,email_click_rate:"
+msgid "Email Click Rate"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt ""
+"field:marketing.automation.reporting.activity,email_click_through_rate:"
+msgid "Email Click-Through Rate"
+msgstr "E-mail vajutatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,email_clicked:"
+msgid "Emails Clicked"
+msgstr "E-mailid valitud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,email_open_rate:"
+msgid "Email Open Rate"
+msgstr "E-mail avatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,email_opened:"
+msgid "Emails Opened"
+msgstr "E-mailid avatud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.activity,record_count:"
+msgid "Records"
+msgstr "Kirjed"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.context,from_date:"
+msgid "From Date"
+msgstr "Kirjutamise kuupäev"
+
+msgctxt "field:marketing.automation.reporting.context,period:"
+msgid "Period"
+msgstr ""
+
+msgctxt "field:marketing.automation.reporting.context,to_date:"
+msgid "To Date"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.scenario,block_rate:"
+msgid "Block Rate"
+msgstr "Blokeeirtud"
+
+msgctxt "field:marketing.automation.reporting.scenario,date:"
+msgid "Date"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.scenario,record_count:"
+msgid "Records"
+msgstr "Kirjed"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.scenario,record_count_blocked:"
+msgid "Records Blocked"
+msgstr "Blokeeritud kirjed"
+
+#, fuzzy
+msgctxt "field:marketing.automation.reporting.scenario,scenario:"
+msgid "Scenario"
+msgstr "Stsenaarium"
+
+msgctxt "field:marketing.automation.scenario,activities:"
+msgid "Activities"
+msgstr "Aktiviteedid"
+
+#, fuzzy
+msgctxt "field:marketing.automation.scenario,block_rate:"
+msgid "Block Rate"
+msgstr "Blokeeirtud"
+
+#, fuzzy
+msgctxt "field:marketing.automation.scenario,block_rate_trend:"
+msgid "Block Rate Trend"
+msgstr "Blokeeirtud"
+
+msgctxt "field:marketing.automation.scenario,domain:"
+msgid "Domain"
+msgstr "Domeen"
+
+msgctxt "field:marketing.automation.scenario,model:"
+msgid "Model"
+msgstr "Mudel"
+
+msgctxt "field:marketing.automation.scenario,name:"
+msgid "Name"
+msgstr "Nimetus"
+
+msgctxt "field:marketing.automation.scenario,record_count:"
+msgid "Records"
+msgstr "Kirje"
+
+msgctxt "field:marketing.automation.scenario,record_count_blocked:"
+msgid "Records Blocked"
+msgstr "Blokeeritud kirjed"
+
+msgctxt "field:marketing.automation.scenario,state:"
+msgid "State"
+msgstr "Olek"
+
+msgctxt "field:marketing.automation.scenario,unsubscribable:"
+msgid "Unsubscribable"
+msgstr ""
+
+msgctxt "field:party.party,marketing_party:"
+msgid "Marketing Party"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:party.party,marketing_scenario_unsubscribed:"
+msgid "Marketing Automation Scenario Unsubscribed"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+msgctxt "field:party.party-unsubscribed-marketing.automation.scenario,party:"
+msgid "Party"
+msgstr ""
+
+#, fuzzy
+msgctxt ""
+"field:party.party-unsubscribed-marketing.automation.scenario,scenario:"
+msgid "Scenario"
+msgstr "Stsenaarium"
+
+msgctxt "field:sale.sale,marketing_party:"
+msgid "Marketing Party"
+msgstr ""
+
+msgctxt "help:marketing.automation.activity,condition:"
+msgid ""
+"The PYSON statement that the record must match in order to execute the activity.\n"
+"The record is represented by \"self\"."
+msgstr ""
+
+msgctxt "help:marketing.automation.activity,delay:"
+msgid "After how much time the action should be executed."
+msgstr ""
+
+msgctxt "help:marketing.automation.activity,email_from:"
+msgid "Leave empty to use the value defined in the configuration file."
+msgstr ""
+
+msgctxt "help:marketing.automation.activity,email_template:"
+msgid ""
+"The HTML content of the email.\n"
+"The Genshi syntax can be used with 'record' in the evaluation context."
+msgstr ""
+
+msgctxt "help:marketing.automation.activity,email_title:"
+msgid ""
+"The subject of the email.\n"
+"The Genshi syntax can be used with 'record' in the evaluation context."
+msgstr ""
+
+msgctxt "help:marketing.automation.activity,negative:"
+msgid ""
+"Check to execute the activity if the event has not happened by the end of "
+"the delay."
+msgstr ""
+
+msgctxt "help:marketing.automation.scenario,domain:"
+msgid "A PYSON domain used to filter records valid for this scenario."
+msgstr ""
+
+msgctxt "help:marketing.automation.scenario,unsubscribable:"
+msgid "If checked parties are also unsubscribed from the scenario."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_activity_tree"
+msgid "Activities"
+msgstr "Aktiviteedid"
+
+msgctxt "model:ir.action,name:act_ir_email_form_relate_activity"
+msgid "Emails"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_record_activity_form"
+msgid "Record Activities"
+msgstr "Kirje aktiviteedid"
+
+msgctxt "model:ir.action,name:act_record_form"
+msgid "Records"
+msgstr "Kirjed"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_reporting_activity"
+msgid "Activity Reporting"
+msgstr "Aktiviteedi toiming"
+
+#, fuzzy
+msgctxt "model:ir.action,name:act_reporting_scenario"
+msgid "Scenario Reporting"
+msgstr "Stsenaarium"
+
+msgctxt "model:ir.action,name:act_scenario_form"
+msgid "Scenarios"
+msgstr "Stsenaariumid"
+
+msgctxt "model:ir.action,name:report_unsubscribe"
+msgid "Marketing Automation Unsubscribe"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_record_activity_form_domain_all"
+msgid "All"
+msgstr "Kõik"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_record_activity_form_domain_cancelled"
+msgid "Cancelled"
+msgstr "Tühistatud"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_record_activity_form_domain_done"
+msgid "Done"
+msgstr "Tehtud"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_record_activity_form_domain_waiting"
+msgid "Waiting"
+msgstr "Ootel"
+
+msgctxt "model:ir.action.act_window.domain,name:act_scenario_form_domain_all"
+msgid "All"
+msgstr "Kõik"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_scenario_form_domain_draft"
+msgid "Draft"
+msgstr "Mustand"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_scenario_form_domain_running"
+msgid "Running"
+msgstr "Töös"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_scenario_form_domain_stopped"
+msgid "Stopped"
+msgstr "Peatatud"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_activity_invalid_condition"
+msgid ""
+"Invalid condition \"%(condition)s\" in activity \"%(activity)s\" with "
+"exception \"%(exception)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_activity_invalid_email_template"
+msgid ""
+"Invalid email template in activity \"%(activity)s\" with exception "
+"\"%(exception)s\"."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_activity_invalid_email_title"
+msgid ""
+"Invalid email title in activity \"%(activity)s\" with exception "
+"\"%(exception)s\"."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_activity_record_unique"
+msgid "Record Activity must be unique by record and activity."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_record_scenario_record_unique"
+msgid "Record must be unique by scenario."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_record_uuid_unique"
+msgid "UUID of record must be unique."
+msgstr ""
+
+#, python-format
+msgctxt "model:ir.message,text:msg_scenario_invalid_domain"
+msgid "Invalid domain in scenario \"%(scenario)s\" with exception \"%(exception)s\"."
+msgstr ""
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:record_activity_on_email_clicked_button"
+msgid "Email Clicked"
+msgstr "E-mail valitud"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:record_activity_on_email_opened_button"
+msgid "Email Opened"
+msgstr "E-mail avatud"
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:record_block_button"
+msgid "Block"
+msgstr "Blokeeirtud"
+
+msgctxt "model:ir.model.button,string:scenario_draft_button"
+msgid "Draft"
+msgstr "Mustand"
+
+msgctxt "model:ir.model.button,string:scenario_run_button"
+msgid "Run"
+msgstr "Käivita"
+
+msgctxt "model:ir.model.button,string:scenario_stop_button"
+msgid "Stop"
+msgstr "Peata"
+
+msgctxt "model:ir.ui.menu,name:menu_scenario_form"
+msgid "Scenarios"
+msgstr "Stsenaariumid"
+
+#, fuzzy
+msgctxt "model:marketing.automation.activity,string:"
+msgid "Marketing Automation Activity"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:marketing.automation.record,string:"
+msgid "Marketing Automation Record"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:marketing.automation.record.activity,string:"
+msgid "Marketing Automation Record Activity"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:marketing.automation.reporting.activity,string:"
+msgid "Marketing Automation Reporting Activity"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:marketing.automation.reporting.context,string:"
+msgid "Marketing Automation Reporting Context"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:marketing.automation.reporting.scenario,string:"
+msgid "Marketing Automation Reporting Scenario"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:marketing.automation.scenario,string:"
+msgid "Marketing Automation Scenario"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+#, fuzzy
+msgctxt "model:party.party-unsubscribed-marketing.automation.scenario,string:"
+msgid "Party - Unsubscribed - Marketing Automation Scenario"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"
+
+msgctxt "report:marketing.automation.unsubscribe:"
+msgid "Unsubscribe"
+msgstr ""
+
+msgctxt "report:marketing.automation.unsubscribe:"
+msgid ""
+"We are sorry to see you go, and apologize if we have overwhelmed your inbox."
+msgstr ""
+
+msgctxt "report:marketing.automation.unsubscribe:"
+msgid "You are unsubscribed"
+msgstr ""
+
+msgctxt "report:marketing.automation.unsubscribe:"
+msgid "You have been successfully unsubscribed from this kind of email."
+msgstr ""
+
+msgctxt "selection:ir.cron,method:"
+msgid "Process Marketing Activity"
+msgstr ""
+
+msgctxt "selection:ir.cron,method:"
+msgid "Trigger Marketing Scenarios"
+msgstr ""
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,action:"
+msgid "Send email"
+msgstr "Saada e-mail"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,event:"
+msgid "Email Clicked"
+msgstr "E-mail valitud"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,event:"
+msgid "Email Opened"
+msgstr "E-mail avtud"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,on:"
+msgid "Email Clicked"
+msgstr "E-mail valitud"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,on:"
+msgid "Email Not Clicked"
+msgstr "E-maili ei valitud"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,on:"
+msgid "Email Not Opened"
+msgstr "E-maili ei avatud"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.activity,on:"
+msgid "Email Opened"
+msgstr "E-mail avatud"
+
+msgctxt "selection:marketing.automation.activity,parent:"
+msgid "Activity"
+msgstr "Aktiviteet"
+
+msgctxt "selection:marketing.automation.activity,parent:"
+msgid "Scenario"
+msgstr "Stsenaarium"
+
+msgctxt "selection:marketing.automation.record.activity,state:"
+msgid "Cancelled"
+msgstr "Tühistatud"
+
+msgctxt "selection:marketing.automation.record.activity,state:"
+msgid "Done"
+msgstr "Tehtud"
+
+msgctxt "selection:marketing.automation.record.activity,state:"
+msgid "Waiting"
+msgstr "Ootel"
+
+#, fuzzy
+msgctxt "selection:marketing.automation.reporting.context,period:"
+msgid "Day"
+msgstr "Viide"
+
+msgctxt "selection:marketing.automation.reporting.context,period:"
+msgid "Month"
+msgstr ""
+
+msgctxt "selection:marketing.automation.reporting.context,period:"
+msgid "Year"
+msgstr ""
+
+msgctxt "selection:marketing.automation.scenario,state:"
+msgid "Draft"
+msgstr "Mustand"
+
+msgctxt "selection:marketing.automation.scenario,state:"
+msgid "Running"
+msgstr "Töös"
+
+msgctxt "selection:marketing.automation.scenario,state:"
+msgid "Stopped"
+msgstr "Peatatud"
+
+msgctxt "view:marketing.automation.activity:"
+msgid "%"
+msgstr ""
+
+msgctxt "view:marketing.automation.activity:"
+msgid "After"
+msgstr "Pärast"
+
+msgctxt "view:marketing.automation.activity:"
+msgid "Edit"
+msgstr "Muuda"
+
+msgctxt "view:marketing.automation.activity:"
+msgid "If"
+msgstr "Kui"
+
+msgctxt "view:marketing.automation.activity:"
+msgid "On"
+msgstr "Käib"
+
+msgctxt "view:marketing.automation.activity:"
+msgid "Template:"
+msgstr "Mall:"
+
+msgctxt "view:marketing.automation.activity:"
+msgid "Title:"
+msgstr "Teema:"
+
+msgctxt "view:marketing.automation.record.activity:"
+msgid "Time"
+msgstr "Aeg"
+
+msgctxt "view:marketing.automation.reporting.activity:"
+msgid "%"
+msgstr ""
+
+msgctxt "view:marketing.automation.reporting.scenario:"
+msgid "%"
+msgstr ""
+
+msgctxt "view:marketing.automation.scenario:"
+msgid "%"
+msgstr ""
+
+#, fuzzy
+msgctxt "view:party.party:"
+msgid "Marketing Automation"
+msgstr "Turunduse automatiseerimine - tellimuse tühistamine"

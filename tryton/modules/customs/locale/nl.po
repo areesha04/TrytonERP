@@ -1,0 +1,366 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:customs.agent,address:"
+msgid "Address"
+msgstr "Adres"
+
+msgctxt "field:customs.agent,party:"
+msgid "Party"
+msgstr "Relatie"
+
+msgctxt "field:customs.agent,tax_identifier:"
+msgid "Tax Identifier"
+msgstr "Belasting identificatie"
+
+msgctxt "field:customs.agent.selection,agent:"
+msgid "Agent"
+msgstr "Vertegenwoordiger"
+
+msgctxt "field:customs.agent.selection,company:"
+msgid "Company"
+msgstr "Bedrijf"
+
+msgctxt "field:customs.agent.selection,from_country:"
+msgid "From Country"
+msgstr "Van land"
+
+msgctxt "field:customs.agent.selection,to_country:"
+msgid "To Country"
+msgstr "Naar land"
+
+msgctxt "field:customs.duty.rate,amount:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "field:customs.duty.rate,computation_type:"
+msgid "Computation Type"
+msgstr "Type berekening"
+
+msgctxt "field:customs.duty.rate,country:"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "field:customs.duty.rate,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:customs.duty.rate,end_date:"
+msgid "End Date"
+msgstr "Eind datum"
+
+msgctxt "field:customs.duty.rate,organization:"
+msgid "Organization"
+msgstr "Organisatie"
+
+msgctxt "field:customs.duty.rate,start_date:"
+msgid "Start Date"
+msgstr "Start datum"
+
+msgctxt "field:customs.duty.rate,tariff_code:"
+msgid "Tariff Code"
+msgstr "Tariefcodes"
+
+msgctxt "field:customs.duty.rate,type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:customs.duty.rate,uom:"
+msgid "UoM"
+msgstr "Maateenheid"
+
+msgctxt "field:customs.tariff.code,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:customs.tariff.code,country:"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "field:customs.tariff.code,description:"
+msgid "Description"
+msgstr "Omschrijving"
+
+msgctxt "field:customs.tariff.code,duty_rates:"
+msgid "Duty Rates"
+msgstr "Invoerrechten"
+
+msgctxt "field:customs.tariff.code,end_day:"
+msgid "End Day"
+msgstr "Eind dag"
+
+msgctxt "field:customs.tariff.code,end_month:"
+msgid "End Month"
+msgstr "Eindmaand"
+
+msgctxt "field:customs.tariff.code,organization:"
+msgid "Organization"
+msgstr "Organisatie"
+
+msgctxt "field:customs.tariff.code,start_day:"
+msgid "Start Day"
+msgstr "Start dag"
+
+msgctxt "field:customs.tariff.code,start_month:"
+msgid "Start Month"
+msgstr "Begin maand"
+
+msgctxt "field:product-customs.tariff.code,country:"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "field:product-customs.tariff.code,end_day:"
+msgid "End Day"
+msgstr "Eind Dag"
+
+msgctxt "field:product-customs.tariff.code,end_month:"
+msgid "End Month"
+msgstr "Eind Maand"
+
+msgctxt "field:product-customs.tariff.code,organization:"
+msgid "Organization"
+msgstr "Organisatie"
+
+msgctxt "field:product-customs.tariff.code,product:"
+msgid "Product"
+msgstr "Product"
+
+msgctxt "field:product-customs.tariff.code,start_day:"
+msgid "Start Day"
+msgstr "Start Dag"
+
+msgctxt "field:product-customs.tariff.code,start_month:"
+msgid "Start Month"
+msgstr "Start Maand"
+
+msgctxt "field:product-customs.tariff.code,tariff_code:"
+msgid "Tariff Code"
+msgstr "Tariefcode"
+
+msgctxt "field:product.category,customs:"
+msgid "Customs"
+msgstr "Douane"
+
+msgctxt "field:product.category,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Tariefcodes"
+
+msgctxt "field:product.category,tariff_codes_parent:"
+msgid "Use Parent's Tariff Codes"
+msgstr "Gebruik tariefcode van bovenliggend niveau"
+
+msgctxt "field:product.product,country_of_origin:"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "field:product.product,customs_category:"
+msgid "Customs Category"
+msgstr "Douanecategorie"
+
+msgctxt "field:product.product,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Tariefcodes"
+
+msgctxt "field:product.product,tariff_codes_category:"
+msgid "Use Category's Tariff Codes"
+msgstr "Gebruik de tariefcodes van de categorie"
+
+msgctxt "field:product.template,country_of_origin:"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "field:product.template,customs_category:"
+msgid "Customs Category"
+msgstr "Douanecategorie"
+
+msgctxt "field:product.template,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Tariefcodes"
+
+msgctxt "field:product.template,tariff_codes_category:"
+msgid "Use Category's Tariff Codes"
+msgstr "Gebruik de tariefcodes van de categorie"
+
+msgctxt "help:customs.agent,address:"
+msgid "The address of the agent."
+msgstr "Het adres van de vertegenwoordiger."
+
+msgctxt "help:customs.agent,party:"
+msgid "The party which represents the import/export agent."
+msgstr "De relatie die de import/export vertegenwoordiger weergeeft."
+
+msgctxt "help:customs.agent,tax_identifier:"
+msgid "The identifier of the agent for tax report."
+msgstr "De identificatie van de vertegenwoordiger voor de belastingaangifte."
+
+msgctxt "help:customs.agent.selection,agent:"
+msgid "The selected agent."
+msgstr "De geselecteerde vertegenwoordiger."
+
+msgctxt "help:customs.agent.selection,from_country:"
+msgid ""
+"Apply only when shipping from this country.\n"
+"Leave empty for any countries."
+msgstr ""
+"Alleen toepassen bij verzending vanuit dit land.\n"
+"Laat leeg voor alle landen."
+
+msgctxt "help:customs.agent.selection,to_country:"
+msgid ""
+"Apply only when shipping to this country.\n"
+"Leave empty for any countries."
+msgstr ""
+"Alleen toepassen bij verzending naar dit land.\n"
+"Laat leeg voor alle landen."
+
+msgctxt "help:customs.duty.rate,uom:"
+msgid "The Unit of Measure."
+msgstr "De maateenheid."
+
+msgctxt "help:customs.tariff.code,code:"
+msgid "The code from Harmonized System of Nomenclature."
+msgstr ""
+"De code van het geharmonizeerd syteem van Nomenclatuur (HS Nomenclatruur)."
+
+msgctxt "help:product.category,tariff_codes_parent:"
+msgid "Use the tariff codes defined on the parent category."
+msgstr ""
+"Gebruik de tariefcodes die zijn gedefinieerd in de bovenliggende categorie."
+
+msgctxt "help:product.product,country_of_origin:"
+msgid "The country of origin of the product."
+msgstr "Het land van herkomst van het product."
+
+msgctxt "help:product.product,tariff_codes_category:"
+msgid "Use the tariff codes defined on the category."
+msgstr "Gebruik de tariefcodes die in de categorie zijn gedefinieerd."
+
+msgctxt "help:product.template,country_of_origin:"
+msgid "The country of origin of the product."
+msgstr "Het land van herkomst van het product."
+
+msgctxt "help:product.template,tariff_codes_category:"
+msgid "Use the tariff codes defined on the category."
+msgstr "Gebruik de tariefcodes die in de categorie zijn gedefinieerd."
+
+msgctxt "model:customs.agent,string:"
+msgid "Customs Agent"
+msgstr "Douane vertegenwoordiger"
+
+msgctxt "model:customs.agent.selection,string:"
+msgid "Customs Agent Selection"
+msgstr "Douane vertegenwoordiger selectie"
+
+msgctxt "model:customs.duty.rate,string:"
+msgid "Customs Duty Rate"
+msgstr "Douanetarief"
+
+msgctxt "model:customs.tariff.code,string:"
+msgid "Customs Tariff Code"
+msgstr "Douanetariefcode"
+
+msgctxt "model:ir.action,name:act_customs_agent_form"
+msgid "Agents"
+msgstr "Vertegenwoordigers"
+
+msgctxt "model:ir.action,name:act_customs_agent_selection_form"
+msgid "Selection"
+msgstr "Selectie"
+
+msgctxt "model:ir.action,name:act_duty_rate_form"
+msgid "Duty Rates"
+msgstr "Invoerrechten"
+
+msgctxt "model:ir.action,name:act_tariff_code_form"
+msgid "Tariff Codes"
+msgstr "Tariefcodes"
+
+msgctxt "model:ir.action.act_window.domain,name:act_duty_rate_domain_export"
+msgid "Export"
+msgstr "Exporteren"
+
+msgctxt "model:ir.action.act_window.domain,name:act_duty_rate_domain_import"
+msgid "Import"
+msgstr "Import"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_customs_agent_selection_companies"
+msgid "User in companies"
+msgstr "Gebruiker in bedrijven"
+
+msgctxt "model:ir.ui.menu,name:menu_customs"
+msgid "Customs"
+msgstr "Douane"
+
+msgctxt "model:ir.ui.menu,name:menu_customs_agent_form"
+msgid "Agents"
+msgstr "Vertegenwoordigers"
+
+msgctxt "model:ir.ui.menu,name:menu_customs_agent_selection_form"
+msgid "Selection"
+msgstr "Selectie"
+
+msgctxt "model:ir.ui.menu,name:menu_duty_rate_form"
+msgid "Duty Rates"
+msgstr "Invoerrechten"
+
+msgctxt "model:ir.ui.menu,name:menu_tariff_code_form"
+msgid "Tariff Codes"
+msgstr "Tariefcodes"
+
+msgctxt "model:product-customs.tariff.code,string:"
+msgid "Product - Customs Tariff Code"
+msgstr "Product - Douanetariefcode"
+
+msgctxt "model:res.group,name:group_customs_admin"
+msgid "Customs Administration"
+msgstr "Douane administratie"
+
+msgctxt "selection:customs.duty.rate,computation_type:"
+msgid "Amount"
+msgstr "Bedrag"
+
+msgctxt "selection:customs.duty.rate,computation_type:"
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgctxt "selection:customs.duty.rate,type:"
+msgid "Export"
+msgstr "Exporteren"
+
+msgctxt "selection:customs.duty.rate,type:"
+msgid "Import"
+msgstr "Importeren"
+
+msgctxt "selection:product-customs.tariff.code,product:"
+msgid "Category"
+msgstr "Categorie"
+
+msgctxt "selection:product-customs.tariff.code,product:"
+msgid "Template"
+msgstr "Sjabloon"
+
+msgctxt "view:customs.agent.selection:"
+msgid "Criteria"
+msgstr "Criteria"
+
+msgctxt "view:customs.duty.rate:"
+msgid "Computation"
+msgstr "Berekenen"
+
+msgctxt "view:customs.tariff.code:"
+msgid "From"
+msgstr "Van"
+
+msgctxt "view:customs.tariff.code:"
+msgid "To"
+msgstr "tot"
+
+msgctxt "view:product.category:"
+msgid "Customs"
+msgstr "Douane"
+
+msgctxt "view:product.template:"
+msgid "Customs"
+msgstr "Douane"

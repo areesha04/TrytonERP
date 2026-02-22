@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="move_view_list_shipment">
+            <field name="model">stock.move</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="20"/>
+            <field name="name">move_list_shipment</field>
+        </record>
+
+        <record model="ir.model.access" id="access_move_group_sale">
+            <field name="model">stock.move</field>
+            <field name="group" ref="group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_sale_move_relate">
+            <field name="name">Stock Moves</field>
+            <field name="res_model">stock.move</field>
+            <field
+                name="domain"
+                eval="[
+                If(Eval('active_model') == 'sale.sale',
+                ('sale', 'in', Eval('active_ids', [])), ()),
+                If(Eval('active_model') == 'sale.line',
+                ('origin.id', 'in', Eval('active_ids', []), 'sale.line'), ()),
+                ]"
+                pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_move_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="move_view_list_shipment"/>
+            <field name="act_window" ref="act_sale_move_relate"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_move_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="stock.move_view_form"/>
+            <field name="act_window" ref="act_sale_move_relate"/>
+        </record>
+        <record model="ir.action.keyword" id="act_move_form_keyword_sale">
+            <field name="keyword">form_relate</field>
+            <field name="model">sale.sale,-1</field>
+            <field name="action" ref="act_sale_move_relate"/>
+        </record>
+        <record model="ir.action.keyword" id="act_move_form_keyword_sale_line">
+            <field name="keyword">form_relate</field>
+            <field name="model">sale.line,-1</field>
+            <field name="action" ref="act_sale_move_relate"/>
+        </record>
+
+        <record model="ir.model.access" id="access_shipment_out_group_sale">
+            <field name="model">stock.shipment.out</field>
+            <field name="group" ref="group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_shipment_out_return_group_sale">
+            <field name="model">stock.shipment.out.return</field>
+            <field name="group" ref="group_sale"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+    </data>
+</tryton>

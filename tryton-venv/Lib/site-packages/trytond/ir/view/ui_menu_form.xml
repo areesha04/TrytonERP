@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="name"/>
+    <field name="name"/>
+    <label name="active"/>
+    <field name="active"/>
+
+    <label name="parent"/>
+    <field name="parent"/>
+    <newline/>
+
+    <label name="icon"/>
+    <field name="icon"/>
+    <label name="sequence"/>
+    <field name="sequence"/>
+
+    <notebook>
+        <page name="groups">
+            <field name="groups" colspan="4"/>
+        </page>
+        <page name="favorites">
+            <field name="favorites" colspan="4"/>
+        </page>
+        <page name="action_keywords" string="Actions">
+            <field name="action_keywords" string="Actions" colspan="4"/>
+        </page>
+    </notebook>
+</form>

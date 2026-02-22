@@ -1,0 +1,145 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:carrier,shipping_service:"
+msgid "Shipping Service"
+msgstr "خدمات حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.package,has_shipping_service:"
+msgid "Has Shipping Service"
+msgstr "خدمات حمل ونقل"
+
+msgctxt "field:stock.package,shipping_label:"
+msgid "Shipping Label"
+msgstr "برچسب حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.package,shipping_label_id:"
+msgid "Shipping Label ID"
+msgstr "برچسب حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.package,shipping_label_mimetype:"
+msgid "Shipping Label MIME Type"
+msgstr "برچسب حمل ونقل"
+
+msgctxt "field:stock.package,shipping_reference:"
+msgid "Shipping Reference"
+msgstr "مرجع حمل ونقل"
+
+msgctxt "field:stock.package,shipping_tracking_url:"
+msgid "Shipping Tracking URL"
+msgstr ""
+
+msgctxt "field:stock.shipment.in.return,carrier:"
+msgid "Carrier"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:stock.shipment.in.return,has_shipping_service:"
+msgid "Has Shipping Service"
+msgstr "خدمات حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.shipment.in.return,shipping_description:"
+msgid "Shipping Description"
+msgstr "شرح حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.shipment.in.return,shipping_reference:"
+msgid "Shipping Reference"
+msgstr "مرجع حمل ونقل"
+
+msgctxt "field:stock.shipment.internal,carrier:"
+msgid "Carrier"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:stock.shipment.internal,has_shipping_service:"
+msgid "Has Shipping Service"
+msgstr "خدمات حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.shipment.internal,shipping_description:"
+msgid "Shipping Description"
+msgstr "شرح حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.shipment.internal,shipping_reference:"
+msgid "Shipping Reference"
+msgstr "مرجع حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.shipment.out,has_shipping_service:"
+msgid "Has Shipping Service"
+msgstr "خدمات حمل ونقل"
+
+msgctxt "field:stock.shipment.out,shipping_description:"
+msgid "Shipping Description"
+msgstr "شرح حمل ونقل"
+
+#, fuzzy
+msgctxt "field:stock.shipment.out,shipping_reference:"
+msgid "Shipping Reference"
+msgstr "مرجع حمل ونقل"
+
+msgctxt "help:stock.shipment.in.return,shipping_description:"
+msgid "Leave empty to use the generated description."
+msgstr ""
+
+msgctxt "help:stock.shipment.internal,shipping_description:"
+msgid "Leave empty to use the generated description."
+msgstr ""
+
+msgctxt "help:stock.shipment.out,shipping_description:"
+msgid "Leave empty to use the generated description."
+msgstr ""
+
+msgctxt "model:ir.action,name:act_create_shipping_wizard"
+msgid "Create Shipping"
+msgstr "ایجاد حمل ونقل"
+
+#, fuzzy
+msgctxt "model:ir.action,name:report_shipping_label"
+msgid "Shipping Label"
+msgstr "برچسب حمل ونقل"
+
+#, fuzzy
+msgctxt "model:ir.action,name:wizard_print_shipping_label"
+msgid "Shipping Labels"
+msgstr "برچسب حمل ونقل"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_shipment_not_packed"
+msgid "To create shipping labels for shipment \"%(shipment)s\", you must pack it."
+msgstr ""
+"برای ایجاد برچسب های حمل و نقل محموله :\"%(shipment)s\"، شما باید آن را بسته"
+" بندی کنید."
+
+#, fuzzy, python-format
+msgctxt "model:ir.message,text:msg_shipment_without_carrier"
+msgid "The shipment \"%(shipment)s\" does not have a carrier set."
+msgstr "هیچ حمل کننده ایی برای محموله : \"%s\" تنظیم نشده است."
+
+#, fuzzy
+msgctxt "model:ir.model.button,string:package_print_shipping_label_button"
+msgid "Shipping Label"
+msgstr "برچسب حمل ونقل"
+
+#, fuzzy
+msgctxt ""
+"model:ir.model.button,string:shipment_in_return_create_shipping_button"
+msgid "Create Shipping for Packages"
+msgstr "Create Shipping for Packages"
+
+#, fuzzy
+msgctxt ""
+"model:ir.model.button,string:shipment_internal_create_shipping_button"
+msgid "Create Shipping for Packages"
+msgstr "Create Shipping for Packages"
+
+msgctxt "model:ir.model.button,string:shipment_out_create_shipping_button"
+msgid "Create Shipping for Packages"
+msgstr "Create Shipping for Packages"

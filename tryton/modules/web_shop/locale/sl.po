@@ -1,0 +1,307 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.attribute,web_shops:"
+msgid "Web Shops"
+msgstr "Spletne trgovine"
+
+msgctxt "field:product.category,web_shops:"
+msgid "Web Shops"
+msgstr "Spletne trgovine"
+
+msgctxt "field:product.image,web_shop:"
+msgid "Web Shop"
+msgstr "Spletna trgovina"
+
+msgctxt "field:product.product,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Opis spletne trgovine"
+
+#, fuzzy
+msgctxt "field:product.product,web_shop_urls:"
+msgid "Web Shop URLs"
+msgstr "Spletne trgovine"
+
+msgctxt "field:product.product,web_shops:"
+msgid "Web Shops"
+msgstr "Spletne trgovine"
+
+msgctxt "field:product.template,web_shop_description:"
+msgid "Web Shop Description"
+msgstr "Opis spletne trgovine"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,product:"
+msgid "Product"
+msgstr "Izdelek"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,shop:"
+msgid "Shop"
+msgstr "Trgovina"
+
+#, fuzzy
+msgctxt "field:product.web_shop_url,url:"
+msgid "Shop URL"
+msgstr "Trgovina"
+
+msgctxt "field:sale.sale,web_id:"
+msgid "Web ID"
+msgstr "Spletni ID"
+
+msgctxt "field:sale.sale,web_shop:"
+msgid "Web Shop"
+msgstr "Spletna trgovina"
+
+msgctxt "field:sale.sale,web_status_url:"
+msgid "Web Status URL"
+msgstr ""
+
+msgctxt "field:web.shop,attributes:"
+msgid "Attributes"
+msgstr "Atributi"
+
+msgctxt "field:web.shop,attributes_removed:"
+msgid "Attributes Removed"
+msgstr "Odstranjeni atributi"
+
+msgctxt "field:web.shop,categories:"
+msgid "Categories"
+msgstr "Kategorije"
+
+msgctxt "field:web.shop,categories_removed:"
+msgid "Categories Removed"
+msgstr "Odstranjene kategorije"
+
+msgctxt "field:web.shop,company:"
+msgid "Company"
+msgstr "Družba"
+
+#, fuzzy
+msgctxt "field:web.shop,countries:"
+msgid "Countries"
+msgstr "Kategorije"
+
+msgctxt "field:web.shop,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:web.shop,guest_party:"
+msgid "Guest Party"
+msgstr "Partner gost"
+
+msgctxt "field:web.shop,language:"
+msgid "Language"
+msgstr "Jezik"
+
+msgctxt "field:web.shop,name:"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "field:web.shop,non_sale_price_list:"
+msgid "Non-Sale Price List"
+msgstr ""
+
+msgctxt "field:web.shop,products:"
+msgid "Products"
+msgstr "Izdelki"
+
+msgctxt "field:web.shop,products_removed:"
+msgid "Products Removed"
+msgstr "Odstranjeni izdeleki"
+
+msgctxt "field:web.shop,sale_price_list:"
+msgid "Sale Price List"
+msgstr ""
+
+msgctxt "field:web.shop,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:web.shop,warehouses:"
+msgid "Warehouses"
+msgstr "Skladišča"
+
+msgctxt "field:web.shop-country.country,country:"
+msgid "Country"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:web.shop-country.country,shop:"
+msgid "Shop"
+msgstr "Trgovina"
+
+msgctxt "field:web.shop-product.attribute,attribute:"
+msgid "Attribute"
+msgstr "Atribut"
+
+msgctxt "field:web.shop-product.attribute,shop:"
+msgid "Shop"
+msgstr "Trgovina"
+
+msgctxt "field:web.shop-product.category,category:"
+msgid "Category"
+msgstr "Kategorija"
+
+msgctxt "field:web.shop-product.category,shop:"
+msgid "Shop"
+msgstr "Trgovina"
+
+msgctxt "field:web.shop-product.product,product:"
+msgid "Product"
+msgstr "Izdelek"
+
+msgctxt "field:web.shop-product.product,shop:"
+msgid "Shop"
+msgstr "Trgovina"
+
+msgctxt "field:web.shop-stock.location,shop:"
+msgid "Shop"
+msgstr "Trgovina"
+
+msgctxt "field:web.shop-stock.location,warehouse:"
+msgid "Warehouse"
+msgstr "Skladišče"
+
+msgctxt "field:web.user,invoice_address:"
+msgid "Invoice Address"
+msgstr "Naslov za račun"
+
+msgctxt "field:web.user,shipment_address:"
+msgid "Shipment Address"
+msgstr "Naslov za dobavo"
+
+msgctxt "help:product.attribute,web_shops:"
+msgid "The list of web shops on which the attribute is published."
+msgstr "Seznam spletnih trgovin na katerih je atribut objavljen."
+
+msgctxt "help:product.category,web_shops:"
+msgid "The list of web shops on which the category is published."
+msgstr "Seznam spletnih trgovin na katerih je kategorija objavljena."
+
+msgctxt "help:product.product,web_shops:"
+msgid "The list of web shops on which the product is published."
+msgstr "Seznam spletnih trgovin na katerih je izdelek objavljen."
+
+msgctxt "help:sale.sale,web_status_url:"
+msgid "The URL where the customer can check the order's current status."
+msgstr ""
+
+msgctxt "help:web.shop,attributes:"
+msgid "The list of attributes to publish."
+msgstr "Seznam atributov za objavo."
+
+msgctxt "help:web.shop,attributes_removed:"
+msgid "The list of attributes to unpublish."
+msgstr "Seznam atributov za odstranitev iz objave."
+
+msgctxt "help:web.shop,categories:"
+msgid "The list of categories to publish."
+msgstr "Seznam kategorij za objavo."
+
+msgctxt "help:web.shop,categories_removed:"
+msgid "The list of categories to unpublish."
+msgstr "Seznam kategorij za odstranitev iz objave."
+
+msgctxt "help:web.shop,non_sale_price_list:"
+msgid ""
+"The price list to compute the price of products when it is not on sale."
+msgstr ""
+
+msgctxt "help:web.shop,products:"
+msgid "The list of products to publish."
+msgstr "Seznam izdelekov za objavo."
+
+msgctxt "help:web.shop,products_removed:"
+msgid "The list of products to unpublish."
+msgstr "Seznam izdelekov za odstranitev iz objave."
+
+msgctxt "help:web.shop,sale_price_list:"
+msgid "The price list to compute sale price of products."
+msgstr ""
+
+msgctxt "help:web.shop,type:"
+msgid "The front-end used for the web shop."
+msgstr "Frontend, ki ga uporablja spletna trgovina."
+
+msgctxt "model:ir.action,name:act_shop"
+msgid "Web Shops"
+msgstr "Spletne trgovine"
+
+#, python-format
+msgctxt "model:ir.message,text:msg_sale_invalid_party"
+msgid ""
+"To process the sale \"%(sale)s\" you must select another party instead of "
+"the guest \"%(party)s\"."
+msgstr ""
+"Za obdelavo prodajne naloga \"%(sale)s\" je potrebno namesto partnerja gosta"
+" \"%(party)s\" izbrati drugega partnerja."
+
+#, fuzzy
+msgctxt "model:ir.message,text:msg_sale_web_shop_id_unique"
+msgid "The web ID on the sale must be unique per shop."
+msgstr "Spletni ID na prodajnem nalogu mora biti edinstven."
+
+msgctxt "model:ir.message,text:msg_shop_name_unique"
+msgid "The web shop name must be unique."
+msgstr "Naziv spletne trgovine mora biti edinstven."
+
+msgctxt "model:ir.model.button,string:sale_web_shop_update_button"
+msgid "Update from Web Shop"
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_shop_companies"
+msgid "User in companies"
+msgstr "Uporabnik v družbah"
+
+msgctxt "model:ir.ui.menu,name:menu_shop"
+msgid "Web Shops"
+msgstr "Spletne trgovine"
+
+msgctxt "model:product.web_shop_url,string:"
+msgid "Product Web Shop Url"
+msgstr ""
+
+#, fuzzy
+msgctxt "model:web.shop,string:"
+msgid "Web Shop"
+msgstr "Spletna trgovina"
+
+#, fuzzy
+msgctxt "model:web.shop-country.country,string:"
+msgid "Web Shop - Country"
+msgstr "Spletna trgovina - Izdelek"
+
+#, fuzzy
+msgctxt "model:web.shop-product.attribute,string:"
+msgid "Web Shop - Product Attribute"
+msgstr "Spletna trgovina - Atribut"
+
+#, fuzzy
+msgctxt "model:web.shop-product.category,string:"
+msgid "Web Shop - Product Category"
+msgstr "Spletna trgovina - Kategorija izdeleka"
+
+#, fuzzy
+msgctxt "model:web.shop-product.product,string:"
+msgid "Web Shop - Product"
+msgstr "Spletna trgovina - Izdelek"
+
+#, fuzzy
+msgctxt "model:web.shop-stock.location,string:"
+msgid "Web Shop - Stock Location"
+msgstr "Spletna trgovina - Kategorija izdeleka"
+
+msgctxt "view:product.template:"
+msgid "Edit"
+msgstr "Uredi"
+
+#, fuzzy
+msgctxt "view:product.template:"
+msgid "Web Shop"
+msgstr "Spletna trgovina"
+
+msgctxt "view:web.shop:"
+msgid "Products"
+msgstr "Izdeleki"

@@ -1,0 +1,368 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:customs.agent,address:"
+msgid "Address"
+msgstr ""
+
+msgctxt "field:customs.agent,party:"
+msgid "Party"
+msgstr ""
+
+msgctxt "field:customs.agent,tax_identifier:"
+msgid "Tax Identifier"
+msgstr ""
+
+msgctxt "field:customs.agent.selection,agent:"
+msgid "Agent"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:customs.agent.selection,company:"
+msgid "Company"
+msgstr "Izračun"
+
+#, fuzzy
+msgctxt "field:customs.agent.selection,from_country:"
+msgid "From Country"
+msgstr "Država"
+
+#, fuzzy
+msgctxt "field:customs.agent.selection,to_country:"
+msgid "To Country"
+msgstr "Država"
+
+msgctxt "field:customs.duty.rate,amount:"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "field:customs.duty.rate,computation_type:"
+msgid "Computation Type"
+msgstr "Vrsta obračuna"
+
+msgctxt "field:customs.duty.rate,country:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:customs.duty.rate,currency:"
+msgid "Currency"
+msgstr "Valuta"
+
+msgctxt "field:customs.duty.rate,end_date:"
+msgid "End Date"
+msgstr "Končni datum"
+
+msgctxt "field:customs.duty.rate,organization:"
+msgid "Organization"
+msgstr "Organizacija"
+
+msgctxt "field:customs.duty.rate,start_date:"
+msgid "Start Date"
+msgstr "Začetni datum"
+
+msgctxt "field:customs.duty.rate,tariff_code:"
+msgid "Tariff Code"
+msgstr "Tarifna številka"
+
+msgctxt "field:customs.duty.rate,type:"
+msgid "Type"
+msgstr "Vrsta"
+
+msgctxt "field:customs.duty.rate,uom:"
+msgid "UoM"
+msgstr "ME"
+
+msgctxt "field:customs.tariff.code,code:"
+msgid "Code"
+msgstr "Šifra"
+
+msgctxt "field:customs.tariff.code,country:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:customs.tariff.code,description:"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "field:customs.tariff.code,duty_rates:"
+msgid "Duty Rates"
+msgstr "Stopnje dajatev"
+
+msgctxt "field:customs.tariff.code,end_day:"
+msgid "End Day"
+msgstr "Končni dan"
+
+msgctxt "field:customs.tariff.code,end_month:"
+msgid "End Month"
+msgstr "Končni mesec"
+
+msgctxt "field:customs.tariff.code,organization:"
+msgid "Organization"
+msgstr "Organizacija"
+
+msgctxt "field:customs.tariff.code,start_day:"
+msgid "Start Day"
+msgstr "Začetni dan"
+
+msgctxt "field:customs.tariff.code,start_month:"
+msgid "Start Month"
+msgstr "Začetni mesec"
+
+msgctxt "field:product-customs.tariff.code,country:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:product-customs.tariff.code,end_day:"
+msgid "End Day"
+msgstr "Končni dan"
+
+msgctxt "field:product-customs.tariff.code,end_month:"
+msgid "End Month"
+msgstr "Končni mesec"
+
+msgctxt "field:product-customs.tariff.code,organization:"
+msgid "Organization"
+msgstr "Organizacija"
+
+msgctxt "field:product-customs.tariff.code,product:"
+msgid "Product"
+msgstr "Izdelek"
+
+msgctxt "field:product-customs.tariff.code,start_day:"
+msgid "Start Day"
+msgstr "Začetni dan"
+
+msgctxt "field:product-customs.tariff.code,start_month:"
+msgid "Start Month"
+msgstr "Začetni mesec"
+
+msgctxt "field:product-customs.tariff.code,tariff_code:"
+msgid "Tariff Code"
+msgstr "Tarifna številka"
+
+msgctxt "field:product.category,customs:"
+msgid "Customs"
+msgstr "Carinjenje"
+
+msgctxt "field:product.category,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Tarfine številke"
+
+msgctxt "field:product.category,tariff_codes_parent:"
+msgid "Use Parent's Tariff Codes"
+msgstr "Uporabi nadtarifne številke"
+
+msgctxt "field:product.product,country_of_origin:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:product.product,customs_category:"
+msgid "Customs Category"
+msgstr "Kategorija carinjenja"
+
+msgctxt "field:product.product,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Tarfine številke"
+
+msgctxt "field:product.product,tariff_codes_category:"
+msgid "Use Category's Tariff Codes"
+msgstr "Uporabi tarifne številke iz kategorije"
+
+msgctxt "field:product.template,country_of_origin:"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "field:product.template,customs_category:"
+msgid "Customs Category"
+msgstr "Kategorija carinjenja"
+
+msgctxt "field:product.template,tariff_codes:"
+msgid "Tariff Codes"
+msgstr "Tarifne številke"
+
+msgctxt "field:product.template,tariff_codes_category:"
+msgid "Use Category's Tariff Codes"
+msgstr "Uporabi tarifne številke iz kategorije"
+
+msgctxt "help:customs.agent,address:"
+msgid "The address of the agent."
+msgstr ""
+
+msgctxt "help:customs.agent,party:"
+msgid "The party which represents the import/export agent."
+msgstr ""
+
+msgctxt "help:customs.agent,tax_identifier:"
+msgid "The identifier of the agent for tax report."
+msgstr ""
+
+msgctxt "help:customs.agent.selection,agent:"
+msgid "The selected agent."
+msgstr ""
+
+msgctxt "help:customs.agent.selection,from_country:"
+msgid ""
+"Apply only when shipping from this country.\n"
+"Leave empty for any countries."
+msgstr ""
+
+msgctxt "help:customs.agent.selection,to_country:"
+msgid ""
+"Apply only when shipping to this country.\n"
+"Leave empty for any countries."
+msgstr ""
+
+msgctxt "help:customs.duty.rate,uom:"
+msgid "The Unit of Measure."
+msgstr "Merska enota."
+
+msgctxt "help:customs.tariff.code,code:"
+msgid "The code from Harmonized System of Nomenclature."
+msgstr "Šifra iz nomenklature harmoniziranega sistema."
+
+msgctxt "help:product.category,tariff_codes_parent:"
+msgid "Use the tariff codes defined on the parent category."
+msgstr "Uporabi tarfine številke, ki so opredeljene v matični kategoriji."
+
+msgctxt "help:product.product,country_of_origin:"
+msgid "The country of origin of the product."
+msgstr "Država porekla izdeleka."
+
+msgctxt "help:product.product,tariff_codes_category:"
+msgid "Use the tariff codes defined on the category."
+msgstr "Uporabi tarifne številke, ki so opredeljene v kategoriji."
+
+msgctxt "help:product.template,country_of_origin:"
+msgid "The country of origin of the product."
+msgstr "Država porekla izdeleka."
+
+msgctxt "help:product.template,tariff_codes_category:"
+msgid "Use the tariff codes defined on the category."
+msgstr "Uporabi tarifne številke, ki so opredeljene v kategoriji."
+
+#, fuzzy
+msgctxt "model:customs.agent,string:"
+msgid "Customs Agent"
+msgstr "Carinjenje"
+
+#, fuzzy
+msgctxt "model:customs.agent.selection,string:"
+msgid "Customs Agent Selection"
+msgstr "Skrbništvo carine"
+
+#, fuzzy
+msgctxt "model:customs.duty.rate,string:"
+msgid "Customs Duty Rate"
+msgstr "Stopnja dajatve"
+
+#, fuzzy
+msgctxt "model:customs.tariff.code,string:"
+msgid "Customs Tariff Code"
+msgstr "Tarifna številka"
+
+msgctxt "model:ir.action,name:act_customs_agent_form"
+msgid "Agents"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_customs_agent_selection_form"
+msgid "Selection"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_duty_rate_form"
+msgid "Duty Rates"
+msgstr "Carinske stopnje"
+
+msgctxt "model:ir.action,name:act_tariff_code_form"
+msgid "Tariff Codes"
+msgstr "Tarifne številke"
+
+msgctxt "model:ir.action.act_window.domain,name:act_duty_rate_domain_export"
+msgid "Export"
+msgstr "Izvoz"
+
+msgctxt "model:ir.action.act_window.domain,name:act_duty_rate_domain_import"
+msgid "Import"
+msgstr "Uvoz"
+
+msgctxt ""
+"model:ir.rule.group,name:rule_group_customs_agent_selection_companies"
+msgid "User in companies"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_customs"
+msgid "Customs"
+msgstr "Carina"
+
+msgctxt "model:ir.ui.menu,name:menu_customs_agent_form"
+msgid "Agents"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_customs_agent_selection_form"
+msgid "Selection"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_duty_rate_form"
+msgid "Duty Rates"
+msgstr "Carinske stopnje"
+
+msgctxt "model:ir.ui.menu,name:menu_tariff_code_form"
+msgid "Tariff Codes"
+msgstr "Tarifne številke"
+
+#, fuzzy
+msgctxt "model:product-customs.tariff.code,string:"
+msgid "Product - Customs Tariff Code"
+msgstr "Izdelek - Tarifna številka"
+
+msgctxt "model:res.group,name:group_customs_admin"
+msgid "Customs Administration"
+msgstr "Skrbništvo carine"
+
+msgctxt "selection:customs.duty.rate,computation_type:"
+msgid "Amount"
+msgstr "Znesek"
+
+msgctxt "selection:customs.duty.rate,computation_type:"
+msgid "Quantity"
+msgstr "Količina"
+
+msgctxt "selection:customs.duty.rate,type:"
+msgid "Export"
+msgstr "Izvoz"
+
+msgctxt "selection:customs.duty.rate,type:"
+msgid "Import"
+msgstr "Uvoz"
+
+msgctxt "selection:product-customs.tariff.code,product:"
+msgid "Category"
+msgstr "Kategorija"
+
+msgctxt "selection:product-customs.tariff.code,product:"
+msgid "Template"
+msgstr "Predloga"
+
+msgctxt "view:customs.agent.selection:"
+msgid "Criteria"
+msgstr ""
+
+msgctxt "view:customs.duty.rate:"
+msgid "Computation"
+msgstr "Izračun"
+
+msgctxt "view:customs.tariff.code:"
+msgid "From"
+msgstr "Od"
+
+msgctxt "view:customs.tariff.code:"
+msgid "To"
+msgstr "Do"
+
+msgctxt "view:product.category:"
+msgid "Customs"
+msgstr "Carinjenje"
+
+msgctxt "view:product.template:"
+msgid "Customs"
+msgstr "Carinjenje"
