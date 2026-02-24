@@ -1,0 +1,34 @@
+services:
+  # The Database
+  tryton-db:
+    image: postgres:16
+    restart: always  # <-- Keeps it running
+    environment:
+      - TRYTOND_DATABASE_URI=postgresql://postgres:admin@localhost:5432/tryton
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=tryton
+    volumes:
+      - tryton_db_data:/var/lib/postgresql/data
+
+  # The Tryton Server + Web Client (sao)
+  tryton-server:
+    build: .
+    user: root
+    image: dev-tryton:dev
+    restart: always  # <-- Keeps it running
+    ports:
+      - "8000:8000"
+    environment:
+      - GUNICORN_CMD_ARGS=--timeout=600
+      # - DB_HOSTNAME=tryton-db
+      # - DB_PASSWORD=admin
+      # - TRYTOND_DATABASE_NAMES=tryton
+      - TRYTOND_DATABASE__URI=postgresql://postgres:admin@host.docker.internal:5432/tryton
+      - TRYTOND_DATABASE__LIST=True
+      - TRYTOND_ADMIN_PASSWORD=admin
+      - TRYTOND_WEB__LISTEN=0.0.0.0:8000
+    depends_on:
+      - tryton-db
+
+volumes:
+  tryton_db_data:

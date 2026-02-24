@@ -1,0 +1,8 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+tryton-venv/
+*.sqlite
+*.conf
+*.log
