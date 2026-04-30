@@ -24,6 +24,14 @@ COPY ./tryton-modules /var/lib/trytond/modules
 # 7. Ensure the 'tryton' user owns the files so it can run the server
 RUN chmod -R 777 /var/lib/trytond/modules
 # 8. Switch back to the non-root 'tryton' user for security
+
+RUN apt-get update && apt-get install -y \
+    libreoffice-writer \
+    python3-uno \
+    unoconv \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+    
 USER tryton
 
 # 9. The entrypoint is already defined in the base image, 
