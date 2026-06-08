@@ -12,3 +12,9 @@ __pycache__/
 
 # Ignore local databases
 *.sqlite
+parties.xlsx
+products_RC.xlsx
+RM Product Category.xlsx
+RM Product List.xlsx
+docker-compose.yml
+Dockerfile
