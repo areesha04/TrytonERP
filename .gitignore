@@ -20,3 +20,7 @@ connect_test.py
 import_child_cat.py
 import_party.py
 import_product.py
+
+# Docker configuration files
+Dockerfile
+docker-compose.yml
