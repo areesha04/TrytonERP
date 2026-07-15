@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="requisition_line_view_form_inherit">
+            <field name="model">purchase.requisition.line</field>
+            <field name="inherit" ref="purchase_requisition.purchase_requisition_line_view_form"/>
+            <field name="name">requisition_line_view_form_price</field>
+        </record>
+
+        <record model="ir.ui.view" id="requisition_line_view_tree_inherit">
+            <field name="model">purchase.requisition.line</field>
+            <field name="inherit" ref="purchase_requisition.purchase_requisition_line_view_list_sequence"/>
+            <field name="name">requisition_line_view_tree_price</field>
+        </record>
+    </data>
+</tryton>

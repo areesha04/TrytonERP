@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="bulk_add_req_view_form">
+            <field name="model">purchase.requisition.bulk_add.start</field>
+            <field name="type">form</field>
+            <field name="name">bulk_add_req_view_form</field> 
+        </record>
+
+        <record model="ir.ui.view" id="bulk_add_req_line_tree">
+            <field name="model">purchase.requisition.bulk_add.line</field>
+            <field name="type">tree</field>
+            <field name="name">bulk_add_req_line_tree</field> 
+        </record>
+
+        <record model="ir.action.wizard" id="wizard_bulk_add_req">
+            <field name="name">Bulk Add Products</field>
+            <field name="wiz_name">purchase.requisition.bulk_add</field>
+            <field name="model">purchase.requisition</field>
+        </record>
+
+       <record model="ir.ui.view" id="purchase_requisition_view_form_bulk">
+            <field name="model">purchase.requisition</field>
+            <field name="inherit" ref="purchase_requisition.purchase_requisition_view_form"/>
+            <field name="name">requisition_form_bulk</field> 
+        </record>
+    </data>
+</tryton>

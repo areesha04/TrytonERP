@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="//group[@id='buttons']" position="inside">
+        <button name="launch_bulk_wizard" string="Bulk Add"/>
+    </xpath>
+</data>

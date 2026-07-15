@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<form>
+    <label name="party"/>
+    <field name="party"/>
+    
+    <newline/>
+    <!-- The view_ids attribute links the specific tree view, and readonly="1" hides the action buttons -->
+    <field name="lines" colspan="4" view_ids="custom_purchase_request.bulk_ask_parties_line_tree" readonly="1"/>
+</form>
+<!-- <?xml version="1.0"?>
+<form>
+    <label name="party"/>
+    <field name="party"/>
+</form> -->
