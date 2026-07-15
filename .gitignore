@@ -20,6 +20,8 @@ connect_test.py
 import_child_cat.py
 import_party.py
 import_product.py
+purchase_requisition_bulk/
+sale_web_order/
 
 # Docker configuration files
 Dockerfile

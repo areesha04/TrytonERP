@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<form>
+    <field name="products" colspan="3"/>
+    
+    <newline/>
+    
+    <field name="lines" colspan="3"/>
+</form>

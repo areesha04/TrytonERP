@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="bulk_add_view_form">
+            <field name="model">stock.shipment.internal.bulk_add.start</field>
+            <field name="type">form</field>
+            <field name="name">bulk_add_view_form</field> 
+        </record>
+        <record model="ir.ui.view" id="bulk_add_line_view_tree">
+            <field name="model">stock.shipment.internal.bulk_add.line</field>
+            <field name="type">tree</field>
+            <field name="name">bulk_add_line_tree</field> 
+        </record>
+        <record model="ir.action.wizard" id="wizard_bulk_add">
+            <field name="name">Bulk Add Products</field>
+            <field name="wiz_name">stock.shipment.internal.bulk_add</field>
+            <field name="model">stock.shipment.internal</field>
+        </record>
+
+        <record model="ir.ui.view" id="shipment_internal_view_form_bulk">
+            <field name="model">stock.shipment.internal</field>
+            <field name="inherit" ref="stock.shipment_internal_view_form"/>
+            
+            <field name="name">shipment_internal_form_bulk</field> 
+        </record>
+    </data>
+</tryton>

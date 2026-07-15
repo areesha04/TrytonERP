@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="//field[@name='product']" position="after">
+        <field name="last_purchase_price" symbol="currency"/>
+    </xpath>
+</data>
