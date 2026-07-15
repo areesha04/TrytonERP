@@ -22,6 +22,8 @@ import_party.py
 import_product.py
 purchase_requisition_bulk/
 sale_web_order/
+tryton-custom-modules/
+
 
 # Docker configuration files
 Dockerfile
