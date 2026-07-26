@@ -18,3 +18,7 @@ RM Product Category.xlsx
 RM Product List.xlsx
 docker-compose.yml
 Dockerfile
+tryton-modules/html_report/
+tryton-modules/widgets/
+tryton-modules/xgettext/
+tryton-modules/custom-reports/
