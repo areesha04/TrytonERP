@@ -1,0 +1,4 @@
+XGettext
+========
+
+Shared support for extracting translations from Python code using ``_``.

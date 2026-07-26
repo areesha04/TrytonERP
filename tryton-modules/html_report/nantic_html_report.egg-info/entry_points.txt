@@ -1,0 +1,2 @@
+[trytond.modules]
+html_report = trytond.modules.html_report

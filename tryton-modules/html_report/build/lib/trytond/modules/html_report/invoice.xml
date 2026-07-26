@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<tryton>
+    <data depends="account_invoice">
+        <record model="ir.action.report" id="account_invoice.report_invoice">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record model="ir.action.report" id="html_report_invoice">
+            <field name="name">Invoice</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">account.invoice</field>
+            <field name="extension">pdf</field>
+            <field name="template_extension">html</field>
+            <field name="single" eval="True"/>
+            <field name="html_side_margin" eval="None"/>
+        </record>
+
+        <record model="ir.action.keyword" id="report_invoice_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="html_report_invoice"/>
+        </record>
+    </data>
+</tryton>

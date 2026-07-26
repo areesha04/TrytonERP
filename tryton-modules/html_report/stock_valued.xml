@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tryton>
+    <data depends="stock_valued">
+        <record model="ir.action.report" id="html_report_valued_delivery_note">
+            <field name="name">Valued Delivery Note</field>
+            <field name="model">stock.shipment.out</field>
+            <field name="report_name">stock.shipment.out.valued_delivery_note</field>
+            <field name="extension">pdf</field>
+            <field name="template_extension">html</field>
+            <field name="single" eval="True"/>
+            <field name="html_side_margin" eval="None"/>
+        </record>
+
+        <record model="ir.action.keyword" id="report_valued_delivery_note_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">stock.shipment.out,-1</field>
+            <field name="action" ref="html_report_valued_delivery_note"/>
+        </record>
+    </data>
+</tryton>

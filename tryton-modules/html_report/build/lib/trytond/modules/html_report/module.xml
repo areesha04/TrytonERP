@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.action.report" id="html_report_module">
+            <field name="name">Module List</field>
+            <field name="model">ir.module</field>
+            <field name="report_name">html_report.module_report</field>
+            <field name="extension">pdf</field>
+            <field name="template_extension">html</field>
+            <field name="single" eval="False"/>
+            <field name="html_side_margin" eval="None"/>
+        </record>
+
+        <record model="ir.action.keyword" id="report_module_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">ir.module,-1</field>
+            <field name="action" ref="html_report_module"/>
+        </record>
+    </data>
+</tryton>

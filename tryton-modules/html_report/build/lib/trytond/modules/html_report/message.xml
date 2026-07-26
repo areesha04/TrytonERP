@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<tryton>
+    <data grouped="1">
+        <record model="ir.message" id="msg_yes">
+            <field name="text">Yes</field>
+        </record>
+        <record model="ir.message" id="msg_no">
+            <field name="text">No</field>
+        </record>
+        <record model="ir.message" id="unused_signatures">
+            <field name="text">"%(template)s" unused signatures: %(unused)s</field>
+        </record>
+        <record model="ir.message" id="missing_signatures">
+            <field name="text">"%(template)s" missing signatures: %(missing)s</field>
+        </record>
+        <record model="ir.message" id="template_error">
+            <field name="text">The following template error was found parsing report "%(report)s": %(error)s</field>
+        </record>
+        <record model="ir.message" id="render_error">
+            <field name="text">The following error was found rendering report "%(report)s": %(error)s</field>
+        </record>
+        <record model="ir.message" id="nullslat_incorrect_format">
+            <field name="text">The nullslast filter only accept a list of tuples.</field>
+        </record>
+        <record model="ir.message" id="msg_error_timeout">
+            <field name="text">The process was interrupted by %(seconds)s seconds timeout.</field>
+        </record>
+        <record model="ir.message" id="msg_queue_empty">
+            <field name="text">The queue (timeout) was empty and can not render the report.</field>
+        </record>
+        <record model="ir.message" id="msg_exception_timeout">
+            <field name="text">There was an exception rendering the report:
+%(result)s</field>
+        </record>
+    </data>
+</tryton>
