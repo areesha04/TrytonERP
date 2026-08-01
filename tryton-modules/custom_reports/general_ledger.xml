@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <tryton>
     <data>
-        <!-- 1. Report Actions -->
-       <!-- Report Actions mapped correctly -->
+        <!-- Report Actions -->
         <record model="ir.action.report" id="report_general_ledger_custom">
             <field name="name">General Ledger (Custom)</field>
             <field name="model">account.account</field>
             <field name="report_name">account.general_ledger_custom</field>
-            <field name="report">custom_reports/general_ledger.fodt</field> <!-- Optional placeholder or handled by HTML engine -->
             <field name="extension">pdf</field>
         </record>
 
@@ -18,18 +16,25 @@
             <field name="extension">pdf</field>
         </record>
 
+        <record model="ir.action.report" id="report_vendor_ledger_custom">
+            <field name="name">Vendor Ledger (Custom)</field>
+            <field name="model">party.party</field>
+            <field name="report_name">account.vendor_ledger_custom</field>
+            <field name="extension">pdf</field>
+        </record>
+
         <record model="ir.action.act_window" id="act_view_report_data">
             <field name="name">Report Data</field>
             <field name="res_model">account.move.line</field>
         </record>
 
-        <!-- 2.5 Window Action for Opening URL in New Browser Tab -->
-       <record model="ir.action.url" id="act_preview_url">
+        <record model="ir.action.url" id="act_preview_url">
             <field name="name">Preview PDF</field>
             <field name="url">about:blank</field>
         </record>
-        <!-- 3. Wizard Input Form -->
-       <record model="ir.ui.view" id="print_report_rc_start_view_form">
+
+        <!-- Wizard Input Form -->
+        <record model="ir.ui.view" id="print_report_rc_start_view_form">
             <field name="model">account.print_report_rc.start</field>
             <field name="type">form</field>
             <field name="arch" type="xml">
@@ -42,6 +47,10 @@
                     <label name="account"/>
                     <field name="account"/>
                     <newline/>
+
+                    <label name="party"/>
+                    <field name="party"/>
+                    <newline/>
                     
                     <label name="start_date"/>
                     <field name="start_date"/>
@@ -52,18 +61,24 @@
             </field>
         </record>
 
-        <!-- 4. Wizard Action -->
+        <!-- Wizard Action & Menu -->
         <record model="ir.action.wizard" id="wizard_print_report_rc">
             <field name="name">Report RC</field>
             <field name="wiz_name">account.print_report_rc</field>
         </record>
 
-        <!-- 5. Menu Item -->
         <record model="ir.ui.menu" id="menu_report_rc">
             <field name="name">Report RC</field>
             <field name="parent" ref="account.menu_reporting"/>
             <field name="action" ref="wizard_print_report_rc"/>
             <field name="sequence">15</field>
+        </record>
+
+        <record model="ir.action.report" id="report_expense_report_custom">
+            <field name="name">Expense Report (Custom)</field>
+            <field name="model">account.move.line</field>
+            <field name="report_name">account.expense_report_custom</field>
+            <field name="extension">pdf</field>
         </record>
     </data>
 </tryton>

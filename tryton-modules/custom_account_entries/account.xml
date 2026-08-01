@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Form View Reference -->
+        <record model="ir.ui.view" id="custom_quick_entry_view_form">
+            <field name="model">custom.account.quick_entry</field>
+            <field name="type">form</field>
+            <field name="name">account_form</field>
+        </record>
+
+        <!-- Window Action: Sets the upper window header title -->
+        <record model="ir.action.act_window" id="act_custom_quick_entry_form">
+            <field name="name">Quick Account Entries</field>
+            <field name="res_model">custom.account.quick_entry</field>
+        </record>
+        
+        <record model="ir.action.act_window.view" id="act_custom_quick_entry_form_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="custom_quick_entry_view_form"/>
+            <field name="act_window" ref="act_custom_quick_entry_form"/>
+        </record>
+
+        <!-- Menu Item: Builds the Financial / Entries / Quick Account Entries breadcrumb trail -->
+        <menuitem
+            parent="account.menu_entries"
+            action="act_custom_quick_entry_form"
+            sequence="20"
+            id="menu_custom_quick_entry"
+            name="Quick Account Entries"/>
+    </data>
+</tryton>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<form col="6">
+    <!-- Header Row 1: Journal, Period, and Company (3 pairs = 6 columns) -->
+    <label name="journal"/>
+    <field name="journal"/>
+    <label name="period"/>
+    <field name="period"/>
+    <label name="company"/>
+    <field name="company"/>
+    
+    <!-- Header Row 2: Effective Date and Entry Type -->
+    <label name="effective_date"/>
+    <field name="effective_date"/>
+    <label name="entry_type"/>
+    <field name="entry_type"/>
+    <newline/>
+    
+    <!-- Header Row 3: Description spanning all 6 columns (Label = 1, Field = 5) -->
+    <label name="description"/>
+    <field name="description" colspan="5"/>
+    
+    <!-- Transaction Details Tab Notebook spanning all 6 columns -->
+    <notebook colspan="6">
+        <page id="transaction" string="Transaction Details" col="4">
+            <label name="from_account"/>
+            <field name="from_account"/>
+            <label name="to_account"/>
+            <field name="to_account"/>
+            
+            <label name="amount"/>
+            <field name="amount"/>
+            <label name="party"/>
+            <field name="party"/>
+        </page>
+    </notebook>
+    
+    <!-- Bottom Status Bar and Button spanning 6 columns -->
+    <group col="4" colspan="6" id="state_group">
+        <label name="state"/>
+        <field name="state"/>
+        <button name="process_entry" string="POST" icon="tryton-ok"/>
+    </group>
+    
+    <!-- Hidden Field -->
+    <field name="party_required" invisible="1"/>
+</form>

@@ -1,25 +1,27 @@
 from trytond.pool import Pool
-from .general_ledger import (
-    GeneralLedgerReport,
-    CashBookReport,
-    PrintReportRCStart,
-    PrintReportRC,
-)
+from . import general_ledger
+from . import cash_book
+from . import expense_report
+from . import vendor_ledger
+from . import wizard
 
 def register():
     Pool.register(
-        PrintReportRCStart,
+        wizard.PrintReportRCStart,
         module='custom_reports',
         type_='model',
     )
     Pool.register(
-        GeneralLedgerReport,
-        CashBookReport,
-        module='custom_reports',
-        type_='report',  # <--- MUST be 'report' for HTMLReport classes
-    )
-    Pool.register(
-        PrintReportRC,
+        wizard.PrintReportRC,
+        wizard.DirectPDFWizard,
         module='custom_reports',
         type_='wizard',
+    )
+    Pool.register(
+        general_ledger.GeneralLedgerReport,
+        cash_book.CashBookReport,
+        expense_report.ExpenseReport,
+        vendor_ledger.VendorLedgerReport,
+        module='custom_reports',
+        type_='report',
     )

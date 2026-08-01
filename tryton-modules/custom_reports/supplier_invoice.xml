@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- 1. Register the Custom Report -->
+        <record model="ir.action.report" id="report_supplier_invoice_custom">
+            <field name="name">Custom Supplier Invoice</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">account.supplier_invoice_custom</field>
+            <field name="extension">pdf</field>
+        </record>
+
+        <!-- 2. Register the Wizard -->
+        <record model="ir.action.wizard" id="wizard_preview_invoice_pdf">
+            <field name="name">Preview Invoice</field>
+            <field name="wiz_name">account.invoice.preview_pdf_wizard</field>
+            <field name="model">account.invoice</field>
+        </record>
+
+        <!-- 3. Bind the Wizard to the Print Menu -->
+        <record model="ir.action.keyword" id="kw_print_invoice_preview">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="wizard_preview_invoice_pdf"/>
+        </record>
+    </data>
+</tryton>
