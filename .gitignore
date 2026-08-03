@@ -16,6 +16,10 @@ parties.xlsx
 products_RC.xlsx
 RM Product Category.xlsx
 RM Product List.xlsx
+connect_test.py
+import_child_cat.py
+import_party.py
+import_product.py
 docker-compose.yml
 Dockerfile
 tryton-modules/html_report/
