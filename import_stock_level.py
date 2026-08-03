@@ -6,7 +6,7 @@ import datetime
 # ==========================================
 # 1. TRYTON CONNECTION CONFIGURATION
 # ==========================================
-ENVIRONMENT = "whm"
+ENVIRONMENT = "whm-staging"
 
 try:
     if ENVIRONMENT == "local":
@@ -15,6 +15,11 @@ try:
     elif ENVIRONMENT == "whm":
         print("Connecting to WHM Server...")
         cfg = config.set_xmlrpc("http://admin:admin789@5.161.214.209:8000/trytonRC/")
+    elif ENVIRONMENT == 'whm-staging':
+        print("Connecting to WHM Staging Server...")
+        # Your remote server URL
+        cfg = config.set_xmlrpc('http://admin:admin@5.161.214.209:8001/trytonStaging/')
+    print("Connection successful!")
     print("✅ Connection successful!")
 except Exception as e:
     print(f"❌ Failed to connect: {e}")
@@ -30,7 +35,7 @@ Inventory = Model.get("stock.inventory")
 
 # --- CRITICAL: Set Company Context ---
 # Inventory operations will fail if the global context does not have a company ID.
-COMPANY_NAME = "Rays Creations"  # <-- UPDATE THIS TO YOUR ACTUAL COMPANY NAME
+COMPANY_NAME = "RC"  # <-- UPDATE THIS TO YOUR ACTUAL COMPANY NAME
 
 companies = Company.find([("party.name", "=", COMPANY_NAME)])
 if not companies:
