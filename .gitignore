@@ -23,6 +23,8 @@ import_product.py
 purchase_requisition_bulk/
 sale_web_order/
 tryton-custom-modules/
+tryton-modules/custom-account-transfer
+
 
 
 # Docker configuration files
