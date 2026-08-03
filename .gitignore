@@ -20,6 +20,7 @@ connect_test.py
 import_child_cat.py
 import_party.py
 import_product.py
+import_product_category.py
 purchase_requisition_bulk/
 sale_web_order/
 tryton-custom-modules/
