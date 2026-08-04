@@ -20,6 +20,12 @@
             <field name="act_window" ref="act_custom_quick_entry_form"/>
         </record>
 
+        <record model="ir.ui.view" id="account_view_form_extension">
+            <field name="model">account.account</field>
+            <field name="inherit" ref="account.account_view_form"/>
+            <field name="name">account_form_extension</field>
+        </record>
+
         <!-- Menu Item: Builds the Financial / Entries / Quick Account Entries breadcrumb trail -->
         <menuitem
             parent="account.menu_entries"

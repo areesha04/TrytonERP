@@ -63,12 +63,12 @@
 
         <!-- Wizard Action & Menu -->
         <record model="ir.action.wizard" id="wizard_print_report_rc">
-            <field name="name">Report RC</field>
+            <field name="name">RC Financial Reports</field>
             <field name="wiz_name">account.print_report_rc</field>
         </record>
 
         <record model="ir.ui.menu" id="menu_report_rc">
-            <field name="name">Report RC</field>
+            <field name="name">RC Financial Reports</field>
             <field name="parent" ref="account.menu_reporting"/>
             <field name="action" ref="wizard_print_report_rc"/>
             <field name="sequence">15</field>
