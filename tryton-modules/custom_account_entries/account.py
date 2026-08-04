@@ -1,7 +1,12 @@
 from trytond.model import ModelView, ModelSQL, fields
-from trytond.pool import Pool
+from trytond.pool import Pool, PoolMeta
 from trytond.pyson import Eval, If
 from trytond.transaction import Transaction
+
+class Account(metaclass=PoolMeta):
+    __name__ = 'account.account'
+    
+    is_quick_entry_bank = fields.Boolean('Quick Entry Bank/Cash')
 
 class QuickAccountEntry(ModelSQL, ModelView):
     "Rays Creations Quick Account Entry"
@@ -18,14 +23,14 @@ class QuickAccountEntry(ModelSQL, ModelView):
     description = fields.Char('Description')
     
     entry_type = fields.Selection([
-        ('payment', 'Single Account Payment'),
+        ('payment', 'Cash/Bank Disbursement'),
         ('transfer', 'Bank to Cash Transfer'),
     ], 'Entry Type', required=True)
 
     from_account = fields.Many2One('account.account', 'From Account',
         domain=[
             ('company', '=', Eval('company', -1)),
-            ('code', 'in', ['1.1.1', '1.9.0'])
+            ('is_quick_entry_bank', '=', True) # No more hardcoding
         ],
         depends=['company'],
         required=True)
@@ -34,7 +39,7 @@ class QuickAccountEntry(ModelSQL, ModelView):
         domain=[
             ('company', '=', Eval('company', -1)),
             If(Eval('entry_type') == 'transfer',
-                ('code', 'in', ['1.1.1', '1.9.0']),
+                ('is_quick_entry_bank', '=', True), # No more hardcoding
                 ('closed', '!=', True)
             )
         ],
@@ -99,6 +104,7 @@ class QuickAccountEntry(ModelSQL, ModelView):
     def on_change_entry_type(self):
         self.from_account = None
         self.to_account = None
+        self.amount = None
         self.party = None
 
     @fields.depends('effective_date', 'company')

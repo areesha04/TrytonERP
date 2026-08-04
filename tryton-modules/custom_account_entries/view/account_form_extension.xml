@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<data>
+    <!-- The double slash '//' tells Tryton to search anywhere inside the form, even inside tabs -->
+    <xpath expr="//field[@name='party_required']" position="after">
+        <label name="is_quick_entry_bank"/>
+        <field name="is_quick_entry_bank"/>
+    </xpath>
+</data>
