@@ -80,5 +80,19 @@
             <field name="report_name">account.expense_report_custom</field>
             <field name="extension">pdf</field>
         </record>
+
+        <!-- ========================================== -->
+        <!-- NEW CODE: Direct PDF Download Button       -->
+        <!-- ========================================== -->
+        <record model="ir.action.wizard" id="wizard_direct_pdf_download">
+            <field name="name">Download PDF</field>
+            <field name="wiz_name">account.move.line.direct_pdf_wizard</field>
+        </record>
+
+        <record model="ir.action.keyword" id="keyword_direct_pdf_download">
+            <field name="keyword">form_action</field>
+            <field name="model">account.move.line,-1</field>
+            <field name="action" ref="wizard_direct_pdf_download"/>
+        </record>
     </data>
 </tryton>
