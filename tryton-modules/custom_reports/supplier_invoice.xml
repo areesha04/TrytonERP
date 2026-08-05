@@ -11,7 +11,7 @@
 
         <!-- 2. Register the Wizard -->
         <record model="ir.action.wizard" id="wizard_preview_invoice_pdf">
-            <field name="name">Preview Invoice</field>
+            <field name="name">Invoice</field>
             <field name="wiz_name">account.invoice.preview_pdf_wizard</field>
             <field name="model">account.invoice</field>
         </record>
