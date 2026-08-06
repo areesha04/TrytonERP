@@ -57,5 +57,9 @@
             <field name="inherit" ref="account.account_view_form"/>
             <field name="name">account_form_extension</field>
         </record>
+
+        <record model="ir.ui.menu" id="account.menu_move_form">
+            <field name="name">GL Journal</field>
+        </record>
     </data>
 </tryton>
