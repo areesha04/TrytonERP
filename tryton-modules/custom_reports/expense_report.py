@@ -23,7 +23,10 @@ class ExpenseReport(HTMLReport):
         end_date = data.get('end_date', '31-12-2024')
         company_name = data.get('company_name', 'Rays Creation')
 
-        expense_accounts = Account.search([('type.expense', '=', True)])
+        expense_accounts = Account.search(['OR', 
+                ('code', 'like', '5%'), 
+                ('code', 'like', '6%')
+            ])
         expense_account_ids = [acc.id for acc in expense_accounts]
 
         domain = [
@@ -50,6 +53,7 @@ class ExpenseReport(HTMLReport):
                         with tags.tr():
                             tags.th("Date", cls="text-center", style="width: 80px;")
                             tags.th("Account (COA)")
+                            tags.th("Record Party") # <-- NEW COLUMN
                             tags.th("Invoice No", cls="text-center", style="width: 110px;")
                             tags.th("Description")
                             tags.th("Amount", cls="text-right", style="width: 100px;")
@@ -65,15 +69,23 @@ class ExpenseReport(HTMLReport):
                                 origin = line.move.origin
                                 invoice_no = getattr(origin, 'number', getattr(origin, 'rec_name', ''))
 
+                            # Fetch party safely, prioritizing the new custom_party field
+                            party_name = ''
+                            if getattr(line, 'custom_party', None):
+                                party_name = line.custom_party.name
+                            elif getattr(line, 'party', None):
+                                party_name = line.party.name
+
                             with tags.tr():
                                 tags.td(line.date.strftime('%d-%b-%Y') if line.date else '', cls="text-center")
                                 tags.td(f"{line.account.name} ({line.account.code})" if line.account else '')
+                                tags.td(party_name) # <-- NEW DATA CELL
                                 tags.td(str(invoice_no), cls="text-center")
                                 tags.td(str(line.description or (line.move.description if line.move else '')))
                                 tags.td(f"{net_amount:,.2f}", cls="text-right")
 
                         with tags.tr(cls="total-row"):
-                            tags.td("Total Expenses", colspan="4", cls="text-right")
+                            tags.td("Total Expenses", colspan="5", cls="text-right") # <-- CHANGED COLSPAN TO 5
                             tags.td(f"{total_expense:,.2f}", cls="text-right")
 
         return doc.render()

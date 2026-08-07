@@ -16,6 +16,7 @@ def register():
         wizard.PrintReportRC,
         wizard.DirectPDFWizard,
         supplier_invoice.PreviewInvoiceWizard,
+        wizard.PreviewUniversalMoveWizard,
         module='custom_reports',
         type_='wizard',
     )
@@ -24,6 +25,7 @@ def register():
         cash_book.CashBookReport,
         expense_report.ExpenseReport,
         vendor_ledger.VendorLedgerReport,
+        wizard.AccountMoveCustomReport,
         module='custom_reports',
         type_='report',
     )
