@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Form View -->
+        <record model="ir.ui.view" id="web_order_view_form">
+            <field name="model">sale.web.order</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <![CDATA[
+                <form>
+                    <label name="number"/>
+                    <field name="number"/>
+                    <label name="party"/>
+                    <field name="party"/>
+
+                    <label name="currency"/>
+                    <field name="currency"/>
+                    <label name="total_amount"/>
+                    <field name="total_amount"/>
+
+                    <label name="state"/>
+                    <field name="state"/>
+                    <newline/>
+
+                    <field name="lines" colspan="4"/>
+                    
+                    <group col="2" id="buttons" colspan="4">
+                        <button name="approve" string="Approve" icon="tryton-ok"/>
+                        <button name="cancel" string="Cancel" icon="tryton-cancel"/>
+                    </group>
+                </form>
+                ]]>
+            </field>
+        </record>
+
+        <!-- Tree / List View -->
+        <record model="ir.ui.view" id="web_order_view_tree">
+            <field name="model">sale.web.order</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <![CDATA[
+                <tree>
+                    <field name="number"/>
+                    <field name="party"/>
+                    <field name="currency"/>
+                    <field name="total_amount"/>
+                    <field name="state"/>
+                </tree>
+                ]]>
+            </field>
+        </record>
+    </data>
+</tryton>

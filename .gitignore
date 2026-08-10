@@ -23,7 +23,6 @@ import_product.py
 import_product_category.py
 import_stock_level.py
 purchase_requisition_bulk/
-sale_web_order/
 tryton-custom-modules/
 tryton-modules/custom-account-transfer
 
