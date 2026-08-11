@@ -28,7 +28,7 @@
 
         <!-- 2. Wizard Action -->
         <record model="ir.action.wizard" id="wizard_procurement_reports">
-            <field name="name">Procurement Reports</field>
+            <field name="name">Purchase Reports</field>
             <field name="wiz_name">custom.procurement.report.wizard</field>
         </record>
 
