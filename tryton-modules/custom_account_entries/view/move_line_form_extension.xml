@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="//field[@name='party']" position="after">
+        <label name="custom_party"/>
+        <field name="custom_party"/>
+    </xpath>
+</data>

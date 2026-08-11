@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tree>
+    <field name="effective_date"/>
+    <field name="company"/>
+    <field name="from_account"/>
+    <field name="to_account"/>
+    <field name="description"/>
+    <field name="amount"/>
+    <field name="move"/>
+    <field name="state"/>
+</tree>
