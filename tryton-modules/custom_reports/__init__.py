@@ -20,6 +20,7 @@ def register():
         wizard.DirectPDFWizard,
         supplier_invoice.PreviewInvoiceWizard,
         ProcurementReportWizard,
+        wizard.PreviewUniversalMoveWizard,
         module='custom_reports',
         type_='wizard',
     )
