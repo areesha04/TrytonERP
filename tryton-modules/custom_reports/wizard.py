@@ -90,7 +90,13 @@ class AccountMoveCustomReport(HTMLReport):
                             total_credit += line.credit or Decimal('0.0')
                             
                             account_str = f"{line.account.code} - {line.account.name}" if line.account else ""
-                            party_str = line.party.name if line.party else ""
+                            if line.party:
+                                party_str = line.party.name
+                            elif line.custom_party:
+                                party_str = line.custom_party.name
+                            else:
+                                party_str = ""
+                            
                             
                             with tags.tr(style=f"background-color: {bg_color}; border-bottom: 1px solid #ecf0f1;"):
                                 tags.td(account_str, style="padding: 8px; color: #2c3e50;")
