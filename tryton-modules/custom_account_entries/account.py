@@ -8,6 +8,11 @@ class Account(metaclass=PoolMeta):
     __name__ = 'account.account'
     is_quick_entry_bank = fields.Boolean('Fund Transfer Bank/Cash')
 
+class MoveLine(metaclass=PoolMeta):
+    __name__ = 'account.move.line'
+    
+    # This stores the party strictly for your reporting without breaking the ledger
+    custom_party = fields.Many2One('party.party', 'Record Party')
 # ==========================================
 # TOOL 1: INTERNAL FUND TRANSFERS ONLY
 # ==========================================
@@ -87,6 +92,13 @@ class QuickAccountEntry(ModelSQL, ModelView):
             record.state = 'done'
             record.save()
 
+    move_number = fields.Function(
+        fields.Char('Move Number', readonly=True), 'get_move_number'
+    )
+
+    def get_move_number(self, name):
+        return self.move.number if self.move else ''
+
 
 # ==========================================
 # TOOL 2: MULTI-EXPENSE DISBURSEMENTS
@@ -157,18 +169,30 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             move.save()
 
             lines_to_create = []
-            
-            # FIX: Initialize total as a Decimal, not a float
             total = Decimal('0.0')
             
             # Create individual Debit lines from the grid
             for exp_line in record.lines:
                 total += exp_line.amount
+                
+                # --- NEW LOGIC: Route the party safely ---
+                native_party = None
+                custom_party = None
+                
+                if exp_line.party:
+                    if exp_line.account.party_required:
+                        # Standard accounting requires it (e.g., Payables)
+                        native_party = exp_line.party.id
+                    else:
+                        # Record purposes only (e.g., Expenses)
+                        custom_party = exp_line.party.id
+
                 lines_to_create.append({
                     'move': move.id,
                     'account': exp_line.account.id,
-                    'party': exp_line.party.id if exp_line.party else None,
-                    'credit': Decimal('0.0'), # Keep zero values consistent
+                    'party': native_party,
+                    'custom_party': custom_party, 
+                    'credit': Decimal('0.0'), 
                     'debit': exp_line.amount,
                     'description': exp_line.description or record.description,
                 })
@@ -177,8 +201,10 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             lines_to_create.append({
                 'move': move.id,
                 'account': record.from_account.id,
+                'party': None,          # Ensure native party is empty for bank
+                'custom_party': None,   # Leave empty for bank
                 'credit': total,
-                'debit': Decimal('0.0'), # Keep zero values consistent
+                'debit': Decimal('0.0'), 
                 'description': record.description,
             })
 
@@ -187,6 +213,13 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             record.move = move
             record.state = 'done'
             record.save()
+
+    move_number = fields.Function(
+        fields.Char('Move Number', readonly=True), 'get_move_number'
+    )
+
+    def get_move_number(self, name):
+        return self.move.number if self.move else ''
 
 
 class MultiExpenseEntryLine(ModelSQL, ModelView):

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- 1. Wizard Form View Declaration -->
+        <record model="ir.ui.view" id="procurement_report_start_view_form">
+            <field name="model">custom.procurement.report.start</field>
+            <field name="type">form</field>
+            <field name="name">procurement_report_start_form</field>
+            <field name="arch" type="xml"><![CDATA[
+                <form>
+                    <label name="report_type"/>
+                    <field name="report_type" colspan="3"/>
+                    
+                    <label name="start_date"/>
+                    <field name="start_date"/>
+                    
+                    <label name="end_date"/>
+                    <field name="end_date"/>
+                    
+                    <label name="supplier"/>
+                    <field name="supplier" colspan="3"/>
+                    
+                    <label name="product"/>
+                    <field name="product" colspan="3"/>
+                </form>
+            ]]></field>
+        </record>
+
+        <!-- 2. Wizard Action -->
+        <record model="ir.action.wizard" id="wizard_procurement_reports">
+            <field name="name">Procurement Reports</field>
+            <field name="wiz_name">custom.procurement.report.wizard</field>
+        </record>
+
+        <!-- 3. Add to Reporting Menu -->
+        <menuitem parent="purchase.menu_reporting" action="wizard_procurement_reports" id="menu_wizard_procurement_reports" sequence="20"/>
+    </data>
+</tryton>
