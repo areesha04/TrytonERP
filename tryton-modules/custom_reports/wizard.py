@@ -16,7 +16,7 @@ from .general_ledger import GeneralLedgerReport
 from .cash_book import CashBookReport
 from .expense_report import ExpenseReport
 from .vendor_ledger import VendorLedgerReport
-
+from .advance_payment_report import VendorAdvanceDepositReport
 # ==========================================
 # 0. CUSTOM WEB CONTROLLER (Forces PDF Preview)
 # ==========================================
@@ -195,11 +195,12 @@ class PrintReportRCStart(ModelView):
         ('cash_book', 'Cash Book'),
         ('expense_report', 'Expense Report'),
         ('vendor_ledger', 'Vendor Ledger'),
+        ('vendor_advance', 'Vendor Advance & Deposit'),
     ], 'Report Type', required=True)
     
     account = fields.Many2One('account.account', 'Account',
         states={
-            'invisible': Eval('report_type').in_(['vendor_ledger', 'expense_report']),
+            'invisible': Eval('report_type').in_(['vendor_ledger', 'expense_report', 'vendor_advance']),
             'required': Eval('report_type').in_(['general_ledger', 'cash_book']),
         },
         depends=['report_type'])
@@ -245,6 +246,12 @@ class PrintReportRC(Wizard):
         if self.start.report_type == 'vendor_ledger' and self.start.party:
             domain.append(('party', '=', self.start.party.id))
             acc_name = self.start.party.name
+        elif self.start.report_type == 'vendor_advance': # <-- ADDED LOGIC FOR SCREEN VIEW
+            if self.start.party:
+                domain.append(('party', '=', self.start.party.id))
+                acc_name = self.start.party.name
+            else:
+                acc_name = 'All Vendors'
         elif self.start.report_type == 'expense_report':
             expense_accounts = Account.search(['OR', 
                 ('code', 'like', '5%'), 
@@ -308,6 +315,10 @@ class PrintReportRC(Wizard):
         elif self.start.report_type == 'vendor_ledger':
             html_content = VendorLedgerReport.get_html([], data)
             filename = f"vendor_ledger_{party_id}.pdf"
+        elif self.start.report_type == 'vendor_advance': # <-- ADDED LOGIC FOR PDF PREVIEW
+            data['supplier_id'] = party_id # Pass the party_id to the supplier_id key expected by the report
+            html_content = VendorAdvanceDepositReport.get_html([], data)
+            filename = f"vendor_advance_{party_id or 'all'}.pdf"
         elif self.start.report_type == 'expense_report':
             html_content = ExpenseReport.get_html([], data)
             filename = "expense_report.pdf"
@@ -372,6 +383,10 @@ class DirectPDFWizard(Wizard):
         elif report_type == 'vendor_ledger':
             html_content = VendorLedgerReport.get_html([], report_data)
             filename = f"vendor_ledger_{party_id}.pdf"
+        elif report_type == 'vendor_advance': # <-- ADDED LOGIC FOR DIRECT PDF
+            report_data['supplier_id'] = party_id
+            html_content = VendorAdvanceDepositReport.get_html([], report_data)
+            filename = f"vendor_advance_{party_id or 'all'}.pdf"
         elif report_type == 'expense_report':
             html_content = ExpenseReport.get_html([], report_data)
             filename = "expense_report.pdf"

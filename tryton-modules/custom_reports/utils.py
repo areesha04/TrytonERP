@@ -75,14 +75,24 @@ tr:nth-child(even) td {
 
 /* Cash Book Specific Styles */
 .cb-container { 
-    display: flex; 
+    display: table; 
     width: 100%; 
     border: 1px solid #64748b; 
     border-radius: 4px; 
-    overflow: hidden; 
+    table-layout: fixed;
+    page-break-inside: auto;
+    break-inside: auto;
 }
-.cb-side { width: 50%; }
-.cb-side:first-child { border-right: 1px solid #64748b; }
+.cb-side { 
+    display: table-cell; 
+    width: 50%; 
+    vertical-align: top;
+    page-break-inside: auto;
+    break-inside: auto;
+}
+.cb-side:first-child { 
+    border-right: 1px solid #64748b; 
+}
 .cb-title { 
     background-color: #1e293b; 
     color: #ffffff;

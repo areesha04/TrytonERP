@@ -23,7 +23,11 @@ class ExpenseReport(HTMLReport):
         end_date = data.get('end_date', '31-12-2024')
         company_name = data.get('company_name', 'Rays Creation')
 
-        expense_accounts = Account.search([('type.expense', '=', True)])
+        expense_accounts = Account.search([
+            'OR',
+            ('code', 'like', '6%'),
+            ('code', 'like', '7%')
+        ])
         expense_account_ids = [acc.id for acc in expense_accounts]
 
         domain = [

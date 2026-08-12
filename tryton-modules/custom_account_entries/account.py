@@ -20,23 +20,32 @@ class QuickAccountEntry(ModelSQL, ModelView):
     "Bank to Cash Transfer Entry"
     __name__ = 'custom.account.quick_entry'
     
-    company = fields.Many2One('company.company', 'Company', required=True)
-    journal = fields.Many2One('account.journal', 'Journal', required=True)
-    effective_date = fields.Date('Effective Date', required=True)
+    company = fields.Many2One('company.company', 'Company', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    journal = fields.Many2One('account.journal', 'Journal', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    effective_date = fields.Date('Effective Date', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     period = fields.Many2One('account.period', 'Period', required=True,
         domain=[('company', '=', Eval('company', -1))],
-        depends=['company', 'effective_date'])
-    description = fields.Char('Description')
+        depends=['company', 'effective_date', 'state'],
+        states={'readonly': Eval('state') == 'done'})
+    description = fields.Char('Description',
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     
     from_account = fields.Many2One('account.account', 'From Account',
         domain=[('company', '=', Eval('company', -1)), ('is_quick_entry_bank', '=', True)],
-        depends=['company'], required=True)
+        depends=['company', 'state'], required=True,
+        states={'readonly': Eval('state') == 'done'})
 
     to_account = fields.Many2One('account.account', 'To Account',
         domain=[('company', '=', Eval('company', -1)), ('is_quick_entry_bank', '=', True)],
-        depends=['company'], required=True)
+        depends=['company', 'state'], required=True,
+        states={'readonly': Eval('state') == 'done'})
 
-    amount = fields.Numeric('Amount', required=True)
+    amount = fields.Numeric('Amount', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+
     move = fields.Many2One('account.move', 'Generated Move', readonly=True)
     state = fields.Selection([('draft', 'Draft'), ('done', 'Done')], 'State', readonly=True)
 
@@ -107,19 +116,27 @@ class MultiExpenseEntry(ModelSQL, ModelView):
     "Consolidated Payment Entry"
     __name__ = 'custom.account.multi_expense'
     
-    company = fields.Many2One('company.company', 'Company', required=True)
-    journal = fields.Many2One('account.journal', 'Journal', required=True)
-    effective_date = fields.Date('Effective Date', required=True)
+    company = fields.Many2One('company.company', 'Company', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    journal = fields.Many2One('account.journal', 'Journal', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    effective_date = fields.Date('Effective Date', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     period = fields.Many2One('account.period', 'Period', required=True,
         domain=[('company', '=', Eval('company', -1))],
-        depends=['company', 'effective_date'])
-    description = fields.Char('Description')
+        depends=['company', 'effective_date', 'state'],
+        states={'readonly': Eval('state') == 'done'})
+    description = fields.Char('Description',
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     
     from_account = fields.Many2One('account.account', 'Payment Account (Bank/Cash)',
         domain=[('company', '=', Eval('company', -1)), ('is_quick_entry_bank', '=', True)],
-        depends=['company'], required=True)
+        depends=['company', 'state'], required=True,
+        states={'readonly': Eval('state') == 'done'})
         
-    lines = fields.One2Many('custom.account.multi_expense.line', 'entry', 'Expense Lines')
+    lines = fields.One2Many('custom.account.multi_expense.line', 'entry', 'Expense Lines',
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    
     total_amount = fields.Function(fields.Numeric('Total Amount'), 'get_total_amount')
     
     move = fields.Many2One('account.move', 'Generated Move', readonly=True)
