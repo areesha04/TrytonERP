@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<tryton>
+    <data depends="purchase">
+        <record model="ir.action.report" id="purchase.report_purchase">
+            <field name="active" eval="False"/>
+        </record>
+
+        <record model="ir.action.report" id="html_report_purchase">
+            <field name="name">Purchase</field>
+            <field name="model">purchase.purchase</field>
+            <field name="report_name">purchase.purchase</field>
+            <field name="extension">pdf</field>
+            <field name="template_extension">html</field>
+            <field name="single" eval="True"/>
+            <field name="html_side_margin" eval="None"/>
+        </record>
+
+        <record model="ir.action.keyword" id="report_purchase_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">purchase.purchase,-1</field>
+            <field name="action" ref="html_report_purchase"/>
+        </record>
+
+        <record model="ir.action.report" id="html_report_purchase_simplified">
+            <field name="name">Purchase Simplified</field>
+            <field name="model">purchase.purchase</field>
+            <field name="report_name">purchase.purchase.simplified</field>
+            <field name="extension">pdf</field>
+            <field name="template_extension">html</field>
+            <field name="single" eval="True"/>
+            <field name="html_side_margin" eval="None"/>
+        </record>
+
+        <record model="ir.action.keyword" id="report_purchase_simplified_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">purchase.purchase,-1</field>
+            <field name="action" ref="html_report_purchase_simplified"/>
+        </record>
+    </data>
+</tryton>

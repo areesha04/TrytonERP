@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<form col="6">
+    <!-- Header Row 1 -->
+    <label name="journal"/>
+    <field name="journal"/>
+    <label name="period"/>
+    <field name="period"/>
+    <label name="company"/>
+    <field name="company"/>
+    
+    <!-- Header Row 2 -->
+    <label name="effective_date"/>
+    <field name="effective_date"/>
+    <newline/>
+    
+    <!-- Header Row 3 -->
+    <label name="description"/>
+    <field name="description" colspan="5"/>
+    
+    <!-- Transaction Tab -->
+    <notebook colspan="6">
+        <page id="transaction" string="Transfer Route" col="4">
+            <label name="from_account"/>
+            <field name="from_account"/>
+            <label name="to_account"/>
+            <field name="to_account"/>
+            
+            <!-- Amount field moved here -->
+            <label name="amount"/>
+            <field name="amount"/>
+        </page>
+    </notebook>
+    
+    <!-- Footer -->
+    <group col="4" colspan="6" id="state_group">
+        <label name="state"/>
+        <field name="state"/>
+        <button name="process_entry" string="POST TRANSFER" icon="tryton-ok"/>
+    </group>
+</form>

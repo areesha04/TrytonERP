@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- ============================== -->
+        <!-- TOOL 1: TRANSFERS              -->
+        <!-- ============================== -->
+        <record model="ir.ui.view" id="custom_quick_entry_view_tree">
+            <field name="model">custom.account.quick_entry</field>
+            <field name="type">tree</field>
+            <field name="name">quick_entry_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="custom_quick_entry_view_form">
+            <field name="model">custom.account.quick_entry</field>
+            <field name="type">form</field>
+            <field name="name">account_form</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_custom_quick_entry_form">
+            <field name="name">Fund Transfers</field>
+            <field name="res_model">custom.account.quick_entry</field>
+        </record>
+        
+        <record model="ir.action.act_window.view" id="act_custom_quick_entry_tree_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="custom_quick_entry_view_tree"/>
+            <field name="act_window" ref="act_custom_quick_entry_form"/>
+        </record>
+
+        <record model="ir.action.act_window.view" id="act_custom_quick_entry_form_view">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="custom_quick_entry_view_form"/>
+            <field name="act_window" ref="act_custom_quick_entry_form"/>
+        </record>
+
+        <menuitem parent="account.menu_entries" action="act_custom_quick_entry_form" sequence="20" id="menu_custom_quick_entry" name="Fund Transfers"/>
+
+        <!-- ============================== -->
+        <!-- TOOL 2: MULTI-EXPENSE          -->
+        <!-- ============================== -->
+        <record model="ir.ui.view" id="multi_expense_view_tree">
+            <field name="model">custom.account.multi_expense</field>
+            <field name="type">tree</field>
+            <field name="name">multi_expense_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="multi_expense_view_form">
+            <field name="model">custom.account.multi_expense</field>
+            <field name="type">form</field>
+            <field name="name">multi_expense_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="multi_expense_line_view_tree">
+            <field name="model">custom.account.multi_expense.line</field>
+            <field name="type">tree</field>
+            <field name="name">multi_expense_line_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_multi_expense_form">
+            <field name="name">Bank/Cash Payments</field>
+            <field name="res_model">custom.account.multi_expense</field>
+        </record>
+        
+        <record model="ir.action.act_window.view" id="act_multi_expense_tree_view">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="multi_expense_view_tree"/>
+            <field name="act_window" ref="act_multi_expense_form"/>
+        </record>
+
+        <record model="ir.action.act_window.view" id="act_multi_expense_form_view">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="multi_expense_view_form"/>
+            <field name="act_window" ref="act_multi_expense_form"/>
+        </record>
+
+        <menuitem parent="account.menu_entries" action="act_multi_expense_form" sequence="21" id="menu_multi_expense" name="Bank/Cash Payments"/>
+        
+        <!-- Standard Account Extension -->
+        <record model="ir.ui.view" id="account_view_form_extension">
+            <field name="model">account.account</field>
+            <field name="inherit" ref="account.account_view_form"/>
+            <field name="name">account_form_extension</field>
+        </record>
+
+        <record model="ir.ui.menu" id="account.menu_move_form">
+            <field name="name">GL Journal</field>
+        </record>
+
+        <!-- ============================================== -->
+        <!-- NEW RECORD PARTY EXTENSIONS -->
+        <!-- ============================================== -->
+        <record model="ir.ui.view" id="move_line_view_tree_extension">
+            <field name="model">account.move.line</field>
+            <field name="inherit" ref="account.move_line_view_tree"/>
+            <field name="name">move_line_tree_extension</field>
+        </record>
+
+        <record model="ir.ui.view" id="move_line_view_form_extension">
+            <field name="model">account.move.line</field>
+            <field name="inherit" ref="account.move_line_view_form"/>
+            <field name="name">move_line_form_extension</field>
+        </record>
+        <record model="ir.ui.view" id="move_line_view_tree_move_extension">
+            <field name="model">account.move.line</field>
+            <field name="inherit" ref="account.move_line_view_tree_move"/>
+            <field name="name">move_line_tree_extension</field>
+        </record>
+
+    </data>
+</tryton>

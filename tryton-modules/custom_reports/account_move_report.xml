@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- 1. Register the unified wizard action -->
+        <record model="ir.action.wizard" id="act_preview_universal_move_wizard">
+            <field name="name">Preview</field>
+            <field name="wiz_name">account.move.preview_universal_wizard</field>
+        </record>
+
+        <!-- 2. Attach print button to GL Journal (Account Moves) -->
+        <record model="ir.action.keyword" id="act_preview_move_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.move,-1</field>
+            <field name="action" ref="act_preview_universal_move_wizard"/>
+        </record>
+
+        <!-- 3. Attach print button to Fund Transfers -->
+        <record model="ir.action.keyword" id="act_preview_quick_entry_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">custom.account.quick_entry,-1</field>
+            <field name="action" ref="act_preview_universal_move_wizard"/>
+        </record>
+
+        <!-- 4. Attach print button to Bank/Cash Payments -->
+        <record model="ir.action.keyword" id="act_preview_multi_expense_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">custom.account.multi_expense,-1</field>
+            <field name="action" ref="act_preview_universal_move_wizard"/>
+        </record>
+    </data>
+</tryton>

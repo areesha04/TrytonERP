@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- View Record pointing to the separate file -->
+        <record model="ir.ui.view" id="transfer_start_view_form">
+            <field name="model">account.move.transfer.start</field>
+            <field name="type">form</field>
+            <field name="name">transfer_start_form</field>
+        </record>
+
+        <!-- Wizard Action -->
+        <record model="ir.action.wizard" id="act_account_move_transfer">
+            <field name="name">Quick Account Transfer</field>
+            <field name="wiz_name">account.move.transfer</field>
+        </record>
+
+        <!-- Menu Item -->
+        <record model="ir.ui.menu" id="menu_account_move_transfer">
+            <field name="name">Quick Transfer</field>
+            <field name="parent" ref="account.menu_entries"/>
+            <field name="action" ref="act_account_move_transfer"/>
+            <field name="sequence" eval="20"/>
+        </record>
+    </data>
+</tryton>

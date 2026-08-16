@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="/form/group[@id='checkboxes']/field[@name='direct_print']" position="after">
+        <label name="html_zipped"/>
+        <field name="html_zipped" xexpand="0" width="25"/>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id='general']" position="after">
+        <page string="HTML Report" id="html_report">
+            <label name="html_copies"/>
+            <field name="html_copies"/>
+            <label name="html_side_margin"/>
+            <field name="html_side_margin"/>
+            <label name="html_extra_vertical_margin"/>
+            <field name="html_extra_vertical_margin"/>
+            <label name="html_file_name"/>
+            <field name="html_file_name"/>
+        </page>
+    </xpath>
+</data>

@@ -23,5 +23,9 @@
             
             <field name="name">shipment_internal_form_bulk</field> 
         </record>
+
+        <record model="ir.ui.menu" id="stock.menu_shipment_in_form">
+            <field name="name">Goods Receiving Note</field>
+        </record>
     </data>
 </tryton>
