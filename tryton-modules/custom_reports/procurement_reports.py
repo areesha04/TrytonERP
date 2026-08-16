@@ -65,7 +65,7 @@ class ProcurementReportWizard(Wizard):
             'supplier_name': self.start.supplier.name if self.start.supplier else "All Suppliers",
             'product_id': self.start.product.id if self.start.product else None,
             'product_name': self.start.product.name if self.start.product else "All Products",
-            'company_name': 'Rays Creations'
+            'company_name': 'RAYS Creations'
         }
         
         # 3. Generate HTML Content

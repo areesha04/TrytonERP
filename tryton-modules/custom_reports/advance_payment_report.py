@@ -27,7 +27,7 @@ class VendorAdvanceDepositReport(HTMLReport):
         end_date_str = raw_end.strftime('%d-%b-%Y') if hasattr(raw_end, 'strftime') else str(raw_end or '')
         
         supplier_id = data.get('supplier_id')
-        company_name = data.get('company_name', 'Rays Creations')
+        company_name = data.get('company_name', 'RAYS Creations')
 
         # 2. Identify the Deposit/Advance Account(s)
         advance_account_id = data.get('advance_account_id')

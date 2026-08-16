@@ -30,11 +30,6 @@
             <field name="extension">pdf</field>
         </record>
 
-        <record model="ir.action.act_window" id="act_view_report_data">
-            <field name="name">Report Data</field>
-            <field name="res_model">account.move.line</field>
-        </record>
-
         <record model="ir.action.url" id="act_preview_url">
             <field name="name">Preview PDF</field>
             <field name="url">about:blank</field>

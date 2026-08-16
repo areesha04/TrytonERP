@@ -31,7 +31,7 @@ class ProcurementCustomReport(HTMLReport):
         end_date_str = raw_end.strftime('%d-%b-%Y') if hasattr(raw_end, 'strftime') else str(raw_end or '')
         
         report_type = data.get('report_type', 'purchase_register')
-        company_name = data.get('company_name', 'Rays Creations')
+        company_name = data.get('company_name', 'RAYS Creations')
 
         # ---------------------------------------------------------
         # ENFORCE FILTER RULES (Ignore hidden wizard values)

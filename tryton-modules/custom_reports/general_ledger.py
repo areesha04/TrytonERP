@@ -24,7 +24,7 @@ class GeneralLedgerReport(HTMLReport):
             
         start_date = data.get('start_date', '01-01-2024')
         end_date = data.get('end_date', '31-12-2024')
-        company_name = data.get('company_name', 'Rays Creation')
+        company_name = data.get('company_name', 'RAYS Creations')
 
         doc = tags.html()
         with doc:

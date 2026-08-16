@@ -229,7 +229,6 @@ class PrintReportRC(Wizard):
     start = StateView('account.print_report_rc.start',
         'custom_reports.print_report_rc_start_view_form', [
             Button('Cancel', 'end', 'tryton-cancel'),
-            Button('View on Screen', 'view_data', 'tryton-list'), 
             Button('Open PDF', 'preview_tab', 'tryton-print', default=True),
         ])
     
@@ -293,8 +292,11 @@ class PrintReportRC(Wizard):
         
         account_id = self.start.account.id if self.start.account else None
         party_id = self.start.party.id if self.start.party else None
+        report_type = self.start.report_type
+        start_date = self.start.start_date
+        end_date = self.start.end_date
 
-        if self.start.report_type == 'cash_book' and not account_id:
+        if report_type == 'cash_book' and not account_id:
             cash_accounts = Account.search([('name', 'ilike', 'cash')], limit=1)
             if not cash_accounts:
                 cash_accounts = Account.search([('code', 'like', '10%')], limit=1)
@@ -303,23 +305,23 @@ class PrintReportRC(Wizard):
         data = {
             'account_id': account_id,
             'party_id': party_id,
-            'start_date': self.start.start_date,
-            'end_date': self.start.end_date,
-            'company_name': 'Rays Creation'
+            'start_date': start_date,
+            'end_date': end_date,
+            'company_name': 'RAYS Creations'
         }
         
-        if self.start.report_type == 'cash_book':
+        if report_type == 'cash_book':
             account = Account(account_id) if account_id else None
             html_content = CashBookReport.get_html([account] if account else [], data)
             filename = "cash_book.pdf"
-        elif self.start.report_type == 'vendor_ledger':
+        elif report_type == 'vendor_ledger':
             html_content = VendorLedgerReport.get_html([], data)
             filename = f"vendor_ledger_{party_id}.pdf"
-        elif self.start.report_type == 'vendor_advance': # <-- ADDED LOGIC FOR PDF PREVIEW
-            data['supplier_id'] = party_id # Pass the party_id to the supplier_id key expected by the report
+        elif report_type == 'vendor_advance':
+            data['supplier_id'] = party_id
             html_content = VendorAdvanceDepositReport.get_html([], data)
             filename = f"vendor_advance_{party_id or 'all'}.pdf"
-        elif self.start.report_type == 'expense_report':
+        elif report_type == 'expense_report':
             html_content = ExpenseReport.get_html([], data)
             filename = "expense_report.pdf"
         else:
@@ -374,7 +376,7 @@ class DirectPDFWizard(Wizard):
             'party_id': party_id,
             'start_date': start_date,
             'end_date': end_date,
-            'company_name': 'Rays Creation'
+            'company_name': 'RAYS Creations'
         }
         
         if report_type == 'cash_book':
