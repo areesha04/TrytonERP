@@ -6,9 +6,12 @@ from . import vendor_ledger
 from . import wizard
 from . import supplier_invoice
 from .supplier_invoice import SupplierInvoiceCustomReport, PreviewInvoiceWizard
+from .procurement_reports import ProcurementReportStart, ProcurementReportWizard
+from .procurement_report_base import ProcurementCustomReport
 def register():
     Pool.register(
         wizard.PrintReportRCStart,
+        ProcurementReportStart,
         module='custom_reports',
         type_='model',
     )
@@ -16,6 +19,7 @@ def register():
         wizard.PrintReportRC,
         wizard.DirectPDFWizard,
         supplier_invoice.PreviewInvoiceWizard,
+        ProcurementReportWizard,
         wizard.PreviewUniversalMoveWizard,
         module='custom_reports',
         type_='wizard',
@@ -26,6 +30,8 @@ def register():
         expense_report.ExpenseReport,
         vendor_ledger.VendorLedgerReport,
         wizard.AccountMoveCustomReport,
+        SupplierInvoiceCustomReport,
+        ProcurementCustomReport,
         module='custom_reports',
         type_='report',
     )
