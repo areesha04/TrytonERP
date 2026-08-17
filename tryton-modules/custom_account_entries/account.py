@@ -13,6 +13,7 @@ class MoveLine(metaclass=PoolMeta):
     
     # This stores the party strictly for your reporting without breaking the ledger
     custom_party = fields.Many2One('party.party', 'Record Party')
+
 # ==========================================
 # TOOL 1: INTERNAL FUND TRANSFERS ONLY
 # ==========================================
@@ -20,23 +21,32 @@ class QuickAccountEntry(ModelSQL, ModelView):
     "Bank to Cash Transfer Entry"
     __name__ = 'custom.account.quick_entry'
     
-    company = fields.Many2One('company.company', 'Company', required=True)
-    journal = fields.Many2One('account.journal', 'Journal', required=True)
-    effective_date = fields.Date('Effective Date', required=True)
+    company = fields.Many2One('company.company', 'Company', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    journal = fields.Many2One('account.journal', 'Journal', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    effective_date = fields.Date('Effective Date', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     period = fields.Many2One('account.period', 'Period', required=True,
         domain=[('company', '=', Eval('company', -1))],
-        depends=['company', 'effective_date'])
-    description = fields.Char('Description')
+        depends=['company', 'effective_date', 'state'],
+        states={'readonly': Eval('state') == 'done'})
+    description = fields.Char('Description',
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     
     from_account = fields.Many2One('account.account', 'From Account',
         domain=[('company', '=', Eval('company', -1)), ('is_quick_entry_bank', '=', True)],
-        depends=['company'], required=True)
+        depends=['company', 'state'], required=True,
+        states={'readonly': Eval('state') == 'done'})
 
     to_account = fields.Many2One('account.account', 'To Account',
         domain=[('company', '=', Eval('company', -1)), ('is_quick_entry_bank', '=', True)],
-        depends=['company'], required=True)
+        depends=['company', 'state'], required=True,
+        states={'readonly': Eval('state') == 'done'})
 
-    amount = fields.Numeric('Amount', required=True)
+    amount = fields.Numeric('Amount', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+
     move = fields.Many2One('account.move', 'Generated Move', readonly=True)
     state = fields.Selection([('draft', 'Draft'), ('done', 'Done')], 'State', readonly=True)
 
@@ -56,6 +66,18 @@ class QuickAccountEntry(ModelSQL, ModelView):
     @classmethod
     def default_effective_date(cls):
         return Pool().get('ir.date').today()
+
+    @classmethod
+    def default_journal(cls):
+        Journal = Pool().get('account.journal')
+        journals = Journal.search([
+            'OR',
+            ('type', '=', 'cash'),
+            ('name', 'ilike', '%cash%')
+        ], limit=1)
+        if journals:
+            return journals[0].id
+        return None
 
     @fields.depends('effective_date', 'company')
     def on_change_effective_date(self):
@@ -107,19 +129,27 @@ class MultiExpenseEntry(ModelSQL, ModelView):
     "Consolidated Payment Entry"
     __name__ = 'custom.account.multi_expense'
     
-    company = fields.Many2One('company.company', 'Company', required=True)
-    journal = fields.Many2One('account.journal', 'Journal', required=True)
-    effective_date = fields.Date('Effective Date', required=True)
+    company = fields.Many2One('company.company', 'Company', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    journal = fields.Many2One('account.journal', 'Journal', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    effective_date = fields.Date('Effective Date', required=True,
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     period = fields.Many2One('account.period', 'Period', required=True,
         domain=[('company', '=', Eval('company', -1))],
-        depends=['company', 'effective_date'])
-    description = fields.Char('Description')
+        depends=['company', 'effective_date', 'state'],
+        states={'readonly': Eval('state') == 'done'})
+    description = fields.Char('Description',
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
     
     from_account = fields.Many2One('account.account', 'Payment Account (Bank/Cash)',
         domain=[('company', '=', Eval('company', -1)), ('is_quick_entry_bank', '=', True)],
-        depends=['company'], required=True)
+        depends=['company', 'state'], required=True,
+        states={'readonly': Eval('state') == 'done'})
         
-    lines = fields.One2Many('custom.account.multi_expense.line', 'entry', 'Expense Lines')
+    lines = fields.One2Many('custom.account.multi_expense.line', 'entry', 'Expense Lines',
+        states={'readonly': Eval('state') == 'done'}, depends=['state'])
+    
     total_amount = fields.Function(fields.Numeric('Total Amount'), 'get_total_amount')
     
     move = fields.Many2One('account.move', 'Generated Move', readonly=True)
@@ -141,6 +171,18 @@ class MultiExpenseEntry(ModelSQL, ModelView):
     @classmethod
     def default_effective_date(cls):
         return Pool().get('ir.date').today()
+
+    @classmethod
+    def default_journal(cls):
+        Journal = Pool().get('account.journal')
+        journals = Journal.search([
+            'OR',
+            ('type', '=', 'cash'),
+            ('name', 'ilike', '%cash%')
+        ], limit=1)
+        if journals:
+            return journals[0].id
+        return None
         
     def get_total_amount(self, name):
         return sum(line.amount for line in self.lines if line.amount) or Decimal('0.0')
@@ -201,7 +243,7 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             lines_to_create.append({
                 'move': move.id,
                 'account': record.from_account.id,
-                'party': None,          # Ensure native party is empty for bank
+                'party': None,      # Ensure native party is empty for bank
                 'custom_party': None,   # Leave empty for bank
                 'credit': total,
                 'debit': Decimal('0.0'), 

@@ -23,9 +23,11 @@
             <field name="extension">pdf</field>
         </record>
 
-        <record model="ir.action.act_window" id="act_view_report_data">
-            <field name="name">Report Data</field>
-            <field name="res_model">account.move.line</field>
+        <record model="ir.action.report" id="report_vendor_advance_custom">
+            <field name="name">Vendor Advance Report (Custom)</field>
+            <field name="model">party.party</field>
+            <field name="report_name">custom.vendor.advance.report</field>
+            <field name="extension">pdf</field>
         </record>
 
         <record model="ir.action.url" id="act_preview_url">
