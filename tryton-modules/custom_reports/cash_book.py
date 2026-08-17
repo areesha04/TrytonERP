@@ -96,12 +96,30 @@ class CashBookReport(HTMLReport):
                                         tags.th("Amount", cls="text-right", style="width: 70px;")
                                 with tags.tbody():
                                     for pay in payments:
-                                        co_name = ""
+                                        co_names = []
                                         if pay.move and pay.move.lines:
                                             for s_line in pay.move.lines:
-                                                if s_line.account.id != account.id:
-                                                    co_name = s_line.account.name
-                                                    break
+                                                # 1. Skip the main cash book account itself
+                                                if s_line.account.id == account.id:
+                                                    continue
+                                                
+                                                # 2. Skip any account that has the "Fund Transfer Bank/Cash" checkbox ticked
+                                                if getattr(s_line.account, 'is_quick_entry_bank', False):
+                                                    continue
+                                                
+                                                # Optional: If Sir Adeel's account does NOT have the checkbox ticked, 
+                                                # but you still need to exclude it, keep this specific check:
+                                                if 'adeel' in s_line.account.name.lower():
+                                                    continue
+                                                
+                                                # 3. Append to list if not already there (prevents duplicates)
+                                                if s_line.account.name not in co_names:
+                                                    co_names.append(s_line.account.name)
+                                        
+                                        # 4. Join all valid offsetting accounts with a comma
+                                        co_name = ", ".join(co_names)
+
+                                        # Fallback to party name if the filters stripped out everything
                                         if not co_name and pay.party:
                                             co_name = pay.party.name
 

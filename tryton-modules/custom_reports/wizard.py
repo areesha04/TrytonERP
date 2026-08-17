@@ -289,19 +289,22 @@ class PrintReportRC(Wizard):
         pool = Pool()
         Account = pool.get('account.account')
         Attachment = pool.get('ir.attachment')
-        
+        MoveLine = pool.get('account.move.line') 
+
         account_id = self.start.account.id if self.start.account else None
         party_id = self.start.party.id if self.start.party else None
         report_type = self.start.report_type
         start_date = self.start.start_date
         end_date = self.start.end_date
 
+        # 1. First, figure out the account_id if it's missing
         if report_type == 'cash_book' and not account_id:
             cash_accounts = Account.search([('name', 'ilike', 'cash')], limit=1)
             if not cash_accounts:
                 cash_accounts = Account.search([('code', 'like', '10%')], limit=1)
             account_id = cash_accounts[0].id if cash_accounts else None
 
+        # 2. THEN, create the data dictionary using that account_id
         data = {
             'account_id': account_id,
             'party_id': party_id,
@@ -310,6 +313,17 @@ class PrintReportRC(Wizard):
             'company_name': 'RAYS Creations'
         }
         
+        # 3. THEN, calculate the opening balance and attach it to data
+        if report_type == 'cash_book' and account_id and start_date:
+            historical_lines = MoveLine.search([
+                ('account', '=', account_id),
+                ('date', '<', start_date)
+            ])
+            total_debit = sum((line.debit for line in historical_lines if line.debit), Decimal('0.00'))
+            total_credit = sum((line.credit for line in historical_lines if line.credit), Decimal('0.00'))
+            data['opening_balance'] = total_debit - total_credit
+        
+        # 4. Finally, generate the report based on the type
         if report_type == 'cash_book':
             account = Account(account_id) if account_id else None
             html_content = CashBookReport.get_html([account] if account else [], data)
@@ -359,6 +373,7 @@ class DirectPDFWizard(Wizard):
         pool = Pool()
         Account = pool.get('account.account')
         Attachment = pool.get('ir.attachment')
+        MoveLine = pool.get('account.move.line') 
         context = Transaction().context
         
         report_type = context.get('rc_report_type', 'general_ledger')
@@ -378,6 +393,15 @@ class DirectPDFWizard(Wizard):
             'end_date': end_date,
             'company_name': 'RAYS Creations'
         }
+
+        if report_type == 'cash_book' and account_id and start_date:
+            historical_lines = MoveLine.search([
+                ('account', '=', account_id),
+                ('date', '<', start_date)
+            ])
+            total_debit = sum((line.debit for line in historical_lines if line.debit), Decimal('0.00'))
+            total_credit = sum((line.credit for line in historical_lines if line.credit), Decimal('0.00'))
+            report_data['opening_balance'] = total_debit - total_credit
         
         if report_type == 'cash_book':
             html_content = CashBookReport.get_html([account] if account else [], report_data)
@@ -385,7 +409,7 @@ class DirectPDFWizard(Wizard):
         elif report_type == 'vendor_ledger':
             html_content = VendorLedgerReport.get_html([], report_data)
             filename = f"vendor_ledger_{party_id}.pdf"
-        elif report_type == 'vendor_advance': # <-- ADDED LOGIC FOR DIRECT PDF
+        elif report_type == 'vendor_advance': 
             report_data['supplier_id'] = party_id
             html_content = VendorAdvanceDepositReport.get_html([], report_data)
             filename = f"vendor_advance_{party_id or 'all'}.pdf"

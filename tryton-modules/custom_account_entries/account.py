@@ -13,6 +13,7 @@ class MoveLine(metaclass=PoolMeta):
     
     # This stores the party strictly for your reporting without breaking the ledger
     custom_party = fields.Many2One('party.party', 'Record Party')
+
 # ==========================================
 # TOOL 1: INTERNAL FUND TRANSFERS ONLY
 # ==========================================
@@ -65,6 +66,18 @@ class QuickAccountEntry(ModelSQL, ModelView):
     @classmethod
     def default_effective_date(cls):
         return Pool().get('ir.date').today()
+
+    @classmethod
+    def default_journal(cls):
+        Journal = Pool().get('account.journal')
+        journals = Journal.search([
+            'OR',
+            ('type', '=', 'cash'),
+            ('name', 'ilike', '%cash%')
+        ], limit=1)
+        if journals:
+            return journals[0].id
+        return None
 
     @fields.depends('effective_date', 'company')
     def on_change_effective_date(self):
@@ -158,6 +171,18 @@ class MultiExpenseEntry(ModelSQL, ModelView):
     @classmethod
     def default_effective_date(cls):
         return Pool().get('ir.date').today()
+
+    @classmethod
+    def default_journal(cls):
+        Journal = Pool().get('account.journal')
+        journals = Journal.search([
+            'OR',
+            ('type', '=', 'cash'),
+            ('name', 'ilike', '%cash%')
+        ], limit=1)
+        if journals:
+            return journals[0].id
+        return None
         
     def get_total_amount(self, name):
         return sum(line.amount for line in self.lines if line.amount) or Decimal('0.0')
@@ -218,7 +243,7 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             lines_to_create.append({
                 'move': move.id,
                 'account': record.from_account.id,
-                'party': None,          # Ensure native party is empty for bank
+                'party': None,      # Ensure native party is empty for bank
                 'custom_party': None,   # Leave empty for bank
                 'credit': total,
                 'debit': Decimal('0.0'), 
