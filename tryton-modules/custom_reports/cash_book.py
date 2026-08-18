@@ -31,7 +31,6 @@ class CashBookReport(HTMLReport):
         with doc:
             with tags.head():
                 tags.style(REPORT_CSS)
-                # Force landscape for Cash Book to fit side-by-side cleanly
                 tags.style("@page { size: A4 landscape; margin: 10mm; }") 
             with tags.body():
                 with tags.div(cls="report-header"):
@@ -40,6 +39,7 @@ class CashBookReport(HTMLReport):
 
                 with tags.div(cls="meta-info"):
                     tags.div(f"Period: {start_date} to {end_date}", cls="font-bold")
+                    # The opening balance will now ONLY appear here in the header
                     tags.div(f"Opening Balance: {opening_balance:,.2f}", cls="font-bold")
 
                 for account in records:
@@ -50,11 +50,14 @@ class CashBookReport(HTMLReport):
                         domain.append(('date', '<=', end_date))
 
                     move_lines = MoveLine.search(domain, order=[('date', 'ASC'), ('id', 'ASC')])
+                    
                     receipts = [l for l in move_lines if l.debit and l.debit > 0]
                     payments = [l for l in move_lines if l.credit and l.credit > 0]
 
                     with tags.div(cls="cb-container"):
-                        # RECEIPTS (Left Side)
+                        # ==========================================
+                        # RECEIPTS (Left Side - Inflows)
+                        # ==========================================
                         with tags.div(cls="cb-side"):
                             tags.div("RECEIPTS (INFLOW)", cls="cb-title")
                             with tags.table(style="margin-bottom: 0;"):
@@ -65,25 +68,33 @@ class CashBookReport(HTMLReport):
                                         tags.th("V#", cls="text-center", style="width: 60px;")
                                         tags.th("Description")
                                         tags.th("Amount", cls="text-right", style="width: 70px;")
+                                        
                                 with tags.tbody():
                                     for rec in receipts:
-                                        co_name = ""
-                                        if rec.move and rec.move.lines:
-                                            for s_line in rec.move.lines:
-                                                if s_line.account.id != account.id:
-                                                    co_name = s_line.account.name
-                                                    break
-                                        if not co_name and rec.party:
-                                            co_name = rec.party.name
+                                        offset_lines = [l for l in rec.move.lines if l.account.id != account.id and l.credit and l.credit > 0]
+                                        
+                                        if not offset_lines:
+                                            co_name = rec.party.name if rec.party else ''
+                                            with tags.tr():
+                                                tags.td(rec.date.strftime('%d-%b-%y') if rec.date else '', cls="text-center")
+                                                tags.td(co_name)
+                                                tags.td(str(rec.move.number or '') if rec.move else '', cls="text-center")
+                                                tags.td(str(rec.description or (rec.move.description if rec.move else '')))
+                                                tags.td(f"{rec.debit:,.2f}", cls="text-right")
+                                        else:
+                                            for s_line in offset_lines:
+                                                co_name = s_line.account.name
+                                                desc = s_line.description or rec.description or (rec.move.description if rec.move else '')
+                                                with tags.tr():
+                                                    tags.td(rec.date.strftime('%d-%b-%y') if rec.date else '', cls="text-center")
+                                                    tags.td(co_name)
+                                                    tags.td(str(rec.move.number or '') if rec.move else '', cls="text-center")
+                                                    tags.td(str(desc))
+                                                    tags.td(f"{s_line.credit:,.2f}", cls="text-right")
 
-                                        with tags.tr():
-                                            tags.td(rec.date.strftime('%d-%b-%y') if rec.date else '', cls="text-center")
-                                            tags.td(co_name)
-                                            tags.td(str(rec.move.number or '') if rec.move else '', cls="text-center")
-                                            tags.td(str(rec.description or (rec.move.description if rec.move else '')))
-                                            tags.td(f"{rec.debit:,.2f}", cls="text-right")
-
-                        # PAYMENTS (Right Side)
+                        # ==========================================
+                        # PAYMENTS (Right Side - Outflows)
+                        # ==========================================
                         with tags.div(cls="cb-side"):
                             tags.div("PAYMENTS (OUTFLOW)", cls="cb-title")
                             with tags.table(style="margin-bottom: 0;"):
@@ -94,40 +105,28 @@ class CashBookReport(HTMLReport):
                                         tags.th("V#", cls="text-center", style="width: 60px;")
                                         tags.th("Description")
                                         tags.th("Amount", cls="text-right", style="width: 70px;")
+                                        
                                 with tags.tbody():
                                     for pay in payments:
-                                        co_names = []
-                                        if pay.move and pay.move.lines:
-                                            for s_line in pay.move.lines:
-                                                # 1. Skip the main cash book account itself
-                                                if s_line.account.id == account.id:
-                                                    continue
-                                                
-                                                # 2. Skip any account that has the "Fund Transfer Bank/Cash" checkbox ticked
-                                                if getattr(s_line.account, 'is_quick_entry_bank', False):
-                                                    continue
-                                                
-                                                # Optional: If Sir Adeel's account does NOT have the checkbox ticked, 
-                                                # but you still need to exclude it, keep this specific check:
-                                                if 'adeel' in s_line.account.name.lower():
-                                                    continue
-                                                
-                                                # 3. Append to list if not already there (prevents duplicates)
-                                                if s_line.account.name not in co_names:
-                                                    co_names.append(s_line.account.name)
+                                        offset_lines = [l for l in pay.move.lines if l.account.id != account.id and l.debit and l.debit > 0]
                                         
-                                        # 4. Join all valid offsetting accounts with a comma
-                                        co_name = ", ".join(co_names)
-
-                                        # Fallback to party name if the filters stripped out everything
-                                        if not co_name and pay.party:
-                                            co_name = pay.party.name
-
-                                        with tags.tr():
-                                            tags.td(pay.date.strftime('%d-%b-%y') if pay.date else '', cls="text-center")
-                                            tags.td(co_name)
-                                            tags.td(str(pay.move.number or '') if pay.move else '', cls="text-center")
-                                            tags.td(str(pay.description or (pay.move.description if pay.move else '')))
-                                            tags.td(f"{pay.credit:,.2f}", cls="text-right")
+                                        if not offset_lines:
+                                            co_name = pay.party.name if pay.party else ''
+                                            with tags.tr():
+                                                tags.td(pay.date.strftime('%d-%b-%y') if pay.date else '', cls="text-center")
+                                                tags.td(co_name)
+                                                tags.td(str(pay.move.number or '') if pay.move else '', cls="text-center")
+                                                tags.td(str(pay.description or (pay.move.description if pay.move else '')))
+                                                tags.td(f"{pay.credit:,.2f}", cls="text-right")
+                                        else:
+                                            for s_line in offset_lines:
+                                                co_name = s_line.account.name
+                                                desc = s_line.description or pay.description or (pay.move.description if pay.move else '')
+                                                with tags.tr():
+                                                    tags.td(pay.date.strftime('%d-%b-%y') if pay.date else '', cls="text-center")
+                                                    tags.td(co_name)
+                                                    tags.td(str(pay.move.number or '') if pay.move else '', cls="text-center")
+                                                    tags.td(str(desc))
+                                                    tags.td(f"{s_line.debit:,.2f}", cls="text-right")
 
         return doc.render()

@@ -17,6 +17,7 @@ from .cash_book import CashBookReport
 from .expense_report import ExpenseReport
 from .vendor_ledger import VendorLedgerReport
 from .advance_payment_report import VendorAdvanceDepositReport
+from trytond.exceptions import UserError
 # ==========================================
 # 0. CUSTOM WEB CONTROLLER (Forces PDF Preview)
 # ==========================================
@@ -138,19 +139,24 @@ class PreviewUniversalMoveWizard(Wizard):
         if active_model == 'account.move':
             move = record
             report_title = "JOURNAL ENTRY"
+            
         elif active_model == 'custom.account.quick_entry':
             move = record.move
             report_title = "FUNDS TRANSFER"
             if not move:
-                self.raise_user_error("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                # Raises a clean window with a single OK button and halts execution
+                raise UserError("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                
         elif active_model == 'custom.account.multi_expense':
             move = record.move
             report_title = "BANK/CASH PAYMENT"
             if not move:
-                self.raise_user_error("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                # Raises a clean window with a single OK button and halts execution
+                raise UserError("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                
         else:
             return action, {}
-        
+
         # 2. Generate PDF and pass the dynamic title
         report_data = {'report_title': report_title}
         html_content = AccountMoveCustomReport.get_html([move], report_data)

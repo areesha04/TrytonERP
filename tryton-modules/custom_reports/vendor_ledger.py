@@ -1,3 +1,4 @@
+import os
 from decimal import Decimal
 import dominate.tags as tags
 from itertools import groupby
@@ -20,22 +21,39 @@ class VendorLedgerReport(HTMLReport):
         MoveLine = pool.get('account.move.line')
 
         party_id = data.get('party_id')
+        if hasattr(party_id, 'id'):
+            party_id = party_id.id
+
         start_date = data.get('start_date')
         end_date = data.get('end_date')
 
         doc = tags.html()
         
-        domain = [('party', '!=', None)]
+        # 1. Update Main Domain to check BOTH party and custom_party
+        domain = []
         if start_date:
             domain.append(('date', '>=', start_date))
         if end_date:
             domain.append(('date', '<=', end_date))
+            
         if party_id:
-            domain.append(('party', '=', party_id))
+            domain.append(['OR', ('party', '=', party_id), ('custom_party', '=', party_id)])
+        else:
+            domain.append(['OR', ('party', '!=', None), ('custom_party', '!=', None)])
             
         lines = MoveLine.search(domain)
-        lines.sort(key=lambda l: (l.party.name if l.party else '', l.date.strftime('%Y%m%d') if l.date else ''))
-        grouped_lines = groupby(lines, key=lambda l: l.party)
+        
+        # Helper function to get whichever party field is populated
+        def get_party(line):
+            return line.party or getattr(line, 'custom_party', None)
+        
+        # 2. Sort and group using the helper function
+        lines.sort(key=lambda l: (
+            get_party(l).name if get_party(l) else '', 
+            l.date.strftime('%Y%m%d') if l.date else '',
+            l.move.id if l.move else 0
+        ))
+        grouped_lines = groupby(lines, key=get_party)
 
         with doc:
             with tags.head():
@@ -49,10 +67,23 @@ class VendorLedgerReport(HTMLReport):
                     tags.div(f"Period: {start_date or '-'} to {end_date or '-'}", cls="font-bold")
 
                 for party, party_lines in grouped_lines:
+                    party_lines = list(party_lines)
                     if not party:
                         continue
 
-                    # Clean separation for each vendor
+                    # 3. Update Opening Balance Domain to check BOTH fields
+                    opening_balance = Decimal('0.00')
+                    if start_date:
+                        opening_domain = [
+                            ('date', '<', start_date),
+                            ['OR', ('party', '=', party.id), ('custom_party', '=', party.id)]
+                        ]
+                        opening_lines = MoveLine.search(opening_domain)
+                        for ol in opening_lines:
+                            o_debit = ol.debit or Decimal('0.00')
+                            o_credit = ol.credit or Decimal('0.00')
+                            opening_balance += (o_debit - o_credit)
+
                     tags.h3(party.name, style="margin: 20px 0 10px 0; color: #0f172a;")
                     
                     with tags.table():
@@ -68,25 +99,113 @@ class VendorLedgerReport(HTMLReport):
                                 tags.th("Balance", cls="text-right", style="width: 90px;")
 
                         with tags.tbody():
-                            running_balance = Decimal('0.00')
-                            for l in party_lines:
-                                debit = l.debit or Decimal('0.00')
-                                credit = l.credit or Decimal('0.00')
-                                running_balance += (debit - credit)
+                            running_balance = opening_balance
+                            
+                            if start_date:
+                                with tags.tr(style="background-color: #f8fafc; font-weight: bold; color: #333;"):
+                                    tags.td(start_date.strftime('%d-%b-%y'), cls="text-center")
+                                    tags.td("-", cls="text-center")
+                                    tags.td("-", cls="text-center")
+                                    tags.td("-")
+                                    tags.td("Opening Balance Brought Forward")
+                                    tags.td("-", cls="text-right")
+                                    tags.td("-", cls="text-right")
+                                    tags.td(f"{running_balance:,.2f}", cls="text-right")
+
+                            move_groups = groupby(party_lines, key=lambda l: l.move)
+                            
+                            for move, m_lines_iter in move_groups:
+                                m_lines = list(m_lines_iter)
                                 
+                                if not move:
+                                    for l in m_lines:
+                                        debit = l.debit or Decimal('0.00')
+                                        credit = l.credit or Decimal('0.00')
+                                        running_balance += (debit - credit)
+                                        with tags.tr():
+                                            tags.td(l.date.strftime('%d-%b-%y') if l.date else '', cls="text-center")
+                                            tags.td("-", cls="text-center")
+                                            tags.td("-", cls="text-center")
+                                            tags.td(l.account.name if l.account else '')
+                                            tags.td(str(l.description or ''))
+                                            tags.td(f"{debit:,.2f}" if debit else "-", cls="text-right")
+                                            tags.td(f"{credit:,.2f}" if credit else "-", cls="text-right")
+                                            tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+                                    continue
+
+                                date_str = m_lines[0].date.strftime('%d-%b-%y') if m_lines[0].date else ''
+                                voucher = str(move.number or '')
                                 invoice_no = ''
-                                if l.move and l.move.origin:
-                                    origin = l.move.origin
-                                    invoice_no = getattr(origin, 'number', getattr(origin, 'rec_name', ''))
+                                if move.origin:
+                                    invoice_no = getattr(move.origin, 'number', getattr(move.origin, 'rec_name', ''))
+
+                                # 4. Calculate Gross Value by ensuring BOTH party fields are empty on the opposite side
+                                gross_val = sum(
+                                    ((ml.debit or Decimal('0.00')) - (ml.credit or Decimal('0.00')))
+                                    for ml in move.lines if not ml.party and not getattr(ml, 'custom_party', None)
+                                )
+
+                                # ========================================================
+                                # SCENARIO A: It is an Invoice
+                                # ========================================================
+                                if gross_val > Decimal('0.00'):
                                     
-                                with tags.tr():
-                                    tags.td(l.date.strftime('%d-%b-%y') if l.date else '', cls="text-center")
-                                    tags.td(str(l.move.number or '') if l.move else '', cls="text-center")
-                                    tags.td(str(invoice_no), cls="text-center")
-                                    tags.td(l.account.name if l.account else '')
-                                    tags.td(str(l.description or (l.move.description if l.move else '')))
-                                    tags.td(f"{debit:,.2f}" if debit else "-", cls="text-right")
-                                    tags.td(f"{credit:,.2f}" if credit else "-", cls="text-right")
-                                    tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+                                    # Calculate true net mathematical change for this party
+                                    party_debit = sum(l.debit or Decimal('0.00') for l in m_lines)
+                                    party_credit = sum(l.credit or Decimal('0.00') for l in m_lines)
+                                    actual_net = party_debit - party_credit
+                                    
+                                    running_balance += actual_net
+
+                                    with tags.tr():
+                                        tags.td(date_str, cls="text-center")
+                                        tags.td(voucher, cls="text-center")
+                                        tags.td(invoice_no, cls="text-center")
+                                        tags.td("Trade Payables")
+                                        tags.td("Gross Invoice Value")
+                                        tags.td("-", cls="text-right")
+                                        tags.td(f"{gross_val:,.2f}", cls="text-right")
+                                        tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+
+                                # ========================================================
+                                # SCENARIO B: Payments, Advances, or Custom Expenses
+                                # ========================================================
+                                else:
+                                    party_debit = sum(l.debit or Decimal('0.00') for l in m_lines)
+                                    party_credit = sum(l.credit or Decimal('0.00') for l in m_lines)
+                                    net = party_debit - party_credit
+                                    
+                                    # If the move nets to 0 (like dummy invoice SEQ/058), skip it entirely
+                                    if net == Decimal('0.00'):
+                                        continue 
+                                        
+                                    debit_to_show = net if net > 0 else Decimal('0.00')
+                                    credit_to_show = abs(net) if net < 0 else Decimal('0.00')
+                                    running_balance += net
+                                    
+                                    account_name = ''
+                                    desc = ''
+                                    for l in m_lines:
+                                        if net > 0 and (l.debit or 0) > 0:
+                                            account_name = l.account.name if l.account else ''
+                                            desc = l.description or (move.description or '')
+                                            break
+                                        elif net < 0 and (l.credit or 0) > 0:
+                                            account_name = l.account.name if l.account else ''
+                                            desc = l.description or (move.description or '')
+                                            break
+                                            
+                                    if not desc:
+                                        desc = "Payment / Expense Transaction"
+
+                                    with tags.tr():
+                                        tags.td(date_str, cls="text-center")
+                                        tags.td(voucher, cls="text-center")
+                                        tags.td(invoice_no, cls="text-center")
+                                        tags.td(account_name)
+                                        tags.td(desc)
+                                        tags.td(f"{debit_to_show:,.2f}" if debit_to_show else "-", cls="text-right")
+                                        tags.td(f"{credit_to_show:,.2f}" if credit_to_show else "-", cls="text-right")
+                                        tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
 
         return doc.render()

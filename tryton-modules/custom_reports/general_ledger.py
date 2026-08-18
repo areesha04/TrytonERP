@@ -21,7 +21,7 @@ class GeneralLedgerReport(HTMLReport):
 
         if not records and 'account_id' in data and data['account_id']:
             records = Account.browse([data['account_id']])
-            
+
         start_date = data.get('start_date', '01-01-2024')
         end_date = data.get('end_date', '31-12-2024')
         company_name = data.get('company_name', 'RAYS Creations')
@@ -36,8 +36,19 @@ class GeneralLedgerReport(HTMLReport):
                     tags.h3(company_name)
 
                 for account in records:
-                    start_balance = Decimal('0.00')
-                    running_balance = start_balance
+                    # Calculate opening balance before start_date
+                    opening_lines = MoveLine.search([
+                        ('account', '=', account.id),
+                        ('date', '<', start_date)
+                    ])
+                    opening_balance = sum(
+                        (line.debit or Decimal('0.00')) - (line.credit or Decimal('0.00'))
+                        for line in opening_lines
+                    )
+                    running_balance = opening_balance
+
+                    total_debit = Decimal('0.00')
+                    total_credit = Decimal('0.00')
 
                     # Account Meta Info
                     with tags.div(cls="meta-info"):
@@ -60,6 +71,17 @@ class GeneralLedgerReport(HTMLReport):
                                 tags.th("Balance", cls="text-right", style="width: 90px;")
 
                         with tags.tbody():
+                            # Opening Balance Row
+                            with tags.tr():
+                                tags.td("-", cls="text-center")
+                                tags.td("-", cls="text-center")
+                                tags.td("-", cls="text-center")
+                                tags.td("Opening Balance", cls="font-bold")
+                                tags.td("-")
+                                tags.td("-", cls="text-right")
+                                tags.td("-", cls="text-right")
+                                tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+
                             move_lines = MoveLine.search([
                                 ('account', '=', account.id),
                                 ('date', '>=', start_date),
@@ -71,12 +93,28 @@ class GeneralLedgerReport(HTMLReport):
                                 credit = line.credit or Decimal('0.00')
                                 running_balance += (debit - credit)
 
-                                # Business Partner Logic
+                                total_debit += debit
+                                total_credit += credit
+
+                                # Comprehensive Business Partner Resolution Logic
                                 partner_name = ''
                                 if line.party and line.party.name:
                                     partner_name = line.party.name
-                                elif line.move and line.move.origin and hasattr(line.move.origin, 'party') and line.move.origin.party:
-                                    partner_name = line.move.origin.party.name
+                                elif line.move:
+                                    # 1. Check other lines in the same move
+                                    for move_line in getattr(line.move, 'lines', []):
+                                        if move_line.party and move_line.party.name:
+                                            partner_name = move_line.party.name
+                                            break
+                                    
+                                    # 2. Check custom_party field on the move if still empty
+                                    if not partner_name and hasattr(line.move, 'custom_party') and line.move.custom_party:
+                                        custom_party = line.move.custom_party
+                                        partner_name = custom_party.name if hasattr(custom_party, 'name') else str(custom_party)
+                                        
+                                    # 3. Check move origin if still empty
+                                    if not partner_name and line.move.origin and hasattr(line.move.origin, 'party') and line.move.origin.party:
+                                        partner_name = line.move.origin.party.name
 
                                 invoice_no = ''
                                 if line.move and line.move.origin:
@@ -92,5 +130,12 @@ class GeneralLedgerReport(HTMLReport):
                                     tags.td(f"{debit:,.2f}" if debit else "-", cls="text-right")
                                     tags.td(f"{credit:,.2f}" if credit else "-", cls="text-right")
                                     tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+
+                        with tags.tfoot():
+                            with tags.tr(cls="font-bold"):
+                                tags.td("Total", colspan="5", cls="text-right")
+                                tags.td(f"{total_debit:,.2f}", cls="text-right")
+                                tags.td(f"{total_credit:,.2f}", cls="text-right")
+                                tags.td(f"{running_balance:,.2f}", cls="text-right")
 
         return doc.render()
