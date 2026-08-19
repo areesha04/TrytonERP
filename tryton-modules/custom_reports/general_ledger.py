@@ -15,6 +15,17 @@ class GeneralLedgerReport(HTMLReport):
 
     @classmethod
     def get_html(cls, records, data):
+        # Helper function to aggressively hunt down the business partner name
+        # checking standard 'party', as well as 'custom_party' and 'record_party'
+        def get_party_name(rec):
+            if not rec:
+                return ''
+            for field in ['party', 'custom_party', 'record_party']:
+                if hasattr(rec, field) and getattr(rec, field):
+                    val = getattr(rec, field)
+                    return val.name if hasattr(val, 'name') else str(val)
+            return ''
+
         pool = Pool()
         Account = pool.get('account.account')
         MoveLine = pool.get('account.move.line')
@@ -64,7 +75,7 @@ class GeneralLedgerReport(HTMLReport):
                                 tags.th("Date", cls="text-center", style="width: 70px;")
                                 tags.th("Voucher", cls="text-center", style="width: 80px;")
                                 tags.th("Invoice", cls="text-center", style="width: 90px;")
-                                tags.th("Business Partner")
+                                tags.th("Party")
                                 tags.th("Description")
                                 tags.th("Debit", cls="text-right", style="width: 80px;")
                                 tags.th("Credit", cls="text-right", style="width: 80px;")
@@ -89,49 +100,95 @@ class GeneralLedgerReport(HTMLReport):
                             ], order=[('date', 'ASC'), ('id', 'ASC')])
 
                             for line in move_lines:
-                                debit = line.debit or Decimal('0.00')
-                                credit = line.credit or Decimal('0.00')
-                                running_balance += (debit - credit)
+                                # Check for counterpart lines to expand multi-line entries
+                                other_lines = [ml for ml in getattr(line.move, 'lines', []) if ml.id != line.id]
 
-                                total_debit += debit
-                                total_credit += credit
+                                if other_lines:
+                                    for sub_line in other_lines:
+                                        sub_debit = Decimal('0.00')
+                                        sub_credit = Decimal('0.00')
 
-                                # Comprehensive Business Partner Resolution Logic
-                                partner_name = ''
-                                if line.party and line.party.name:
-                                    partner_name = line.party.name
-                                elif line.move:
-                                    # 1. Check other lines in the same move
-                                    for move_line in getattr(line.move, 'lines', []):
-                                        if move_line.party and move_line.party.name:
-                                            partner_name = move_line.party.name
-                                            break
-                                    
-                                    # 2. Check custom_party field on the move if still empty
-                                    if not partner_name and hasattr(line.move, 'custom_party') and line.move.custom_party:
-                                        custom_party = line.move.custom_party
-                                        partner_name = custom_party.name if hasattr(custom_party, 'name') else str(custom_party)
-                                        
-                                    # 3. Check move origin if still empty
-                                    if not partner_name and line.move.origin and hasattr(line.move.origin, 'party') and line.move.origin.party:
-                                        partner_name = line.move.origin.party.name
+                                        # Map debit/credit relative to the main account line direction
+                                        if (line.credit or Decimal('0.00')) > 0:
+                                            sub_credit = sub_line.debit or Decimal('0.00')
+                                            sub_debit = sub_line.credit or Decimal('0.00')
+                                        else:
+                                            sub_debit = sub_line.credit or Decimal('0.00')
+                                            sub_credit = sub_line.debit or Decimal('0.00')
 
-                                invoice_no = ''
-                                if line.move and line.move.origin:
-                                    origin = line.move.origin
-                                    invoice_no = getattr(origin, 'number', getattr(origin, 'rec_name', ''))
+                                        if sub_debit == 0 and sub_credit == 0:
+                                            continue
 
-                                with tags.tr():
-                                    tags.td(line.date.strftime('%d-%b-%Y') if line.date else '', cls="text-center")
-                                    tags.td(str(line.move.number or '') if line.move else '', cls="text-center")                                    
-                                    tags.td(str(invoice_no), cls="text-center")
-                                    tags.td(partner_name)
-                                    tags.td(str(line.description or (line.move.description if line.move else '')))
-                                    tags.td(f"{debit:,.2f}" if debit else "-", cls="text-right")
-                                    tags.td(f"{credit:,.2f}" if credit else "-", cls="text-right")
-                                    tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+                                        running_balance += (sub_debit - sub_credit)
+                                        total_debit += sub_debit
+                                        total_credit += sub_credit
 
-                        with tags.tfoot():
+                                        # Extensive Partner Resolution Logic
+                                        partner_name = get_party_name(sub_line)
+                                        if not partner_name:
+                                            partner_name = get_party_name(line)
+                                        if not partner_name and line.move:
+                                            partner_name = get_party_name(line.move)
+                                            if not partner_name:
+                                                for ml in getattr(line.move, 'lines', []):
+                                                    partner_name = get_party_name(ml)
+                                                    if partner_name: break
+                                            if not partner_name and line.move.origin:
+                                                partner_name = get_party_name(line.move.origin)
+
+                                        acc_name = sub_line.account.name if sub_line.account else ''
+                                        line_desc = sub_line.description or acc_name or line.description or (line.move.description if line.move else '')
+
+                                        invoice_no = ''
+                                        if line.move and line.move.origin:
+                                            origin = line.move.origin
+                                            invoice_no = getattr(origin, 'number', getattr(origin, 'rec_name', ''))
+
+                                        with tags.tr():
+                                            tags.td(line.date.strftime('%d-%b-%Y') if line.date else '', cls="text-center")
+                                            tags.td(str(line.move.number or '') if line.move else '', cls="text-center")                                    
+                                            tags.td(str(invoice_no), cls="text-center")
+                                            tags.td(partner_name)
+                                            tags.td(str(line_desc))
+                                            tags.td(f"{sub_debit:,.2f}" if sub_debit else "-", cls="text-right")
+                                            tags.td(f"{sub_credit:,.2f}" if sub_credit else "-", cls="text-right")
+                                            tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+                                else:
+                                    # Fallback for standard single-line entries
+                                    debit = line.debit or Decimal('0.00')
+                                    credit = line.credit or Decimal('0.00')
+                                    running_balance += (debit - credit)
+
+                                    total_debit += debit
+                                    total_credit += credit
+
+                                    # Extensive Partner Resolution Logic
+                                    partner_name = get_party_name(line)
+                                    if not partner_name and line.move:
+                                        partner_name = get_party_name(line.move)
+                                        if not partner_name:
+                                            for ml in getattr(line.move, 'lines', []):
+                                                partner_name = get_party_name(ml)
+                                                if partner_name: break
+                                        if not partner_name and line.move.origin:
+                                            partner_name = get_party_name(line.move.origin)
+
+                                    invoice_no = ''
+                                    if line.move and line.move.origin:
+                                        origin = line.move.origin
+                                        invoice_no = getattr(origin, 'number', getattr(origin, 'rec_name', ''))
+
+                                    with tags.tr():
+                                        tags.td(line.date.strftime('%d-%b-%Y') if line.date else '', cls="text-center")
+                                        tags.td(str(line.move.number or '') if line.move else '', cls="text-center")                                    
+                                        tags.td(str(invoice_no), cls="text-center")
+                                        tags.td(partner_name)
+                                        tags.td(str(line.description or (line.move.description if line.move else '')))
+                                        tags.td(f"{debit:,.2f}" if debit else "-", cls="text-right")
+                                        tags.td(f"{credit:,.2f}" if credit else "-", cls="text-right")
+                                        tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
+
+                            # Total Row rendered once at the very end of the tbody content
                             with tags.tr(cls="font-bold"):
                                 tags.td("Total", colspan="5", cls="text-right")
                                 tags.td(f"{total_debit:,.2f}", cls="text-right")

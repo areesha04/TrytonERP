@@ -193,6 +193,9 @@ class PreviewUniversalMoveWizard(Wizard):
 # ==========================================
 # 2. WIZARD START MODEL WITH DYNAMIC FIELDS
 # ==========================================
+# ==========================================
+# 2. WIZARD START MODEL WITH DYNAMIC FIELDS
+# ==========================================
 class PrintReportRCStart(ModelView):
     __name__ = 'account.print_report_rc.start'
     
@@ -201,7 +204,7 @@ class PrintReportRCStart(ModelView):
         ('cash_book', 'Cash Book'),
         ('expense_report', 'Expense Report'),
         ('vendor_ledger', 'Vendor Ledger'),
-        ('vendor_advance', 'Vendor Advance & Deposit'),
+        ('vendor_advance', 'Vendor Advance & Trade Payables'),
     ], 'Report Type', required=True)
     
     account = fields.Many2One('account.account', 'Account',
@@ -211,10 +214,10 @@ class PrintReportRCStart(ModelView):
         },
         depends=['report_type'])
 
-    # REMOVED the 'required' state so you can leave it empty for ALL parties
+    # --- UPDATED: Make party visible for both vendor_ledger and vendor_advance ---
     party = fields.Many2One('party.party', 'Vendor / Party',
         states={
-            'invisible': Eval('report_type') != 'vendor_ledger',
+            'invisible': ~Eval('report_type').in_(['vendor_ledger', 'vendor_advance']),
         },
         depends=['report_type'])
         
