@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<form>
+    <label name="party"/>
+    <field name="party"/>
+    
+    <label name="advance_account"/>
+    <field name="advance_account"/>
+    
+    <label name="available_advance"/>
+    <field name="available_advance"/>
+    
+    <label name="state"/>
+    <field name="state"/>
+    
+    <label name="post_invoices"/>
+    <field name="post_invoices"/>
+
+    <separator colspan="4"/>
+    <field name="invoices" colspan="4"/>
+    
+    <group col="1" colspan="4" id="buttons">
+        <button name="allocate" string="Recall Deposit" icon="tryton-ok"/>
+    </group>
+</form>
