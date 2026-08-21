@@ -34,19 +34,13 @@ class AdvanceAllocation(Workflow, ModelSQL, ModelView):
     
     invoices = fields.Many2Many(
         'account.advance_allocation-account.invoice',
-        'allocation', 'invoice', 'Supplier Invoices',
+        'allocation', 'invoice', 'Invoices',
         domain=[
-            ('party', '=', Eval('party')),
-            ('type', '=', 'in'),
-            # Restrict to Draft only when making the allocation.
-            # Allow posted/paid states so the system doesn't crash after posting.
-            If(Eval('state') == 'draft',
-                ('state', '=', 'draft'),
-                ('state', 'in', ['draft', 'posted', 'paid', 'cancelled'])
-            ),
+            ('state', '=', 'posted'),          # 'posted' state natively implies it is not yet paid
+            ('type', '=', 'in'),               # Supplier invoices
+            ('party', '=', Eval('party')),     # Must belong to the selected party
         ],
-        states={'readonly': Eval('state') == 'done'},
-        depends=['party', 'state']
+        depends=['party']
     )
     
     state = fields.Selection([
@@ -117,60 +111,82 @@ class AdvanceAllocation(Workflow, ModelSQL, ModelView):
     @Workflow.transition('done')
     def allocate(cls, allocations):
         pool = Pool()
-        InvoiceLine = pool.get('account.invoice.line')
-        Invoice = pool.get('account.invoice')
+        Move = pool.get('account.move')
         Line = pool.get('account.move.line')
+        Journal = pool.get('account.journal')
+        Date = pool.get('ir.date')
+
+        # Fetch a default journal for the accounting moves (e.g., General Journal)
+        journals = Journal.search([('type', '=', 'general')], limit=1)
+        if not journals:
+            cls.raise_user_error("No General Journal found to process the allocation.")
+        journal = journals[0]
 
         for allocation in allocations:
-            lines_to_save = []
-            invoices_to_update = set()
-            
-            # Fetch unreconciled lines to get the available balance
+            # 1. Calculate available advance
             adv_lines = Line.search([
                 ('party', '=', allocation.party.id),
                 ('account', '=', allocation.advance_account.id),
                 ('reconciliation', '=', None),
             ])
-            
             net_available = sum((l.debit - l.credit) for l in adv_lines)
+
             if net_available <= 0:
                 continue 
-                
+
             for invoice in allocation.invoices:
-                if invoice.state != 'draft':
-                    cls.raise_user_error("You can only recall deposits into Draft invoices.")
+                if invoice.state != 'posted':
+                    continue
                 
-                amount_needed = invoice.total_amount
+                amount_needed = invoice.amount_to_pay
                 
-                # Apply advance funds to the invoice
                 if amount_needed > 0 and net_available > 0:
                     use_amount = min(amount_needed, net_available)
                     
-                    line = InvoiceLine()
-                    line.invoice = invoice
-                    line.type = 'line'
-                    line.account = allocation.advance_account
-                    line.quantity = 1
-                    line.unit_price = -use_amount
-                    line.description = 'Recalled Advance Payment'
+                    # 2. Create the Payment Move (Journal Entry)
+                    move = Move()
+                    move.journal = journal
+                    move.date = Date.today()
+                    move.company = invoice.company 
                     
-                    lines_to_save.append(line)
-                    invoices_to_update.add(invoice)
+                    # Line A: Reduce the Advance Balance (Credit)
+                    line_adv = Line()
+                    line_adv.account = allocation.advance_account
+                    line_adv.party = allocation.party
+                    line_adv.credit = use_amount
+                    line_adv.debit = 0
+                    
+                    # Line B: Pay the Supplier Invoice (Debit)
+                    line_pay = Line()
+                    line_pay.account = invoice.account
+                    line_pay.party = allocation.party
+                    line_pay.debit = use_amount
+                    line_pay.credit = 0
+                    
+                    move.lines = (line_adv, line_pay)
+                    move.save()
+                    
+                    # Post the journal entry immediately
+                    Move.post([move])
+                    
+                    # 3. Fetch the fully-loaded line from the database
+                    saved_lines = Line.search([
+                        ('move', '=', move),
+                        ('account', '=', invoice.account),
+                        ('debit', '>', 0)
+                    ])
+                    
+                    # 4. Reconcile the fetched payment line with the invoice line
+                    lines_to_reconcile = saved_lines + list(invoice.lines_to_pay)
+                    
+                    if use_amount == amount_needed:
+                        # Full payment: link them permanently
+                        Line.reconcile(lines_to_reconcile)
+                    else:
+                        # Tryton requires exact matching amounts for automatic strict reconciliation.
+                        cls.raise_user_error("Partial payment detected. Please ensure the advance covers the full invoice for automatic reconciliation.")
                     
                     net_available -= use_amount
-
-            # Save lines, update taxes, and post the invoices if checked
-            if lines_to_save:
-                InvoiceLine.save(lines_to_save)
-                Invoice.update_taxes(list(invoices_to_update))
-                
-                if allocation.post_invoices:
-                    invoices_to_post = list(invoices_to_update)
-                    try:
-                        Invoice.validate_invoice(invoices_to_post)
-                    except Exception:
-                        pass
-                    Invoice.post(invoices_to_post)
     @classmethod
     @ModelView.button
     def open_invoices(cls, allocations):
