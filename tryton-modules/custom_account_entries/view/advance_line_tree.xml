@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<tree sequence="date">
+    <field name="date" string="Date"/>
+    <field name="move" string="Voucher"/>
+    <field name="debit" string="Advance Added (+)" sum="1"/>
+    <field name="credit" string="Recalled (-)" sum="1"/>
+</tree>

@@ -6,14 +6,15 @@
     <label name="advance_account"/>
     <field name="advance_account"/>
     
-    <label name="available_advance"/>
-    <field name="available_advance"/>
-    
     <label name="state"/>
     <field name="state"/>
-    
-    <label name="post_invoices"/>
-    <field name="post_invoices"/>
+
+    <field name="advance_lines" colspan="4" readonly="1" 
+           view_ids="custom_account_entries.view_advance_line_tree"/>
+
+    <label name="net_available_amount"/>
+    <field name="net_available_amount" colspan="3" 
+           style="font-weight: bold; color: #005500; font-size: 14px;"/>
 
     <field name="invoices" colspan="4"/>
     

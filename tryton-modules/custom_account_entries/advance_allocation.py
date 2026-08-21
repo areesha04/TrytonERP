@@ -48,6 +48,59 @@ class AdvanceAllocation(Workflow, ModelSQL, ModelView):
         ('done', 'Recalled / Applied'),
     ], 'State', readonly=True)
 
+    advance_lines = fields.Function(
+        fields.One2Many('account.move.line', None, 'Advance & Recall History'),
+        'on_change_with_advance_lines',
+        setter='set_advance_lines'
+    )
+
+    # 2. Add this empty setter method to satisfy Tryton's ORM check
+    @classmethod
+    def set_advance_lines(cls, records, name, value):
+        pass
+
+    # (Do the same for net_available_amount just to be fully safe)
+    net_available_amount = fields.Function(
+        fields.Numeric('Remaining Balance', digits=(16, 2)),
+        'on_change_with_net_available_amount',
+        setter='set_net_available_amount'
+    )
+
+    @classmethod
+    def set_net_available_amount(cls, records, name, value):
+        pass
+    @fields.depends('party', 'advance_account')
+    def on_change_with_advance_lines(self, name=None):
+        pool = Pool()
+        Line = pool.get('account.move.line')
+        
+        if self.party and self.advance_account:
+            # Fetches BOTH Debits (Advances) and Credits (Recalls)
+            lines = Line.search([
+                ('party', '=', self.party.id),
+                ('account', '=', self.advance_account.id),
+                ('reconciliation', '=', None),
+            ])
+            return [line.id for line in lines]
+        return []
+
+    @fields.depends('party', 'advance_account')
+    def on_change_with_net_available_amount(self, name=None):
+        pool = Pool()
+        Line = pool.get('account.move.line')
+        
+        if self.party and self.advance_account:
+            lines = Line.search([
+                ('party', '=', self.party.id),
+                ('account', '=', self.advance_account.id),
+                ('reconciliation', '=', None),
+            ])
+            # Calculates the exact final balance (e.g., 9,050.00)
+            net = sum((l.debit - l.credit) for l in lines)
+            return net
+            
+        return Decimal('0.00')
+        
     @classmethod
     def __setup__(cls):
         super().__setup__()
