@@ -2,6 +2,7 @@ from trytond.model import ModelView, ModelSQL, Workflow, fields
 from trytond.pool import Pool
 from trytond.pyson import Eval, If
 from decimal import Decimal
+from trytond.exceptions import UserError, UserWarning
 
 class AdvanceAllocation(Workflow, ModelSQL, ModelView):
     "Bulk Recall Deposit Allocation"
@@ -172,7 +173,7 @@ class AdvanceAllocation(Workflow, ModelSQL, ModelView):
         # Fetch a default journal for the accounting moves (e.g., General Journal)
         journals = Journal.search([('type', '=', 'general')], limit=1)
         if not journals:
-            cls.raise_user_error("No General Journal found to process the allocation.")
+            raise UserError("No General Journal found to process the allocation.")
         journal = journals[0]
 
         for allocation in allocations:
@@ -236,9 +237,7 @@ class AdvanceAllocation(Workflow, ModelSQL, ModelView):
                         # Full payment: link them permanently
                         Line.reconcile(lines_to_reconcile)
                     else:
-                        # Tryton requires exact matching amounts for automatic strict reconciliation.
-                        cls.raise_user_error("Partial payment detected. Please ensure the advance covers the full invoice for automatic reconciliation.")
-                    
+                        raise UserError("Insufficient Advance: The remaining advance balance is not enough to fully pay the invoice(s). You can only use this feature if the advance covers the entire invoice(s) amount.")
                     net_available -= use_amount
     @classmethod
     @ModelView.button
