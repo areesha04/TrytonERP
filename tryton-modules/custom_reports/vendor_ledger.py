@@ -122,16 +122,31 @@ class VendorLedgerReport(HTMLReport):
                                         debit = l.debit or Decimal('0.00')
                                         credit = l.credit or Decimal('0.00')
                                         running_balance += (debit - credit)
+                                        
+                                        # Safely handle missing descriptions
+                                        raw_desc = l.description
+                                        desc = str(raw_desc) if raw_desc else ""
+                                        
                                         with tags.tr():
                                             tags.td(l.date.strftime('%d-%b-%y') if l.date else '', cls="text-center")
                                             tags.td("-", cls="text-center")
                                             tags.td("-", cls="text-center")
                                             tags.td(l.account.name if l.account else '')
-                                            tags.td(str(l.description or ''))
+                                            tags.td(desc)
                                             tags.td(f"{debit:,.2f}" if debit else "-", cls="text-right")
                                             tags.td(f"{credit:,.2f}" if credit else "-", cls="text-right")
                                             tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
                                     continue
+
+                                # -----------------------------------------------------------
+                                # THE FIX: Hide Internal Advance Allocations
+                                # -----------------------------------------------------------
+                                party_debit = sum(l.debit or Decimal('0.00') for l in m_lines)
+                                party_credit = sum(l.credit or Decimal('0.00') for l in m_lines)
+
+                                if len(m_lines) > 1 and party_debit == party_credit and party_debit > Decimal('0.00'):
+                                    continue
+                                # -----------------------------------------------------------
 
                                 date_str = m_lines[0].date.strftime('%d-%b-%y') if m_lines[0].date else ''
                                 voucher = str(move.number or '')
@@ -139,7 +154,6 @@ class VendorLedgerReport(HTMLReport):
                                 if move.origin:
                                     invoice_no = getattr(move.origin, 'number', getattr(move.origin, 'rec_name', ''))
 
-                                # Calculate Gross Value by ensuring BOTH party fields are empty on the opposite side
                                 gross_val = sum(
                                     ((ml.debit or Decimal('0.00')) - (ml.credit or Decimal('0.00')))
                                     for ml in move.lines if not ml.party and not getattr(ml, 'custom_party', None)
@@ -154,13 +168,20 @@ class VendorLedgerReport(HTMLReport):
                                     actual_net = party_debit - party_credit
 
                                     running_balance += actual_net
+                                    
+                                    target_line = m_lines[0]
+                                    account_name = target_line.account.name if target_line.account else ''
+                                    
+                                    # Safely handle missing descriptions
+                                    raw_desc = target_line.description or (move.description if move else '')
+                                    desc = str(raw_desc) if raw_desc else ""
 
                                     with tags.tr():
                                         tags.td(date_str, cls="text-center")
                                         tags.td(voucher, cls="text-center")
                                         tags.td(invoice_no, cls="text-center")
-                                        tags.td("Trade Payables")
-                                        tags.td("Gross Invoice Value")
+                                        tags.td(account_name) 
+                                        tags.td(desc)         
                                         tags.td("-", cls="text-right")
                                         tags.td(f"{gross_val:,.2f}", cls="text-right")
                                         tags.td(f"{running_balance:,.2f}", cls="text-right font-bold")
@@ -172,12 +193,14 @@ class VendorLedgerReport(HTMLReport):
                                     for l in m_lines:
                                         debit = l.debit or Decimal('0.00')
                                         credit = l.credit or Decimal('0.00')
+                                            
                                         running_balance += (debit - credit)
 
                                         account_name = l.account.name if l.account else ''
-                                        desc = str(l.description or (l.move.description if l.move else ''))
-                                        if not desc:
-                                            desc = ""
+                                        
+                                        # Safely handle missing descriptions
+                                        raw_desc = l.description or (l.move.description if l.move else '')
+                                        desc = str(raw_desc) if raw_desc else ""
 
                                         with tags.tr():
                                             tags.td(date_str, cls="text-center")
