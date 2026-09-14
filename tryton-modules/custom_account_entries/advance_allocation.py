@@ -81,7 +81,7 @@ class AdvanceAllocation(Workflow, ModelSQL, ModelView):
                 ('party', '=', self.party.id),
                 ('account', '=', self.advance_account.id),
                 ('reconciliation', '=', None),
-            ])
+            ], order=[('date', 'ASC'), ('id', 'ASC')])
             return [line.id for line in lines]
         return []
 
