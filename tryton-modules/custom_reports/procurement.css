@@ -1,0 +1,96 @@
+/* procurement.css */
+@page { size: A4 portrait; margin: 12mm; }
+
+body { 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-size: 10px; 
+    color: #000000; 
+    line-height: 1.4; 
+}
+
+.report-header { 
+    text-align: center; 
+    margin-bottom: 20px; 
+    padding-bottom: 15px; 
+}
+
+.header-line {
+    margin-top: 12px;
+    height: 3px;
+    width: 100%;
+    font-size: 0; /* Prevents inline-block spacing gaps */
+}
+
+.line-dark {
+    display: inline-block;
+    width: 88%;
+    height: 3px;
+    background-color: #202122; /* Dark black/grey */
+}
+
+.line-red {
+    display: inline-block;
+    width: 12%;
+    height: 3px;
+    background-color: #dc2626; /* Red accent */
+}
+h1 { 
+    margin: 0; 
+    font-size: 20px; 
+    font-weight: 700; 
+    color: #000000; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+h3 { 
+    margin: 4px 0 0 0; 
+    font-size: 13px; 
+    font-weight: 500; 
+    color: #4b5563; 
+}
+.meta-info { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 15px; 
+    font-size: 11px; 
+    color: #374151; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 25px; 
+    border: 1px solid #202122; 
+}
+th { 
+    background-color: #202122; 
+    color: #ffffff;            
+    font-weight: 600; 
+    text-align: left; 
+    padding: 8px 6px; 
+    border: 1px solid #374151; 
+    font-size: 9px; 
+    text-transform: uppercase; 
+    letter-spacing: 0.5px; 
+}
+td { 
+    padding: 6px; 
+    border: 1px solid #d1d5db; 
+    vertical-align: top; 
+}
+tr:nth-child(even) td { 
+    background-color: #f3f4f6; 
+}
+tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; color: #000000; }
+.total-row td { 
+    background-color: #e5e7eb; /* Grey Background for Totals */
+    font-weight: 700; 
+    border-top: 2px solid #0e0e0f;    
+    border-bottom: 2px solid #0e0e0f; 
+    color: #dc2626;      
+}

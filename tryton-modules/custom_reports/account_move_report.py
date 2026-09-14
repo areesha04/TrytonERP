@@ -14,7 +14,6 @@ class AccountMoveCustomReport(HTMLReport):
 
     @classmethod
     def get_html(cls, records, data):
-        # Retrieve the custom title from the wizard, default to JOURNAL ENTRY
         report_title = data.get('report_title', 'JOURNAL ENTRY')
         
         doc = tags.div(style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; color: #333; padding: 20px 30px; position: relative; z-index: 1; max-width: 800px; margin: auto;")
@@ -24,7 +23,6 @@ class AccountMoveCustomReport(HTMLReport):
                 with tags.table(style="width: 100%; margin-bottom: 25px; border-collapse: collapse;"):
                     with tags.tr():
                         with tags.td(style="width: 50%; vertical-align: bottom;"):
-                            # Inject dynamic title here
                             tags.h2(report_title, style="margin: 0; font-size: 20px; color: #2980b9; text-transform: uppercase; letter-spacing: 1.5px;")
                             tags.div("ACCOUNT MOVE DETAILS", style="font-size: 11px; color: #7f8c8d; margin-top: 5px; font-weight: bold;")
                         with tags.td(style="width: 50%; text-align: right;"):
@@ -86,7 +84,12 @@ class PreviewUniversalMoveWizard(Wizard):
     __name__ = 'account.move.preview_universal_wizard'
 
     start_state = 'generate'
-    generate = StateAction('custom_reports.act_preview_url') # Using your existing URL action
+    generate = StateAction('custom_reports.act_preview_url') 
+
+    # Fallback to satisfy Tryton's error dispatcher on Wizard objects
+    @classmethod
+    def raise_user_error(cls, *args, **kwargs):
+        Pool().get('ir.model').raise_user_error(*args, **kwargs)
 
     def do_generate(self, action):
         pool = Pool()
@@ -107,16 +110,29 @@ class PreviewUniversalMoveWizard(Wizard):
         if active_model == 'account.move':
             move = record
             report_title = "JOURNAL ENTRY"
+            
         elif active_model == 'custom.account.quick_entry':
             move = record.move
             report_title = "FUNDS TRANSFER"
             if not move:
-                self.raise_user_error("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                # Route the warning through standard model to force the yellow window properly
+                pool.get('ir.model').raise_user_warning(
+                    f'draft_preview_qe_{record.id}', 
+                    "Cannot print preview! No Account Move has been generated yet. Please post the entry first."
+                )
+                return action, {} # Required: safely closes wizard if user clicks "OK" to bypass warning
+                
         elif active_model == 'custom.account.multi_expense':
             move = record.move
             report_title = "BANK/CASH PAYMENT"
             if not move:
-                self.raise_user_error("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                # Route the warning through standard model to force the yellow window properly
+                pool.get('ir.model').raise_user_warning(
+                    f'draft_preview_me_{record.id}', 
+                    "Cannot print preview! No Account Move has been generated yet. Please post the entry first."
+                )
+                return action, {} # Required: safely closes wizard if user clicks "OK" to bypass warning
+                
         else:
             return action, {}
         
@@ -125,7 +141,7 @@ class PreviewUniversalMoveWizard(Wizard):
         html_content = AccountMoveCustomReport.get_html([move], report_data)
         pdf_bytes = WeasyHTML(string=html_content).write_pdf()
         
-        # Format filename cleanly (e.g., FUNDS_TRANSFER_123.pdf or BANK_CASH_PAYMENT_123.pdf)
+        # Format filename cleanly
         safe_title = report_title.replace(" ", "_").replace("/", "_")
         filename = f"{safe_title}_{move.number or move.id}.pdf"
         

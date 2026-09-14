@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- 1. Define the Action to open the window -->
+        <record model="ir.action.act_window" id="act_web_order_form">
+            <field name="name">Temporary Web Orders</field>
+            <field name="res_model">sale.web.order</field>
+        </record>
+
+        <!-- 2. Link the Action to the Tree and Form views -->
+        <record model="ir.action.act_window.view" id="act_web_order_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="web_order_view_tree"/>
+            <field name="act_window" ref="act_web_order_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_web_order_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="web_order_view_form"/>
+            <field name="act_window" ref="act_web_order_form"/>
+        </record>
+
+        <!-- 3. Place it in the UI Menu under the main "Sales" module -->
+        <menuitem
+            parent="sale.menu_sale"
+            action="act_web_order_form"
+            sequence="5"
+            id="menu_web_order_form"/>
+    </data>
+</tryton>

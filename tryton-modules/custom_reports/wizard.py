@@ -16,7 +16,8 @@ from .general_ledger import GeneralLedgerReport
 from .cash_book import CashBookReport
 from .expense_report import ExpenseReport
 from .vendor_ledger import VendorLedgerReport
-
+from .advance_payment_report import VendorAdvanceDepositReport
+from trytond.exceptions import UserError
 # ==========================================
 # 0. CUSTOM WEB CONTROLLER (Forces PDF Preview)
 # ==========================================
@@ -90,7 +91,13 @@ class AccountMoveCustomReport(HTMLReport):
                             total_credit += line.credit or Decimal('0.0')
                             
                             account_str = f"{line.account.code} - {line.account.name}" if line.account else ""
-                            party_str = line.party.name if line.party else ""
+                            if line.party:
+                                party_str = line.party.name
+                            elif line.custom_party:
+                                party_str = line.custom_party.name
+                            else:
+                                party_str = ""
+                            
                             
                             with tags.tr(style=f"background-color: {bg_color}; border-bottom: 1px solid #ecf0f1;"):
                                 tags.td(account_str, style="padding: 8px; color: #2c3e50;")
@@ -132,19 +139,24 @@ class PreviewUniversalMoveWizard(Wizard):
         if active_model == 'account.move':
             move = record
             report_title = "JOURNAL ENTRY"
+            
         elif active_model == 'custom.account.quick_entry':
             move = record.move
             report_title = "FUNDS TRANSFER"
             if not move:
-                self.raise_user_error("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                # Raises a clean window with a single OK button and halts execution
+                raise UserError("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                
         elif active_model == 'custom.account.multi_expense':
             move = record.move
             report_title = "BANK/CASH PAYMENT"
             if not move:
-                self.raise_user_error("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                # Raises a clean window with a single OK button and halts execution
+                raise UserError("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
+                
         else:
             return action, {}
-        
+
         # 2. Generate PDF and pass the dynamic title
         report_data = {'report_title': report_title}
         html_content = AccountMoveCustomReport.get_html([move], report_data)
@@ -181,6 +193,9 @@ class PreviewUniversalMoveWizard(Wizard):
 # ==========================================
 # 2. WIZARD START MODEL WITH DYNAMIC FIELDS
 # ==========================================
+# ==========================================
+# 2. WIZARD START MODEL WITH DYNAMIC FIELDS
+# ==========================================
 class PrintReportRCStart(ModelView):
     __name__ = 'account.print_report_rc.start'
     
@@ -189,19 +204,20 @@ class PrintReportRCStart(ModelView):
         ('cash_book', 'Cash Book'),
         ('expense_report', 'Expense Report'),
         ('vendor_ledger', 'Vendor Ledger'),
+        ('vendor_advance', 'Vendor Advance & Trade Payables'),
     ], 'Report Type', required=True)
     
     account = fields.Many2One('account.account', 'Account',
         states={
-            'invisible': Eval('report_type').in_(['vendor_ledger', 'expense_report']),
+            'invisible': Eval('report_type').in_(['vendor_ledger', 'expense_report', 'vendor_advance']),
             'required': Eval('report_type').in_(['general_ledger', 'cash_book']),
         },
         depends=['report_type'])
 
-    # REMOVED the 'required' state so you can leave it empty for ALL parties
+    # --- UPDATED: Make party visible for both vendor_ledger and vendor_advance ---
     party = fields.Many2One('party.party', 'Vendor / Party',
         states={
-            'invisible': Eval('report_type') != 'vendor_ledger',
+            'invisible': ~Eval('report_type').in_(['vendor_ledger', 'vendor_advance']),
         },
         depends=['report_type'])
         
@@ -222,7 +238,6 @@ class PrintReportRC(Wizard):
     start = StateView('account.print_report_rc.start',
         'custom_reports.print_report_rc_start_view_form', [
             Button('Cancel', 'end', 'tryton-cancel'),
-            Button('View on Screen', 'view_data', 'tryton-list'), 
             Button('Open PDF', 'preview_tab', 'tryton-print', default=True),
         ])
     
@@ -239,6 +254,12 @@ class PrintReportRC(Wizard):
         if self.start.report_type == 'vendor_ledger' and self.start.party:
             domain.append(('party', '=', self.start.party.id))
             acc_name = self.start.party.name
+        elif self.start.report_type == 'vendor_advance': # <-- ADDED LOGIC FOR SCREEN VIEW
+            if self.start.party:
+                domain.append(('party', '=', self.start.party.id))
+                acc_name = self.start.party.name
+            else:
+                acc_name = 'All Vendors'
         elif self.start.report_type == 'expense_report':
             expense_accounts = Account.search(['OR', 
                 ('code', 'like', '5%'), 
@@ -277,32 +298,53 @@ class PrintReportRC(Wizard):
         pool = Pool()
         Account = pool.get('account.account')
         Attachment = pool.get('ir.attachment')
-        
+        MoveLine = pool.get('account.move.line') 
+
         account_id = self.start.account.id if self.start.account else None
         party_id = self.start.party.id if self.start.party else None
+        report_type = self.start.report_type
+        start_date = self.start.start_date
+        end_date = self.start.end_date
 
-        if self.start.report_type == 'cash_book' and not account_id:
+        # 1. First, figure out the account_id if it's missing
+        if report_type == 'cash_book' and not account_id:
             cash_accounts = Account.search([('name', 'ilike', 'cash')], limit=1)
             if not cash_accounts:
                 cash_accounts = Account.search([('code', 'like', '10%')], limit=1)
             account_id = cash_accounts[0].id if cash_accounts else None
 
+        # 2. THEN, create the data dictionary using that account_id
         data = {
             'account_id': account_id,
             'party_id': party_id,
-            'start_date': self.start.start_date,
-            'end_date': self.start.end_date,
-            'company_name': 'Rays Creation'
+            'start_date': start_date,
+            'end_date': end_date,
+            'company_name': 'RAYS Creations'
         }
         
-        if self.start.report_type == 'cash_book':
+        # 3. THEN, calculate the opening balance and attach it to data
+        if report_type == 'cash_book' and account_id and start_date:
+            historical_lines = MoveLine.search([
+                ('account', '=', account_id),
+                ('date', '<', start_date)
+            ])
+            total_debit = sum((line.debit for line in historical_lines if line.debit), Decimal('0.00'))
+            total_credit = sum((line.credit for line in historical_lines if line.credit), Decimal('0.00'))
+            data['opening_balance'] = total_debit - total_credit
+        
+        # 4. Finally, generate the report based on the type
+        if report_type == 'cash_book':
             account = Account(account_id) if account_id else None
             html_content = CashBookReport.get_html([account] if account else [], data)
             filename = "cash_book.pdf"
-        elif self.start.report_type == 'vendor_ledger':
+        elif report_type == 'vendor_ledger':
             html_content = VendorLedgerReport.get_html([], data)
             filename = f"vendor_ledger_{party_id}.pdf"
-        elif self.start.report_type == 'expense_report':
+        elif report_type == 'vendor_advance':
+            data['supplier_id'] = party_id
+            html_content = VendorAdvanceDepositReport.get_html([], data)
+            filename = f"vendor_advance_{party_id or 'all'}.pdf"
+        elif report_type == 'expense_report':
             html_content = ExpenseReport.get_html([], data)
             filename = "expense_report.pdf"
         else:
@@ -340,6 +382,7 @@ class DirectPDFWizard(Wizard):
         pool = Pool()
         Account = pool.get('account.account')
         Attachment = pool.get('ir.attachment')
+        MoveLine = pool.get('account.move.line') 
         context = Transaction().context
         
         report_type = context.get('rc_report_type', 'general_ledger')
@@ -357,8 +400,17 @@ class DirectPDFWizard(Wizard):
             'party_id': party_id,
             'start_date': start_date,
             'end_date': end_date,
-            'company_name': 'Rays Creation'
+            'company_name': 'RAYS Creations'
         }
+
+        if report_type == 'cash_book' and account_id and start_date:
+            historical_lines = MoveLine.search([
+                ('account', '=', account_id),
+                ('date', '<', start_date)
+            ])
+            total_debit = sum((line.debit for line in historical_lines if line.debit), Decimal('0.00'))
+            total_credit = sum((line.credit for line in historical_lines if line.credit), Decimal('0.00'))
+            report_data['opening_balance'] = total_debit - total_credit
         
         if report_type == 'cash_book':
             html_content = CashBookReport.get_html([account] if account else [], report_data)
@@ -366,6 +418,10 @@ class DirectPDFWizard(Wizard):
         elif report_type == 'vendor_ledger':
             html_content = VendorLedgerReport.get_html([], report_data)
             filename = f"vendor_ledger_{party_id}.pdf"
+        elif report_type == 'vendor_advance': 
+            report_data['supplier_id'] = party_id
+            html_content = VendorAdvanceDepositReport.get_html([], report_data)
+            filename = f"vendor_advance_{party_id or 'all'}.pdf"
         elif report_type == 'expense_report':
             html_content = ExpenseReport.get_html([], report_data)
             filename = "expense_report.pdf"

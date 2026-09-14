@@ -24,14 +24,13 @@ class CashBookReport(HTMLReport):
 
         start_date = data.get('start_date', '01-01-2024')
         end_date = data.get('end_date', '31-12-2024')
-        company_name = data.get('company_name', 'Rays Creation')
+        company_name = data.get('company_name', 'RAYS Creations')
         opening_balance = data.get('opening_balance', Decimal('0.00'))
 
         doc = tags.html()
         with doc:
             with tags.head():
                 tags.style(REPORT_CSS)
-                # Force landscape for Cash Book to fit side-by-side cleanly
                 tags.style("@page { size: A4 landscape; margin: 10mm; }") 
             with tags.body():
                 with tags.div(cls="report-header"):
@@ -50,14 +49,26 @@ class CashBookReport(HTMLReport):
                         domain.append(('date', '<=', end_date))
 
                     move_lines = MoveLine.search(domain, order=[('date', 'ASC'), ('id', 'ASC')])
+                    
                     receipts = [l for l in move_lines if l.debit and l.debit > 0]
                     payments = [l for l in move_lines if l.credit and l.credit > 0]
 
+                    # ==========================================
+                    # CALCULATE TOTALS
+                    # ==========================================
+                    total_receipts = sum((rec.debit for rec in receipts), Decimal('0.00'))
+                    total_payments = sum((pay.credit for pay in payments), Decimal('0.00'))
+                    net_movement = total_receipts - total_payments
+                    closing_balance = opening_balance + net_movement
+                    # ==========================================
+
                     with tags.div(cls="cb-container"):
-                        # RECEIPTS (Left Side)
+                        # ==========================================
+                        # RECEIPTS (Left Side - Inflows)
+                        # ==========================================
                         with tags.div(cls="cb-side"):
                             tags.div("RECEIPTS (INFLOW)", cls="cb-title")
-                            with tags.table(style="margin-bottom: 0;"):
+                            with tags.table(style="margin-bottom: 0; height: 100%;"):
                                 with tags.thead():
                                     with tags.tr():
                                         tags.th("Date", cls="text-center", style="width: 60px;")
@@ -65,28 +76,41 @@ class CashBookReport(HTMLReport):
                                         tags.th("V#", cls="text-center", style="width: 60px;")
                                         tags.th("Description")
                                         tags.th("Amount", cls="text-right", style="width: 70px;")
+                                        
                                 with tags.tbody():
                                     for rec in receipts:
-                                        co_name = ""
-                                        if rec.move and rec.move.lines:
-                                            for s_line in rec.move.lines:
-                                                if s_line.account.id != account.id:
-                                                    co_name = s_line.account.name
-                                                    break
-                                        if not co_name and rec.party:
-                                            co_name = rec.party.name
+                                        offset_lines = [l for l in rec.move.lines if l.account.id != account.id and l.credit and l.credit > 0]
+                                        
+                                        if not offset_lines:
+                                            co_name = rec.party.name if rec.party else ''
+                                            with tags.tr():
+                                                tags.td(rec.date.strftime('%d-%b-%y') if rec.date else '', cls="text-center")
+                                                tags.td(co_name)
+                                                tags.td(str(rec.move.number or '') if rec.move else '', cls="text-center")
+                                                tags.td(str(rec.description or (rec.move.description if rec.move else '')))
+                                                tags.td(f"{rec.debit:,.2f}", cls="text-right")
+                                        else:
+                                            for s_line in offset_lines:
+                                                co_name = s_line.account.name
+                                                desc = s_line.description or rec.description or (rec.move.description if rec.move else '')
+                                                with tags.tr():
+                                                    tags.td(rec.date.strftime('%d-%b-%y') if rec.date else '', cls="text-center")
+                                                    tags.td(co_name)
+                                                    tags.td(str(rec.move.number or '') if rec.move else '', cls="text-center")
+                                                    tags.td(str(desc))
+                                                    tags.td(f"{s_line.credit:,.2f}", cls="text-right")
 
-                                        with tags.tr():
-                                            tags.td(rec.date.strftime('%d-%b-%y') if rec.date else '', cls="text-center")
-                                            tags.td(co_name)
-                                            tags.td(str(rec.move.number or '') if rec.move else '', cls="text-center")
-                                            tags.td(str(rec.description or (rec.move.description if rec.move else '')))
-                                            tags.td(f"{rec.debit:,.2f}", cls="text-right")
+                                    # Total Receipts row placed at the end of tbody (renders only once)
+                                    with tags.tr(style="font-weight: bold; background-color: #f4f6f7; border-top: 2px solid #333;"):
+                                        tags.td("Total Receipts", colspan="4", style="text-align: right; padding: 6px;")
+                                        tags.td(f"{total_receipts:,.2f}", style="text-align: right; padding: 6px; color: #27ae60;")
 
-                        # PAYMENTS (Right Side)
+                        # ==========================================
+                        # PAYMENTS (Right Side - Outflows)
+                        # ==========================================
                         with tags.div(cls="cb-side"):
                             tags.div("PAYMENTS (OUTFLOW)", cls="cb-title")
-                            with tags.table(style="margin-bottom: 0;"):
+                            with tags.table(style="margin-bottom: 0; height: 100%;"):
                                 with tags.thead():
                                     with tags.tr():
                                         tags.th("Date", cls="text-center", style="width: 60px;")
@@ -94,22 +118,59 @@ class CashBookReport(HTMLReport):
                                         tags.th("V#", cls="text-center", style="width: 60px;")
                                         tags.th("Description")
                                         tags.th("Amount", cls="text-right", style="width: 70px;")
+                                        
                                 with tags.tbody():
                                     for pay in payments:
-                                        co_name = ""
-                                        if pay.move and pay.move.lines:
-                                            for s_line in pay.move.lines:
-                                                if s_line.account.id != account.id:
-                                                    co_name = s_line.account.name
-                                                    break
-                                        if not co_name and pay.party:
-                                            co_name = pay.party.name
+                                        offset_lines = [l for l in pay.move.lines if l.account.id != account.id and l.debit and l.debit > 0]
+                                        
+                                        if not offset_lines:
+                                            co_name = pay.party.name if pay.party else ''
+                                            with tags.tr():
+                                                tags.td(pay.date.strftime('%d-%b-%y') if pay.date else '', cls="text-center")
+                                                tags.td(co_name)
+                                                tags.td(str(pay.move.number or '') if pay.move else '', cls="text-center")
+                                                tags.td(str(pay.description or (pay.move.description if pay.move else '')))
+                                                tags.td(f"{pay.credit:,.2f}", cls="text-right")
+                                        else:
+                                            for s_line in offset_lines:
+                                                co_name = s_line.account.name
+                                                desc = s_line.description or pay.description or (pay.move.description if pay.move else '')
+                                                with tags.tr():
+                                                    tags.td(pay.date.strftime('%d-%b-%y') if pay.date else '', cls="text-center")
+                                                    tags.td(co_name)
+                                                    tags.td(str(pay.move.number or '') if pay.move else '', cls="text-center")
+                                                    tags.td(str(desc))
+                                                    tags.td(f"{s_line.debit:,.2f}", cls="text-right")
+                                
+                                    # Total Payments row placed at the end of tbody (renders only once)
+                                    with tags.tr(style="font-weight: bold; background-color: #f4f6f7; border-top: 2px solid #333;"):
+                                        tags.td("Total Payments", colspan="4", style="text-align: right; padding: 6px;")
+                                        tags.td(f"{total_payments:,.2f}", style="text-align: right; padding: 6px; color: #c0392b;")
 
-                                        with tags.tr():
-                                            tags.td(pay.date.strftime('%d-%b-%y') if pay.date else '', cls="text-center")
-                                            tags.td(co_name)
-                                            tags.td(str(pay.move.number or '') if pay.move else '', cls="text-center")
-                                            tags.td(str(pay.description or (pay.move.description if pay.move else '')))
-                                            tags.td(f"{pay.credit:,.2f}", cls="text-right")
+                    # ==========================================
+                    # SUMMARY SECTION (Bottom Right)
+                    # ==========================================
+                    with tags.div(style="margin-top: 30px; width: 45%; float: right; border: 1px solid #bdc3c7; border-radius: 4px; padding: 15px; background-color: #f9f9f9; page-break-inside: avoid;"):
+                        tags.div("CASH BOOK SUMMARY", style="font-weight: bold; font-size: 14px; margin-bottom: 10px; border-bottom: 1px solid #333; padding-bottom: 5px;")
+                        with tags.table(style="width: 100%; font-size: 13px;"):
+                            with tags.tr():
+                                tags.td("Opening Balance:", style="padding: 4px 0; color: #7f8c8d;")
+                                tags.td(f"{opening_balance:,.2f}", style="text-align: right; padding: 4px 0;")
+                            with tags.tr():
+                                tags.td("Total Receipts:", style="padding: 4px 0; color: #7f8c8d;")
+                                tags.td(f"{total_receipts:,.2f}", style="text-align: right; padding: 4px 0; color: #27ae60;")
+                            with tags.tr():
+                                tags.td("Total Payments:", style="padding: 4px 0; color: #7f8c8d;")
+                                tags.td(f"{total_payments:,.2f}", style="text-align: right; padding: 4px 0; color: #c0392b;")
+                            with tags.tr(style="border-bottom: 1px solid #bdc3c7;"):
+                                tags.td("Net Movement (Receipts - Payments):", style="padding: 4px 0; color: #7f8c8d; font-style: italic;")
+                                tags.td(f"{net_movement:,.2f}", style="text-align: right; padding: 4px 0; font-style: italic;")
+                            
+                            with tags.tr(style="font-size: 15px;"):
+                                tags.td("Closing Balance:", style="padding: 10px 0 0 0; font-weight: bold;")
+                                tags.td(f"{closing_balance:,.2f}", style="text-align: right; padding: 10px 0 0 0; font-weight: bold;")
+
+                    # Clear the float so subsequent content (if any) is not affected
+                    tags.div(style="clear: both;")
 
         return doc.render()

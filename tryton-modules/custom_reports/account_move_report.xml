@@ -3,7 +3,7 @@
     <data>
         <!-- 1. Register the unified wizard action -->
         <record model="ir.action.wizard" id="act_preview_universal_move_wizard">
-            <field name="name">Preview Move PDF</field>
+            <field name="name">Preview</field>
             <field name="wiz_name">account.move.preview_universal_wizard</field>
         </record>
 
