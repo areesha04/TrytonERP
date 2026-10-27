@@ -111,16 +111,13 @@ class AccountMoveCustomReport(HTMLReport):
             with tags.body():
                 for move in records:
                     
-                    # 1. SCAN FOR A UNIQUE PARTY ACROSS ALL LINES
-                    parties_found = set()
-                    primary_party = None
+                    # 1. GET THE SINGLE PARTY (Constraint ensures max 1 party exists)
+                    display_party = None
                     for line in move.lines:
                         p_record = get_party_record(line)
                         if p_record:
-                            parties_found.add(p_record.id)
-                            primary_party = p_record
-
-                    display_party = primary_party if len(parties_found) == 1 else None
+                            display_party = p_record
+                            break  # Found the only party, stop scanning
 
                     # 2. TOP HEADER (Logo + Party Info + Title)
                     with tags.table(cls="no-border-table", style="margin-bottom: 25px;"):
@@ -132,11 +129,17 @@ class AccountMoveCustomReport(HTMLReport):
                                 if display_party:
                                     address_str = display_party.addresses[0].full_address.replace('\n', ', ') if hasattr(display_party, 'addresses') and display_party.addresses else "N/A"
                                     contact_str = display_party.contact_mechanisms[0].value if hasattr(display_party, 'contact_mechanisms') and display_party.contact_mechanisms else "N/A"
-                                    
+                                    acc_title = getattr(display_party, 'account_title', None)
+                                    acc_num = getattr(display_party, 'account_number', None)
                                     with tags.div(style="margin-top: 20px; font-size: 12px;"):
                                         tags.div(tags.b(display_party.name), style="font-size: 16px; margin-bottom: 5px; color: #111;")
                                         tags.div(f"Address: {address_str}", style="color: #444; margin-bottom: 3px;")
                                         tags.div(f"Contact: {contact_str}", style="color: #444; margin-bottom: 3px;")
+
+                                        if acc_num or acc_title:
+                                            tags.div(f"Acc. Details: {acc_num or 'N/A'}", style="color: #444; margin-bottom: 3px;")
+                                            tags.div(f"Acc. Title: {acc_title or 'N/A'}", style="color: #444; margin-bottom: 3px;")
+                                    
 
                             with tags.td(style="width: 50%; vertical-align: top; text-align: right;"):
                                 tags.h1(report_title, style="margin: 0 0 10px 0; font-size: 26px; font-weight: 800; color: #222; letter-spacing: 1px;")
@@ -164,7 +167,14 @@ class AccountMoveCustomReport(HTMLReport):
                             total_debit = Decimal('0.0')
                             total_credit = Decimal('0.0')
                             
-                            for index, line in enumerate(move.lines):
+                            # Sort lines to push Bank/Cash Credit lines to the bottom
+                            debit_lines = [l for l in move.lines if l.debit > 0]
+                            credit_lines = [l for l in move.lines if l.credit > 0]
+                            zero_lines = [l for l in move.lines if not l.debit and not l.credit] 
+                            
+                            sorted_lines = debit_lines + credit_lines + zero_lines
+                            
+                            for index, line in enumerate(sorted_lines):
                                 bg_color = "#e6e6e6" if index % 2 != 0 else "#ffffff"
                                 total_debit += line.debit or Decimal('0.0')
                                 total_credit += line.credit or Decimal('0.0')
@@ -172,16 +182,6 @@ class AccountMoveCustomReport(HTMLReport):
                                 account_code = line.account.code if line.account else ""
                                 account_name = line.account.name if line.account else ""
                                 
-                                party_str = get_party_name(line)
-                                if not party_str and line.move:
-                                    party_str = get_party_name(line.move)
-                                    if not party_str:
-                                        for ml in getattr(line.move, 'lines', []):
-                                            party_str = get_party_name(ml)
-                                            if party_str: break
-                                    if not party_str and line.move.origin:
-                                        party_str = get_party_name(line.move.origin)
-                                        
                                 desc_str = ""
                                 if getattr(line, 'description', None):
                                     desc_str = str(line.description)
@@ -193,17 +193,17 @@ class AccountMoveCustomReport(HTMLReport):
                                     
                                     with tags.td():
                                         tags.div(account_name, style="font-weight: bold; text-decoration: underline; color: #111; margin-bottom: 5px; font-size: 12px;")
-                                        if party_str and not display_party:
-                                            tags.div(f"BP: {party_str}", style="color: #444; font-size: 11px; margin-bottom: 3px;")
+                                        
+                                        # (Removed the row-level BP logic here since the document only has 1 BP now)
                                         if desc_str:
                                             tags.div(desc_str, style="color: #444; font-size: 11px;")
                                             
-                                    tags.td(f"{line.debit:,.2f}" if line.debit else "-", cls="text-right")
-                                    tags.td(f"{line.credit:,.2f}" if line.credit else "-", cls="text-right")
-
-                            # Totals Row
-                            with tags.tr(style="border-top: 2px solid #222; background-color: #ffffff;"):
-                                tags.td("TOTAL", colspan="2", cls="text-right font-bold", style="font-size: 12px;")
+                                    # Output 0.00 instead of - for zero amounts
+                                    tags.td(f"{line.debit:,.2f}" if line.debit else "0.00", cls="text-right")
+                                    tags.td(f"{line.credit:,.2f}" if line.credit else "0.00", cls="text-right")
+                            # Totals Row (Heading removed, only amounts displayed)
+                            with tags.tr(style="border-top: 2px solid #222; border-bottom: 2px solid #222; background-color: #ffffff;"):
+                                tags.td("", colspan="2")
                                 tags.td(f"{total_debit:,.2f}", cls="text-right font-bold")
                                 tags.td(f"{total_credit:,.2f}", cls="text-right font-bold")
 
@@ -267,7 +267,7 @@ class PreviewUniversalMoveWizard(Wizard):
                 
         elif active_model == 'custom.account.multi_expense':
             move = record.move
-            report_title = "BANK/CASH PAYMENT"
+            report_title = "PAYMENT VOUCHER"
             if not move:
                 raise UserError("Cannot print preview! No Account Move has been generated yet. Please post the entry first.")
                 

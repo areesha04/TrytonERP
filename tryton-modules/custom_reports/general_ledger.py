@@ -15,7 +15,6 @@ class GeneralLedgerReport(HTMLReport):
 
     @classmethod
     def get_html(cls, records, data):
-        # Helper function to aggressively hunt down the business partner name
         def get_party_name(rec):
             if not rec: return ''
             for field in ['party', 'custom_party', 'record_party']:
@@ -42,15 +41,22 @@ class GeneralLedgerReport(HTMLReport):
             with tags.head():
                 tags.style(REPORT_CSS)
                 tags.style("""
-                    @page { size: A4 portrait; margin: 15mm; }
+                    * { box-sizing: border-box; }
+                    @page { size: A4 portrait; margin: 12mm 15mm 15mm 15mm; }
                     body { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 10px; color: #222; }
-                    
+
                     /* Header & Info Tables */
                     .no-border-table { width: 100%; border-collapse: collapse; border: none; background: transparent !important; }
                     .no-border-table tr, .no-border-table td { border: none !important; padding: 0; background: transparent !important; }
                     
                     /* Main Data Table */
-                    .data-table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 10px; }
+                    .data-table { 
+                        width: 100%; 
+                        table-layout: fixed; 
+                        border-collapse: collapse; 
+                        margin-bottom: 30px; 
+                        font-size: 10px; 
+                    }
                     .data-table th { 
                         background-color: #404040; 
                         color: #ffffff; 
@@ -59,6 +65,7 @@ class GeneralLedgerReport(HTMLReport):
                         border-right: 1px dotted #888;
                         border-bottom: 1px solid #404040;
                         text-align: left;
+                        word-wrap: break-word;
                     }
                     .data-table th:last-child { border-right: none; }
                     
@@ -66,6 +73,7 @@ class GeneralLedgerReport(HTMLReport):
                         padding: 5px 4px; 
                         border-bottom: 1px dotted #ccc; 
                         border-right: 1px dotted #ccc; 
+                        word-wrap: break-word;
                     }
                     .data-table td:last-child { border-right: none; }
                     
@@ -80,9 +88,7 @@ class GeneralLedgerReport(HTMLReport):
                     .font-bold { font-weight: bold; }
                 """)
             with tags.body():
-                # ---------------------------------------------------------
                 # TOP HEADER
-                # ---------------------------------------------------------
                 with tags.table(cls="no-border-table", style="margin-bottom: 20px;"):
                     with tags.tr():
                         with tags.td(style="width: 50%; vertical-align: top; text-align: left;"):
@@ -99,7 +105,6 @@ class GeneralLedgerReport(HTMLReport):
                                     tags.td(end_str, style="padding: 2px 0;")
 
                 for account in records:
-                    # Calculate opening balance before start_date
                     opening_lines = MoveLine.search([
                         ('account', '=', account.id),
                         ('date', '<', start_date)
@@ -111,23 +116,21 @@ class GeneralLedgerReport(HTMLReport):
                     total_debit = Decimal('0.00')
                     total_credit = Decimal('0.00')
 
-                    # Account Title
                     tags.div(tags.b(f"Account: {account.name}"), style="font-size: 15px; margin-bottom: 10px; color: #111;")
 
                     with tags.table(cls="data-table"):
                         with tags.thead():
                             with tags.tr():
-                                tags.th("Date", cls="text-center", style="width: 70px;")
-                                tags.th("Doc. NO.", cls="text-center", style="width: 80px;")
-                                tags.th("Doc Type", cls="text-left", style="width: 100px;")
-                                tags.th("Business Partner", cls="text-left", style="width: 120px;")
-                                tags.th("Description")
-                                tags.th("Debit", cls="text-right", style="width: 75px;")
-                                tags.th("Credit", cls="text-right", style="width: 75px;")
-                                tags.th("Balance", cls="text-right", style="width: 85px;")
+                                tags.th("Date", cls="text-center", style="width: 12%;")
+                                tags.th("Doc. NO.", cls="text-center", style="width: 10%;")
+                                tags.th("Doc Type", cls="text-left", style="width: 8%;")
+                                tags.th("Business Partner", cls="text-left", style="width: 13%;")
+                                tags.th("Description", cls="text-left", style="width: 28%;")
+                                tags.th("Debit", cls="text-right", style="width: 9%;")
+                                tags.th("Credit", cls="text-right", style="width: 9%;")
+                                tags.th("Balance", cls="text-right", style="width: 11%;")
 
                         with tags.tbody():
-                            # Opening Balance Row
                             if start_date:
                                 with tags.tr():
                                     tags.td(start_str, cls="text-center")
@@ -146,10 +149,8 @@ class GeneralLedgerReport(HTMLReport):
                             move_lines = MoveLine.search(domain, order=[('date', 'ASC'), ('id', 'ASC')])
 
                             for line in move_lines:
-                                # Fetch Document Type (Journal Name)
                                 doc_type = line.move.journal.name if getattr(line, 'move', None) and getattr(line.move, 'journal', None) else ''
 
-                                # Check for counterpart lines to expand multi-line entries
                                 other_lines = [ml for ml in getattr(line.move, 'lines', []) if ml.id != line.id]
 
                                 if other_lines:
@@ -157,7 +158,6 @@ class GeneralLedgerReport(HTMLReport):
                                         sub_debit = Decimal('0.00')
                                         sub_credit = Decimal('0.00')
 
-                                        # Map debit/credit relative to the main account line direction
                                         if (line.credit or Decimal('0.00')) > 0:
                                             sub_credit = sub_line.debit or Decimal('0.00')
                                             sub_debit = sub_line.credit or Decimal('0.00')
@@ -172,7 +172,6 @@ class GeneralLedgerReport(HTMLReport):
                                         total_debit += sub_debit
                                         total_credit += sub_credit
 
-                                        # Extensive Partner Resolution Logic
                                         partner_name = get_party_name(sub_line)
                                         if not partner_name:
                                             partner_name = get_party_name(line)
@@ -198,7 +197,6 @@ class GeneralLedgerReport(HTMLReport):
                                             tags.td(f"{sub_credit:,.2f}" if sub_credit else "", cls="text-right")
                                             tags.td(f"{running_balance:,.2f}", cls="text-right")
                                 else:
-                                    # Fallback for standard single-line entries
                                     debit = line.debit or Decimal('0.00')
                                     credit = line.credit or Decimal('0.00')
                                     running_balance += (debit - credit)
@@ -206,7 +204,6 @@ class GeneralLedgerReport(HTMLReport):
                                     total_debit += debit
                                     total_credit += credit
 
-                                    # Extensive Partner Resolution Logic
                                     partner_name = get_party_name(line)
                                     if not partner_name and line.move:
                                         partner_name = get_party_name(line.move)

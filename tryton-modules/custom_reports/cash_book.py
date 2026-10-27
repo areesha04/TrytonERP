@@ -107,8 +107,8 @@ class CashBookReport(HTMLReport):
                                     tags.td("To:", style="padding: 2px 8px 2px 0; color: #444;")
                                     tags.td(end_str, style="padding: 2px 0;")
                                 with tags.tr():
-                                    tags.td("Opening Balance:", style="padding: 2px 8px 2px 0; color: #444;")
-                                    tags.td(f"{opening_balance:,.2f}", style="padding: 2px 0; font-weight: bold; color: #111;")
+                                    tags.td("Opening Balance:", style="padding: 4px 8px 4px 0; color: #444; font-size: 15px; font-weight: bold;")
+                                    tags.td(f"{opening_balance:,.2f}", style="padding: 4px 0; font-size: 15px; font-weight: bold; color: #111;")
 
                 for account in records:
                     domain = [('account', '=', account.id)]
@@ -211,22 +211,36 @@ class CashBookReport(HTMLReport):
                     # ---------------------------------------------------------
                     # 3. BOTTOM SUMMARY ROW
                     # ---------------------------------------------------------
-                    with tags.table(style="width: 100%; border-collapse: collapse; border-top: 2px solid #222; border-bottom: 2px solid #222; background-color: #fff; font-size: 13px; font-weight: bold;"):
-                        with tags.tr():
-                            tags.td("Total Receipts:", style="width: 15%; padding: 12px 5px; color: #444;")
-                            tags.td(f"{total_receipts:,.2f}", style="width: 35%; padding: 12px 5px; text-align: left;")
-                            tags.td("Total Payments:", style="width: 15%; padding: 12px 5px; color: #444; text-align: right;")
-                            tags.td(f"{total_payments:,.2f}", style="width: 35%; padding: 12px 5px; text-align: left;")
-                        
-                        with tags.tr(style="border-top: 1px dotted #ccc;"):
-                            tags.td("Closing Balance:", colspan="3", style="padding: 12px 5px; text-align: right; font-size: 14px; color: #111;")
-                            
-                            # Format negative values with parentheses as standard accounting practice
-                            if closing_balance < 0:
-                                formatted_closing = f"({abs(closing_balance):,.2f})"
-                            else:
-                                formatted_closing = f"{closing_balance:,.2f}"
+                    with tags.table(cls="split-layout-table", style="border-top: 2px solid #222; border-bottom: 2px solid #222; background-color: #fff; font-size: 13px; font-weight: bold;"):
+                        with tags.tbody():
+                            with tags.tr():
+                                # LEFT PANE (Total Receipts)
+                                with tags.td(cls="left-pane", style="padding-top: 12px; padding-bottom: 12px;"):
+                                    # padding: 0 4px perfectly mimics the right-padding of the data-table Amount column
+                                    with tags.div(style="text-align: right; padding: 0 4px;"):
+                                        tags.span("Total Receipts:", style="color: #444; margin-right: 15px;")
+                                        tags.span(f"{total_receipts:,.2f}")
                                 
-                            tags.td(formatted_closing, style="padding: 12px 5px; text-align: left; font-size: 14px;")
+                                # RIGHT PANE (Total Payments)
+                                with tags.td(cls="right-pane", style="padding-top: 12px; padding-bottom: 12px;"):
+                                    with tags.div(style="text-align: right; padding: 0 4px;"):
+                                        tags.span("Total Payments:", style="color: #444; margin-right: 15px;")
+                                        tags.span(f"{total_payments:,.2f}")
+                            
+                            with tags.tr(style="border-top: 1px dotted #ccc;"):
+                                # Empty left pane to maintain the vertical dashed divider alignment
+                                tags.td(cls="left-pane") 
+                                
+                                # RIGHT PANE (Closing Balance)
+                                with tags.td(cls="right-pane", style="padding-top: 12px; padding-bottom: 12px;"):
+                                    with tags.div(style="text-align: right; padding: 0 4px; font-size: 14px;"):
+                                        tags.span("Closing Balance:", style="color: #111; margin-right: 15px;")
+                                        
+                                        if closing_balance < 0:
+                                            formatted_closing = f"({abs(closing_balance):,.2f})"
+                                        else:
+                                            formatted_closing = f"{closing_balance:,.2f}"
+                                            
+                                        tags.span(formatted_closing, style="color: #111;")
 
         return doc.render()

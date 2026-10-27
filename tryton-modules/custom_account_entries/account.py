@@ -3,6 +3,7 @@ from trytond.pool import Pool, PoolMeta
 from trytond.pyson import Eval, If
 from trytond.transaction import Transaction
 from decimal import Decimal
+from trytond.exceptions import UserError
 
 class Account(metaclass=PoolMeta):
     __name__ = 'account.account'
@@ -123,7 +124,7 @@ class QuickAccountEntry(ModelSQL, ModelView):
 
 
 # ==========================================
-# TOOL 2: MULTI-EXPENSE DISBURSEMENTS
+# TOOL 2: Bank/Cash payments
 # ==========================================
 class MultiExpenseEntry(ModelSQL, ModelView):
     "Consolidated Payment Entry"
@@ -193,6 +194,22 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             Period = Pool().get('account.period')
             period = Period.find(self.company.id, date=self.effective_date)
             self.period = period.id if period else None
+    
+    @classmethod
+    def validate(cls, records):
+        super().validate(records)
+        for record in records:
+            # --- STRICT VALIDATION ON SAVE: ONLY ONE VENDOR ALLOWED ---
+            unique_parties = set()
+            for exp_line in record.lines:
+                if exp_line.party:
+                    unique_parties.add(exp_line.party.id)
+            
+            if len(unique_parties) > 1:
+                raise UserError(
+                    "Multiple different vendors are not allowed in a single payment voucher. "
+                    "Please create separate vouchers for each vendor."
+                )
 
     @classmethod
     @ModelView.button
@@ -202,7 +219,7 @@ class MultiExpenseEntry(ModelSQL, ModelView):
         for record in records:
             if record.state == 'done': continue
             if not record.lines:
-                cls.raise_user_error("You must add at least one expense line.")
+                raise UserError("You must add at least one expense line.")
 
             move = Move(
                 journal=record.journal, period=record.period, date=record.effective_date,
@@ -217,16 +234,14 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             for exp_line in record.lines:
                 total += exp_line.amount
                 
-                # --- NEW LOGIC: Route the party safely ---
+                # --- Route the party safely ---
                 native_party = None
                 custom_party = None
                 
                 if exp_line.party:
                     if exp_line.account.party_required:
-                        # Standard accounting requires it (e.g., Payables)
                         native_party = exp_line.party.id
                     else:
-                        # Record purposes only (e.g., Expenses)
                         custom_party = exp_line.party.id
 
                 lines_to_create.append({
@@ -243,8 +258,8 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             lines_to_create.append({
                 'move': move.id,
                 'account': record.from_account.id,
-                'party': None,      # Ensure native party is empty for bank
-                'custom_party': None,   # Leave empty for bank
+                'party': None,      
+                'custom_party': None,   
                 'credit': total,
                 'debit': Decimal('0.0'), 
                 'description': record.description,
@@ -255,10 +270,6 @@ class MultiExpenseEntry(ModelSQL, ModelView):
             record.move = move
             record.state = 'done'
             record.save()
-
-    move_number = fields.Function(
-        fields.Char('Move Number', readonly=True), 'get_move_number'
-    )
 
     def get_move_number(self, name):
         return self.move.number if self.move else ''

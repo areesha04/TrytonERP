@@ -18,21 +18,50 @@ class SupplierInvoiceCustomReport(HTMLReport):
             # Overrides WeasyPrint's default large PDF page margins
             tags.style("@page { margin: 12mm 15mm; }")
             
+            Request = Pool().get('purchase.request')
+            
             for invoice in records:
                 
                 # ==========================================
-                # 1. ORIGIN TRACING (PO)
+                # 1. ORIGIN TRACING (PO & PR)
                 # ==========================================
                 po_numbers = set()
+                requisitions_set = set()
                 
                 for line in invoice.lines:
+                    purchase_line = None
+                    
                     if getattr(line, 'origin', None):
+                        # Invoice Method: Based on Order
                         if line.origin.__name__ == 'purchase.line':
-                            pur_line = line.origin
-                            if getattr(pur_line, 'purchase', None) and pur_line.purchase.number:
-                                po_numbers.add(pur_line.purchase.number)
+                            purchase_line = line.origin
+                        # Invoice Method: Based on Receipt
+                        elif line.origin.__name__ == 'stock.move':
+                            if getattr(line.origin, 'origin', None) and line.origin.origin.__name__ == 'purchase.line':
+                                purchase_line = line.origin.origin
+                                
+                    if purchase_line:
+                        # Extract PO Number
+                        if getattr(purchase_line, 'purchase', None) and purchase_line.purchase.number:
+                            po_numbers.add(purchase_line.purchase.number)
+                            
+                        # Extract PR Number via Purchase Request
+                        requests = Request.search([('purchase_line', '=', purchase_line.id)])
+                        for req in requests:
+                            if getattr(req, 'origin', None) and req.origin.__name__ == 'purchase.requisition.line':
+                                req_line = req.origin
+                                if getattr(req_line, 'requisition', None) and req_line.requisition.number:
+                                    # Store as (id, number) tuple to identify the latest record later
+                                    requisitions_set.add((req_line.requisition.id, req_line.requisition.number))
 
                 po_str = ", ".join(filter(None, po_numbers)) or "N/A"
+                
+                # Determine PR string: Single PR, or Latest PR if multiple exist
+                pr_str = "N/A"
+                if requisitions_set:
+                    # Sorts descending by ID (highest ID = most recently created)
+                    sorted_reqs = sorted(list(requisitions_set), key=lambda x: x[0], reverse=True)
+                    pr_str = sorted_reqs[0][1]
 
                 # ==========================================
                 # 2. TOP HEADER: LOGO & INVOICE TITLE
@@ -70,6 +99,16 @@ class SupplierInvoiceCustomReport(HTMLReport):
                             # Contact
                             phone = getattr(invoice.party, 'phone', '03xxxxxxxxx') if invoice.party else '03xxxxxxxxx'
                             tags.div(f"Contact: {phone}", style="font-size: 13px; color: #333;")
+
+                            # Account Details (New)
+                            if invoice.party:
+                                acc_num = getattr(invoice.party, 'account_number', None)
+                                acc_title = getattr(invoice.party, 'account_title', None)
+                                
+                                # Only print if they exist to keep the layout clean
+                                if acc_title or acc_num:
+                                    tags.div(f"Account Details: {acc_num or 'N/A'}", style="font-size: 13px; color: #333;")
+                                    tags.div(f"Account Title: {acc_title or 'N/A'}", style="font-size: 13px; color: #333; margin-top: 4px;")
                         
                         # --- RIGHT: Metadata Table ---
                         with tags.td(style="width: 45%; vertical-align: top; text-align: right;"):
@@ -80,9 +119,12 @@ class SupplierInvoiceCustomReport(HTMLReport):
                                         weight = "bold" if is_bold else "normal"
                                         tags.td(val, style=f"padding: 2px 0; font-weight: {weight}; color: #222;")
                                 
-                                meta_row("Invoice Date:", str(invoice.invoice_date or getattr(invoice, 'date', 'N/A')))
+                                inv_date = invoice.invoice_date or getattr(invoice, 'date', None)
+                                meta_row("Invoice Date:", inv_date.strftime('%d-%b-%Y') if inv_date else 'N/A')
+                                # meta_row("Invoice Date:", str(invoice.invoice_date or getattr(invoice, 'date', 'N/A')))
                                 meta_row("Invoice No:", invoice.number or invoice.reference or 'Draft', is_bold=True)
                                 meta_row("Purchase Order:", po_str)
+                                meta_row("Purchase Req:", pr_str) # <--- New PR Injection here
                                 meta_row("Status:", (invoice.state or 'draft').upper(), is_bold=True)
 
                 # ==========================================
@@ -155,8 +197,6 @@ class SupplierInvoiceCustomReport(HTMLReport):
                                 tags.div(style="border-top: 1px solid #222; width: 70%; margin: 0 auto;")
                                 tags.div("Approved By", style="margin-top: 5px;")
                     
-                   
-
         return doc.render()
 
 # ==========================================

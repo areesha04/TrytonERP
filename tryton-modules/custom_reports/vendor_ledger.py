@@ -139,7 +139,6 @@ class VendorLedgerReport(HTMLReport):
                                 tags.div(tags.b(party.name), style="font-size: 22px; margin-bottom: 6px; color: #111;")
                                 tags.div(f"Address: {address_str}", style="color: #333; margin-bottom: 4px;")
                                 tags.div(f"Contact: {contact_str}", style="color: #333; margin-bottom: 4px;")
-                                tags.div("Acc. Details: xxxxxxxxxxxxxxxxxx", style="color: #333;") 
                             with tags.td(style="width: 35%; vertical-align: top; text-align: right;"):
                                 with tags.table(cls="no-border-table", style="float: right; text-align: right; font-size: 13px; width: auto;"):
                                     with tags.tr():
