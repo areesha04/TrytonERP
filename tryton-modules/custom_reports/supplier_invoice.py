@@ -124,7 +124,7 @@ class SupplierInvoiceCustomReport(HTMLReport):
                                 # meta_row("Invoice Date:", str(invoice.invoice_date or getattr(invoice, 'date', 'N/A')))
                                 meta_row("Invoice No:", invoice.number or invoice.reference or 'Draft', is_bold=True)
                                 meta_row("Purchase Order:", po_str)
-                                meta_row("Purchase Req:", pr_str) # <--- New PR Injection here
+                                meta_row("Purchase Request:", pr_str) # <--- New PR Injection here
                                 meta_row("Status:", (invoice.state or 'draft').upper(), is_bold=True)
 
                 # ==========================================
