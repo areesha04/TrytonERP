@@ -13,8 +13,7 @@
            view_ids="custom_account_entries.view_advance_line_tree"/>
 
     <label name="net_available_amount"/>
-    <field name="net_available_amount" colspan="3" 
-           style="font-weight: bold; color: #005500; font-size: 14px;"/>
+    <field name="net_available_amount" colspan="3"/>
 
     <field name="invoices" colspan="4"/>
     
