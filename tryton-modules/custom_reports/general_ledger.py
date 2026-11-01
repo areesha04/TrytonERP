@@ -185,7 +185,7 @@ class GeneralLedgerReport(HTMLReport):
                                                 partner_name = get_party_name(line.move.origin)
 
                                         acc_name = sub_line.account.name if sub_line.account else ''
-                                        line_desc = sub_line.description or acc_name or line.description or (line.move.description if line.move else '')
+                                        line_desc = sub_line.description or line.description or (line.move.description if line.move else '')
 
                                         with tags.tr():
                                             tags.td(line.date.strftime('%d-%b-%Y') if line.date else '', cls="text-center")
