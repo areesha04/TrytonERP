@@ -1,4 +1,4 @@
-<!-- <?xml version="1.0"?>
+<?xml version="1.0"?>
 <tryton>
     <data>
         <record model="ir.ui.view" id="view_advance_line_tree">
@@ -48,4 +48,4 @@
         </record>
 
     </data>
-</tryton> -->
+</tryton>
